@@ -1,0 +1,322 @@
+{
+  "api/Shiang.Ability.html": {
+    "href": "api/Shiang.Ability.html",
+    "title": "Class Ability | Shiang v0.1.0",
+    "keywords": "Class Ability Inheritance Object Ability GoldenScepter Implements IGameObject Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public abstract class Ability : IGameObject Properties ClipLength Declaration public float ClipLength { get; } Property Value Type Description Single ClipNames Declaration public string[] ClipNames { get; } Property Value Type Description String [] Clips Declaration public abstract AnimationClip[] Clips { get; } Property Value Type Description AnimationClip [] Description Declaration public abstract string Description { get; } Property Value Type Description String Hash Declaration public abstract int Hash { get; } Property Value Type Description Int32 Image Declaration public abstract Sprite Image { get; } Property Value Type Description Sprite Name Declaration public abstract string Name { get; } Property Value Type Description String Events OnUse Declaration public event Action OnUse Event Type Type Description Action Implements IGameObject"
+  },
+  "api/Shiang.AbilityTree.html": {
+    "href": "api/Shiang.AbilityTree.html",
+    "title": "Class AbilityTree | Shiang v0.1.0",
+    "keywords": "Class AbilityTree Inheritance Object AbilityTree Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class AbilityTree Constructors AbilityTree(AbilityTree.Node) Declaration public AbilityTree(AbilityTree.Node node) Parameters Type Name Description AbilityTree.Node node"
+  },
+  "api/Shiang.AbilityTree.Node.html": {
+    "href": "api/Shiang.AbilityTree.Node.html",
+    "title": "Class AbilityTree.Node | Shiang v0.1.0",
+    "keywords": "Class AbilityTree.Node Inheritance Object AbilityTree.Node Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class Node Constructors Node(Ability, List<AbilityTree.Node>) Declaration public Node(Ability a, List<AbilityTree.Node> f) Parameters Type Name Description Ability a List < AbilityTree.Node > f Fields ability Declaration public Ability ability Field Value Type Description Ability following Declaration public List<AbilityTree.Node> following Field Value Type Description List < AbilityTree.Node >"
+  },
+  "api/Shiang.Armor.html": {
+    "href": "api/Shiang.Armor.html",
+    "title": "Class Armor | Shiang v0.1.0",
+    "keywords": "Class Armor Inheritance Object Item Equipment Armor Implements IGameObject Inherited Members Equipment.OnEquiped Equipment.OnRemoved Item.Count Item.Description Item.Hash Item.Image Item.Name Item.Clone<T1>() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public abstract class Armor : Equipment, IGameObject Implements IGameObject"
+  },
+  "api/Shiang.Artifact.html": {
+    "href": "api/Shiang.Artifact.html",
+    "title": "Class Artifact | Shiang v0.1.0",
+    "keywords": "Class Artifact Inheritance Object Item Equipment Artifact Implements IGameObject Inherited Members Equipment.OnEquiped Equipment.OnRemoved Item.Count Item.Description Item.Hash Item.Image Item.Name Item.Clone<T1>() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public abstract class Artifact : Equipment, IGameObject Implements IGameObject"
+  },
+  "api/Shiang.Bahu.html": {
+    "href": "api/Shiang.Bahu.html",
+    "title": "Class Bahu | Shiang v0.1.0",
+    "keywords": "Class Bahu Inheritance Object Bahu Implements IEnemy ICreature IAttackable ISkillFul IHurtable IStateHolder IAnimatorHolder IDynamic IGameEntity Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class Bahu : MonoBehaviour, IEnemy, ICreature, IAttackable, ISkillFul, IHurtable, IStateHolder, IAnimatorHolder, IDynamic, IGameEntity Properties Anim Declaration public Animator Anim { get; } Property Value Type Description Animator Orientation Declaration public Orientation Orientation { get; } Property Value Type Description Orientation StateMgr Declaration public StateManager StateMgr { get; } Property Value Type Description StateManager Methods Idle() Declaration public void Idle() Move() Declaration public void Move() TakeDamage() Declaration public void TakeDamage() UseAbility() Declaration public void UseAbility() UseWeapon() Declaration public void UseWeapon() Implements IEnemy ICreature IAttackable ISkillFul IHurtable IStateHolder IAnimatorHolder IDynamic IGameEntity"
+  },
+  "api/Shiang.CommonStateManager.html": {
+    "href": "api/Shiang.CommonStateManager.html",
+    "title": "Class CommonStateManager | Shiang v0.1.0",
+    "keywords": "Class CommonStateManager Inheritance Object StateManager CommonStateManager Inherited Members StateManager.SM StateManager.Owner StateManager.SetOwner(IGameEntity) StateManager.Tick() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class CommonStateManager : StateManager Constructors CommonStateManager() Declaration public CommonStateManager() Methods InitStates() Declaration public override void InitStates() Overrides StateManager.InitStates() InitTransitions() Declaration public override void InitTransitions() Overrides StateManager.InitTransitions() SetInitialState() Declaration public override void SetInitialState() Overrides StateManager.SetInitialState()"
+  },
+  "api/Shiang.Consumable.html": {
+    "href": "api/Shiang.Consumable.html",
+    "title": "Class Consumable | Shiang v0.1.0",
+    "keywords": "Class Consumable Inheritance Object Item Consumable SixGod Implements IGameObject Inherited Members Item.Count Item.Description Item.Hash Item.Image Item.Name Item.Clone<T1>() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public abstract class Consumable : Item, IGameObject Events OnUse Declaration public event Action<int> OnUse Event Type Type Description Action < Int32 > Implements IGameObject"
+  },
+  "api/Shiang.Equipment.html": {
+    "href": "api/Shiang.Equipment.html",
+    "title": "Class Equipment | Shiang v0.1.0",
+    "keywords": "Class Equipment Inheritance Object Item Equipment Armor Artifact Helmet Weapon Implements IGameObject Inherited Members Item.Count Item.Description Item.Hash Item.Image Item.Name Item.Clone<T1>() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public abstract class Equipment : Item, IGameObject Events OnEquiped Declaration public event Action OnEquiped Event Type Type Description Action OnRemoved Declaration public event Action OnRemoved Event Type Type Description Action Implements IGameObject"
+  },
+  "api/Shiang.EventState.html": {
+    "href": "api/Shiang.EventState.html",
+    "title": "Class EventState | Shiang v0.1.0",
+    "keywords": "Class EventState Inheritance Object EventState GameModeState UiModeState UseAbilityState UseWeaponState Implements IState Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class EventState : IState Methods Enter() Declaration public void Enter() Exit() Declaration public void Exit() Tick() Declaration public void Tick() Events OnStateEnter Declaration public event Action OnStateEnter Event Type Type Description Action OnStateExit Declaration public event Action OnStateExit Event Type Type Description Action OnStateTick Declaration public event Action OnStateTick Event Type Type Description Action Implements IState"
+  },
+  "api/Shiang.FootstepSound.html": {
+    "href": "api/Shiang.FootstepSound.html",
+    "title": "Class FootstepSound | Shiang v0.1.0",
+    "keywords": "Class FootstepSound Play sound effect according to the ground that the player is standing on. The type of ground is checked by the GroundCheck script. note This sound effect must work with a AudioSource . Inheritance Object FootstepSound Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class FootstepSound : MonoBehaviour Methods Step() The step function is called by the animator event. Thus this class must be attach to the same gameObject as the animator. Declaration public void Step() See Also GroundCheck"
+  },
+  "api/Shiang.GameController.html": {
+    "href": "api/Shiang.GameController.html",
+    "title": "Class GameController | Shiang v0.1.0",
+    "keywords": "Class GameController Inheritance Object GameController Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class GameController : MonoBehaviour"
+  },
+  "api/Shiang.GameModeState.html": {
+    "href": "api/Shiang.GameModeState.html",
+    "title": "Class GameModeState | Shiang v0.1.0",
+    "keywords": "Class GameModeState Inheritance Object EventState GameModeState Implements IState Inherited Members EventState.OnStateEnter EventState.OnStateTick EventState.OnStateExit EventState.Enter() EventState.Exit() EventState.Tick() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class GameModeState : EventState, IState Implements IState"
+  },
+  "api/Shiang.GoldenScepter.html": {
+    "href": "api/Shiang.GoldenScepter.html",
+    "title": "Class GoldenScepter | Shiang v0.1.0",
+    "keywords": "Class GoldenScepter Inheritance Object Ability GoldenScepter Implements IGameObject Inherited Members Ability.OnUse Ability.ClipNames Ability.ClipLength Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class GoldenScepter : Ability, IGameObject Properties Clips Declaration public override AnimationClip[] Clips { get; } Property Value Type Description AnimationClip [] Overrides Ability.Clips Description Declaration public override string Description { get; } Property Value Type Description String Overrides Ability.Description Hash Declaration public override int Hash { get; } Property Value Type Description Int32 Overrides Ability.Hash Image Declaration public override Sprite Image { get; } Property Value Type Description Sprite Overrides Ability.Image Name Declaration public override string Name { get; } Property Value Type Description String Overrides Ability.Name Implements IGameObject"
+  },
+  "api/Shiang.Ground.html": {
+    "href": "api/Shiang.Ground.html",
+    "title": "Class Ground | Shiang v0.1.0",
+    "keywords": "Class Ground Handle the ground type and etc. Inheritance Object Ground Implements IStatic IGameEntity Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class Ground : MonoBehaviour, IStatic, IGameEntity Properties Type Declaration public GroundType Type { get; } Property Value Type Description GroundType Methods Idle() Declaration public void Idle() Implements IStatic IGameEntity"
+  },
+  "api/Shiang.GroundCheck.html": {
+    "href": "api/Shiang.GroundCheck.html",
+    "title": "Class GroundCheck | Shiang v0.1.0",
+    "keywords": "Class GroundCheck Check if the player is grounded and recognise the ground type by line raycasting. Inheritance Object GroundCheck Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class GroundCheck : MonoBehaviour Properties CurrentGroundType Declaration public GroundType CurrentGroundType { get; } Property Value Type Description GroundType IsGrounded Declaration public bool IsGrounded { get; } Property Value Type Description Boolean"
+  },
+  "api/Shiang.GroundType.html": {
+    "href": "api/Shiang.GroundType.html",
+    "title": "Enum GroundType | Shiang v0.1.0",
+    "keywords": "Enum GroundType Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public enum GroundType Fields Name Description None Normal Snow"
+  },
+  "api/Shiang.Helmet.html": {
+    "href": "api/Shiang.Helmet.html",
+    "title": "Class Helmet | Shiang v0.1.0",
+    "keywords": "Class Helmet Inheritance Object Item Equipment Helmet Implements IGameObject Inherited Members Equipment.OnEquiped Equipment.OnRemoved Item.Count Item.Description Item.Hash Item.Image Item.Name Item.Clone<T1>() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public abstract class Helmet : Equipment, IGameObject Implements IGameObject"
+  },
+  "api/Shiang.html": {
+    "href": "api/Shiang.html",
+    "title": "Namespace Shiang | Shiang v0.1.0",
+    "keywords": "Namespace Shiang Classes Ability AbilityTree AbilityTree.Node Armor Artifact Bahu CommonStateManager Consumable Equipment EventState FootstepSound Play sound effect according to the ground that the player is standing on. The type of ground is checked by the GroundCheck script. note This sound effect must work with a AudioSource . GameController GameModeState GoldenScepter Ground Handle the ground type and etc. GroundCheck Check if the player is grounded and recognise the ground type by line raycasting. Helmet IdleState Info A static class (cannot be instantiated) that holds the conventional names for that state. InputController InputStateManager Item ItemContainer MoveState PlayerStateManager Rabbit RanRan SixGod StateMachine StateManager StateManagerIC Transition UiModeState UseAbilityState UseWeaponState Utils Weapon Whip Interfaces IAnimatorHolder IAttackable IContextClueNotifier IControllable ICreature IDynamic IEnemy IFriend IGameEntity IGameObject IHurtable IPlayer ISkillFul IState IStateHolder IStatic ITreasure IUiTrigger Enums GroundType InputController.InputMode Orientation"
+  },
+  "api/Shiang.IAnimatorHolder.html": {
+    "href": "api/Shiang.IAnimatorHolder.html",
+    "title": "Interface IAnimatorHolder | Shiang v0.1.0",
+    "keywords": "Interface IAnimatorHolder Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IAnimatorHolder Properties Anim Declaration Animator Anim { get; } Property Value Type Description Animator"
+  },
+  "api/Shiang.IAttackable.html": {
+    "href": "api/Shiang.IAttackable.html",
+    "title": "Interface IAttackable | Shiang v0.1.0",
+    "keywords": "Interface IAttackable Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IAttackable Methods UseWeapon() Declaration void UseWeapon()"
+  },
+  "api/Shiang.IContextClueNotifier.html": {
+    "href": "api/Shiang.IContextClueNotifier.html",
+    "title": "Interface IContextClueNotifier | Shiang v0.1.0",
+    "keywords": "Interface IContextClueNotifier Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IContextClueNotifier"
+  },
+  "api/Shiang.IControllable.html": {
+    "href": "api/Shiang.IControllable.html",
+    "title": "Interface IControllable | Shiang v0.1.0",
+    "keywords": "Interface IControllable Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IControllable"
+  },
+  "api/Shiang.ICreature.html": {
+    "href": "api/Shiang.ICreature.html",
+    "title": "Interface ICreature | Shiang v0.1.0",
+    "keywords": "Interface ICreature Inherited Members IAttackable.UseWeapon() ISkillFul.UseAbility() IHurtable.TakeDamage() IStateHolder.StateMgr IAnimatorHolder.Anim Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface ICreature : IAttackable, ISkillFul, IHurtable, IStateHolder, IAnimatorHolder"
+  },
+  "api/Shiang.IdleState.html": {
+    "href": "api/Shiang.IdleState.html",
+    "title": "Class IdleState | Shiang v0.1.0",
+    "keywords": "Class IdleState Inheritance Object IdleState Implements IState Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class IdleState : IState Constructors IdleState(IGameEntity) Declaration public IdleState(IGameEntity entity) Parameters Type Name Description IGameEntity entity Methods Enter() Declaration public void Enter() Exit() Declaration public void Exit() Tick() Declaration public void Tick() Implements IState"
+  },
+  "api/Shiang.IDynamic.html": {
+    "href": "api/Shiang.IDynamic.html",
+    "title": "Interface IDynamic | Shiang v0.1.0",
+    "keywords": "Interface IDynamic Inherited Members IGameEntity.Idle() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IDynamic : IGameEntity Properties Orientation Declaration Orientation Orientation { get; } Property Value Type Description Orientation Methods Move() Declaration void Move()"
+  },
+  "api/Shiang.IEnemy.html": {
+    "href": "api/Shiang.IEnemy.html",
+    "title": "Interface IEnemy | Shiang v0.1.0",
+    "keywords": "Interface IEnemy Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IEnemy"
+  },
+  "api/Shiang.IFriend.html": {
+    "href": "api/Shiang.IFriend.html",
+    "title": "Interface IFriend | Shiang v0.1.0",
+    "keywords": "Interface IFriend Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IFriend"
+  },
+  "api/Shiang.IGameEntity.html": {
+    "href": "api/Shiang.IGameEntity.html",
+    "title": "Interface IGameEntity | Shiang v0.1.0",
+    "keywords": "Interface IGameEntity Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IGameEntity Methods Idle() Declaration void Idle()"
+  },
+  "api/Shiang.IGameObject.html": {
+    "href": "api/Shiang.IGameObject.html",
+    "title": "Interface IGameObject | Shiang v0.1.0",
+    "keywords": "Interface IGameObject Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IGameObject Properties Description Declaration string Description { get; } Property Value Type Description String Hash Declaration int Hash { get; } Property Value Type Description Int32 Image Declaration Sprite Image { get; } Property Value Type Description Sprite Name Declaration string Name { get; } Property Value Type Description String"
+  },
+  "api/Shiang.IHurtable.html": {
+    "href": "api/Shiang.IHurtable.html",
+    "title": "Interface IHurtable | Shiang v0.1.0",
+    "keywords": "Interface IHurtable Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IHurtable Methods TakeDamage() Declaration void TakeDamage()"
+  },
+  "api/Shiang.Info.html": {
+    "href": "api/Shiang.Info.html",
+    "title": "Class Info | Shiang v0.1.0",
+    "keywords": "Class Info A static class (cannot be instantiated) that holds the conventional names for that state. Inheritance Object Info Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public static class Info Fields ANIM_NAMES Declaration public static Dictionary<Type, int[]> ANIM_NAMES Field Value Type Description Dictionary < Type , Int32 []> PLAYER_ANIM_CLIPS Declaration public static AnimationClip[] PLAYER_ANIM_CLIPS Field Value Type Description AnimationClip [] SPRITES_ICON1 Declaration public static Sprite[] SPRITES_ICON1 Field Value Type Description Sprite [] SPRITES_ICON2 Declaration public static Sprite[] SPRITES_ICON2 Field Value Type Description Sprite [] Methods LoadResources() Declaration public static void LoadResources()"
+  },
+  "api/Shiang.InputController.html": {
+    "href": "api/Shiang.InputController.html",
+    "title": "Class InputController | Shiang v0.1.0",
+    "keywords": "Class InputController Inheritance Object InputController Implements IGameEntity Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class InputController : MonoBehaviour, IGameEntity Properties ChangeX Declaration public float ChangeX { get; } Property Value Type Description Single ChangeY Declaration public float ChangeY { get; } Property Value Type Description Single Exit Declaration public bool Exit { get; } Property Value Type Description Boolean Interact Declaration public bool Interact { get; } Property Value Type Description Boolean Mode Declaration public InputController.InputMode Mode { get; set; } Property Value Type Description InputController.InputMode UseAbility Declaration public bool UseAbility { get; } Property Value Type Description Boolean UseWeapon Declaration public bool UseWeapon { get; } Property Value Type Description Boolean Zoom Declaration public bool Zoom { get; } Property Value Type Description Boolean Methods GameMode() Declaration public void GameMode() Idle() Declaration public void Idle() UiMode() Declaration public void UiMode() Implements IGameEntity"
+  },
+  "api/Shiang.InputController.InputMode.html": {
+    "href": "api/Shiang.InputController.InputMode.html",
+    "title": "Enum InputController.InputMode | Shiang v0.1.0",
+    "keywords": "Enum InputController.InputMode Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public enum InputMode Fields Name Description Game Ui"
+  },
+  "api/Shiang.InputStateManager.html": {
+    "href": "api/Shiang.InputStateManager.html",
+    "title": "Class InputStateManager | Shiang v0.1.0",
+    "keywords": "Class InputStateManager Inheritance Object StateManager InputStateManager Inherited Members StateManager.SM StateManager.Owner StateManager.SetOwner(IGameEntity) StateManager.Tick() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class InputStateManager : StateManager Constructors InputStateManager() Declaration public InputStateManager() Methods InitStates() Declaration public override void InitStates() Overrides StateManager.InitStates() InitTransitions() Declaration public override void InitTransitions() Overrides StateManager.InitTransitions() SetInitialState() Declaration public override void SetInitialState() Overrides StateManager.SetInitialState()"
+  },
+  "api/Shiang.IPlayer.html": {
+    "href": "api/Shiang.IPlayer.html",
+    "title": "Interface IPlayer | Shiang v0.1.0",
+    "keywords": "Interface IPlayer Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IPlayer"
+  },
+  "api/Shiang.ISkillFul.html": {
+    "href": "api/Shiang.ISkillFul.html",
+    "title": "Interface ISkillFul | Shiang v0.1.0",
+    "keywords": "Interface ISkillFul Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface ISkillFul Methods UseAbility() Declaration void UseAbility()"
+  },
+  "api/Shiang.IState.html": {
+    "href": "api/Shiang.IState.html",
+    "title": "Interface IState | Shiang v0.1.0",
+    "keywords": "Interface IState Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IState Methods Enter() Declaration void Enter() Exit() Declaration void Exit() Tick() Declaration void Tick()"
+  },
+  "api/Shiang.IStateHolder.html": {
+    "href": "api/Shiang.IStateHolder.html",
+    "title": "Interface IStateHolder | Shiang v0.1.0",
+    "keywords": "Interface IStateHolder Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IStateHolder Properties StateMgr Declaration StateManager StateMgr { get; } Property Value Type Description StateManager"
+  },
+  "api/Shiang.IStatic.html": {
+    "href": "api/Shiang.IStatic.html",
+    "title": "Interface IStatic | Shiang v0.1.0",
+    "keywords": "Interface IStatic Inherited Members IGameEntity.Idle() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IStatic : IGameEntity"
+  },
+  "api/Shiang.Item.html": {
+    "href": "api/Shiang.Item.html",
+    "title": "Class Item | Shiang v0.1.0",
+    "keywords": "Class Item Inheritance Object Item Consumable Equipment Implements IGameObject Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public abstract class Item : IGameObject Properties Count Declaration public int Count { get; set; } Property Value Type Description Int32 Description Declaration public abstract string Description { get; } Property Value Type Description String Hash Declaration public abstract int Hash { get; } Property Value Type Description Int32 Image Declaration public abstract Sprite Image { get; } Property Value Type Description Sprite Name Declaration public abstract string Name { get; } Property Value Type Description String Methods Clone<T1>() Declaration public T1 Clone<T1>() where T1 : Item, new() Returns Type Description T1 Type Parameters Name Description T1 Implements IGameObject"
+  },
+  "api/Shiang.ItemContainer.html": {
+    "href": "api/Shiang.ItemContainer.html",
+    "title": "Class ItemContainer | Shiang v0.1.0",
+    "keywords": "Class ItemContainer Inheritance Object ItemContainer Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class ItemContainer Methods Count() Declaration public int Count() Returns Type Description Int32 Count(Type) Declaration public int Count(Type itemType) Parameters Type Name Description Type itemType Returns Type Description Int32 Find(Item, out Item) Declaration public bool Find(Item item, out Item exist) Parameters Type Name Description Item item Item exist Returns Type Description Boolean Find(Type, out Item) Declaration public bool Find(Type itemType, out Item exist) Parameters Type Name Description Type itemType Item exist Returns Type Description Boolean IsEmpty() Declaration public bool IsEmpty() Returns Type Description Boolean Receive<T1>(T1) Declaration public void Receive<T1>(T1 item) where T1 : Item, new() Parameters Type Name Description T1 item Type Parameters Name Description T1 Receive<T1>(T1, Int32) Declaration public void Receive<T1>(T1 item, int n) where T1 : Item, new() Parameters Type Name Description T1 item Int32 n Type Parameters Name Description T1 ReceiveAll<T1>(T1) Declaration public void ReceiveAll<T1>(T1 item) where T1 : Item, new() Parameters Type Name Description T1 item Type Parameters Name Description T1 Remove(Item) Declaration public void Remove(Item item) Parameters Type Name Description Item item Size() Declaration public int Size() Returns Type Description Int32 Weapons() Declaration public List<Item> Weapons() Returns Type Description List < Item >"
+  },
+  "api/Shiang.ITreasure.html": {
+    "href": "api/Shiang.ITreasure.html",
+    "title": "Interface ITreasure | Shiang v0.1.0",
+    "keywords": "Interface ITreasure Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface ITreasure"
+  },
+  "api/Shiang.IUiTrigger.html": {
+    "href": "api/Shiang.IUiTrigger.html",
+    "title": "Interface IUiTrigger | Shiang v0.1.0",
+    "keywords": "Interface IUiTrigger Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public interface IUiTrigger"
+  },
+  "api/Shiang.MoveState.html": {
+    "href": "api/Shiang.MoveState.html",
+    "title": "Class MoveState | Shiang v0.1.0",
+    "keywords": "Class MoveState Inheritance Object MoveState Implements IState Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class MoveState : IState Constructors MoveState(IDynamic) Declaration public MoveState(IDynamic entity) Parameters Type Name Description IDynamic entity Methods Enter() Declaration public void Enter() Exit() Declaration public void Exit() Tick() Declaration public void Tick() Implements IState"
+  },
+  "api/Shiang.Orientation.html": {
+    "href": "api/Shiang.Orientation.html",
+    "title": "Enum Orientation | Shiang v0.1.0",
+    "keywords": "Enum Orientation Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public enum Orientation Fields Name Description Left Right"
+  },
+  "api/Shiang.PlayerStateManager.html": {
+    "href": "api/Shiang.PlayerStateManager.html",
+    "title": "Class PlayerStateManager | Shiang v0.1.0",
+    "keywords": "Class PlayerStateManager Inheritance Object StateManager StateManagerIC PlayerStateManager Inherited Members StateManagerIC.IC StateManagerIC.SetInputController(InputController) StateManager.SM StateManager.Owner StateManager.SetOwner(IGameEntity) StateManager.Tick() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class PlayerStateManager : StateManagerIC Constructors PlayerStateManager() Declaration public PlayerStateManager() Methods InitStates() Declaration public override void InitStates() Overrides StateManager.InitStates() InitTransitions() Declaration public override void InitTransitions() Overrides StateManager.InitTransitions() SetInitialState() Declaration public override void SetInitialState() Overrides StateManager.SetInitialState()"
+  },
+  "api/Shiang.Rabbit.html": {
+    "href": "api/Shiang.Rabbit.html",
+    "title": "Class Rabbit | Shiang v0.1.0",
+    "keywords": "Class Rabbit Inheritance Object Rabbit Implements IFriend ICreature IAttackable ISkillFul IHurtable IStateHolder IAnimatorHolder IDynamic IGameEntity Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class Rabbit : MonoBehaviour, IFriend, ICreature, IAttackable, ISkillFul, IHurtable, IStateHolder, IAnimatorHolder, IDynamic, IGameEntity Properties Anim Declaration public Animator Anim { get; } Property Value Type Description Animator Orientation Declaration public Orientation Orientation { get; } Property Value Type Description Orientation StateMgr Declaration public StateManager StateMgr { get; } Property Value Type Description StateManager Methods Idle() Declaration public void Idle() Move() Declaration public void Move() TakeDamage() Declaration public void TakeDamage() UseAbility() Declaration public void UseAbility() UseWeapon() Declaration public void UseWeapon() Implements IFriend ICreature IAttackable ISkillFul IHurtable IStateHolder IAnimatorHolder IDynamic IGameEntity"
+  },
+  "api/Shiang.RanRan.html": {
+    "href": "api/Shiang.RanRan.html",
+    "title": "Class RanRan | Shiang v0.1.0",
+    "keywords": "Class RanRan Inheritance Object RanRan Implements IPlayer ICreature IAttackable ISkillFul IHurtable IStateHolder IAnimatorHolder IDynamic IGameEntity IControllable Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class RanRan : MonoBehaviour, IPlayer, ICreature, IAttackable, ISkillFul, IHurtable, IStateHolder, IAnimatorHolder, IDynamic, IGameEntity, IControllable Fields ability Declaration public Ability ability Field Value Type Description Ability weapon Declaration public Weapon weapon Field Value Type Description Weapon Properties Anim Declaration public Animator Anim { get; } Property Value Type Description Animator Orientation Declaration public Orientation Orientation { get; } Property Value Type Description Orientation StateMgr Declaration public StateManager StateMgr { get; } Property Value Type Description StateManager Methods Idle() Declaration public void Idle() Move() Declaration public void Move() TakeDamage() Declaration public void TakeDamage() UseAbility() Declaration public void UseAbility() UseWeapon() Declaration public void UseWeapon() Implements IPlayer ICreature IAttackable ISkillFul IHurtable IStateHolder IAnimatorHolder IDynamic IGameEntity IControllable"
+  },
+  "api/Shiang.SixGod.html": {
+    "href": "api/Shiang.SixGod.html",
+    "title": "Class SixGod | Shiang v0.1.0",
+    "keywords": "Class SixGod Inheritance Object Item Consumable SixGod Implements IGameObject Inherited Members Consumable.OnUse Item.Count Item.Clone<T1>() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class SixGod : Consumable, IGameObject Properties Description Declaration public override string Description { get; } Property Value Type Description String Overrides Item.Description Hash Declaration public override int Hash { get; } Property Value Type Description Int32 Overrides Item.Hash Image Declaration public override Sprite Image { get; } Property Value Type Description Sprite Overrides Item.Image Name Declaration public override string Name { get; } Property Value Type Description String Overrides Item.Name Implements IGameObject"
+  },
+  "api/Shiang.StateMachine.html": {
+    "href": "api/Shiang.StateMachine.html",
+    "title": "Class StateMachine | Shiang v0.1.0",
+    "keywords": "Class StateMachine Inheritance Object StateMachine Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class StateMachine Constructors StateMachine() Declaration public StateMachine() Properties TimeInState Declaration public float TimeInState { get; } Property Value Type Description Single Methods AddAnyTransition(IState, Func<Boolean>) Declaration public void AddAnyTransition(IState to, Func<bool> cond) Parameters Type Name Description IState to Func < Boolean > cond AddTransiton(IState, IState, Func<Boolean>) Declaration public void AddTransiton(IState from, IState to, Func<bool> cond) Parameters Type Name Description IState from IState to Func < Boolean > cond ChangeState(IState) Declaration public void ChangeState(IState newState) Parameters Type Name Description IState newState Tick() Declaration public void Tick()"
+  },
+  "api/Shiang.StateManager.html": {
+    "href": "api/Shiang.StateManager.html",
+    "title": "Class StateManager | Shiang v0.1.0",
+    "keywords": "Class StateManager Inheritance Object StateManager CommonStateManager InputStateManager StateManagerIC Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public abstract class StateManager Constructors StateManager() Declaration public StateManager() Properties Owner Declaration protected IGameEntity Owner { get; } Property Value Type Description IGameEntity SM Declaration protected StateMachine SM { get; } Property Value Type Description StateMachine Methods InitStates() Declaration public abstract void InitStates() InitTransitions() Declaration public abstract void InitTransitions() SetInitialState() Declaration public abstract void SetInitialState() SetOwner(IGameEntity) Declaration public void SetOwner(IGameEntity entity) Parameters Type Name Description IGameEntity entity Tick() Declaration public void Tick()"
+  },
+  "api/Shiang.StateManagerIC.html": {
+    "href": "api/Shiang.StateManagerIC.html",
+    "title": "Class StateManagerIC | Shiang v0.1.0",
+    "keywords": "Class StateManagerIC Inheritance Object StateManager StateManagerIC PlayerStateManager Inherited Members StateManager.SM StateManager.Owner StateManager.SetOwner(IGameEntity) StateManager.InitStates() StateManager.InitTransitions() StateManager.SetInitialState() StateManager.Tick() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public abstract class StateManagerIC : StateManager Properties IC Declaration public InputController IC { get; } Property Value Type Description InputController Methods SetInputController(InputController) Declaration public void SetInputController(InputController ic) Parameters Type Name Description InputController ic"
+  },
+  "api/Shiang.Transition.html": {
+    "href": "api/Shiang.Transition.html",
+    "title": "Class Transition | Shiang v0.1.0",
+    "keywords": "Class Transition Inheritance Object Transition Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class Transition Constructors Transition(IState, Func<Boolean>) Declaration public Transition(IState to, Func<bool> cond) Parameters Type Name Description IState to Func < Boolean > cond Properties Condition Declaration public Func<bool> Condition { get; } Property Value Type Description Func < Boolean > To Declaration public IState To { get; } Property Value Type Description IState"
+  },
+  "api/Shiang.UiModeState.html": {
+    "href": "api/Shiang.UiModeState.html",
+    "title": "Class UiModeState | Shiang v0.1.0",
+    "keywords": "Class UiModeState Inheritance Object EventState UiModeState Implements IState Inherited Members EventState.OnStateEnter EventState.OnStateTick EventState.OnStateExit EventState.Enter() EventState.Exit() EventState.Tick() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class UiModeState : EventState, IState Implements IState"
+  },
+  "api/Shiang.UseAbilityState.html": {
+    "href": "api/Shiang.UseAbilityState.html",
+    "title": "Class UseAbilityState | Shiang v0.1.0",
+    "keywords": "Class UseAbilityState Inheritance Object EventState UseAbilityState Implements IState Inherited Members EventState.OnStateEnter EventState.OnStateTick EventState.OnStateExit EventState.Enter() EventState.Exit() EventState.Tick() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class UseAbilityState : EventState, IState Implements IState"
+  },
+  "api/Shiang.UseWeaponState.html": {
+    "href": "api/Shiang.UseWeaponState.html",
+    "title": "Class UseWeaponState | Shiang v0.1.0",
+    "keywords": "Class UseWeaponState Inheritance Object EventState UseWeaponState Implements IState Inherited Members EventState.OnStateEnter EventState.OnStateTick EventState.OnStateExit EventState.Enter() EventState.Exit() EventState.Tick() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class UseWeaponState : EventState, IState Implements IState"
+  },
+  "api/Shiang.Utils.html": {
+    "href": "api/Shiang.Utils.html",
+    "title": "Class Utils | Shiang v0.1.0",
+    "keywords": "Class Utils Inheritance Object Utils Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public static class Utils Methods CreatAbilityTree(Ability) Declaration public static AbilityTree CreatAbilityTree(Ability ability) Parameters Type Name Description Ability ability Returns Type Description AbilityTree CreateItemContainer() Declaration public static ItemContainer CreateItemContainer() Returns Type Description ItemContainer CreateStateManager<T1, T2>(T2) Factory method that creates State manager that involves InputController Declaration public static T1 CreateStateManager<T1, T2>(T2 entity) where T1 : StateManager, new() where T2 : IGameEntity Parameters Type Name Description T2 entity The IGameEntity object Returns Type Description T1 A StateManager object Type Parameters Name Description T1 Type of StateManager T2 Type of IGameEntity CreateStateManagerIC<T1, T2>(T2, InputController) Factory method that creates State manager that involves InputController Declaration public static T1 CreateStateManagerIC<T1, T2>(T2 entity, InputController ic) where T1 : StateManagerIC, new() where T2 : IGameEntity Parameters Type Name Description T2 entity The IGameEntity object InputController ic The InputController object Returns Type Description T1 A StateManagerIC object Type Parameters Name Description T1 Type of StateManagerIC T2 Type of IGameEntity ItemLose<T1>(Int32, ref T1) Declaration public static T1 ItemLose<T1>(int n, ref T1 toLose) where T1 : Item, new() Parameters Type Name Description Int32 n T1 toLose Returns Type Description T1 Type Parameters Name Description T1 ItemMerge(Item, ref Item) Declaration public static void ItemMerge(Item item, ref Item beMerged) Parameters Type Name Description Item item Item beMerged"
+  },
+  "api/Shiang.Weapon.html": {
+    "href": "api/Shiang.Weapon.html",
+    "title": "Class Weapon | Shiang v0.1.0",
+    "keywords": "Class Weapon Inheritance Object Item Equipment Weapon Whip Implements IGameObject Inherited Members Equipment.OnEquiped Equipment.OnRemoved Item.Count Item.Description Item.Hash Item.Image Item.Name Item.Clone<T1>() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public abstract class Weapon : Equipment, IGameObject Properties ClipLength Declaration public float ClipLength { get; } Property Value Type Description Single ClipNames Declaration public string[] ClipNames { get; } Property Value Type Description String [] Clips Declaration public abstract AnimationClip[] Clips { get; } Property Value Type Description AnimationClip [] Implements IGameObject"
+  },
+  "api/Shiang.Whip.html": {
+    "href": "api/Shiang.Whip.html",
+    "title": "Class Whip | Shiang v0.1.0",
+    "keywords": "Class Whip Inheritance Object Item Equipment Weapon Whip Implements IGameObject Inherited Members Weapon.ClipNames Weapon.ClipLength Equipment.OnEquiped Equipment.OnRemoved Item.Count Item.Clone<T1>() Namespace : Shiang Assembly : cs.temp.dll.dll Syntax public class Whip : Weapon, IGameObject Properties Clips Declaration public override AnimationClip[] Clips { get; } Property Value Type Description AnimationClip [] Overrides Weapon.Clips Description Declaration public override string Description { get; } Property Value Type Description String Overrides Item.Description Hash Declaration public override int Hash { get; } Property Value Type Description Int32 Overrides Item.Hash Image Declaration public override Sprite Image { get; } Property Value Type Description Sprite Overrides Item.Image Name Declaration public override string Name { get; } Property Value Type Description String Overrides Item.Name Implements IGameObject"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Shiang | Shiang v0.1.0",
+    "keywords": "Shiang As it says, and in the end, the stories you read is equal to the stories you make. Baul McCarloy We'd like to tell you a story."
+  },
+  "manual/contr.html": {
+    "href": "manual/contr.html",
+    "title": "Contribution | Shiang v0.1.0",
+    "keywords": "Contribution Resposibilities Software design and programming: B&R Director: B&R Story: B&R Arts: B&R Sounds: B&R, FreeSound Musics: Online music (copyright to be checked) Acknowledgement We're greatful to all the online and offline tutorials and books for game development and unity specific topics. We're also greatful to online resources, especially sound tracks."
+  },
+  "manual/game.html": {
+    "href": "manual/game.html",
+    "title": "The Game | Shiang v0.1.0",
+    "keywords": "The Game Basic information Game engine: Unity Programming language: C# Platform: Windows Version: v0.1.0 Company: B&R Studio Technical details to be added.."
+  },
+  "manual/intro.html": {
+    "href": "manual/intro.html",
+    "title": "Introduction | Shiang v0.1.0",
+    "keywords": "Introduction The game is for Barloy, the HeapyHeapy and all sorts of Babinos. Idea The initial idea of developing this game is to celebrate the Piggy-Goat Day. This wonderful festival is also known as the Shiang Day. Main charactor The game tells a story about the advanture of RanRan, a.k.a. the king of SanXingDui. We haven't decided yet how the story should go.."
+  }
+}

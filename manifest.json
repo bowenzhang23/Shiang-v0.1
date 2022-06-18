@@ -1,0 +1,897 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "http://localhost:8080/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "http://localhost:8080/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "D:/a/Shiang-v0.1/Shiang-v0.1/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Ability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Ability.html",
+          "hash": "4FveV+upj0Ghemd3IG5Bd7UF7o7NOQORTUE9q+jndfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.AbilityTree.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.AbilityTree.Node.html",
+          "hash": "oKdfuHzjv16xo87xvQRFrb4CtBYdDkx8MIiXaNh+OEA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.AbilityTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.AbilityTree.html",
+          "hash": "kbAeuXs3Z13hZ8DVtjEgb+sTJ7me+LuOqZBRdE8+K34="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Armor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Armor.html",
+          "hash": "wi4IjyFx2q9mbu+4XV823la72mvk/VkvYLr6AO79cb0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Artifact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Artifact.html",
+          "hash": "fQvt+yWZebT4Q52pw2N5zMxHkXq44+bhi9wY1z8jimI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Bahu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Bahu.html",
+          "hash": "6sN6ukVPQq7rMAUr898p9bCNs78zLJSY0EEQ/FadTkA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.CommonStateManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.CommonStateManager.html",
+          "hash": "jmJpS/7YumsiJUiXCz0Rq3SKRB/CnTIjZFQent9LCAQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Consumable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Consumable.html",
+          "hash": "xzLh7SlpxqLfhO5S7MZl43XfOfU9AJuBbjjgfvuMrIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Equipment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Equipment.html",
+          "hash": "maG8zQ0v3zzi+4QD8iCGELdvT0QVktKKb+Go/fkhtxE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.EventState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.EventState.html",
+          "hash": "BShpbqP3ItVtuEWtnGush7pjz8jlMnoT5Q/00tM+e1U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.FootstepSound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.FootstepSound.html",
+          "hash": "AmxhA+6MesZxP9Qlq0jBNYF8j5avyucCn3mtwyyzw/M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.GameController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.GameController.html",
+          "hash": "Uy90Qz4Sv0/LZ+IRbHxnEP92sP+iXcralRkpJp4+5nU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.GameModeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.GameModeState.html",
+          "hash": "lu7OXwN0+EyCSfb99Q4UCoCBjNFgimgeD+Md1HHunE0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.GoldenScepter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.GoldenScepter.html",
+          "hash": "uy/pYaICYMBrhFVy43Ydma3h1nbKqCetzdpp7oWejhc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Ground.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Ground.html",
+          "hash": "9OIHfNpVdoSBz0sRZury8Hw9vzQH6RqqnKFplQZLCpI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.GroundCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.GroundCheck.html",
+          "hash": "VvbjcLmlPzjZO660aFrWfCReqQihVpx7GroQh5o5vY4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.GroundType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.GroundType.html",
+          "hash": "TIMwH5reGn5CVcxrqhs40FWkzv/0+/VHM7NFLC3hdpc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Helmet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Helmet.html",
+          "hash": "CfkAeYcGvUsFp1LLmjh90yMJpM+NcRSkQ0JYRThs4cQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IAnimatorHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IAnimatorHolder.html",
+          "hash": "QZUGnVqpVwLs2ocUZTH/kPt1qAMRVk1/I2DVqPxEY7k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IAttackable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IAttackable.html",
+          "hash": "CWgF6gjXwkgAVq7EnGoBbZzmCsCwGlcmjsXQ0t4fKsg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IContextClueNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IContextClueNotifier.html",
+          "hash": "IzbjEJNg9GpoH3VHztCrD5+XAl+aPPKSZKW7PyXDszA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IControllable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IControllable.html",
+          "hash": "iPEwH+nJx+CKyy8svrHo9/Ik4c/Pb0og4WVF1pCwUl0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.ICreature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.ICreature.html",
+          "hash": "ZUDk4zPm2QG2duBvYh3dfGbAxNFvKcsRvZnqqxEV5y0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IDynamic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IDynamic.html",
+          "hash": "uYOcRVLdvgsJunt8Nfx3Hcg1fRPUwL9t4S1WAnJ+a+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IEnemy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IEnemy.html",
+          "hash": "6D86c49JMYuA6pJZjyAsGvjVUfNSaJqrCRmed3NS0rI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IFriend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IFriend.html",
+          "hash": "/LTbDI7LH5dYmA0ZLN5SoYaq5xw/+ev8bzKSk5B6io0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IGameEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IGameEntity.html",
+          "hash": "JayNITg4Cuf33KRXzzvoM3k6QU+194f1fLAHrgrSiIs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IGameObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IGameObject.html",
+          "hash": "1BJGaxB/WsKd425eWjsNNkgMsF31NplUXmPnjBqBLb0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IHurtable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IHurtable.html",
+          "hash": "yNkO2euC6iw/tx7qpABlpPMwT8f8FzRKw+jWkD0HYtM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IPlayer.html",
+          "hash": "bjU6CkjDg071cxM3lpCcwB+1x0joqbtVBcra+k2/ROI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.ISkillFul.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.ISkillFul.html",
+          "hash": "jqWma2ELlzcjiUORjH4AI2u2I+tlxUL6uOitSR+4Mc0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IState.html",
+          "hash": "BlONCMqAo8tlNsETB0W3NaAavT6XhROScEdsKSkH+R0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IStateHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IStateHolder.html",
+          "hash": "Xs2xCiymdUMo6zCRZ0YHKA+QiRFu+yHfQbSOQQx62xU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IStatic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IStatic.html",
+          "hash": "KKDpU7xv/X1B+z7PPFZY1df6Kd1rCW7Xpla+eWlmXac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.ITreasure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.ITreasure.html",
+          "hash": "huPE4miRPLCBflVL3qSr3p/LKbgklRDoGM/pV/NSC8w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IUiTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IUiTrigger.html",
+          "hash": "VMRICdPF9cKWjYqFHU9NGsu9u/mbhWp9wn4LBfidprM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IdleState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IdleState.html",
+          "hash": "vGR38cYMq0d9nfA1MVQ79gGqjDnIPdTsmwymqx5QjvU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Info.html",
+          "hash": "94/CrBPmNr1ICgTnxE03AStu7WzHHPpZ/RiJSpgWpHI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.InputController.InputMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.InputController.InputMode.html",
+          "hash": "mTdVwXx+SaAsIY1JIpbCAO1h0VPK362q2vwW5ggbCUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.InputController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.InputController.html",
+          "hash": "gz+5oeh0L+pkKG2wjoqkCknWkY6iQFvT9+aWh7a5Csk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.InputStateManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.InputStateManager.html",
+          "hash": "IyJGiXA8U//4AAaRUP4vsDIuezeUZ18werybvnfVi1w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Item.html",
+          "hash": "/W+fHU/Q3ij2jgnKcqArGnNfsz6LD7BoK+jGB09iA70="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.ItemContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.ItemContainer.html",
+          "hash": "8fAjwFBiVPMIgY26THfiQzu5QPid0kVMx/YKphRk2A0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.MoveState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.MoveState.html",
+          "hash": "46Gpn6UHTdZEJNTLqfoF88TFwSZb9ItAbe0bfBfPllE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Orientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Orientation.html",
+          "hash": "BN1o3MgxjTVnwgZKhDXVpeqbjOe7zv2ng3LBELDpgIE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.PlayerStateManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.PlayerStateManager.html",
+          "hash": "KAnB2WDypf1zjPO4fY5F25d662QQL7dy4VYUh+4y9MY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Rabbit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Rabbit.html",
+          "hash": "XhlkWhkb0FyHB13xGg/+rIkwQTQAUfEIztkHgvMrLpc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.RanRan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.RanRan.html",
+          "hash": "i/sfBrMdEQaf26opoAVaq5hDvB/6xtMqS7INzFrO/H4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.SixGod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.SixGod.html",
+          "hash": "H7rkNveAh+3gonA8V/cxBbwz2pagFbeyWIemOV/suH0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.StateMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.StateMachine.html",
+          "hash": "/Zlie32yQ2MPUGUj9yK3p1+Qdi+oBgNdafKG0NlHQp8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.StateManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.StateManager.html",
+          "hash": "xYUWtEmhihgi0Xs+gG6D4hsFIJwqCAkn8UYfHXZ+rbs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.StateManagerIC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.StateManagerIC.html",
+          "hash": "5icWRZHMv5QTNhVqlYm7Py38YhofZHbsYWjFv+v3k0Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Transition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Transition.html",
+          "hash": "PToNOe+7D5sonl6dQQ6u1F4kKqhgNjfcrAPqv+vSsl4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.UiModeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.UiModeState.html",
+          "hash": "JVeBzJiUSO4xwMvlXkzmRdyNo5t37QDOhgOh73/7iBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.UseAbilityState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.UseAbilityState.html",
+          "hash": "JLgTf07LouCHy98lqrkNiYZm3saR6SdI4oCesl2XcMU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.UseWeaponState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.UseWeaponState.html",
+          "hash": "mMC1wMvLxbLTDLjF1s5JPvUK4hsZsmKzbImuK7rq19w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Utils.html",
+          "hash": "SjKZH/3WBOuZOD73CYwsBNHpTcqQVnZdrrrlTBVFUzQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Weapon.html",
+          "hash": "kw3Z+tdTXdAstuscR5p+kBxuqXDKJnsoKcktWmD6Xvc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Whip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Whip.html",
+          "hash": "rTG17ekRo1UPtnnRCJpOx8/+SZEu1NaMYb+p6qPh+8E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.html",
+          "hash": "zOW67nLOgTIEODl8ZrV11KoLU7pqxtGRBY4XGZrKpSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "FVlEhXbwULGN5n4jaJXbqsz8QH+tyz8MUcqmA/e8wNM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "D0CrVPLdmKuO8ljyTlILM1O6eHv1teD8xH1DogkzcB0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/contr.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/contr.html",
+          "hash": "jRep6uUADszJ5719teEdhQqKkHS2JDgZKZngDmcC29M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/game.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/game.html",
+          "hash": "yWn9DVVk/ZA9K2TgYJQyFl748OENRI0xCM7vET0nj1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/intro.html",
+          "hash": "tvVeqvrrg3XgRhQ1tBoYGmoM9loFTN9WMkLDextrJSw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "OjUfumBfCtdVrXNXTEKXnE4qjpR267C1E+9Ky8adQas="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "qJhHDhrHsrmx4G7kFrBFTMAfnyXMpaBOWUEInGtm3n8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 60,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

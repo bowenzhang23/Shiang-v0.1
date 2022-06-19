@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Armor
+    <title>Class ObjectPool
    | Shiang v0.1.0 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Armor
+    <meta name="title" content="Class ObjectPool
    | Shiang v0.1.0 ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,70 +78,112 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Shiang.Armor">
+            <article class="content wrap" id="_content" data-uid="Shiang.ObjectPool">
   
   
-  <h1 id="Shiang_Armor" data-uid="Shiang.Armor" class="text-break">Class Armor
+  <h1 id="Shiang_ObjectPool" data-uid="Shiang.ObjectPool" class="text-break">Class ObjectPool
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="Shiang.Item.html">Item</a></div>
-    <div class="level2"><a class="xref" href="Shiang.Equipment.html">Equipment</a></div>
-    <div class="level3"><span class="xref">Armor</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Shiang.IGameObject.html">IGameObject</a></div>
-    <div><span class="xref">IComparable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Shiang.Equipment.html#Shiang_Equipment_OnEquiped">Equipment.OnEquiped</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Equipment.html#Shiang_Equipment_OnRemoved">Equipment.OnRemoved</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Count">Item.Count</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Description">Item.Description</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Hash">Item.Hash</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Image">Item.Image</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Name">Item.Name</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Clone__1">Item.Clone&lt;T1&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Clone__1_System_Int32_">Item.Clone&lt;T1&gt;(Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_CompareTo_System_Object_">Item.CompareTo(Object)</a>
-    </div>
+    <div class="level1"><span class="xref">ObjectPool</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Shiang_Armor_syntax">Syntax</h5>
+  <h5 id="Shiang_ObjectPool_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Armor : Equipment, IGameObject</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ObjectPool</code></pre>
   </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Shiang.IGameObject.html">IGameObject</a>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Shiang_ObjectPool_Abilities_" data-uid="Shiang.ObjectPool.Abilities*"></a>
+  <h4 id="Shiang_ObjectPool_Abilities" data-uid="Shiang.ObjectPool.Abilities">Abilities</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;uint, Ability&gt; Abilities { get; }</code></pre>
   </div>
-  <div>
-      <span class="xref">IComparable</span>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a>, <a class="xref" href="Shiang.Ability.html">Ability</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_ObjectPool_Items_" data-uid="Shiang.ObjectPool.Items*"></a>
+  <h4 id="Shiang_ObjectPool_Items" data-uid="Shiang.ObjectPool.Items">Items</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;uint, Item&gt; Items { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a>, <a class="xref" href="Shiang.Item.html">Item</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_ObjectPool_Mapping_" data-uid="Shiang.ObjectPool.Mapping*"></a>
+  <h4 id="Shiang_ObjectPool_Mapping" data-uid="Shiang.ObjectPool.Mapping">Mapping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;Type, uint&gt; Mapping { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<span class="xref">Type</span>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Shiang_ObjectPool_Load_" data-uid="Shiang.ObjectPool.Load*"></a>
+  <h4 id="Shiang_ObjectPool_Load" data-uid="Shiang.ObjectPool.Load">Load()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Load()</code></pre>
   </div>
 </article>
           </div>

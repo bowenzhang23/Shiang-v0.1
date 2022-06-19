@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.AbilityData.html",
-          "hash": "6DE7zY0Mibv4HF7Y+REqbiqwZhlfc78D7BoLUy82z+c="
+          "hash": "qpktwsx9M85j0QxbU8HaAWlMv4cEVf7bubfMLw2R1DQ="
         }
       },
       "is_incremental": false,
@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Armor.html",
-          "hash": "mJVfz45wpNkPGNTA9uoaiSCkSZvpkAWqhLe4cDwVAPo="
+          "hash": "KezUsUQnKwLLc7Kc2rvexyxWVM+lEEdmtcceyavgLtQ="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Artifact.html",
-          "hash": "xaDfEIy5gpb7+tY37raiv/8mLj9fCrmj0eBlmM/vhaE="
+          "hash": "4la/iVaB3CyRldaBQgSWlasZqunmN6iDtvJ9D9gd3V4="
         }
       },
       "is_incremental": false,
@@ -148,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Consumable.html",
-          "hash": "dSxBaSYE0WXWdnY3C4oJwg8bzPADaJsMYTksRUyN1R0="
+          "hash": "GCbEYYN/xA3sJlET6Zj53gc7dkuuSuVzZBrbLkdBQ2U="
         }
       },
       "is_incremental": false,
@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Equipment.html",
-          "hash": "I7ZGbPTP5z8uYP4z938d9S8z+X+Tl1szh0Sg2iYYfxk="
+          "hash": "Im2isjIM1H6lnpG+WN9/m+wtCc8/Z//djQvU+Gxdxgg="
         }
       },
       "is_incremental": false,
@@ -316,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Helmet.html",
-          "hash": "ezZVErDGt7lw0twkr9VJwfhFB20qQf4aW/iklm5yh4s="
+          "hash": "95aldFNNdwf1IZ4XGo+a94QrrDOKgJLL++LPvUoHEA4="
         }
       },
       "is_incremental": false,
@@ -628,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Item.html",
-          "hash": "/RmiVKYJhEGreZrbDHigiPGamtJ+spgf5bizNhMzO/U="
+          "hash": "9JVe8WkAt72AvvIyiQ4IpnsaeXAOtI7EP0qSrFVzdkg="
         }
       },
       "is_incremental": false,
@@ -640,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.ItemContainer.html",
-          "hash": "j1pTxBRFcJpLZu0jfYOwc7UBzMyTYMa59sDwaIwzU0A="
+          "hash": "JWnDX3zun1a5lRwb4L8be4eLHYETfNTbJMqgq57BoQg="
         }
       },
       "is_incremental": false,
@@ -653,6 +653,18 @@
         ".html": {
           "relative_path": "api/Shiang.MoveState.html",
           "hash": "46Gpn6UHTdZEJNTLqfoF88TFwSZb9ItAbe0bfBfPllE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.ObjectPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.ObjectPool.html",
+          "hash": "KinJ/P2tqTAGG1W2MSywm24NKMK+D8etNThKjQZmGc8="
         }
       },
       "is_incremental": false,
@@ -736,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.SixGod.html",
-          "hash": "MUKOj+23TdkQwEvefwQzINsSmGVseJGV+QVIc3AZsio="
+          "hash": "tSqD/59ed2CZ57SuA+ZgM35r+uKJk0RkG/Nz16bVhW4="
         }
       },
       "is_incremental": false,
@@ -832,7 +844,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Utils.html",
-          "hash": "2Z3PVnvGKTZk3jI05Uotvg5Uqm+tCvu0RqS9qF0FLsY="
+          "hash": "DopPkq0oALRw8h0ce3x801R15aq9UubbxR44lRkkQEg="
         }
       },
       "is_incremental": false,
@@ -844,7 +856,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Weapon.html",
-          "hash": "lA+tQKSKBEIJ8xOmjcPt2NNEFPPD3fgu01KT9+bp6oE="
+          "hash": "CVtAQKkr3F6qMLzRJQnWVkewjQEUb0zZ6/BVes4wIvY="
         }
       },
       "is_incremental": false,
@@ -868,7 +880,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.WeaponData.html",
-          "hash": "oDTUnW/cdy2bx3MBRKiPkYFrKnSkSAEpM03MgSOovJw="
+          "hash": "1cpX6n0m1v6JWCsHwb/yEGkrk9ZdkFNnuo2Ens9pgwg="
         }
       },
       "is_incremental": false,
@@ -880,7 +892,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Whip.html",
-          "hash": "Ol/wfM1Brlh3pFFzdD5/EAl9qjFMD6fFGUlI8cs5guU="
+          "hash": "f9eyyaaSNlY+1EjkcBH259zdRjcqRa2RYJ0o9jGQVvU="
         }
       },
       "is_incremental": false,
@@ -892,7 +904,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.html",
-          "hash": "cGQ99ERgPg+/mMng/LRu6ErrjjYFwBcq6xWaVTiYGZU="
+          "hash": "F/3aVcqs89L7ShHSNupNO/pIMAy0hjamG1BrGM8lF8o="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShiangTest.TestDatabase.html",
-          "hash": "pNXE73s1dfczlfKVVDCwrwzCQ6JwZIUpIZgqFaAUA+w="
+          "hash": "evAtLUEdGYmBED0rbRLeLPCRxiA0WiL15YqJ+axKmcA="
         }
       },
       "is_incremental": false,
@@ -1156,7 +1168,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShiangTest.TestItemContainer.html",
-          "hash": "iq/p924rpCCI5kWYnIP4WHe3zEwt1q5legf/AsyG014="
+          "hash": "ltj4q0/+k3xgy6CaCiq9QAWE0oVSi5ZlKpQQ1zUeVHU="
         }
       },
       "is_incremental": false,
@@ -1228,7 +1240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "CrhmezmXVZGr0C80rSHPg8C27wtMOLfSnefSJBwZel0="
+          "hash": "K6CWivPGN2te9rrP/U5maIg4QQk/XL4oaFQmkcAbUss="
         }
       },
       "is_incremental": false,
@@ -1338,7 +1350,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 100,
+          "total_file_count": 101,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

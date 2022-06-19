@@ -37,8 +37,8 @@ namespace Shiang
         public override void InitTransitions()
         {
             SM.AddTransiton(_idle, _move, () => IC.ChangeX != 0);
-            SM.AddAnyTransition(_useWeapon, () => IC.UseWeapon);
-            SM.AddAnyTransition(_useAbility, () => IC.UseAbility);
+            SM.AddAnyTransition(_useWeapon, () => _ranran.weapon.Cd.IsCooldown && IC.UseWeapon);
+            SM.AddAnyTransition(_useAbility, () => _ranran.ability.Cd.IsCooldown && IC.UseAbility);
 
             SM.AddTransiton(_move, _idle, () => IC.ChangeX == 0);
             SM.AddTransiton(_useWeapon, _idle, () => SM.TimeInState > _useWeaponStayTime);

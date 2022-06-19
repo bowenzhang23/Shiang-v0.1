@@ -5,9 +5,12 @@ namespace Shiang
 {
     public class GoldenScepter : Ability
     {
-        public override AnimationClip[] Clips => Info.PLAYER_ANIM_CLIPS
-            .Where(k => k.name.Contains("Magic"))
-            .OrderBy(k => k.name.Contains("Right")).ToArray();
+        AnimationClip[] _animationClips;
+
+        public override AnimationClip[] Clips
+            => _animationClips == null 
+            ? _animationClips = Utils.BuildClips(Info.PLAYER_ANIM_CLIPS, "Magic")
+            : _animationClips;
 
         public override string Name => "黄金权杖";
  
@@ -17,5 +20,6 @@ namespace Shiang
 
         public override Sprite Image => Info.SPRITES_ICON1[12];
 
+        public override float CdTime => 5f;
     }
 }

@@ -13,6 +13,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFF;
         public override Sprite Image => null;
         public override string Name => "A1";
+        public override float CdTime => 1f;
     }
 
     public class A2 : Ability, IDummy
@@ -22,6 +23,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFE;
         public override Sprite Image => null;
         public override string Name => "A2";
+        public override float CdTime => 1f;
     }
 
     public class A3 : Ability, IDummy
@@ -31,6 +33,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFD;
         public override Sprite Image => null;
         public override string Name => "A4";
+        public override float CdTime => 1f;
     }
 
     public class A4 : Ability, IDummy
@@ -40,6 +43,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFC;
         public override Sprite Image => null;
         public override string Name => "A4";
+        public override float CdTime => 1f;
     }
 
     public class A5 : Ability, IDummy
@@ -49,6 +53,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFB;
         public override Sprite Image => null;
         public override string Name => "A5";
+        public override float CdTime => 1f;
     }
 
     public class A6 : Ability, IDummy
@@ -58,6 +63,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFA;
         public override Sprite Image => null;
         public override string Name => "A6";
+        public override float CdTime => 1f;
     }
 
     public class A7 : Ability, IDummy
@@ -67,6 +73,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFF9;
         public override Sprite Image => null;
         public override string Name => "A7";
+        public override float CdTime => 1f;
     }
 
     public class A8 : Ability, IDummy
@@ -76,6 +83,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFF8;
         public override Sprite Image => null;
         public override string Name => "A8";
+        public override float CdTime => 1f;
     }
     #endregion
 
@@ -120,6 +128,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFEB;
         public override Sprite Image => null;
         public override string Name => "W1";
+        public override float CdTime => 1f;
     }
 
     public class W2 : Weapon, IDummy
@@ -129,6 +138,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFEA;
         public override Sprite Image => null;
         public override string Name => "W2";
+        public override float CdTime => 1f;
     }
 
     public class W3 : Weapon, IDummy
@@ -138,6 +148,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFE9;
         public override Sprite Image => null;
         public override string Name => "W3";
+        public override float CdTime => 1f;
     }
 
     public class W4 : Weapon, IDummy
@@ -147,6 +158,7 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFE8;
         public override Sprite Image => null;
         public override string Name => "W4";
+        public override float CdTime => 1f;
     }
 
     public class Ar1 : Armor, IDummy

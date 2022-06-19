@@ -5,5 +5,6 @@ namespace Shiang
     {
         public string[] ClipNames { get; }
         public float ClipLength { get; }
+        public Cooldown Cd { get; }
     }
 }

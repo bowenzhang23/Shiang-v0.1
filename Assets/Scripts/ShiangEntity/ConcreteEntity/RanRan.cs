@@ -40,11 +40,13 @@ namespace Shiang
         public void UseWeapon()
         {
             Anim.Play(weapon.ClipNames[(int)_orientation]);
+            StartCoroutine(weapon.Cd.CountdownCo());
         }
 
         public void UseAbility()
         {
             Anim.Play(ability.ClipNames[(int)_orientation]);
+            StartCoroutine(ability.Cd.CountdownCo());
         }
 
         private void Awake()

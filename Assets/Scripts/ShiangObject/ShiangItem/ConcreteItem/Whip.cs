@@ -6,9 +6,12 @@ namespace Shiang
 {
     public class Whip : Weapon
     {
-        public override AnimationClip[] Clips => Info.PLAYER_ANIM_CLIPS
-                    .Where(k => k.name.Contains("Attack"))
-                    .OrderBy(k => k.name.Contains("Right")).ToArray();
+        AnimationClip[] _animationClips;
+
+        public override AnimationClip[] Clips
+            => _animationClips == null 
+            ? _animationClips = Utils.BuildClips(Info.PLAYER_ANIM_CLIPS, "Attack")
+            : _animationClips;
 
         public override uint Hash => 0x00000000;
 
@@ -18,5 +21,6 @@ namespace Shiang
 
         public override Sprite Image => Info.SPRITES_ICON2[0];
 
+        public override float CdTime => 1f;
     }
 }

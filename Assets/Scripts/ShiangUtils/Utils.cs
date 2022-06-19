@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using UnityEngine;
 
 namespace Shiang
 {
@@ -93,5 +94,17 @@ namespace Shiang
             }
             return objects;
         }
+
+        public static T1 CreateDatabase<T1>() where T1 : IDatabase, new()
+        {
+            var db = Activator.CreateInstance<T1>();
+            db.Create();
+            return db;
+        }
+
+        public static AnimationClip[] BuildClips(
+            AnimationClip[] animationClips, string pattern) 
+            => animationClips.Where(k => k.name.Contains(pattern))
+                .OrderBy(k => k.name.Contains("Right")).ToArray();
     }
 }

@@ -2,547 +2,625 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://localhost:8080/api/Shiang.Ability.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.AbilityContainer.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.AbilityData.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.AbilityDB.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.AbilityTree.Node.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.AbilityTree.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Armor.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Artifact.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Bahu.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.CommonStateManager.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Consumable.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.ConsumableData.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.ConsumableDB.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.Cooldown.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.Database-1.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Equipment.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.EventState.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.FootstepSound.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.GameController.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.GameModeState.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.GoldenScepter.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Ground.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.GroundCheck.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.GroundType.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Helmet.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IAnimatorHolder.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IAttackable.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IContextClueNotifier.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IControllable.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.ICreature.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.IDatabase.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.IDBData.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IdleState.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IDynamic.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IEnemy.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IFriend.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IGameEntity.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IGameObject.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IHurtable.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Info.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.InputController.InputMode.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.InputController.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.InputStateManager.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IPlayer.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.ISkillFul.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IState.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IStateHolder.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IStatic.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Item.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.ItemContainer.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.ITreasure.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.IUiTrigger.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.MoveState.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Orientation.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.PlayerStateManager.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Rabbit.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.RanRan.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.ResourcePathData.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.ResourcePathDB.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.SixGod.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.StateMachine.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.StateManager.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.StateManagerIC.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Transition.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.UiModeState.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.UseAbilityState.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.UseWeaponState.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Utils.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Weapon.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.WeaponData.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/Shiang.WeaponDB.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.Whip.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/Shiang.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.A1.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.A2.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.A3.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.A4.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.A5.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.A6.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.A7.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.A8.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.Ar1.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.Ar2.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.Ar3.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.Ar4.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.I1.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.I2.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.I3.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.I4.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.IDummy.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.TestAbilityContainer.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.TestAbilityTree.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:8080/api/ShiangTest.TestDatabase.html</loc>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.TestHashCollision.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.TestItemContainer.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.W1.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.W2.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.W3.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.W4.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/api/ShiangTest.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/index.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/manual/contr.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/manual/game.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:8080/manual/intro.html</loc>
-    <lastmod>2022-06-19T09:06:15+00:00</lastmod>
+    <lastmod>2022-06-19T06:01:38+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

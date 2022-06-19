@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Ability
+    <title>Class Database&lt;T1&gt;
    | Shiang v0.1.0 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Ability
+    <meta name="title" content="Class Database&lt;T1&gt;
    | Shiang v0.1.0 ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,166 +78,87 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Shiang.Ability">
+            <article class="content wrap" id="_content" data-uid="Shiang.Database`1">
   
   
-  <h1 id="Shiang_Ability" data-uid="Shiang.Ability" class="text-break">Class Ability
+  <h1 id="Shiang_Database_1" data-uid="Shiang.Database`1" class="text-break">Class Database&lt;T1&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Ability</span></div>
-      <div class="level2"><a class="xref" href="Shiang.GoldenScepter.html">GoldenScepter</a></div>
+    <div class="level1"><span class="xref">Database&lt;T1&gt;</span></div>
+      <div class="level2"><a class="xref" href="Shiang.AbilityDB.html">AbilityDB</a></div>
+      <div class="level2"><a class="xref" href="Shiang.ConsumableDB.html">ConsumableDB</a></div>
+      <div class="level2"><a class="xref" href="Shiang.ResourcePathDB.html">ResourcePathDB</a></div>
+      <div class="level2"><a class="xref" href="Shiang.WeaponDB.html">WeaponDB</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Shiang.IGameObject.html">IGameObject</a></div>
-    <div><span class="xref">IComparable</span></div>
+    <div><a class="xref" href="Shiang.IDatabase.html">IDatabase</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Shiang_Ability_syntax">Syntax</h5>
+  <h5 id="Shiang_Database_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Ability : IGameObject</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Database&lt;T1&gt; : IDatabase</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Shiang_Database_1__ctor_" data-uid="Shiang.Database`1.#ctor*"></a>
+  <h4 id="Shiang_Database_1__ctor_System_String_" data-uid="Shiang.Database`1.#ctor(System.String)">Database(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Database(string databaseName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">databaseName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Shiang_Ability_Cd_" data-uid="Shiang.Ability.Cd*"></a>
-  <h4 id="Shiang_Ability_Cd" data-uid="Shiang.Ability.Cd">Cd</h4>
+  <a id="Shiang_Database_1_CommandStringRetrive_" data-uid="Shiang.Database`1.CommandStringRetrive*"></a>
+  <h4 id="Shiang_Database_1_CommandStringRetrive" data-uid="Shiang.Database`1.CommandStringRetrive">CommandStringRetrive</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Cooldown Cd { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Shiang.Cooldown.html">Cooldown</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Ability_CdTime_" data-uid="Shiang.Ability.CdTime*"></a>
-  <h4 id="Shiang_Ability_CdTime" data-uid="Shiang.Ability.CdTime">CdTime</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract float CdTime { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Ability_ClipLength_" data-uid="Shiang.Ability.ClipLength*"></a>
-  <h4 id="Shiang_Ability_ClipLength" data-uid="Shiang.Ability.ClipLength">ClipLength</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float ClipLength { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Ability_ClipNames_" data-uid="Shiang.Ability.ClipNames*"></a>
-  <h4 id="Shiang_Ability_ClipNames" data-uid="Shiang.Ability.ClipNames">ClipNames</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] ClipNames { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Ability_Clips_" data-uid="Shiang.Ability.Clips*"></a>
-  <h4 id="Shiang_Ability_Clips" data-uid="Shiang.Ability.Clips">Clips</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract AnimationClip[] Clips { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">AnimationClip</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Ability_Description_" data-uid="Shiang.Ability.Description*"></a>
-  <h4 id="Shiang_Ability_Description" data-uid="Shiang.Ability.Description">Description</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string Description { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract string CommandStringRetrive { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,13 +177,13 @@
   </table>
   
   
-  <a id="Shiang_Ability_Hash_" data-uid="Shiang.Ability.Hash*"></a>
-  <h4 id="Shiang_Ability_Hash" data-uid="Shiang.Ability.Hash">Hash</h4>
+  <a id="Shiang_Database_1_Data_" data-uid="Shiang.Database`1.Data*"></a>
+  <h4 id="Shiang_Database_1_Data" data-uid="Shiang.Database`1.Data">Data</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract uint Hash { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;T1&gt; Data { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -274,57 +195,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Ability_Image_" data-uid="Shiang.Ability.Image*"></a>
-  <h4 id="Shiang_Ability_Image" data-uid="Shiang.Ability.Image">Image</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Sprite Image { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Sprite</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Ability_Name_" data-uid="Shiang.Ability.Name*"></a>
-  <h4 id="Shiang_Ability_Name" data-uid="Shiang.Ability.Name">Name</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string Name { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T1&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -333,13 +204,73 @@
   </h3>
   
   
-  <a id="Shiang_Ability_CompareTo_" data-uid="Shiang.Ability.CompareTo*"></a>
-  <h4 id="Shiang_Ability_CompareTo_System_Object_" data-uid="Shiang.Ability.CompareTo(System.Object)">CompareTo(Object)</h4>
+  <a id="Shiang_Database_1_Clear_" data-uid="Shiang.Database`1.Clear*"></a>
+  <h4 id="Shiang_Database_1_Clear" data-uid="Shiang.Database`1.Clear">Clear()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CompareTo(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  
+  
+  <a id="Shiang_Database_1_CommandStringClear_" data-uid="Shiang.Database`1.CommandStringClear*"></a>
+  <h4 id="Shiang_Database_1_CommandStringClear" data-uid="Shiang.Database`1.CommandStringClear">CommandStringClear()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string CommandStringClear()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_Database_1_CommandStringCreate_" data-uid="Shiang.Database`1.CommandStringCreate*"></a>
+  <h4 id="Shiang_Database_1_CommandStringCreate" data-uid="Shiang.Database`1.CommandStringCreate">CommandStringCreate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string CommandStringCreate()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_Database_1_CommandStringInsert_" data-uid="Shiang.Database`1.CommandStringInsert*"></a>
+  <h4 id="Shiang_Database_1_CommandStringInsert_System_Object_" data-uid="Shiang.Database`1.CommandStringInsert(System.Object)">CommandStringInsert(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string CommandStringInsert(object entry)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -353,7 +284,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">obj</span></td>
+        <td><span class="parametername">entry</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -368,23 +299,86 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="events">Events
-  </h3>
   
   
-  <h4 id="Shiang_Ability_OnUse" data-uid="Shiang.Ability.OnUse">OnUse</h4>
+  <a id="Shiang_Database_1_Create_" data-uid="Shiang.Database`1.Create*"></a>
+  <h4 id="Shiang_Database_1_Create" data-uid="Shiang.Database`1.Create">Create()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action OnUse</code></pre>
+    <pre><code class="lang-csharp hljs">public void Create()</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  
+  
+  <a id="Shiang_Database_1_Insert_" data-uid="Shiang.Database`1.Insert*"></a>
+  <h4 id="Shiang_Database_1_Insert_System_Object_" data-uid="Shiang.Database`1.Insert(System.Object)">Insert(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Insert(object entry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_Database_1_Retrieve_" data-uid="Shiang.Database`1.Retrieve*"></a>
+  <h4 id="Shiang_Database_1_Retrieve" data-uid="Shiang.Database`1.Retrieve">Retrieve()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Retrieve()</code></pre>
+  </div>
+  
+  
+  <a id="Shiang_Database_1_RetrieveData_" data-uid="Shiang.Database`1.RetrieveData*"></a>
+  <h4 id="Shiang_Database_1_RetrieveData_IDataReader_" data-uid="Shiang.Database`1.RetrieveData(IDataReader)">RetrieveData(IDataReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract T1 RetrieveData(IDataReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDataReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -394,17 +388,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">T1</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Shiang.IGameObject.html">IGameObject</a>
-  </div>
-  <div>
-      <span class="xref">IComparable</span>
+      <a class="xref" href="Shiang.IDatabase.html">IDatabase</a>
   </div>
 </article>
           </div>

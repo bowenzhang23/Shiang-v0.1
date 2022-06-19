@@ -11,8 +11,8 @@ namespace Shiang
         Orientation _orientation;
 
         // TODO
-        public Weapon weapon = new Whip();
-        public Ability ability = new GoldenScepter();
+        public Weapon weapon;
+        public Ability ability;
 
         public StateManager StateMgr => _stateMgr;
         
@@ -55,11 +55,17 @@ namespace Shiang
             _anim = GetComponent<Animator>();
             _inputController = FindObjectOfType<InputController>();
             _stateMgr = Utils.CreateStateManagerIC<PlayerStateManager, RanRan>(this, _inputController);
-            
+
+            Whip w = Utils.ItemClonedFromPoolOfType<Whip>();
+
             var itemContainer = Utils.CreateItemContainer(3);
+            itemContainer.Receive(ref w);
+            weapon = (Weapon)itemContainer.Weapons()[0];
+
+            ability = Utils.AbilityRefFromPoolOfType<GoldenScepter>();
             var abilityContainer = Utils.CreateAbilityContainer(3);
-            itemContainer.Receive((Whip)weapon);
             abilityContainer.Receive((GoldenScepter)ability);
+
         }
 
         void Update() => _stateMgr.Tick();

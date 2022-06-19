@@ -30,13 +30,13 @@ namespace Shiang
             return 0;
         }
 
-        public void Receive<T1>(T1 item) where T1 : Item, new() 
-            => Receive<T1>(item, 1);
+        public void Receive<T1>(ref T1 item) where T1 : Item, new() 
+            => Receive<T1>(ref item, 1);
 
-        public void ReceiveAll<T1>(T1 item) where T1 : Item, new() 
-            => Receive<T1>(item, item.Count);
+        public void ReceiveAll<T1>(ref T1 item) where T1 : Item, new() 
+            => Receive<T1>(ref item, item.Count);
 
-        public void Receive<T1>(T1 item, int n) where T1: Item, new()
+        public void Receive<T1>(ref T1 item, int n) where T1: Item, new()
         {
             Item receivedItem = Utils.ItemLose<T1>(n, ref item);
 

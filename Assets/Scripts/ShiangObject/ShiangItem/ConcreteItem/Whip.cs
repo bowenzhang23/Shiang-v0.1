@@ -21,6 +21,6 @@ namespace Shiang
 
         public override Sprite Image => Info.SPRITES_ICON2[0];
 
-        public override float CdTime => 1f;
+        public override float CdTime => 1.1f;
     }
 }

@@ -45,8 +45,8 @@ namespace Shiang
             {
                 Name = reader["name"].ToString(),
                 Description = reader["description"].ToString(),
-                Hash = (uint)reader["hash"],
-                SpriteIndex = (int)reader["spriteindex"],
+                Hash = uint.Parse(reader["hash"].ToString()),
+                SpriteIndex = int.Parse(reader["spriteindex"].ToString()),
             };
         }
     }

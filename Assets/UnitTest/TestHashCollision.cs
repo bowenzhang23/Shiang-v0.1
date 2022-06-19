@@ -1,7 +1,9 @@
 
-using NUnit.Framework;
-using Shiang;
+using System.Linq;
 using System.Collections.Generic;
+using NUnit.Framework;
+using UnityEngine;
+using Shiang;
 
 namespace ShiangTest
 {
@@ -14,28 +16,36 @@ namespace ShiangTest
         [Test]
         public void ItemCollision()
         {
-            _items = Utils.GetListOfType<Item>();
-            HashSet<Item> itemSet = new HashSet<Item>(_items);
+            _items = Utils.GetSubclassesOf<Item>();
+            Debug.Log($"{_items.Count} items found");
+            List<uint> hashes = _items.Select(k => k.Hash).ToList();
+            HashSet<uint> setOfHashes = new HashSet<uint>(hashes);
 
-            Assert.AreEqual(_items.Count, itemSet.Count);
+            Assert.AreEqual(hashes.Count, setOfHashes.Count);
         }
 
         [Test]
         public void AbilityCollision()
         {
-            _abilities = Utils.GetListOfType<Ability>();
-            HashSet<Ability> abilitySet = new HashSet<Ability>(_abilities);
+            _abilities = Utils.GetSubclassesOf<Ability>();
+            Debug.Log($"{_abilities.Count} abilities found");
+            List<uint> hashes = _abilities.Select(k => k.Hash).ToList();
+            HashSet<uint> setOfHashes = new HashSet<uint>(hashes);
 
-            Assert.AreEqual(_abilities.Count, abilitySet.Count);
+            Assert.AreEqual(hashes.Count, setOfHashes.Count);
         }
 
         [Test]
         public void OverallCollision()
         {
-            _gameObjects = Utils.GetListOfType<IGameObject>();
-            HashSet<IGameObject> goSet = new HashSet<IGameObject>(_gameObjects);
+            _gameObjects = new List<IGameObject>();
+            _gameObjects.Concat(Utils.GetSubclassesOf<Item>());
+            _gameObjects.Concat(Utils.GetSubclassesOf<Ability>());
+            Debug.Log($"{_gameObjects.Count} gameObjects found");
+            List<uint> hashes = _gameObjects.Select(k => k.Hash).ToList();
+            HashSet<uint> setOfHashes = new HashSet<uint>(hashes);
 
-            Assert.AreEqual(_gameObjects.Count, goSet.Count);
+            Assert.AreEqual(hashes.Count, setOfHashes.Count);
         }
     }
 }

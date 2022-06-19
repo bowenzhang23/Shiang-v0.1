@@ -8,6 +8,7 @@ namespace Shiang
         void Awake()
         {
             Info.LoadResources();
+            ObjectPool.Load();
         }
     }
 }

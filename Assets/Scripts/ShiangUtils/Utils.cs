@@ -84,7 +84,7 @@ namespace Shiang
         public static AbilityTree CreateAbilityTree(Ability ability) 
             => new AbilityTree(new AbilityTree.Node(ability, new List<AbilityTree.Node>()));
 
-        public static List<T1> GetListOfType<T1>(params object[] ctorArgs)
+        public static List<T1> GetSubclassesOf<T1>(params object[] ctorArgs)
         {
             List<T1> objects = new List<T1>();
             foreach (Type type in Assembly.GetAssembly(typeof(T1)).GetTypes()
@@ -106,5 +106,13 @@ namespace Shiang
             AnimationClip[] animationClips, string pattern) 
             => animationClips.Where(k => k.name.Contains(pattern))
                 .OrderBy(k => k.name.Contains("Right")).ToArray();
+
+        public static T1 ItemClonedFromPoolOfType<T1>()
+            where T1 : Item 
+            => (T1)ObjectPool.Items[ObjectPool.Mapping[typeof(T1)]];
+
+        public static T1 AbilityRefFromPoolOfType<T1>()
+            where T1 : Ability
+            => (T1)ObjectPool.Abilities[ObjectPool.Mapping[typeof(T1)]];
     }
 }

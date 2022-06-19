@@ -10,6 +10,7 @@ namespace Shiang
         public uint Hash { get; set; }
         public int SpriteIndex { get; set; }
         public string AnimPattern { get; set; }
+        public float CdTime { get; set; }
     }
 
     public class WeaponDB : Database<WeaponData>
@@ -21,21 +22,23 @@ namespace Shiang
             return "CREATE TABLE IF NOT EXISTS weapon (" +
                 "name NVARCHAR(20), " +
                 "description NVARCHAR(200), " +
-                "hash INT UNSIGNED," +
-                "spriteindex INT," +
-                "animpattern VARCHAR(20));";
+                "hash INT UNSIGNED, " +
+                "spriteindex INT, " +
+                "animpattern VARCHAR(20), " +
+                "cdtime FLOAT);";
         }
 
         public override string CommandStringInsert(object entry)
         {
             WeaponData entryData = (WeaponData)entry;
             return "INSERT INTO weapon " +
-                "(name, description, hash, spriteindex, animpattern) VALUES (" +
+                "(name, description, hash, spriteindex, animpattern, cdtime) VALUES (" +
                 $"'{entryData.Name}', " +
                 $"'{entryData.Description}', " +
                 $"'{entryData.Hash}', " +
                 $"'{entryData.SpriteIndex}', " +
-                $"'{entryData.AnimPattern}');";
+                $"'{entryData.AnimPattern}', " +
+                $"'{entryData.CdTime}');";
         }
 
         public override string CommandStringRetrive => "SELECT * FROM weapon;";
@@ -48,9 +51,10 @@ namespace Shiang
             {
                 Name = reader["name"].ToString(),
                 Description = reader["description"].ToString(),
-                Hash = (uint)reader["hash"],
-                SpriteIndex = (int)reader["spriteindex"],
-                AnimPattern = reader["animpattern"].ToString()
+                Hash = uint.Parse(reader["hash"].ToString()),
+                SpriteIndex = int.Parse(reader["spriteindex"].ToString()),
+                AnimPattern = reader["animpattern"].ToString(),
+                CdTime = float.Parse(reader["cdtime"].ToString()),
             };
         }
     }

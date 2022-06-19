@@ -6,7 +6,7 @@ namespace Shiang
 {
     public class SixGod : Consumable
     {
-        public override int Hash => 0x00000001;
+        public override uint Hash => 0x00000001;
 
         public override string Name => "SixGod";
 

@@ -10,7 +10,7 @@ namespace Shiang
                     .Where(k => k.name.Contains("Attack"))
                     .OrderBy(k => k.name.Contains("Right")).ToArray();
 
-        public override int Hash => 0x00000000;
+        public override uint Hash => 0x00000000;
 
         public override string Name => "Whip";
 

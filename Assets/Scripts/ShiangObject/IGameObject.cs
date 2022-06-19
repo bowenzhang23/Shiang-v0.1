@@ -6,7 +6,7 @@ namespace Shiang
     {
         string Description { get; }
 
-        int Hash { get; }
+        uint Hash { get; }
 
         Sprite Image { get; }
 

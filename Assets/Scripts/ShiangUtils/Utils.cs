@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
 
 namespace Shiang
 {
@@ -69,7 +71,27 @@ namespace Shiang
         public static ItemContainer CreateItemContainer()
             => new ItemContainer();
 
-        public static AbilityTree CreatAbilityTree(Ability ability) 
+        public static ItemContainer CreateItemContainer(int capacity)
+            => new ItemContainer(capacity);
+
+        public static AbilityContainer CreateAbilityContainer()
+            => new AbilityContainer();
+
+        public static AbilityContainer CreateAbilityContainer(int capacity)
+            => new AbilityContainer(capacity);
+
+        public static AbilityTree CreateAbilityTree(Ability ability) 
             => new AbilityTree(new AbilityTree.Node(ability, new List<AbilityTree.Node>()));
+
+        public static List<T1> GetListOfType<T1>(params object[] ctorArgs)
+        {
+            List<T1> objects = new List<T1>();
+            foreach (Type type in Assembly.GetAssembly(typeof(T1)).GetTypes()
+                .Where(t => t.IsClass && !t.IsAbstract && t.IsSubclassOf(typeof(T1))))
+            {
+                objects.Add((T1)Activator.CreateInstance(type, ctorArgs));
+            }
+            return objects;
+        }
     }
 }

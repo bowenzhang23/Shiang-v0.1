@@ -54,9 +54,10 @@ namespace Shiang
             _inputController = FindObjectOfType<InputController>();
             _stateMgr = Utils.CreateStateManagerIC<PlayerStateManager, RanRan>(this, _inputController);
             
-            var itemContainer = Utils.CreateItemContainer();
-            var abilityTree = Utils.CreatAbilityTree(ability);
+            var itemContainer = Utils.CreateItemContainer(3);
+            var abilityContainer = Utils.CreateAbilityContainer(3);
             itemContainer.Receive((Whip)weapon);
+            abilityContainer.Receive((GoldenScepter)ability);
         }
 
         void Update() => _stateMgr.Tick();

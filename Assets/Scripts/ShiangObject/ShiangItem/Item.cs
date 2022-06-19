@@ -1,9 +1,10 @@
 
+using System;
 using UnityEngine;
 
 namespace Shiang
 {
-    public abstract class Item : IGameObject
+    public abstract class Item : IGameObject, IComparable
     {
         private int _count = 1;
 
@@ -11,7 +12,7 @@ namespace Shiang
 
         public abstract string Description { get; }
 
-        public abstract int Hash { get; }
+        public abstract uint Hash { get; }
 
         public abstract Sprite Image { get; }
 
@@ -22,6 +23,13 @@ namespace Shiang
             T1 item = new T1();
             item.Count = Count;
             return item;
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (Hash > ((Item)obj).Hash) return 1;
+            if (Hash < ((Item)obj).Hash) return -1;
+            else return 0;
         }
     }
 }

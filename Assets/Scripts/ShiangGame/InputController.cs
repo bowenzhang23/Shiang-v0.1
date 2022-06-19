@@ -26,6 +26,8 @@ namespace Shiang
 
         public bool Exit { get; private set; }
 
+        public bool OpenStatMenu { get; private set; }
+
         private void Awake()
         {
             _stateMgr = Utils.CreateStateManager<InputStateManager, InputController>(this);
@@ -49,11 +51,15 @@ namespace Shiang
             UseAbility = Input.GetKeyDown(KeyCode.LeftControl);
 
             Exit = Input.GetKeyDown(KeyCode.Escape);
+            OpenStatMenu = Input.GetKeyDown(KeyCode.Alpha1);
+
+            if (OpenStatMenu) Mode = InputMode.Ui;
         }
 
         public void UiMode()
         {
-
+            Exit = Input.GetKeyDown(KeyCode.Escape);
+            if (Exit) Mode = InputMode.Game;
         }
 
         private void Update() => _stateMgr.Tick();

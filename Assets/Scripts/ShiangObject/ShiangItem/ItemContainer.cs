@@ -9,8 +9,17 @@ namespace Shiang
     {
         List<Item> _items = new List<Item>();
         int _count = 0;
+        int _capacity = 3;
+
+        public ItemContainer() { }
+
+        public ItemContainer(int capacity) => _capacity = capacity;
+
+        public event Action OnFull;
 
         public int Size() => _items.Count;
+
+        public int Capacity() => _capacity;
 
         public int Count() => _count;
 
@@ -30,18 +39,49 @@ namespace Shiang
         public void Receive<T1>(T1 item, int n) where T1: Item, new()
         {
             Item receivedItem = Utils.ItemLose<T1>(n, ref item);
-            _count += receivedItem.Count;
 
-            if (Find(item, out var existedItem))
+            if (Find(receivedItem, out var existedItem))
+            {
+                _count += receivedItem.Count;
                 Utils.ItemMerge(existedItem, ref receivedItem);
+            }
+            else if (Size() == Capacity())
+                OnFull?.Invoke();
             else
+            {
+                _count += receivedItem.Count;
                 _items.Add(receivedItem);
+            }
         }
 
-        public void Remove(Item item) => _items.Remove(item);
+        public void Remove(Item item)
+        {
+            if (Find(item, out var exist))
+            {
+                _count -= exist.Count;
+                _items.Remove(exist);
+            }
+        }
+
+        public void Remove(Type itemType)
+        {
+            if (Find(itemType, out var exist))
+            {
+                _count -= exist.Count;
+                _items.Remove(exist);
+            }
+        }
 
         public bool IsEmpty() => Size() == 0;
 
+        /// <summary>
+        /// Find item in the container by its Hash value
+        /// </summary>
+        /// <param name="item">An item object. Usually it can be a temp object</param>
+        /// <param name="exist">If exist, the Item will be assigned to this <c>out</c>
+        /// value. If not, a <c>null</c> will be assigned</param>
+        /// <returns>Is existed or not</returns>
+        /// <seealso cref="Shiang.IGameObject.Hash"/>
         public bool Find(Item item, out Item exist)
         {
             exist = _items.Find((Item i) => i.Hash == item.Hash);
@@ -50,6 +90,15 @@ namespace Shiang
             return false;
         }
 
+        /// <summary>
+        /// Find item in the container by its type
+        /// </summary>
+        /// <param name="itemType">The type of the object, which can be found by 
+        /// <c>typeof()</c> or <c>Object.GetType()</c></param>
+        /// <param name="exist">If exist, the Item will be assigned to this <c>out</c>
+        /// value. If not, a <c>null</c> will be assigned</param>
+        /// <returns>Is existed or not</returns>
+        /// <seealso cref="System.Type"/>
         public bool Find(Type itemType, out Item exist)
         {
             exist = _items.Find((Item i) => i.GetType() == itemType);

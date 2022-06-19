@@ -13,7 +13,7 @@ namespace Shiang
  
         public override string Description => "堆堆之法器";
 
-        public override int Hash => 0x00000003;
+        public override uint Hash => 0x00000003;
 
         public override Sprite Image => Info.SPRITES_ICON1[12];
 

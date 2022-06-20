@@ -39,8 +39,8 @@ namespace ShiangTest
         public void OverallCollision()
         {
             _gameObjects = new List<IGameObject>();
-            _gameObjects.Concat(Utils.GetSubclassesOf<Item>());
-            _gameObjects.Concat(Utils.GetSubclassesOf<Ability>());
+            _gameObjects.AddRange(Utils.GetSubclassesOf<Item>());
+            _gameObjects.AddRange(Utils.GetSubclassesOf<Ability>());
             Debug.Log($"{_gameObjects.Count} gameObjects found");
             List<uint> hashes = _gameObjects.Select(k => k.Hash).ToList();
             HashSet<uint> setOfHashes = new HashSet<uint>(hashes);

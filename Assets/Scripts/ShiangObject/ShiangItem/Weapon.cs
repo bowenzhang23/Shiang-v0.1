@@ -6,11 +6,25 @@ namespace Shiang
     public abstract class Weapon : Equipment, IVivid
     {
         string[] _clipNames;
+        AnimationClip[] _animationClips;
         Cooldown _cd;
 
-        public abstract AnimationClip[] Clips { get; }
+        public virtual AnimationClip[] Clips
+            => _animationClips == null
+            ? _animationClips = Utils.BuildClips(
+                Info.PLAYER_ANIM_CLIPS,
+                Info.WEAPON_DATA[ClassID].AnimPattern)
+            : _animationClips;
 
-        public abstract float CdTime { get; }
+        public override string Name => Info.WEAPON_DATA[ClassID].Name;
+
+        public override string Description => Info.WEAPON_DATA[ClassID].Description;
+
+        public override uint Hash => Info.WEAPON_DATA[ClassID].Hash;
+
+        public override Sprite Image => Info.SPRITES_ICON1[Info.WEAPON_DATA[ClassID].SpriteIndex];
+
+        public virtual float CdTime => Info.WEAPON_DATA[ClassID].CdTime;
 
         public string[] ClipNames
             => _clipNames == null ? _clipNames = new string[2] { Clips[0].name, Clips[1].name } : _clipNames;
@@ -19,5 +33,7 @@ namespace Shiang
 
         public Cooldown Cd
             => _cd == null ? _cd = new Cooldown(CdTime) : _cd;
+
+        public abstract void Hit(IHurtable hurtable);
     }
 }

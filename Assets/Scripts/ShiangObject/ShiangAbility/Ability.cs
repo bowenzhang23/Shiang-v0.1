@@ -4,24 +4,30 @@ using UnityEngine;
 
 namespace Shiang
 {
-    public abstract class Ability : IGameObject, IVivid, IComparable
+    public abstract class Ability : ShiangObject, IVivid
     {
+        public event Action OnUse;
+        
         string[] _clipNames;
+        AnimationClip[] _animationClips;
         Cooldown _cd;
 
-        public event Action OnUse;
+        public virtual AnimationClip[] Clips
+            => _animationClips == null
+            ? _animationClips = Utils.BuildClips(
+                Info.PLAYER_ANIM_CLIPS,
+                Info.ABILITY_DATA[ClassID].AnimPattern)
+            : _animationClips;
 
-        public abstract AnimationClip[] Clips { get; }
+        public override string Name => Info.ABILITY_DATA[ClassID].Name;
 
-        public abstract string Description { get; }
+        public override string Description => Info.ABILITY_DATA[ClassID].Description;
 
-        public abstract uint Hash { get; }
+        public override uint Hash => Info.ABILITY_DATA[ClassID].Hash;
 
-        public abstract Sprite Image { get; }
+        public override Sprite Image => Info.SPRITES_ICON1[Info.ABILITY_DATA[ClassID].SpriteIndex];
 
-        public abstract string Name { get; }
-
-        public abstract float CdTime { get; }
+        public virtual float CdTime => Info.ABILITY_DATA[ClassID].CdTime;
 
         public string[] ClipNames
             => _clipNames == null ? _clipNames = new string[2] { Clips[0].name, Clips[1].name } : _clipNames;
@@ -30,12 +36,7 @@ namespace Shiang
 
         public Cooldown Cd
             => _cd == null ? _cd = new Cooldown(CdTime) : _cd;
-        
-        public int CompareTo(object obj)
-        {
-            if (Hash > ((Item)obj).Hash) return 1;
-            if (Hash < ((Item)obj).Hash) return -1;
-            else return 0;
-        }
+
+        public abstract void Affect(IGameEntity entity);
     }
 }

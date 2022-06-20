@@ -109,10 +109,10 @@ namespace Shiang
 
         public static T1 ItemClonedFromPoolOfType<T1>()
             where T1 : Item 
-            => (T1)ObjectPool.Items[ObjectPool.Mapping[typeof(T1)]];
+            => (T1)Pool.Items[Pool.Mapping[typeof(T1)]];
 
         public static T1 AbilityRefFromPoolOfType<T1>()
             where T1 : Ability
-            => (T1)ObjectPool.Abilities[ObjectPool.Mapping[typeof(T1)]];
+            => (T1)Pool.Abilities[Pool.Mapping[typeof(T1)]];
     }
 }

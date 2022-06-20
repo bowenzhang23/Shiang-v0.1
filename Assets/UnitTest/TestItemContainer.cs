@@ -24,7 +24,7 @@ namespace ShiangTest
             bool fullSignalEmitted = false;
             itemCont.OnFull += () => fullSignalEmitted = true;
 
-            SixGod sixGod = new SixGod() { Count = 20 };
+            SixDemon sixGod = new SixDemon() { Count = 20 };
             itemCont.Receive(ref sixGod, 10); // Count = 1 by default
             itemCont.Receive(ref sixGod); // Count = 1 by default
             Assert.AreEqual(itemCont.Size(), 1);
@@ -149,7 +149,7 @@ namespace ShiangTest
 
             Assert.AreEqual(weapons.Count, 3);
             Assert.IsNotNull(whip);
-            Assert.AreEqual(whip.Hash, 0x00000000);
+            Assert.AreEqual(whip.ClassID, "Whip");
             Assert.IsNull(weapons.Find(w => w.Hash == new W3().Hash));
         }
 

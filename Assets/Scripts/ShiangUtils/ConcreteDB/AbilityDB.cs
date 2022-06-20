@@ -5,6 +5,7 @@ namespace Shiang
 {
     public struct AbilityData : IDBData
     {
+        public string ClassID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public uint Hash { get; set; }
@@ -20,6 +21,7 @@ namespace Shiang
         public override string CommandStringCreate()
         {
             return "CREATE TABLE IF NOT EXISTS ability (" +
+                "classid VARCHAR(20), " +
                 "name NVARCHAR(20), " +
                 "description NVARCHAR(200), " +
                 "hash INT UNSIGNED, " +
@@ -32,7 +34,8 @@ namespace Shiang
         {
             AbilityData entryData = (AbilityData)entry;
             return "INSERT INTO ability " +
-                "(name, description, hash, spriteindex, animpattern, cdtime) VALUES (" +
+                "(classid, name, description, hash, spriteindex, animpattern, cdtime) VALUES (" +
+                $"'{entryData.ClassID}', " +
                 $"'{entryData.Name}', " +
                 $"'{entryData.Description}', " +
                 $"'{entryData.Hash}', " +
@@ -49,6 +52,7 @@ namespace Shiang
         {
             return new AbilityData
             {
+                ClassID = reader["classid"].ToString(),
                 Name = reader["name"].ToString(),
                 Description = reader["description"].ToString(),
                 Hash = uint.Parse(reader["hash"].ToString()),

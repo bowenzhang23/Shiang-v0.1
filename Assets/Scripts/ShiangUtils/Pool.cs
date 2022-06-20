@@ -5,9 +5,9 @@ using System.Linq;
 
 namespace Shiang
 {
-    public static class ObjectPool
+    public static class Pool
     {
-        static Dictionary<Type, uint> _hashes;
+        static Dictionary<Type, uint> _hashes = new Dictionary<Type, uint>();
         static Dictionary<uint, Ability> _abilities;
         static Dictionary<uint, Item> _items;
 
@@ -17,8 +17,6 @@ namespace Shiang
 
         public static void Load()
         {
-            _hashes = new Dictionary<Type, uint>(); // first
-
             _items = LoadToDictionary<Item>();
             _abilities = LoadToDictionary<Ability>();
         }

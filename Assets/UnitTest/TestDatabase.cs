@@ -10,11 +10,11 @@ namespace ShiangTest
         public void CreateDatabase()
         {
             var resourcePathDB = Utils.CreateDatabase<ResourcePathDB>();
-            var comsumableDB = Utils.CreateDatabase<ConsumableDB>();
+            var consumableDB = Utils.CreateDatabase<ConsumableDB>();
             var weaponDB = Utils.CreateDatabase<WeaponDB>();
             var abilityDB = Utils.CreateDatabase<AbilityDB>();
             Assert.IsNotNull(resourcePathDB);
-            Assert.IsNotNull(comsumableDB);
+            Assert.IsNotNull(consumableDB);
             Assert.IsNotNull(weaponDB);
             Assert.IsNotNull(abilityDB);
         }
@@ -38,10 +38,13 @@ namespace ShiangTest
             var db = Utils.CreateDatabase<WeaponDB>();
             db.Clear(); // clear first
             db.Insert(new WeaponData() { 
+                ClassID="Whip",
                 Name="长鞭", 
                 Description="从小练习挥鞭", 
                 AnimPattern="Attack", 
-                CdTime=1.1f, Hash=0xE0000, SpriteIndex=0 });
+                CdTime=1.1f, 
+                Hash=0xE0000, 
+                SpriteIndex=0 });
             Assert.AreEqual(db.Data.Count, 0);
             db.Retrieve();
             Assert.AreEqual(db.Data.Count, 1);
@@ -54,6 +57,7 @@ namespace ShiangTest
             db.Clear(); // clear first
             db.Insert(new AbilityData()
             {
+                ClassID="GoldenScepter",
                 Name = "黄金权杖",
                 Description = "堆中法器",
                 AnimPattern = "Magic",
@@ -73,6 +77,7 @@ namespace ShiangTest
             db.Clear(); // clear first
             db.Insert(new ConsumableData()
             {
+                ClassID="SixDemon",
                 Name = "六魔",
                 Description = "沁人心脾",
                 Hash = 0x10000,

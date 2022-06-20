@@ -7,6 +7,5 @@ namespace Shiang
     {
         public event Action OnEquiped;
         public event Action OnRemoved;
-
     }
 }

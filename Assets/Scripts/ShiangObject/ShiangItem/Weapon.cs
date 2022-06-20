@@ -22,8 +22,6 @@ namespace Shiang
 
         public override uint Hash => Info.WEAPON_DATA[ClassID].Hash;
 
-        public override Sprite Image => Info.SPRITES_ICON1[Info.WEAPON_DATA[ClassID].SpriteIndex];
-
         public virtual float CdTime => Info.WEAPON_DATA[ClassID].CdTime;
 
         public string[] ClipNames

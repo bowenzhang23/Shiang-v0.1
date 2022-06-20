@@ -44,10 +44,21 @@ namespace ShiangTest
                 AnimPattern="Attack", 
                 CdTime=1.1f, 
                 Hash=0xE0000, 
-                SpriteIndex=0 });
+                SpriteIndex=0 
+            });
+            db.Insert(new WeaponData()
+            {
+                ClassID = "Axe",
+                Name = "开山斧",
+                Description = "祖传开山神斧",
+                AnimPattern = "Axe",
+                CdTime = 2f,
+                Hash = 0xE0001,
+                SpriteIndex = 14
+            });
             Assert.AreEqual(db.Data.Count, 0);
             db.Retrieve();
-            Assert.AreEqual(db.Data.Count, 1);
+            Assert.AreEqual(db.Data.Count, 2);
         }
 
         [Test]

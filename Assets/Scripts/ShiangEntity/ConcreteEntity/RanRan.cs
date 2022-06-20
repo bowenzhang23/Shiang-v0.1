@@ -56,7 +56,7 @@ namespace Shiang
             _inputController = FindObjectOfType<InputController>();
             _stateMgr = Utils.CreateStateManagerIC<PlayerStateManager, RanRan>(this, _inputController);
 
-            Whip w = Utils.ItemClonedFromPoolOfType<Whip>();
+            Axe w = Utils.ItemClonedFromPoolOfType<Axe>();
 
             var itemContainer = Utils.CreateItemContainer(3);
             itemContainer.Receive(ref w);

@@ -13,7 +13,5 @@ namespace Shiang
         public override string Name => Info.CONSUMABLE_DATA[ClassID].Name;
 
         public override string Description => Info.CONSUMABLE_DATA[ClassID].Description;
-
-        public override Sprite Image => Info.SPRITES_ICON1[Info.CONSUMABLE_DATA[ClassID].SpriteIndex];
     }
 }

@@ -88,20 +88,42 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Item</span></div>
-      <div class="level2"><a class="xref" href="Shiang.Consumable.html">Consumable</a></div>
-      <div class="level2"><a class="xref" href="Shiang.Equipment.html">Equipment</a></div>
+    <div class="level1"><a class="xref" href="Shiang.ShiangObject.html">ShiangObject</a></div>
+    <div class="level2"><span class="xref">Item</span></div>
+      <div class="level3"><a class="xref" href="Shiang.Consumable.html">Consumable</a></div>
+      <div class="level3"><a class="xref" href="Shiang.Equipment.html">Equipment</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Shiang.IGameObject.html">IGameObject</a></div>
     <div><span class="xref">IComparable</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_ClassID">ShiangObject.ClassID</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Description">ShiangObject.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Hash">ShiangObject.Hash</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Image">ShiangObject.Image</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Name">ShiangObject.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_CompareTo_System_Object_">ShiangObject.CompareTo(Object)</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Shiang_Item_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Item : IGameObject</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Item : ShiangObject, IGameObject</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -126,106 +148,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Item_Description_" data-uid="Shiang.Item.Description*"></a>
-  <h4 id="Shiang_Item_Description" data-uid="Shiang.Item.Description">Description</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string Description { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Item_Hash_" data-uid="Shiang.Item.Hash*"></a>
-  <h4 id="Shiang_Item_Hash" data-uid="Shiang.Item.Hash">Hash</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract uint Hash { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Item_Image_" data-uid="Shiang.Item.Image*"></a>
-  <h4 id="Shiang_Item_Image" data-uid="Shiang.Item.Image">Image</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Sprite Image { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Sprite</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Item_Name_" data-uid="Shiang.Item.Name*"></a>
-  <h4 id="Shiang_Item_Name" data-uid="Shiang.Item.Name">Name</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string Name { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -327,48 +249,6 @@
     <tbody>
       <tr>
         <td><span class="parametername">T1</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Item_CompareTo_" data-uid="Shiang.Item.CompareTo*"></a>
-  <h4 id="Shiang_Item_CompareTo_System_Object_" data-uid="Shiang.Item.CompareTo(System.Object)">CompareTo(Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CompareTo(object obj)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>

@@ -88,9 +88,10 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="Shiang.Item.html">Item</a></div>
-    <div class="level2"><span class="xref">Consumable</span></div>
-      <div class="level3"><a class="xref" href="Shiang.SixGod.html">SixGod</a></div>
+    <div class="level1"><a class="xref" href="Shiang.ShiangObject.html">ShiangObject</a></div>
+    <div class="level2"><a class="xref" href="Shiang.Item.html">Item</a></div>
+    <div class="level3"><span class="xref">Consumable</span></div>
+      <div class="level4"><a class="xref" href="Shiang.SixDemon.html">SixDemon</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -103,25 +104,16 @@
       <a class="xref" href="Shiang.Item.html#Shiang_Item_Count">Item.Count</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Description">Item.Description</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Hash">Item.Hash</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Image">Item.Image</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Name">Item.Name</a>
-    </div>
-    <div>
       <a class="xref" href="Shiang.Item.html#Shiang_Item_Clone__1">Item.Clone&lt;T1&gt;()</a>
     </div>
     <div>
       <a class="xref" href="Shiang.Item.html#Shiang_Item_Clone__1_System_Int32_">Item.Clone&lt;T1&gt;(Int32)</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_CompareTo_System_Object_">Item.CompareTo(Object)</a>
+      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_ClassID">ShiangObject.ClassID</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_CompareTo_System_Object_">ShiangObject.CompareTo(Object)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
@@ -130,6 +122,116 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class Consumable : Item, IGameObject</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Shiang_Consumable_Description_" data-uid="Shiang.Consumable.Description*"></a>
+  <h4 id="Shiang_Consumable_Description" data-uid="Shiang.Consumable.Description">Description</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Description { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Description">ShiangObject.Description</a></div>
+  
+  
+  <a id="Shiang_Consumable_Hash_" data-uid="Shiang.Consumable.Hash*"></a>
+  <h4 id="Shiang_Consumable_Hash" data-uid="Shiang.Consumable.Hash">Hash</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override uint Hash { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Hash">ShiangObject.Hash</a></div>
+  
+  
+  <a id="Shiang_Consumable_Image_" data-uid="Shiang.Consumable.Image*"></a>
+  <h4 id="Shiang_Consumable_Image" data-uid="Shiang.Consumable.Image">Image</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Sprite Image { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sprite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Image">ShiangObject.Image</a></div>
+  
+  
+  <a id="Shiang_Consumable_Name_" data-uid="Shiang.Consumable.Name*"></a>
+  <h4 id="Shiang_Consumable_Name" data-uid="Shiang.Consumable.Name">Name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Name">ShiangObject.Name</a></div>
   <h3 id="events">Events
   </h3>
   

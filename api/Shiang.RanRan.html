@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class RanRan
    | Shiang v0.1.0 ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -90,77 +90,51 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">RanRan</span></div>
   </div>
-  <div classs="implements">
+  <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Shiang.IPlayer.html">IPlayer</a></div>
     <div><a class="xref" href="Shiang.ICreature.html">ICreature</a></div>
-    <div><a class="xref" href="Shiang.IAttackable.html">IAttackable</a></div>
     <div><a class="xref" href="Shiang.ISkillFul.html">ISkillFul</a></div>
-    <div><a class="xref" href="Shiang.IHurtable.html">IHurtable</a></div>
     <div><a class="xref" href="Shiang.IStateHolder.html">IStateHolder</a></div>
     <div><a class="xref" href="Shiang.IAnimatorHolder.html">IAnimatorHolder</a></div>
     <div><a class="xref" href="Shiang.IDynamic.html">IDynamic</a></div>
     <div><a class="xref" href="Shiang.IGameEntity.html">IGameEntity</a></div>
     <div><a class="xref" href="Shiang.IControllable.html">IControllable</a></div>
+    <div><a class="xref" href="Shiang.ITreasure.html">ITreasure</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Shiang_RanRan_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RanRan : MonoBehaviour, IPlayer, ICreature, IAttackable, ISkillFul, IHurtable, IStateHolder, IAnimatorHolder, IDynamic, IGameEntity, IControllable</code></pre>
+    <pre><code class="lang-csharp hljs">public class RanRan : MonoBehaviour, IPlayer, ICreature, ISkillFul, IStateHolder, IAnimatorHolder, IDynamic, IGameEntity, IControllable, ITreasure</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="Shiang_RanRan_ability" data-uid="Shiang.RanRan.ability">ability</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Ability ability</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Shiang.Ability.html">Ability</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Shiang_RanRan_weapon" data-uid="Shiang.RanRan.weapon">weapon</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Weapon weapon</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Shiang.Weapon.html">Weapon</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="Shiang_RanRan_Abilities_" data-uid="Shiang.RanRan.Abilities*"></a>
+  <h4 id="Shiang_RanRan_Abilities" data-uid="Shiang.RanRan.Abilities">Abilities</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbilityContainer Abilities { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Shiang.AbilityContainer.html">AbilityContainer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Shiang_RanRan_Anim_" data-uid="Shiang.RanRan.Anim*"></a>
@@ -182,6 +156,106 @@
     <tbody>
       <tr>
         <td><span class="xref">Animator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_RanRan_Coordinate_" data-uid="Shiang.RanRan.Coordinate*"></a>
+  <h4 id="Shiang_RanRan_Coordinate" data-uid="Shiang.RanRan.Coordinate">Coordinate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Coordinate { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_RanRan_CurrentAbility_" data-uid="Shiang.RanRan.CurrentAbility*"></a>
+  <h4 id="Shiang_RanRan_CurrentAbility" data-uid="Shiang.RanRan.CurrentAbility">CurrentAbility</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Ability CurrentAbility { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Shiang.Ability.html">Ability</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_RanRan_CurrentWeapon_" data-uid="Shiang.RanRan.CurrentWeapon*"></a>
+  <h4 id="Shiang_RanRan_CurrentWeapon" data-uid="Shiang.RanRan.CurrentWeapon">CurrentWeapon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Weapon CurrentWeapon { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Shiang.Weapon.html">Weapon</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_RanRan_Items_" data-uid="Shiang.RanRan.Items*"></a>
+  <h4 id="Shiang_RanRan_Items" data-uid="Shiang.RanRan.Items">Items</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemContainer Items { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Shiang.ItemContainer.html">ItemContainer</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -240,6 +314,16 @@
   </h3>
   
   
+  <a id="Shiang_RanRan_Cool_" data-uid="Shiang.RanRan.Cool*"></a>
+  <h4 id="Shiang_RanRan_Cool" data-uid="Shiang.RanRan.Cool">Cool()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cool()</code></pre>
+  </div>
+  
+  
   <a id="Shiang_RanRan_Idle_" data-uid="Shiang.RanRan.Idle*"></a>
   <h4 id="Shiang_RanRan_Idle" data-uid="Shiang.RanRan.Idle">Idle()</h4>
   <div class="markdown level1 summary"></div>
@@ -296,13 +380,7 @@
       <a class="xref" href="Shiang.ICreature.html">ICreature</a>
   </div>
   <div>
-      <a class="xref" href="Shiang.IAttackable.html">IAttackable</a>
-  </div>
-  <div>
       <a class="xref" href="Shiang.ISkillFul.html">ISkillFul</a>
-  </div>
-  <div>
-      <a class="xref" href="Shiang.IHurtable.html">IHurtable</a>
   </div>
   <div>
       <a class="xref" href="Shiang.IStateHolder.html">IStateHolder</a>
@@ -318,6 +396,9 @@
   </div>
   <div>
       <a class="xref" href="Shiang.IControllable.html">IControllable</a>
+  </div>
+  <div>
+      <a class="xref" href="Shiang.ITreasure.html">ITreasure</a>
   </div>
 </article>
           </div>

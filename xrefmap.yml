@@ -117,19 +117,6 @@ references:
   isSpec: "True"
   fullName: Shiang.Ability.Hash
   nameWithType: Ability.Hash
-- uid: Shiang.Ability.Image
-  name: Image
-  href: api/Shiang.Ability.html#Shiang_Ability_Image
-  commentId: P:Shiang.Ability.Image
-  fullName: Shiang.Ability.Image
-  nameWithType: Ability.Image
-- uid: Shiang.Ability.Image*
-  name: Image
-  href: api/Shiang.Ability.html#Shiang_Ability_Image_
-  commentId: Overload:Shiang.Ability.Image
-  isSpec: "True"
-  fullName: Shiang.Ability.Image
-  nameWithType: Ability.Image
 - uid: Shiang.Ability.Name
   name: Name
   href: api/Shiang.Ability.html#Shiang_Ability_Name
@@ -577,12 +564,57 @@ references:
   commentId: T:Shiang.Artifact
   fullName: Shiang.Artifact
   nameWithType: Artifact
+- uid: Shiang.Axe
+  name: Axe
+  href: api/Shiang.Axe.html
+  commentId: T:Shiang.Axe
+  fullName: Shiang.Axe
+  nameWithType: Axe
+- uid: Shiang.Axe.Hit(Shiang.IHurtable)
+  name: Hit(IHurtable)
+  href: api/Shiang.Axe.html#Shiang_Axe_Hit_Shiang_IHurtable_
+  commentId: M:Shiang.Axe.Hit(Shiang.IHurtable)
+  fullName: Shiang.Axe.Hit(Shiang.IHurtable)
+  nameWithType: Axe.Hit(IHurtable)
+- uid: Shiang.Axe.Hit*
+  name: Hit
+  href: api/Shiang.Axe.html#Shiang_Axe_Hit_
+  commentId: Overload:Shiang.Axe.Hit
+  isSpec: "True"
+  fullName: Shiang.Axe.Hit
+  nameWithType: Axe.Hit
+- uid: Shiang.Axe.Image
+  name: Image
+  href: api/Shiang.Axe.html#Shiang_Axe_Image
+  commentId: P:Shiang.Axe.Image
+  fullName: Shiang.Axe.Image
+  nameWithType: Axe.Image
+- uid: Shiang.Axe.Image*
+  name: Image
+  href: api/Shiang.Axe.html#Shiang_Axe_Image_
+  commentId: Overload:Shiang.Axe.Image
+  isSpec: "True"
+  fullName: Shiang.Axe.Image
+  nameWithType: Axe.Image
 - uid: Shiang.Bahu
   name: Bahu
   href: api/Shiang.Bahu.html
   commentId: T:Shiang.Bahu
   fullName: Shiang.Bahu
   nameWithType: Bahu
+- uid: Shiang.Bahu.Abilities
+  name: Abilities
+  href: api/Shiang.Bahu.html#Shiang_Bahu_Abilities
+  commentId: P:Shiang.Bahu.Abilities
+  fullName: Shiang.Bahu.Abilities
+  nameWithType: Bahu.Abilities
+- uid: Shiang.Bahu.Abilities*
+  name: Abilities
+  href: api/Shiang.Bahu.html#Shiang_Bahu_Abilities_
+  commentId: Overload:Shiang.Bahu.Abilities
+  isSpec: "True"
+  fullName: Shiang.Bahu.Abilities
+  nameWithType: Bahu.Abilities
 - uid: Shiang.Bahu.Anim
   name: Anim
   href: api/Shiang.Bahu.html#Shiang_Bahu_Anim
@@ -596,6 +628,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Bahu.Anim
   nameWithType: Bahu.Anim
+- uid: Shiang.Bahu.FollowPlayer
+  name: FollowPlayer()
+  href: api/Shiang.Bahu.html#Shiang_Bahu_FollowPlayer
+  commentId: M:Shiang.Bahu.FollowPlayer
+  fullName: Shiang.Bahu.FollowPlayer()
+  nameWithType: Bahu.FollowPlayer()
+- uid: Shiang.Bahu.FollowPlayer*
+  name: FollowPlayer
+  href: api/Shiang.Bahu.html#Shiang_Bahu_FollowPlayer_
+  commentId: Overload:Shiang.Bahu.FollowPlayer
+  isSpec: "True"
+  fullName: Shiang.Bahu.FollowPlayer
+  nameWithType: Bahu.FollowPlayer
 - uid: Shiang.Bahu.Idle
   name: Idle()
   href: api/Shiang.Bahu.html#Shiang_Bahu_Idle
@@ -609,6 +654,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Bahu.Idle
   nameWithType: Bahu.Idle
+- uid: Shiang.Bahu.MeetFollowCriteria
+  name: MeetFollowCriteria()
+  href: api/Shiang.Bahu.html#Shiang_Bahu_MeetFollowCriteria
+  commentId: M:Shiang.Bahu.MeetFollowCriteria
+  fullName: Shiang.Bahu.MeetFollowCriteria()
+  nameWithType: Bahu.MeetFollowCriteria()
+- uid: Shiang.Bahu.MeetFollowCriteria*
+  name: MeetFollowCriteria
+  href: api/Shiang.Bahu.html#Shiang_Bahu_MeetFollowCriteria_
+  commentId: Overload:Shiang.Bahu.MeetFollowCriteria
+  isSpec: "True"
+  fullName: Shiang.Bahu.MeetFollowCriteria
+  nameWithType: Bahu.MeetFollowCriteria
 - uid: Shiang.Bahu.Move
   name: Move()
   href: api/Shiang.Bahu.html#Shiang_Bahu_Move
@@ -635,6 +693,32 @@ references:
   isSpec: "True"
   fullName: Shiang.Bahu.Orientation
   nameWithType: Bahu.Orientation
+- uid: Shiang.Bahu.PositionDiff
+  name: PositionDiff
+  href: api/Shiang.Bahu.html#Shiang_Bahu_PositionDiff
+  commentId: P:Shiang.Bahu.PositionDiff
+  fullName: Shiang.Bahu.PositionDiff
+  nameWithType: Bahu.PositionDiff
+- uid: Shiang.Bahu.PositionDiff*
+  name: PositionDiff
+  href: api/Shiang.Bahu.html#Shiang_Bahu_PositionDiff_
+  commentId: Overload:Shiang.Bahu.PositionDiff
+  isSpec: "True"
+  fullName: Shiang.Bahu.PositionDiff
+  nameWithType: Bahu.PositionDiff
+- uid: Shiang.Bahu.StartFollowDistance
+  name: StartFollowDistance
+  href: api/Shiang.Bahu.html#Shiang_Bahu_StartFollowDistance
+  commentId: P:Shiang.Bahu.StartFollowDistance
+  fullName: Shiang.Bahu.StartFollowDistance
+  nameWithType: Bahu.StartFollowDistance
+- uid: Shiang.Bahu.StartFollowDistance*
+  name: StartFollowDistance
+  href: api/Shiang.Bahu.html#Shiang_Bahu_StartFollowDistance_
+  commentId: Overload:Shiang.Bahu.StartFollowDistance
+  isSpec: "True"
+  fullName: Shiang.Bahu.StartFollowDistance
+  nameWithType: Bahu.StartFollowDistance
 - uid: Shiang.Bahu.StateMgr
   name: StateMgr
   href: api/Shiang.Bahu.html#Shiang_Bahu_StateMgr
@@ -648,6 +732,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Bahu.StateMgr
   nameWithType: Bahu.StateMgr
+- uid: Shiang.Bahu.StopFollowDistance
+  name: StopFollowDistance
+  href: api/Shiang.Bahu.html#Shiang_Bahu_StopFollowDistance
+  commentId: P:Shiang.Bahu.StopFollowDistance
+  fullName: Shiang.Bahu.StopFollowDistance
+  nameWithType: Bahu.StopFollowDistance
+- uid: Shiang.Bahu.StopFollowDistance*
+  name: StopFollowDistance
+  href: api/Shiang.Bahu.html#Shiang_Bahu_StopFollowDistance_
+  commentId: Overload:Shiang.Bahu.StopFollowDistance
+  isSpec: "True"
+  fullName: Shiang.Bahu.StopFollowDistance
+  nameWithType: Bahu.StopFollowDistance
 - uid: Shiang.Bahu.TakeDamage
   name: TakeDamage()
   href: api/Shiang.Bahu.html#Shiang_Bahu_TakeDamage
@@ -777,19 +874,6 @@ references:
   isSpec: "True"
   fullName: Shiang.Consumable.Hash
   nameWithType: Consumable.Hash
-- uid: Shiang.Consumable.Image
-  name: Image
-  href: api/Shiang.Consumable.html#Shiang_Consumable_Image
-  commentId: P:Shiang.Consumable.Image
-  fullName: Shiang.Consumable.Image
-  nameWithType: Consumable.Image
-- uid: Shiang.Consumable.Image*
-  name: Image
-  href: api/Shiang.Consumable.html#Shiang_Consumable_Image_
-  commentId: Overload:Shiang.Consumable.Image
-  isSpec: "True"
-  fullName: Shiang.Consumable.Image
-  nameWithType: Consumable.Image
 - uid: Shiang.Consumable.Name
   name: Name
   href: api/Shiang.Consumable.html#Shiang_Consumable_Name
@@ -1041,6 +1125,64 @@ references:
   isSpec: "True"
   fullName: Shiang.Cooldown.Reset
   nameWithType: Cooldown.Reset
+- uid: Shiang.CoolState
+  name: CoolState
+  href: api/Shiang.CoolState.html
+  commentId: T:Shiang.CoolState
+  fullName: Shiang.CoolState
+  nameWithType: CoolState
+- uid: Shiang.CoolState.#ctor(Shiang.IPlayer)
+  name: CoolState(IPlayer)
+  href: api/Shiang.CoolState.html#Shiang_CoolState__ctor_Shiang_IPlayer_
+  commentId: M:Shiang.CoolState.#ctor(Shiang.IPlayer)
+  fullName: Shiang.CoolState.CoolState(Shiang.IPlayer)
+  nameWithType: CoolState.CoolState(IPlayer)
+- uid: Shiang.CoolState.#ctor*
+  name: CoolState
+  href: api/Shiang.CoolState.html#Shiang_CoolState__ctor_
+  commentId: Overload:Shiang.CoolState.#ctor
+  isSpec: "True"
+  fullName: Shiang.CoolState.CoolState
+  nameWithType: CoolState.CoolState
+- uid: Shiang.CoolState.Enter
+  name: Enter()
+  href: api/Shiang.CoolState.html#Shiang_CoolState_Enter
+  commentId: M:Shiang.CoolState.Enter
+  fullName: Shiang.CoolState.Enter()
+  nameWithType: CoolState.Enter()
+- uid: Shiang.CoolState.Enter*
+  name: Enter
+  href: api/Shiang.CoolState.html#Shiang_CoolState_Enter_
+  commentId: Overload:Shiang.CoolState.Enter
+  isSpec: "True"
+  fullName: Shiang.CoolState.Enter
+  nameWithType: CoolState.Enter
+- uid: Shiang.CoolState.Exit
+  name: Exit()
+  href: api/Shiang.CoolState.html#Shiang_CoolState_Exit
+  commentId: M:Shiang.CoolState.Exit
+  fullName: Shiang.CoolState.Exit()
+  nameWithType: CoolState.Exit()
+- uid: Shiang.CoolState.Exit*
+  name: Exit
+  href: api/Shiang.CoolState.html#Shiang_CoolState_Exit_
+  commentId: Overload:Shiang.CoolState.Exit
+  isSpec: "True"
+  fullName: Shiang.CoolState.Exit
+  nameWithType: CoolState.Exit
+- uid: Shiang.CoolState.Tick
+  name: Tick()
+  href: api/Shiang.CoolState.html#Shiang_CoolState_Tick
+  commentId: M:Shiang.CoolState.Tick
+  fullName: Shiang.CoolState.Tick()
+  nameWithType: CoolState.Tick()
+- uid: Shiang.CoolState.Tick*
+  name: Tick
+  href: api/Shiang.CoolState.html#Shiang_CoolState_Tick_
+  commentId: Overload:Shiang.CoolState.Tick
+  isSpec: "True"
+  fullName: Shiang.CoolState.Tick
+  nameWithType: CoolState.Tick
 - uid: Shiang.Database`1
   name: Database<T1>
   href: api/Shiang.Database-1.html
@@ -1318,6 +1460,38 @@ references:
   isSpec: "True"
   fullName: Shiang.EventState.Tick
   nameWithType: EventState.Tick
+- uid: Shiang.Fist
+  name: Fist
+  href: api/Shiang.Fist.html
+  commentId: T:Shiang.Fist
+  fullName: Shiang.Fist
+  nameWithType: Fist
+- uid: Shiang.Fist.Hit(Shiang.IHurtable)
+  name: Hit(IHurtable)
+  href: api/Shiang.Fist.html#Shiang_Fist_Hit_Shiang_IHurtable_
+  commentId: M:Shiang.Fist.Hit(Shiang.IHurtable)
+  fullName: Shiang.Fist.Hit(Shiang.IHurtable)
+  nameWithType: Fist.Hit(IHurtable)
+- uid: Shiang.Fist.Hit*
+  name: Hit
+  href: api/Shiang.Fist.html#Shiang_Fist_Hit_
+  commentId: Overload:Shiang.Fist.Hit
+  isSpec: "True"
+  fullName: Shiang.Fist.Hit
+  nameWithType: Fist.Hit
+- uid: Shiang.Fist.Image
+  name: Image
+  href: api/Shiang.Fist.html#Shiang_Fist_Image
+  commentId: P:Shiang.Fist.Image
+  fullName: Shiang.Fist.Image
+  nameWithType: Fist.Image
+- uid: Shiang.Fist.Image*
+  name: Image
+  href: api/Shiang.Fist.html#Shiang_Fist_Image_
+  commentId: Overload:Shiang.Fist.Image
+  isSpec: "True"
+  fullName: Shiang.Fist.Image
+  nameWithType: Fist.Image
 - uid: Shiang.FootstepSound
   name: FootstepSound
   href: api/Shiang.FootstepSound.html
@@ -1368,6 +1542,19 @@ references:
   isSpec: "True"
   fullName: Shiang.GoldenScepter.Affect
   nameWithType: GoldenScepter.Affect
+- uid: Shiang.GoldenScepter.Image
+  name: Image
+  href: api/Shiang.GoldenScepter.html#Shiang_GoldenScepter_Image
+  commentId: P:Shiang.GoldenScepter.Image
+  fullName: Shiang.GoldenScepter.Image
+  nameWithType: GoldenScepter.Image
+- uid: Shiang.GoldenScepter.Image*
+  name: Image
+  href: api/Shiang.GoldenScepter.html#Shiang_GoldenScepter_Image_
+  commentId: Overload:Shiang.GoldenScepter.Image
+  isSpec: "True"
+  fullName: Shiang.GoldenScepter.Image
+  nameWithType: GoldenScepter.Image
 - uid: Shiang.Ground
   name: Ground
   href: api/Shiang.Ground.html
@@ -1684,6 +1871,19 @@ references:
   commentId: T:Shiang.IFriend
   fullName: Shiang.IFriend
   nameWithType: IFriend
+- uid: Shiang.IFriend.Who
+  name: Who
+  href: api/Shiang.IFriend.html#Shiang_IFriend_Who
+  commentId: P:Shiang.IFriend.Who
+  fullName: Shiang.IFriend.Who
+  nameWithType: IFriend.Who
+- uid: Shiang.IFriend.Who*
+  name: Who
+  href: api/Shiang.IFriend.html#Shiang_IFriend_Who_
+  commentId: Overload:Shiang.IFriend.Who
+  isSpec: "True"
+  fullName: Shiang.IFriend.Who
+  nameWithType: IFriend.Who
 - uid: Shiang.IGameEntity
   name: IGameEntity
   href: api/Shiang.IGameEntity.html
@@ -1798,6 +1998,12 @@ references:
   commentId: F:Shiang.Info.ABILITY_DB
   fullName: Shiang.Info.ABILITY_DB
   nameWithType: Info.ABILITY_DB
+- uid: Shiang.Info.ANIM_CLIPS
+  name: ANIM_CLIPS
+  href: api/Shiang.Info.html#Shiang_Info_ANIM_CLIPS
+  commentId: F:Shiang.Info.ANIM_CLIPS
+  fullName: Shiang.Info.ANIM_CLIPS
+  nameWithType: Info.ANIM_CLIPS
 - uid: Shiang.Info.ANIM_NAMES
   name: ANIM_NAMES
   href: api/Shiang.Info.html#Shiang_Info_ANIM_NAMES
@@ -1842,12 +2048,6 @@ references:
   isSpec: "True"
   fullName: Shiang.Info.LoadResources
   nameWithType: Info.LoadResources
-- uid: Shiang.Info.PLAYER_ANIM_CLIPS
-  name: PLAYER_ANIM_CLIPS
-  href: api/Shiang.Info.html#Shiang_Info_PLAYER_ANIM_CLIPS
-  commentId: F:Shiang.Info.PLAYER_ANIM_CLIPS
-  fullName: Shiang.Info.PLAYER_ANIM_CLIPS
-  nameWithType: Info.PLAYER_ANIM_CLIPS
 - uid: Shiang.Info.RESOURCE_DATA
   name: RESOURCE_DATA
   href: api/Shiang.Info.html#Shiang_Info_RESOURCE_DATA
@@ -2128,12 +2328,51 @@ references:
   commentId: T:Shiang.IPlayer
   fullName: Shiang.IPlayer
   nameWithType: IPlayer
+- uid: Shiang.IPlayer.Cool
+  name: Cool()
+  href: api/Shiang.IPlayer.html#Shiang_IPlayer_Cool
+  commentId: M:Shiang.IPlayer.Cool
+  fullName: Shiang.IPlayer.Cool()
+  nameWithType: IPlayer.Cool()
+- uid: Shiang.IPlayer.Cool*
+  name: Cool
+  href: api/Shiang.IPlayer.html#Shiang_IPlayer_Cool_
+  commentId: Overload:Shiang.IPlayer.Cool
+  isSpec: "True"
+  fullName: Shiang.IPlayer.Cool
+  nameWithType: IPlayer.Cool
+- uid: Shiang.IPlayer.Coordinate
+  name: Coordinate
+  href: api/Shiang.IPlayer.html#Shiang_IPlayer_Coordinate
+  commentId: P:Shiang.IPlayer.Coordinate
+  fullName: Shiang.IPlayer.Coordinate
+  nameWithType: IPlayer.Coordinate
+- uid: Shiang.IPlayer.Coordinate*
+  name: Coordinate
+  href: api/Shiang.IPlayer.html#Shiang_IPlayer_Coordinate_
+  commentId: Overload:Shiang.IPlayer.Coordinate
+  isSpec: "True"
+  fullName: Shiang.IPlayer.Coordinate
+  nameWithType: IPlayer.Coordinate
 - uid: Shiang.ISkillFul
   name: ISkillFul
   href: api/Shiang.ISkillFul.html
   commentId: T:Shiang.ISkillFul
   fullName: Shiang.ISkillFul
   nameWithType: ISkillFul
+- uid: Shiang.ISkillFul.Abilities
+  name: Abilities
+  href: api/Shiang.ISkillFul.html#Shiang_ISkillFul_Abilities
+  commentId: P:Shiang.ISkillFul.Abilities
+  fullName: Shiang.ISkillFul.Abilities
+  nameWithType: ISkillFul.Abilities
+- uid: Shiang.ISkillFul.Abilities*
+  name: Abilities
+  href: api/Shiang.ISkillFul.html#Shiang_ISkillFul_Abilities_
+  commentId: Overload:Shiang.ISkillFul.Abilities
+  isSpec: "True"
+  fullName: Shiang.ISkillFul.Abilities
+  nameWithType: ISkillFul.Abilities
 - uid: Shiang.ISkillFul.UseAbility
   name: UseAbility()
   href: api/Shiang.ISkillFul.html#Shiang_ISkillFul_UseAbility
@@ -2454,6 +2693,19 @@ references:
   commentId: T:Shiang.ITreasure
   fullName: Shiang.ITreasure
   nameWithType: ITreasure
+- uid: Shiang.ITreasure.Items
+  name: Items
+  href: api/Shiang.ITreasure.html#Shiang_ITreasure_Items
+  commentId: P:Shiang.ITreasure.Items
+  fullName: Shiang.ITreasure.Items
+  nameWithType: ITreasure.Items
+- uid: Shiang.ITreasure.Items*
+  name: Items
+  href: api/Shiang.ITreasure.html#Shiang_ITreasure_Items_
+  commentId: Overload:Shiang.ITreasure.Items
+  isSpec: "True"
+  fullName: Shiang.ITreasure.Items
+  nameWithType: ITreasure.Items
 - uid: Shiang.IUiTrigger
   name: IUiTrigger
   href: api/Shiang.IUiTrigger.html
@@ -2658,6 +2910,19 @@ references:
   commentId: T:Shiang.Rabbit
   fullName: Shiang.Rabbit
   nameWithType: Rabbit
+- uid: Shiang.Rabbit.Abilities
+  name: Abilities
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_Abilities
+  commentId: P:Shiang.Rabbit.Abilities
+  fullName: Shiang.Rabbit.Abilities
+  nameWithType: Rabbit.Abilities
+- uid: Shiang.Rabbit.Abilities*
+  name: Abilities
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_Abilities_
+  commentId: Overload:Shiang.Rabbit.Abilities
+  isSpec: "True"
+  fullName: Shiang.Rabbit.Abilities
+  nameWithType: Rabbit.Abilities
 - uid: Shiang.Rabbit.Anim
   name: Anim
   href: api/Shiang.Rabbit.html#Shiang_Rabbit_Anim
@@ -2671,6 +2936,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Rabbit.Anim
   nameWithType: Rabbit.Anim
+- uid: Shiang.Rabbit.FollowPlayer
+  name: FollowPlayer()
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_FollowPlayer
+  commentId: M:Shiang.Rabbit.FollowPlayer
+  fullName: Shiang.Rabbit.FollowPlayer()
+  nameWithType: Rabbit.FollowPlayer()
+- uid: Shiang.Rabbit.FollowPlayer*
+  name: FollowPlayer
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_FollowPlayer_
+  commentId: Overload:Shiang.Rabbit.FollowPlayer
+  isSpec: "True"
+  fullName: Shiang.Rabbit.FollowPlayer
+  nameWithType: Rabbit.FollowPlayer
 - uid: Shiang.Rabbit.Idle
   name: Idle()
   href: api/Shiang.Rabbit.html#Shiang_Rabbit_Idle
@@ -2684,6 +2962,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Rabbit.Idle
   nameWithType: Rabbit.Idle
+- uid: Shiang.Rabbit.MeetFollowCriteria
+  name: MeetFollowCriteria()
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_MeetFollowCriteria
+  commentId: M:Shiang.Rabbit.MeetFollowCriteria
+  fullName: Shiang.Rabbit.MeetFollowCriteria()
+  nameWithType: Rabbit.MeetFollowCriteria()
+- uid: Shiang.Rabbit.MeetFollowCriteria*
+  name: MeetFollowCriteria
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_MeetFollowCriteria_
+  commentId: Overload:Shiang.Rabbit.MeetFollowCriteria
+  isSpec: "True"
+  fullName: Shiang.Rabbit.MeetFollowCriteria
+  nameWithType: Rabbit.MeetFollowCriteria
 - uid: Shiang.Rabbit.Move
   name: Move()
   href: api/Shiang.Rabbit.html#Shiang_Rabbit_Move
@@ -2710,6 +3001,32 @@ references:
   isSpec: "True"
   fullName: Shiang.Rabbit.Orientation
   nameWithType: Rabbit.Orientation
+- uid: Shiang.Rabbit.PositionDiff
+  name: PositionDiff
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_PositionDiff
+  commentId: P:Shiang.Rabbit.PositionDiff
+  fullName: Shiang.Rabbit.PositionDiff
+  nameWithType: Rabbit.PositionDiff
+- uid: Shiang.Rabbit.PositionDiff*
+  name: PositionDiff
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_PositionDiff_
+  commentId: Overload:Shiang.Rabbit.PositionDiff
+  isSpec: "True"
+  fullName: Shiang.Rabbit.PositionDiff
+  nameWithType: Rabbit.PositionDiff
+- uid: Shiang.Rabbit.StartFollowDistance
+  name: StartFollowDistance
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_StartFollowDistance
+  commentId: P:Shiang.Rabbit.StartFollowDistance
+  fullName: Shiang.Rabbit.StartFollowDistance
+  nameWithType: Rabbit.StartFollowDistance
+- uid: Shiang.Rabbit.StartFollowDistance*
+  name: StartFollowDistance
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_StartFollowDistance_
+  commentId: Overload:Shiang.Rabbit.StartFollowDistance
+  isSpec: "True"
+  fullName: Shiang.Rabbit.StartFollowDistance
+  nameWithType: Rabbit.StartFollowDistance
 - uid: Shiang.Rabbit.StateMgr
   name: StateMgr
   href: api/Shiang.Rabbit.html#Shiang_Rabbit_StateMgr
@@ -2723,19 +3040,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Rabbit.StateMgr
   nameWithType: Rabbit.StateMgr
-- uid: Shiang.Rabbit.TakeDamage
-  name: TakeDamage()
-  href: api/Shiang.Rabbit.html#Shiang_Rabbit_TakeDamage
-  commentId: M:Shiang.Rabbit.TakeDamage
-  fullName: Shiang.Rabbit.TakeDamage()
-  nameWithType: Rabbit.TakeDamage()
-- uid: Shiang.Rabbit.TakeDamage*
-  name: TakeDamage
-  href: api/Shiang.Rabbit.html#Shiang_Rabbit_TakeDamage_
-  commentId: Overload:Shiang.Rabbit.TakeDamage
+- uid: Shiang.Rabbit.StopFollowDistance
+  name: StopFollowDistance
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_StopFollowDistance
+  commentId: P:Shiang.Rabbit.StopFollowDistance
+  fullName: Shiang.Rabbit.StopFollowDistance
+  nameWithType: Rabbit.StopFollowDistance
+- uid: Shiang.Rabbit.StopFollowDistance*
+  name: StopFollowDistance
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_StopFollowDistance_
+  commentId: Overload:Shiang.Rabbit.StopFollowDistance
   isSpec: "True"
-  fullName: Shiang.Rabbit.TakeDamage
-  nameWithType: Rabbit.TakeDamage
+  fullName: Shiang.Rabbit.StopFollowDistance
+  nameWithType: Rabbit.StopFollowDistance
 - uid: Shiang.Rabbit.UseAbility
   name: UseAbility()
   href: api/Shiang.Rabbit.html#Shiang_Rabbit_UseAbility
@@ -2749,31 +3066,38 @@ references:
   isSpec: "True"
   fullName: Shiang.Rabbit.UseAbility
   nameWithType: Rabbit.UseAbility
-- uid: Shiang.Rabbit.UseWeapon
-  name: UseWeapon()
-  href: api/Shiang.Rabbit.html#Shiang_Rabbit_UseWeapon
-  commentId: M:Shiang.Rabbit.UseWeapon
-  fullName: Shiang.Rabbit.UseWeapon()
-  nameWithType: Rabbit.UseWeapon()
-- uid: Shiang.Rabbit.UseWeapon*
-  name: UseWeapon
-  href: api/Shiang.Rabbit.html#Shiang_Rabbit_UseWeapon_
-  commentId: Overload:Shiang.Rabbit.UseWeapon
+- uid: Shiang.Rabbit.Who
+  name: Who
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_Who
+  commentId: P:Shiang.Rabbit.Who
+  fullName: Shiang.Rabbit.Who
+  nameWithType: Rabbit.Who
+- uid: Shiang.Rabbit.Who*
+  name: Who
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_Who_
+  commentId: Overload:Shiang.Rabbit.Who
   isSpec: "True"
-  fullName: Shiang.Rabbit.UseWeapon
-  nameWithType: Rabbit.UseWeapon
+  fullName: Shiang.Rabbit.Who
+  nameWithType: Rabbit.Who
 - uid: Shiang.RanRan
   name: RanRan
   href: api/Shiang.RanRan.html
   commentId: T:Shiang.RanRan
   fullName: Shiang.RanRan
   nameWithType: RanRan
-- uid: Shiang.RanRan.ability
-  name: ability
-  href: api/Shiang.RanRan.html#Shiang_RanRan_ability
-  commentId: F:Shiang.RanRan.ability
-  fullName: Shiang.RanRan.ability
-  nameWithType: RanRan.ability
+- uid: Shiang.RanRan.Abilities
+  name: Abilities
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Abilities
+  commentId: P:Shiang.RanRan.Abilities
+  fullName: Shiang.RanRan.Abilities
+  nameWithType: RanRan.Abilities
+- uid: Shiang.RanRan.Abilities*
+  name: Abilities
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Abilities_
+  commentId: Overload:Shiang.RanRan.Abilities
+  isSpec: "True"
+  fullName: Shiang.RanRan.Abilities
+  nameWithType: RanRan.Abilities
 - uid: Shiang.RanRan.Anim
   name: Anim
   href: api/Shiang.RanRan.html#Shiang_RanRan_Anim
@@ -2787,6 +3111,58 @@ references:
   isSpec: "True"
   fullName: Shiang.RanRan.Anim
   nameWithType: RanRan.Anim
+- uid: Shiang.RanRan.Cool
+  name: Cool()
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Cool
+  commentId: M:Shiang.RanRan.Cool
+  fullName: Shiang.RanRan.Cool()
+  nameWithType: RanRan.Cool()
+- uid: Shiang.RanRan.Cool*
+  name: Cool
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Cool_
+  commentId: Overload:Shiang.RanRan.Cool
+  isSpec: "True"
+  fullName: Shiang.RanRan.Cool
+  nameWithType: RanRan.Cool
+- uid: Shiang.RanRan.Coordinate
+  name: Coordinate
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Coordinate
+  commentId: P:Shiang.RanRan.Coordinate
+  fullName: Shiang.RanRan.Coordinate
+  nameWithType: RanRan.Coordinate
+- uid: Shiang.RanRan.Coordinate*
+  name: Coordinate
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Coordinate_
+  commentId: Overload:Shiang.RanRan.Coordinate
+  isSpec: "True"
+  fullName: Shiang.RanRan.Coordinate
+  nameWithType: RanRan.Coordinate
+- uid: Shiang.RanRan.CurrentAbility
+  name: CurrentAbility
+  href: api/Shiang.RanRan.html#Shiang_RanRan_CurrentAbility
+  commentId: P:Shiang.RanRan.CurrentAbility
+  fullName: Shiang.RanRan.CurrentAbility
+  nameWithType: RanRan.CurrentAbility
+- uid: Shiang.RanRan.CurrentAbility*
+  name: CurrentAbility
+  href: api/Shiang.RanRan.html#Shiang_RanRan_CurrentAbility_
+  commentId: Overload:Shiang.RanRan.CurrentAbility
+  isSpec: "True"
+  fullName: Shiang.RanRan.CurrentAbility
+  nameWithType: RanRan.CurrentAbility
+- uid: Shiang.RanRan.CurrentWeapon
+  name: CurrentWeapon
+  href: api/Shiang.RanRan.html#Shiang_RanRan_CurrentWeapon
+  commentId: P:Shiang.RanRan.CurrentWeapon
+  fullName: Shiang.RanRan.CurrentWeapon
+  nameWithType: RanRan.CurrentWeapon
+- uid: Shiang.RanRan.CurrentWeapon*
+  name: CurrentWeapon
+  href: api/Shiang.RanRan.html#Shiang_RanRan_CurrentWeapon_
+  commentId: Overload:Shiang.RanRan.CurrentWeapon
+  isSpec: "True"
+  fullName: Shiang.RanRan.CurrentWeapon
+  nameWithType: RanRan.CurrentWeapon
 - uid: Shiang.RanRan.Idle
   name: Idle()
   href: api/Shiang.RanRan.html#Shiang_RanRan_Idle
@@ -2800,6 +3176,19 @@ references:
   isSpec: "True"
   fullName: Shiang.RanRan.Idle
   nameWithType: RanRan.Idle
+- uid: Shiang.RanRan.Items
+  name: Items
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Items
+  commentId: P:Shiang.RanRan.Items
+  fullName: Shiang.RanRan.Items
+  nameWithType: RanRan.Items
+- uid: Shiang.RanRan.Items*
+  name: Items
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Items_
+  commentId: Overload:Shiang.RanRan.Items
+  isSpec: "True"
+  fullName: Shiang.RanRan.Items
+  nameWithType: RanRan.Items
 - uid: Shiang.RanRan.Move
   name: Move()
   href: api/Shiang.RanRan.html#Shiang_RanRan_Move
@@ -2878,12 +3267,6 @@ references:
   isSpec: "True"
   fullName: Shiang.RanRan.UseWeapon
   nameWithType: RanRan.UseWeapon
-- uid: Shiang.RanRan.weapon
-  name: weapon
-  href: api/Shiang.RanRan.html#Shiang_RanRan_weapon
-  commentId: F:Shiang.RanRan.weapon
-  fullName: Shiang.RanRan.weapon
-  nameWithType: RanRan.weapon
 - uid: Shiang.ResourcePathData
   name: ResourcePathData
   href: api/Shiang.ResourcePathData.html
@@ -3103,6 +3486,19 @@ references:
   commentId: T:Shiang.SixDemon
   fullName: Shiang.SixDemon
   nameWithType: SixDemon
+- uid: Shiang.SixDemon.Image
+  name: Image
+  href: api/Shiang.SixDemon.html#Shiang_SixDemon_Image
+  commentId: P:Shiang.SixDemon.Image
+  fullName: Shiang.SixDemon.Image
+  nameWithType: SixDemon.Image
+- uid: Shiang.SixDemon.Image*
+  name: Image
+  href: api/Shiang.SixDemon.html#Shiang_SixDemon_Image_
+  commentId: Overload:Shiang.SixDemon.Image
+  isSpec: "True"
+  fullName: Shiang.SixDemon.Image
+  nameWithType: SixDemon.Image
 - uid: Shiang.StateMachine
   name: StateMachine
   href: api/Shiang.StateMachine.html
@@ -3712,19 +4108,6 @@ references:
   isSpec: "True"
   fullName: Shiang.Weapon.Hit
   nameWithType: Weapon.Hit
-- uid: Shiang.Weapon.Image
-  name: Image
-  href: api/Shiang.Weapon.html#Shiang_Weapon_Image
-  commentId: P:Shiang.Weapon.Image
-  fullName: Shiang.Weapon.Image
-  nameWithType: Weapon.Image
-- uid: Shiang.Weapon.Image*
-  name: Image
-  href: api/Shiang.Weapon.html#Shiang_Weapon_Image_
-  commentId: Overload:Shiang.Weapon.Image
-  isSpec: "True"
-  fullName: Shiang.Weapon.Image
-  nameWithType: Weapon.Image
 - uid: Shiang.Weapon.Name
   name: Name
   href: api/Shiang.Weapon.html#Shiang_Weapon_Name
@@ -3938,6 +4321,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Whip.Hit
   nameWithType: Whip.Hit
+- uid: Shiang.Whip.Image
+  name: Image
+  href: api/Shiang.Whip.html#Shiang_Whip_Image
+  commentId: P:Shiang.Whip.Image
+  fullName: Shiang.Whip.Image
+  nameWithType: Whip.Image
+- uid: Shiang.Whip.Image*
+  name: Image
+  href: api/Shiang.Whip.html#Shiang_Whip_Image_
+  commentId: Overload:Shiang.Whip.Image
+  isSpec: "True"
+  fullName: Shiang.Whip.Image
+  nameWithType: Whip.Image
 - uid: ShiangTest
   name: ShiangTest
   href: api/ShiangTest.html

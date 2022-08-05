@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Rabbit
    | Shiang v0.1.0 ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -90,13 +90,11 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">Rabbit</span></div>
   </div>
-  <div classs="implements">
+  <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Shiang.IFriend.html">IFriend</a></div>
     <div><a class="xref" href="Shiang.ICreature.html">ICreature</a></div>
-    <div><a class="xref" href="Shiang.IAttackable.html">IAttackable</a></div>
     <div><a class="xref" href="Shiang.ISkillFul.html">ISkillFul</a></div>
-    <div><a class="xref" href="Shiang.IHurtable.html">IHurtable</a></div>
     <div><a class="xref" href="Shiang.IStateHolder.html">IStateHolder</a></div>
     <div><a class="xref" href="Shiang.IAnimatorHolder.html">IAnimatorHolder</a></div>
     <div><a class="xref" href="Shiang.IDynamic.html">IDynamic</a></div>
@@ -106,10 +104,35 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Shiang_Rabbit_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Rabbit : MonoBehaviour, IFriend, ICreature, IAttackable, ISkillFul, IHurtable, IStateHolder, IAnimatorHolder, IDynamic, IGameEntity</code></pre>
+    <pre><code class="lang-csharp hljs">public class Rabbit : MonoBehaviour, IFriend, ICreature, ISkillFul, IStateHolder, IAnimatorHolder, IDynamic, IGameEntity</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="Shiang_Rabbit_Abilities_" data-uid="Shiang.Rabbit.Abilities*"></a>
+  <h4 id="Shiang_Rabbit_Abilities" data-uid="Shiang.Rabbit.Abilities">Abilities</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbilityContainer Abilities { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Shiang.AbilityContainer.html">AbilityContainer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Shiang_Rabbit_Anim_" data-uid="Shiang.Rabbit.Anim*"></a>
@@ -162,6 +185,56 @@
   </table>
   
   
+  <a id="Shiang_Rabbit_PositionDiff_" data-uid="Shiang.Rabbit.PositionDiff*"></a>
+  <h4 id="Shiang_Rabbit_PositionDiff" data-uid="Shiang.Rabbit.PositionDiff">PositionDiff</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PositionDiff { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_Rabbit_StartFollowDistance_" data-uid="Shiang.Rabbit.StartFollowDistance*"></a>
+  <h4 id="Shiang_Rabbit_StartFollowDistance" data-uid="Shiang.Rabbit.StartFollowDistance">StartFollowDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StartFollowDistance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Shiang_Rabbit_StateMgr_" data-uid="Shiang.Rabbit.StateMgr*"></a>
   <h4 id="Shiang_Rabbit_StateMgr" data-uid="Shiang.Rabbit.StateMgr">StateMgr</h4>
   <div class="markdown level1 summary"></div>
@@ -185,8 +258,68 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Shiang_Rabbit_StopFollowDistance_" data-uid="Shiang.Rabbit.StopFollowDistance*"></a>
+  <h4 id="Shiang_Rabbit_StopFollowDistance" data-uid="Shiang.Rabbit.StopFollowDistance">StopFollowDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StopFollowDistance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_Rabbit_Who_" data-uid="Shiang.Rabbit.Who*"></a>
+  <h4 id="Shiang_Rabbit_Who" data-uid="Shiang.Rabbit.Who">Who</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPlayer Who { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Shiang.IPlayer.html">IPlayer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Shiang_Rabbit_FollowPlayer_" data-uid="Shiang.Rabbit.FollowPlayer*"></a>
+  <h4 id="Shiang_Rabbit_FollowPlayer" data-uid="Shiang.Rabbit.FollowPlayer">FollowPlayer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FollowPlayer()</code></pre>
+  </div>
   
   
   <a id="Shiang_Rabbit_Idle_" data-uid="Shiang.Rabbit.Idle*"></a>
@@ -199,6 +332,31 @@
   </div>
   
   
+  <a id="Shiang_Rabbit_MeetFollowCriteria_" data-uid="Shiang.Rabbit.MeetFollowCriteria*"></a>
+  <h4 id="Shiang_Rabbit_MeetFollowCriteria" data-uid="Shiang.Rabbit.MeetFollowCriteria">MeetFollowCriteria()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MeetFollowCriteria()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Shiang_Rabbit_Move_" data-uid="Shiang.Rabbit.Move*"></a>
   <h4 id="Shiang_Rabbit_Move" data-uid="Shiang.Rabbit.Move">Move()</h4>
   <div class="markdown level1 summary"></div>
@@ -206,16 +364,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Move()</code></pre>
-  </div>
-  
-  
-  <a id="Shiang_Rabbit_TakeDamage_" data-uid="Shiang.Rabbit.TakeDamage*"></a>
-  <h4 id="Shiang_Rabbit_TakeDamage" data-uid="Shiang.Rabbit.TakeDamage">TakeDamage()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void TakeDamage()</code></pre>
   </div>
   
   
@@ -227,16 +375,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void UseAbility()</code></pre>
   </div>
-  
-  
-  <a id="Shiang_Rabbit_UseWeapon_" data-uid="Shiang.Rabbit.UseWeapon*"></a>
-  <h4 id="Shiang_Rabbit_UseWeapon" data-uid="Shiang.Rabbit.UseWeapon">UseWeapon()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UseWeapon()</code></pre>
-  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Shiang.IFriend.html">IFriend</a>
@@ -245,13 +383,7 @@
       <a class="xref" href="Shiang.ICreature.html">ICreature</a>
   </div>
   <div>
-      <a class="xref" href="Shiang.IAttackable.html">IAttackable</a>
-  </div>
-  <div>
       <a class="xref" href="Shiang.ISkillFul.html">ISkillFul</a>
-  </div>
-  <div>
-      <a class="xref" href="Shiang.IHurtable.html">IHurtable</a>
   </div>
   <div>
       <a class="xref" href="Shiang.IStateHolder.html">IStateHolder</a>

@@ -10,8 +10,8 @@ namespace Shiang
     /// 
     public class GroundCheck : MonoBehaviour
     {
-        [SerializeField] Transform endPoint;
-        [SerializeField] LayerMask layerMask;
+        [SerializeField] Transform _endPoint;
+        [SerializeField] LayerMask _layerMask;
         public bool IsGrounded { get; private set; }
         public GroundType CurrentGroundType { get; private set; }
 
@@ -20,16 +20,16 @@ namespace Shiang
         {
             RaycastHit2D hit = Physics2D.Linecast(
                 transform.position, 
-                endPoint.position, 
-                layerMask);
+                _endPoint.position, 
+                _layerMask);
 
             IsGrounded = hit;
-            
-            //Debug.DrawRay(
-            //    transform.position, 
-            //    Vector2.up * endPoint.localPosition.y, 
-            //    Color.green);
-            
+
+            Debug.DrawRay(
+                transform.position,
+                Vector2.up * _endPoint.localPosition.y,
+                Color.green);
+
             if (IsGrounded)
             {
                 Ground ground = hit.transform.gameObject.GetComponent<Ground>();

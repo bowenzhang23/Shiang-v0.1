@@ -2,23 +2,37 @@ using UnityEngine;
 
 namespace Shiang
 {
-    public class RanRan : MonoBehaviour, IPlayer, ICreature, IDynamic, IControllable
+    public class RanRan : MonoBehaviour, IPlayer, ICreature, IDynamic, IControllable, ITreasure
     {
+        // TODO
+        private const float _speed = 2.4f;
+
         [SerializeField] GameObject _flipObjects;
         InputController _inputController;
         StateManager _stateMgr;
         Animator _anim;
         Orientation _orientation;
+        ItemContainer _inventory;
+        AbilityContainer _abilityContainer;
 
-        // TODO
-        public Weapon weapon;
-        public Ability ability;
+        private Weapon _currentWeapon;
+        private Ability _currentAbility;
 
         public StateManager StateMgr => _stateMgr;
         
         public Animator Anim => _anim;
 
         public Orientation Orientation => _orientation;
+
+        public ItemContainer Items => _inventory;
+
+        public AbilityContainer Abilities => _abilityContainer;
+
+        public Weapon CurrentWeapon => _currentWeapon;
+
+        public Ability CurrentAbility => _currentAbility;
+
+        public Vector3 Coordinate => transform.position;
 
         public void Idle()
         {
@@ -29,7 +43,12 @@ namespace Shiang
         {
             Anim.Play(Info.ANIM_NAMES[typeof(MoveState)][(int)_orientation]);
             _orientation = _inputController.ChangeX > 0 ? Orientation.Right : Orientation.Left;
-            transform.position += Vector3.right * _inputController.ChangeX * 2.4f * Time.deltaTime;
+            transform.position += Vector3.right * _inputController.ChangeX * _speed * Time.deltaTime;
+        }
+
+        public void Cool()
+        {
+            Anim.Play(Info.ANIM_NAMES[typeof(CoolState)][(int)_orientation]);
         }
 
         public void TakeDamage()
@@ -39,14 +58,18 @@ namespace Shiang
 
         public void UseWeapon()
         {
-            Anim.Play(weapon.ClipNames[(int)_orientation]);
-            StartCoroutine(weapon.Cd.CountdownCo());
+            if (_currentWeapon == null) 
+                return;
+            Anim.Play(_currentWeapon.ClipNames[(int)_orientation]);
+            StartCoroutine(_currentWeapon.Cd.CountdownCo());
         }
 
         public void UseAbility()
         {
-            Anim.Play(ability.ClipNames[(int)_orientation]);
-            StartCoroutine(ability.Cd.CountdownCo());
+            if (_currentAbility == null)
+                return;
+            Anim.Play(_currentAbility.ClipNames[(int)_orientation]);
+            StartCoroutine(_currentAbility.Cd.CountdownCo());
         }
 
         private void Awake()
@@ -55,17 +78,24 @@ namespace Shiang
             _anim = GetComponent<Animator>();
             _inputController = FindObjectOfType<InputController>();
             _stateMgr = Utils.CreateStateManagerIC<PlayerStateManager, RanRan>(this, _inputController);
+            _inventory = new ItemContainer(GameMechanism.INVENTORY_CAPACITY);
+            _abilityContainer = new AbilityContainer(GameMechanism.ABILITY_CAPACITY);
 
-            Axe w = Utils.ItemClonedFromPoolOfType<Axe>();
+            // TODO
+            if (_inventory.Weapons().Count == 0)
+            {
+                var fist = Utils.ItemClonedFromPoolOfType<Whip>();
+                _inventory.Receive(ref fist);
+                _currentWeapon = (Weapon)_inventory.Weapons()[0];
+            }
 
-            var itemContainer = Utils.CreateItemContainer(3);
-            itemContainer.Receive(ref w);
-            weapon = (Weapon)itemContainer.Weapons()[0];
-
-            ability = Utils.AbilityRefFromPoolOfType<GoldenScepter>();
-            var abilityContainer = Utils.CreateAbilityContainer(3);
-            abilityContainer.Receive((GoldenScepter)ability);
-
+            // TODO
+            if (_abilityContainer.IsEmpty())
+            {
+                var ability = Utils.AbilityRefFromPoolOfType<GoldenScepter>();
+                _abilityContainer.Receive(ability);
+                _currentAbility = _abilityContainer.Abilities()[0];
+            }
         }
 
         void Update() => _stateMgr.Tick();

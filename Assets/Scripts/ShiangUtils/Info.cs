@@ -21,6 +21,8 @@ namespace Shiang
         static readonly int IR = StoH("Idle_Right");
         static readonly int WL = StoH("Walk_Left");
         static readonly int WR = StoH("Walk_Right");
+        static readonly int CL = StoH("Cool_Left");
+        static readonly int CR = StoH("Cool_Right");
         static readonly int UWL = StoH("Attack_Left");
         static readonly int UWR = StoH("Attack_Right");
         static readonly int UAL = StoH("Magic_Left");
@@ -31,11 +33,12 @@ namespace Shiang
         {
             { typeof(IdleState),       new int[2] { IL,  IR  } },
             { typeof(MoveState),       new int[2] { WL,  WR  } },
+            { typeof(CoolState),       new int[2] { CL,  CR  } },
             { typeof(UseWeaponState),  new int[2] { UWL, UWR } },
             { typeof(UseAbilityState), new int[2] { UAL, UAR } },
         };
 
-        public static AnimationClip[] PLAYER_ANIM_CLIPS;
+        public static Dictionary<Type, AnimationClip[]> ANIM_CLIPS = new Dictionary<Type, AnimationClip[]>();
         public static Sprite[] SPRITES_ICON1;
         public static Sprite[] SPRITES_ICON2;
 
@@ -67,7 +70,10 @@ namespace Shiang
 
         public static void LoadResources()
         {
-            PLAYER_ANIM_CLIPS = Resources.LoadAll<AnimationClip>(RESOURCE_DATA["PlayerAnimClips"]);
+            ANIM_CLIPS[typeof(RanRan)] = Resources.LoadAll<AnimationClip>(RESOURCE_DATA["PlayerAnimClips"]);
+            ANIM_CLIPS[typeof(Rabbit)] = Resources.LoadAll<AnimationClip>(RESOURCE_DATA["RabbitAnimClips"]);
+            ANIM_CLIPS[typeof(Ability)] = Resources.LoadAll<AnimationClip>(RESOURCE_DATA["AbilityAnimClips"]);
+            ANIM_CLIPS[typeof(Weapon)] = Resources.LoadAll<AnimationClip>(RESOURCE_DATA["WeaponAnimClips"]);
             SPRITES_ICON1 = Resources.LoadAll<Sprite>(RESOURCE_DATA["SpritesIcon-1"]);
             SPRITES_ICON2 = Resources.LoadAll<Sprite>(RESOURCE_DATA["SpritesIcon-2"]);
         }

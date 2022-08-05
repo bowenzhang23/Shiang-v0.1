@@ -8,9 +8,6 @@ namespace Shiang {
     ///  Play sound effect according to the ground that the player is 
     ///  standing on. The type of ground is checked by the 
     ///  <c>GroundCheck</c> script.
-    /// <note type="note">
-    ///  This sound effect must work with a <c>AudioSource</c>.
-    /// </note>
     /// 
     /// </summary>
     /// 
@@ -19,33 +16,33 @@ namespace Shiang {
     [RequireComponent(typeof(AudioSource))]
     public class FootstepSound : MonoBehaviour
     {
-        private Dictionary<GroundType, AudioClip[]> footstepClips = 
+        Dictionary<GroundType, AudioClip[]> _footstepClips = 
             new Dictionary<GroundType, AudioClip[]>();
 
         // Add new ones here
-        [SerializeField] private AudioClip[] normal;
-        [SerializeField] private AudioClip[] snow;
+        [SerializeField] AudioClip[] _normal;
+        [SerializeField] AudioClip[] _snow;
 
-        [SerializeField, Range(0, 1)] private float defaultVolume = 0.4f;
-        [SerializeField, Range(0, 2)] private float defaultPitch = 1.2f;
+        [SerializeField, Range(0, 1)] float _defaultVolume = 0.4f;
+        [SerializeField, Range(0, 2)] float _defaultPitch = 1.2f;
 
         /// <summary>
         /// current clip cache
         /// </summary>
-        private AudioClip[] current;
+        AudioClip[] current;
 
-        [SerializeField] private GroundCheck groundCheck;
-        [SerializeField] private AudioSource audioSource;
+        [SerializeField] GroundCheck _groundCheck;
+        [SerializeField] AudioSource _audioSource;
 
         private void Awake()
         {
             // practical settings
-            audioSource.volume = defaultVolume;
-            audioSource.pitch = defaultPitch;
+            _audioSource.volume = _defaultVolume;
+            _audioSource.pitch = _defaultPitch;
 
             // Add new ones here
-            footstepClips.Add(GroundType.Normal, normal);
-            footstepClips.Add(GroundType.Snow, snow);
+            _footstepClips.Add(GroundType.Normal, _normal);
+            _footstepClips.Add(GroundType.Snow, _snow);
         }
 
         /// <summary>
@@ -55,12 +52,12 @@ namespace Shiang {
         /// </summary>
         public void Step()
         {
-            GroundType type = groundCheck.CurrentGroundType;
+            GroundType type = _groundCheck.CurrentGroundType;
             if (type == GroundType.None) return;
             // Debug.Log(type);
-            current = footstepClips[type];
+            current = _footstepClips[type];
             AudioClip clip = GetRandomClip();
-            audioSource.PlayOneShot(clip);
+            _audioSource.PlayOneShot(clip);
         }
 
         /// <summary>

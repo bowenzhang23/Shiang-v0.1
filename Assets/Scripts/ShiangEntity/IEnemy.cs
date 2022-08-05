@@ -1,7 +1,7 @@
 
 namespace Shiang
 {
-    public interface IEnemy
+    public interface IEnemy : IAttackable, IHurtable
     {
 
     }

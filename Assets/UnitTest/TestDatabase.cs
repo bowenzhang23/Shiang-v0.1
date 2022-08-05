@@ -24,12 +24,15 @@ namespace ShiangTest
         {
             var db = Utils.CreateDatabase<ResourcePathDB>();
             db.Clear(); // clear first
-            db.Insert(new ResourcePathData() { Name="PlayerAnimClips", Path="Anims/Player" });
-            db.Insert(new ResourcePathData() { Name="SpritesIcon-1", Path="Arts/Items/Icons-1" });
-            db.Insert(new ResourcePathData() { Name="SpritesIcon-2", Path="Arts/Items/Icons-2" });
+            db.Insert(new ResourcePathData() { Name = "PlayerAnimClips", Path = "Anims/Player" });
+            db.Insert(new ResourcePathData() { Name = "RabbitAnimClips", Path = "Anims/Rabbit" });
+            db.Insert(new ResourcePathData() { Name = "AbilityAnimClips", Path = "Anims/Ability" });
+            db.Insert(new ResourcePathData() { Name = "WeaponAnimClips", Path = "Anims/Weapon" });
+            db.Insert(new ResourcePathData() { Name = "SpritesIcon-1", Path = "Arts/Items/Icons-1" });
+            db.Insert(new ResourcePathData() { Name = "SpritesIcon-2", Path = "Arts/Items/Icons-2" });
             Assert.AreEqual(db.Data.Count, 0);
             db.Retrieve();
-            Assert.AreEqual(db.Data.Count, 3);
+            Assert.AreEqual(db.Data.Count, 6);
         }
 
         [Test]
@@ -37,11 +40,21 @@ namespace ShiangTest
         {
             var db = Utils.CreateDatabase<WeaponDB>();
             db.Clear(); // clear first
+            db.Insert(new WeaponData()
+            {
+                ClassID = "Fist",
+                Name = " 拳头",
+                Description = "朝我拳头跑来，我懒得过去打你",
+                AnimPattern = "Attack",
+                CdTime = 1.1f,
+                Hash = 0xEFFFF,
+                SpriteIndex = 11
+            });
             db.Insert(new WeaponData() { 
                 ClassID="Whip",
                 Name="长鞭", 
                 Description="从小练习挥鞭", 
-                AnimPattern="Attack", 
+                AnimPattern="Whip", 
                 CdTime=1.1f, 
                 Hash=0xE0000, 
                 SpriteIndex=0 
@@ -58,7 +71,7 @@ namespace ShiangTest
             });
             Assert.AreEqual(db.Data.Count, 0);
             db.Retrieve();
-            Assert.AreEqual(db.Data.Count, 2);
+            Assert.AreEqual(db.Data.Count, 3);
         }
 
         [Test]

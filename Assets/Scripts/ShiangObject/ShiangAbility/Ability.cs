@@ -15,7 +15,7 @@ namespace Shiang
         public virtual AnimationClip[] Clips
             => _animationClips == null
             ? _animationClips = Utils.BuildClips(
-                Info.PLAYER_ANIM_CLIPS,
+                Info.ANIM_CLIPS[typeof(Ability)],
                 Info.ABILITY_DATA[ClassID].AnimPattern)
             : _animationClips;
 

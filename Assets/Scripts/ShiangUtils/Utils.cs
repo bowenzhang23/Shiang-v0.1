@@ -108,8 +108,8 @@ namespace Shiang
                 .OrderBy(k => k.name.Contains("Right")).ToArray();
 
         public static T1 ItemClonedFromPoolOfType<T1>()
-            where T1 : Item 
-            => (T1)Pool.Items[Pool.Mapping[typeof(T1)]];
+            where T1 : Item, new()
+            => Pool.Items[Pool.Mapping[typeof(T1)]].Clone<T1>();
 
         public static T1 AbilityRefFromPoolOfType<T1>()
             where T1 : Ability

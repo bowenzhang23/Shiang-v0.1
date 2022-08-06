@@ -19,25 +19,22 @@ namespace Shiang
         public static Dictionary<string, SQLiteDatabase> ENTITY_DB_COLLECTION = 
             new Dictionary<string, SQLiteDatabase>();
 
-        static readonly int IL = StoH("Idle_Left");
-        static readonly int IR = StoH("Idle_Right");
-        static readonly int WL = StoH("Walk_Left");
-        static readonly int WR = StoH("Walk_Right");
-        static readonly int CL = StoH("Cool_Left");
-        static readonly int CR = StoH("Cool_Right");
-        static readonly int UWL = StoH("Attack_Left");
-        static readonly int UWR = StoH("Attack_Right");
-        static readonly int UAL = StoH("Magic_Left");
-        static readonly int UAR = StoH("Magic_Right");
+        static readonly int OPEN = StoH("Open");
+        static readonly int CLOSE = StoH("Close");
+        static readonly int IDLE_LEFT = StoH("Idle_Left");
+        static readonly int IDLE_RIGHT = StoH("Idle_Right");
+        static readonly int WALK_LEFT = StoH("Walk_Left");
+        static readonly int WALK_RIGHT = StoH("Walk_Right");
+        static readonly int COOL_LEFT = StoH("Cool_Left");
+        static readonly int COOL_RIGHT = StoH("Cool_Right");
 
         // for common anim
         public static Dictionary<Type, int[]> ANIM_NAMES = new Dictionary<Type, int[]>
         {
-            { typeof(IdleState),       new int[2] { IL,  IR  } },
-            { typeof(MoveState),       new int[2] { WL,  WR  } },
-            { typeof(CoolState),       new int[2] { CL,  CR  } },
-            { typeof(UseWeaponState),  new int[2] { UWL, UWR } },
-            { typeof(UseAbilityState), new int[2] { UAL, UAR } },
+            { typeof(OpenState),       new int[2] { CLOSE,      OPEN        } },      
+            { typeof(IdleState),       new int[2] { IDLE_LEFT,  IDLE_RIGHT  } },
+            { typeof(MoveState),       new int[2] { WALK_LEFT,  WALK_RIGHT  } },
+            { typeof(CoolState),       new int[2] { COOL_LEFT,  COOL_RIGHT  } },
         };
 
         public static Dictionary<Type, AnimationClip[]> ANIM_CLIPS = new Dictionary<Type, AnimationClip[]>();

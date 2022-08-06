@@ -109,6 +109,22 @@ namespace Shiang
             return db;
         }
 
+        public static void LoadEntityDatabase(string name,
+            ref ItemContainer itemContainer)
+        {
+            Info.ENTITY_DB_COLLECTION[name] = CreateSQLiteDatabase<EntityDB>(name);
+            if (!Info.ENTITY_DB_COLLECTION.TryGetValue(name, out var db))
+                return;
+            db.Retrieve();
+            var data = (EntityData)db.Data;
+
+            foreach (var itemCount in data.Items)
+            {
+                Item item = Pool.Items[itemCount.Key].Clone(itemCount.Value);
+                itemContainer.ReceiveAll(ref item);
+            }
+        }
+
         public static void LoadEntityDatabase(string name, 
             ref ItemContainer itemContainer, 
             ref AbilityContainer abilityContainer)

@@ -141,6 +141,7 @@ namespace Shiang
             _inventory = new ItemContainer(GameMechanism.INVENTORY_CAPACITY);
             _abilityContainer = new AbilityContainer(GameMechanism.ABILITY_CAPACITY);
             Utils.LoadEntityDatabase(GetType().Name, ref _inventory, ref _abilityContainer);
+
             _currentWeapon = (Weapon)_inventory.Weapons()[0];
             _currentAbility = _abilityContainer.Data[0];
         }

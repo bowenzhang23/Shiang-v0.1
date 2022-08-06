@@ -32,8 +32,8 @@ namespace ShiangTest
             db.Insert(new ResourcePathData() { Name = "RabbitAnimClips", Path = "Anims/Rabbit" });
             db.Insert(new ResourcePathData() { Name = "AbilityAnimClips", Path = "Anims/Ability" });
             db.Insert(new ResourcePathData() { Name = "WeaponAnimClips", Path = "Anims/Weapon" });
-            db.Insert(new ResourcePathData() { Name = "SpritesIcon-1", Path = "Arts/Items/Icons-1" });
-            db.Insert(new ResourcePathData() { Name = "SpritesIcon-2", Path = "Arts/Items/Icons-2" });
+            db.Insert(new ResourcePathData() { Name = "SpritesIcon-1", Path = "Arts/Icons/Icons-1" });
+            db.Insert(new ResourcePathData() { Name = "SpritesIcon-2", Path = "Arts/Icons/Icons-2" });
             Assert.AreEqual(((List<ResourcePathData>)db.Data).Count, 0);
             db.Retrieve();
             Assert.AreEqual(((List<ResourcePathData>)db.Data).Count, 6);
@@ -139,6 +139,29 @@ namespace ShiangTest
             db.Retrieve();
             Assert.AreEqual(((EntityData)db.Data).Items.Count, 3);
             Assert.AreEqual(((EntityData)db.Data).Abilities.Count, 1);
+        }
+
+        [Test]
+        public void WriteToEntityDBForFridge()
+        {
+            var db = Utils.CreateSQLiteDatabase<EntityDB>("Fridge-Test");
+            var itemsToInsert = new Dictionary<uint, int>();
+            var abilitiesToInsert = new List<uint>();
+
+            itemsToInsert.Add(0x10000, 5); // SixDemon
+            itemsToInsert.Add(0xE0000, 1); // Whip
+
+            db.Clear(); // clear first
+            db.Insert(new EntityData()
+            {
+                Items = itemsToInsert,
+                Abilities = abilitiesToInsert
+            });
+
+            Assert.IsNull(((EntityData)db.Data).Items);
+            db.Retrieve();
+            Assert.AreEqual(((EntityData)db.Data).Items.Count, 2);
+            Assert.AreEqual(((EntityData)db.Data).Abilities.Count, 0);
         }
     }
 }

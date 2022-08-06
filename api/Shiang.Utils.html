@@ -107,7 +107,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T1 AbilityRefFromPoolOfType&lt;T1&gt;()
-    where T1 : Ability</code></pre>
+    where T1 : Ability, new()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -297,47 +297,6 @@
   </table>
   
   
-  <a id="Shiang_Utils_CreateDatabase_" data-uid="Shiang.Utils.CreateDatabase*"></a>
-  <h4 id="Shiang_Utils_CreateDatabase__1" data-uid="Shiang.Utils.CreateDatabase``1">CreateDatabase&lt;T1&gt;()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T1 CreateDatabase&lt;T1&gt;()
-    where T1 : IDatabase, new()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T1</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T1</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Shiang_Utils_CreateItemContainer_" data-uid="Shiang.Utils.CreateItemContainer*"></a>
   <h4 id="Shiang_Utils_CreateItemContainer" data-uid="Shiang.Utils.CreateItemContainer">CreateItemContainer()</h4>
   <div class="markdown level1 summary"></div>
@@ -399,6 +358,105 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Shiang.ItemContainer.html">ItemContainer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_Utils_CreateSQLiteDatabase_" data-uid="Shiang.Utils.CreateSQLiteDatabase*"></a>
+  <h4 id="Shiang_Utils_CreateSQLiteDatabase__1" data-uid="Shiang.Utils.CreateSQLiteDatabase``1">CreateSQLiteDatabase&lt;T1&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SQLiteDatabase CreateSQLiteDatabase&lt;T1&gt;()
+    where T1 : SQLiteDatabase</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Shiang.SQLiteDatabase.html">SQLiteDatabase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_Utils_CreateSQLiteDatabase_" data-uid="Shiang.Utils.CreateSQLiteDatabase*"></a>
+  <h4 id="Shiang_Utils_CreateSQLiteDatabase__1_System_String_" data-uid="Shiang.Utils.CreateSQLiteDatabase``1(System.String)">CreateSQLiteDatabase&lt;T1&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SQLiteDatabase CreateSQLiteDatabase&lt;T1&gt;(string name)
+    where T1 : SQLiteDatabase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Shiang.SQLiteDatabase.html">SQLiteDatabase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -610,7 +668,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T1 ItemClonedFromPoolOfType&lt;T1&gt;()
+    <pre><code class="lang-csharp hljs">public static Item ItemClonedFromPoolOfType&lt;T1&gt;()
     where T1 : Item, new()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -623,7 +681,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T1</span></td>
+        <td><a class="xref" href="Shiang.Item.html">Item</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -646,13 +704,12 @@
   
   
   <a id="Shiang_Utils_ItemLose_" data-uid="Shiang.Utils.ItemLose*"></a>
-  <h4 id="Shiang_Utils_ItemLose__1_System_Int32___0__" data-uid="Shiang.Utils.ItemLose``1(System.Int32,``0@)">ItemLose&lt;T1&gt;(Int32, ref T1)</h4>
+  <h4 id="Shiang_Utils_ItemLose_System_Int32_Shiang_Item__" data-uid="Shiang.Utils.ItemLose(System.Int32,Shiang.Item@)">ItemLose(Int32, ref Item)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T1 ItemLose&lt;T1&gt;(int n, ref T1 toLose)
-    where T1 : Item, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public static Item ItemLose(int n, ref Item toLose)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -670,7 +727,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">T1</span></td>
+        <td><a class="xref" href="Shiang.Item.html">Item</a></td>
         <td><span class="parametername">toLose</span></td>
         <td></td>
       </tr>
@@ -686,22 +743,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T1</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T1</span></td>
+        <td><a class="xref" href="Shiang.Item.html">Item</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -734,6 +776,43 @@
       <tr>
         <td><a class="xref" href="Shiang.Item.html">Item</a></td>
         <td><span class="parametername">beMerged</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_Utils_LoadEntityDatabase_" data-uid="Shiang.Utils.LoadEntityDatabase*"></a>
+  <h4 id="Shiang_Utils_LoadEntityDatabase_System_String_Shiang_ItemContainer__Shiang_AbilityContainer__" data-uid="Shiang.Utils.LoadEntityDatabase(System.String,Shiang.ItemContainer@,Shiang.AbilityContainer@)">LoadEntityDatabase(String, ref ItemContainer, ref AbilityContainer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadEntityDatabase(string name, ref ItemContainer itemContainer, ref AbilityContainer abilityContainer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Shiang.ItemContainer.html">ItemContainer</a></td>
+        <td><span class="parametername">itemContainer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Shiang.AbilityContainer.html">AbilityContainer</a></td>
+        <td><span class="parametername">abilityContainer</span></td>
         <td></td>
       </tr>
     </tbody>

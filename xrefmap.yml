@@ -161,19 +161,6 @@ references:
   isSpec: "True"
   fullName: Shiang.AbilityContainer.AbilityContainer
   nameWithType: AbilityContainer.AbilityContainer
-- uid: Shiang.AbilityContainer.Abilities
-  name: Abilities()
-  href: api/Shiang.AbilityContainer.html#Shiang_AbilityContainer_Abilities
-  commentId: M:Shiang.AbilityContainer.Abilities
-  fullName: Shiang.AbilityContainer.Abilities()
-  nameWithType: AbilityContainer.Abilities()
-- uid: Shiang.AbilityContainer.Abilities*
-  name: Abilities
-  href: api/Shiang.AbilityContainer.html#Shiang_AbilityContainer_Abilities_
-  commentId: Overload:Shiang.AbilityContainer.Abilities
-  isSpec: "True"
-  fullName: Shiang.AbilityContainer.Abilities
-  nameWithType: AbilityContainer.Abilities
 - uid: Shiang.AbilityContainer.Capacity
   name: Capacity()
   href: api/Shiang.AbilityContainer.html#Shiang_AbilityContainer_Capacity
@@ -187,6 +174,19 @@ references:
   isSpec: "True"
   fullName: Shiang.AbilityContainer.Capacity
   nameWithType: AbilityContainer.Capacity
+- uid: Shiang.AbilityContainer.Data
+  name: Data
+  href: api/Shiang.AbilityContainer.html#Shiang_AbilityContainer_Data
+  commentId: P:Shiang.AbilityContainer.Data
+  fullName: Shiang.AbilityContainer.Data
+  nameWithType: AbilityContainer.Data
+- uid: Shiang.AbilityContainer.Data*
+  name: Data
+  href: api/Shiang.AbilityContainer.html#Shiang_AbilityContainer_Data_
+  commentId: Overload:Shiang.AbilityContainer.Data
+  isSpec: "True"
+  fullName: Shiang.AbilityContainer.Data
+  nameWithType: AbilityContainer.Data
 - uid: Shiang.AbilityContainer.Find(Shiang.Ability,Shiang.Ability@)
   name: Find(Ability, out Ability)
   href: api/Shiang.AbilityContainer.html#Shiang_AbilityContainer_Find_Shiang_Ability_Shiang_Ability__
@@ -431,12 +431,12 @@ references:
   isSpec: "True"
   fullName: Shiang.AbilityDB.CommandStringInsert
   nameWithType: AbilityDB.CommandStringInsert
-- uid: Shiang.AbilityDB.CommandStringRetrive
-  name: CommandStringRetrive
-  href: api/Shiang.AbilityDB.html#Shiang_AbilityDB_CommandStringRetrive
-  commentId: P:Shiang.AbilityDB.CommandStringRetrive
-  fullName: Shiang.AbilityDB.CommandStringRetrive
-  nameWithType: AbilityDB.CommandStringRetrive
+- uid: Shiang.AbilityDB.CommandStringRetrive(System.String)
+  name: CommandStringRetrive(String)
+  href: api/Shiang.AbilityDB.html#Shiang_AbilityDB_CommandStringRetrive_System_String_
+  commentId: M:Shiang.AbilityDB.CommandStringRetrive(System.String)
+  fullName: Shiang.AbilityDB.CommandStringRetrive(System.String)
+  nameWithType: AbilityDB.CommandStringRetrive(String)
 - uid: Shiang.AbilityDB.CommandStringRetrive*
   name: CommandStringRetrive
   href: api/Shiang.AbilityDB.html#Shiang_AbilityDB_CommandStringRetrive_
@@ -539,6 +539,19 @@ references:
   commentId: F:Shiang.AbilityTree.Node.followingNodes
   fullName: Shiang.AbilityTree.Node.followingNodes
   nameWithType: AbilityTree.Node.followingNodes
+- uid: Shiang.AbilityTree.Root
+  name: Root
+  href: api/Shiang.AbilityTree.html#Shiang_AbilityTree_Root
+  commentId: P:Shiang.AbilityTree.Root
+  fullName: Shiang.AbilityTree.Root
+  nameWithType: AbilityTree.Root
+- uid: Shiang.AbilityTree.Root*
+  name: Root
+  href: api/Shiang.AbilityTree.html#Shiang_AbilityTree_Root_
+  commentId: Overload:Shiang.AbilityTree.Root
+  isSpec: "True"
+  fullName: Shiang.AbilityTree.Root
+  nameWithType: AbilityTree.Root
 - uid: Shiang.AbilityTree.Size
   name: Size
   href: api/Shiang.AbilityTree.html#Shiang_AbilityTree_Size
@@ -570,6 +583,19 @@ references:
   commentId: T:Shiang.Axe
   fullName: Shiang.Axe
   nameWithType: Axe
+- uid: Shiang.Axe.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.Axe.html#Shiang_Axe_Clone_System_Int32_
+  commentId: M:Shiang.Axe.Clone(System.Int32)
+  fullName: Shiang.Axe.Clone(System.Int32)
+  nameWithType: Axe.Clone(Int32)
+- uid: Shiang.Axe.Clone*
+  name: Clone
+  href: api/Shiang.Axe.html#Shiang_Axe_Clone_
+  commentId: Overload:Shiang.Axe.Clone
+  isSpec: "True"
+  fullName: Shiang.Axe.Clone
+  nameWithType: Axe.Clone
 - uid: Shiang.Axe.Hit(Shiang.IHurtable)
   name: Hit(IHurtable)
   href: api/Shiang.Axe.html#Shiang_Axe_Hit_Shiang_IHurtable_
@@ -1022,12 +1048,12 @@ references:
   isSpec: "True"
   fullName: Shiang.ConsumableDB.CommandStringInsert
   nameWithType: ConsumableDB.CommandStringInsert
-- uid: Shiang.ConsumableDB.CommandStringRetrive
-  name: CommandStringRetrive
-  href: api/Shiang.ConsumableDB.html#Shiang_ConsumableDB_CommandStringRetrive
-  commentId: P:Shiang.ConsumableDB.CommandStringRetrive
-  fullName: Shiang.ConsumableDB.CommandStringRetrive
-  nameWithType: ConsumableDB.CommandStringRetrive
+- uid: Shiang.ConsumableDB.CommandStringRetrive(System.String)
+  name: CommandStringRetrive(String)
+  href: api/Shiang.ConsumableDB.html#Shiang_ConsumableDB_CommandStringRetrive_System_String_
+  commentId: M:Shiang.ConsumableDB.CommandStringRetrive(System.String)
+  fullName: Shiang.ConsumableDB.CommandStringRetrive(System.String)
+  nameWithType: ConsumableDB.CommandStringRetrive(String)
 - uid: Shiang.ConsumableDB.CommandStringRetrive*
   name: CommandStringRetrive
   href: api/Shiang.ConsumableDB.html#Shiang_ConsumableDB_CommandStringRetrive_
@@ -1183,202 +1209,151 @@ references:
   isSpec: "True"
   fullName: Shiang.CoolState.Tick
   nameWithType: CoolState.Tick
-- uid: Shiang.Database`1
-  name: Database<T1>
-  href: api/Shiang.Database-1.html
-  commentId: T:Shiang.Database`1
-  name.vb: Database(Of T1)
-  fullName: Shiang.Database<T1>
-  fullName.vb: Shiang.Database(Of T1)
-  nameWithType: Database<T1>
-  nameWithType.vb: Database(Of T1)
-- uid: Shiang.Database`1.#ctor(System.String)
-  name: Database(String)
-  href: api/Shiang.Database-1.html#Shiang_Database_1__ctor_System_String_
-  commentId: M:Shiang.Database`1.#ctor(System.String)
-  fullName: Shiang.Database<T1>.Database(System.String)
-  fullName.vb: Shiang.Database(Of T1).Database(System.String)
-  nameWithType: Database<T1>.Database(String)
-  nameWithType.vb: Database(Of T1).Database(String)
-- uid: Shiang.Database`1.#ctor*
-  name: Database
-  href: api/Shiang.Database-1.html#Shiang_Database_1__ctor_
-  commentId: Overload:Shiang.Database`1.#ctor
+- uid: Shiang.EntityData
+  name: EntityData
+  href: api/Shiang.EntityData.html
+  commentId: T:Shiang.EntityData
+  fullName: Shiang.EntityData
+  nameWithType: EntityData
+- uid: Shiang.EntityData.Abilities
+  name: Abilities
+  href: api/Shiang.EntityData.html#Shiang_EntityData_Abilities
+  commentId: P:Shiang.EntityData.Abilities
+  fullName: Shiang.EntityData.Abilities
+  nameWithType: EntityData.Abilities
+- uid: Shiang.EntityData.Abilities*
+  name: Abilities
+  href: api/Shiang.EntityData.html#Shiang_EntityData_Abilities_
+  commentId: Overload:Shiang.EntityData.Abilities
   isSpec: "True"
-  fullName: Shiang.Database<T1>.Database
-  fullName.vb: Shiang.Database(Of T1).Database
-  nameWithType: Database<T1>.Database
-  nameWithType.vb: Database(Of T1).Database
-- uid: Shiang.Database`1.Clear
-  name: Clear()
-  href: api/Shiang.Database-1.html#Shiang_Database_1_Clear
-  commentId: M:Shiang.Database`1.Clear
-  fullName: Shiang.Database<T1>.Clear()
-  fullName.vb: Shiang.Database(Of T1).Clear()
-  nameWithType: Database<T1>.Clear()
-  nameWithType.vb: Database(Of T1).Clear()
-- uid: Shiang.Database`1.Clear*
-  name: Clear
-  href: api/Shiang.Database-1.html#Shiang_Database_1_Clear_
-  commentId: Overload:Shiang.Database`1.Clear
+  fullName: Shiang.EntityData.Abilities
+  nameWithType: EntityData.Abilities
+- uid: Shiang.EntityData.Items
+  name: Items
+  href: api/Shiang.EntityData.html#Shiang_EntityData_Items
+  commentId: P:Shiang.EntityData.Items
+  fullName: Shiang.EntityData.Items
+  nameWithType: EntityData.Items
+- uid: Shiang.EntityData.Items*
+  name: Items
+  href: api/Shiang.EntityData.html#Shiang_EntityData_Items_
+  commentId: Overload:Shiang.EntityData.Items
   isSpec: "True"
-  fullName: Shiang.Database<T1>.Clear
-  fullName.vb: Shiang.Database(Of T1).Clear
-  nameWithType: Database<T1>.Clear
-  nameWithType.vb: Database(Of T1).Clear
-- uid: Shiang.Database`1.CommandStringClear
+  fullName: Shiang.EntityData.Items
+  nameWithType: EntityData.Items
+- uid: Shiang.EntityDB
+  name: EntityDB
+  href: api/Shiang.EntityDB.html
+  commentId: T:Shiang.EntityDB
+  fullName: Shiang.EntityDB
+  nameWithType: EntityDB
+- uid: Shiang.EntityDB.#ctor(System.String)
+  name: EntityDB(String)
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB__ctor_System_String_
+  commentId: M:Shiang.EntityDB.#ctor(System.String)
+  fullName: Shiang.EntityDB.EntityDB(System.String)
+  nameWithType: EntityDB.EntityDB(String)
+- uid: Shiang.EntityDB.#ctor*
+  name: EntityDB
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB__ctor_
+  commentId: Overload:Shiang.EntityDB.#ctor
+  isSpec: "True"
+  fullName: Shiang.EntityDB.EntityDB
+  nameWithType: EntityDB.EntityDB
+- uid: Shiang.EntityDB.CommandStringClear
   name: CommandStringClear()
-  href: api/Shiang.Database-1.html#Shiang_Database_1_CommandStringClear
-  commentId: M:Shiang.Database`1.CommandStringClear
-  fullName: Shiang.Database<T1>.CommandStringClear()
-  fullName.vb: Shiang.Database(Of T1).CommandStringClear()
-  nameWithType: Database<T1>.CommandStringClear()
-  nameWithType.vb: Database(Of T1).CommandStringClear()
-- uid: Shiang.Database`1.CommandStringClear*
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_CommandStringClear
+  commentId: M:Shiang.EntityDB.CommandStringClear
+  fullName: Shiang.EntityDB.CommandStringClear()
+  nameWithType: EntityDB.CommandStringClear()
+- uid: Shiang.EntityDB.CommandStringClear*
   name: CommandStringClear
-  href: api/Shiang.Database-1.html#Shiang_Database_1_CommandStringClear_
-  commentId: Overload:Shiang.Database`1.CommandStringClear
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_CommandStringClear_
+  commentId: Overload:Shiang.EntityDB.CommandStringClear
   isSpec: "True"
-  fullName: Shiang.Database<T1>.CommandStringClear
-  fullName.vb: Shiang.Database(Of T1).CommandStringClear
-  nameWithType: Database<T1>.CommandStringClear
-  nameWithType.vb: Database(Of T1).CommandStringClear
-- uid: Shiang.Database`1.CommandStringCreate
+  fullName: Shiang.EntityDB.CommandStringClear
+  nameWithType: EntityDB.CommandStringClear
+- uid: Shiang.EntityDB.CommandStringCreate
   name: CommandStringCreate()
-  href: api/Shiang.Database-1.html#Shiang_Database_1_CommandStringCreate
-  commentId: M:Shiang.Database`1.CommandStringCreate
-  fullName: Shiang.Database<T1>.CommandStringCreate()
-  fullName.vb: Shiang.Database(Of T1).CommandStringCreate()
-  nameWithType: Database<T1>.CommandStringCreate()
-  nameWithType.vb: Database(Of T1).CommandStringCreate()
-- uid: Shiang.Database`1.CommandStringCreate*
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_CommandStringCreate
+  commentId: M:Shiang.EntityDB.CommandStringCreate
+  fullName: Shiang.EntityDB.CommandStringCreate()
+  nameWithType: EntityDB.CommandStringCreate()
+- uid: Shiang.EntityDB.CommandStringCreate*
   name: CommandStringCreate
-  href: api/Shiang.Database-1.html#Shiang_Database_1_CommandStringCreate_
-  commentId: Overload:Shiang.Database`1.CommandStringCreate
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_CommandStringCreate_
+  commentId: Overload:Shiang.EntityDB.CommandStringCreate
   isSpec: "True"
-  fullName: Shiang.Database<T1>.CommandStringCreate
-  fullName.vb: Shiang.Database(Of T1).CommandStringCreate
-  nameWithType: Database<T1>.CommandStringCreate
-  nameWithType.vb: Database(Of T1).CommandStringCreate
-- uid: Shiang.Database`1.CommandStringInsert(System.Object)
+  fullName: Shiang.EntityDB.CommandStringCreate
+  nameWithType: EntityDB.CommandStringCreate
+- uid: Shiang.EntityDB.CommandStringInsert(System.Object)
   name: CommandStringInsert(Object)
-  href: api/Shiang.Database-1.html#Shiang_Database_1_CommandStringInsert_System_Object_
-  commentId: M:Shiang.Database`1.CommandStringInsert(System.Object)
-  fullName: Shiang.Database<T1>.CommandStringInsert(System.Object)
-  fullName.vb: Shiang.Database(Of T1).CommandStringInsert(System.Object)
-  nameWithType: Database<T1>.CommandStringInsert(Object)
-  nameWithType.vb: Database(Of T1).CommandStringInsert(Object)
-- uid: Shiang.Database`1.CommandStringInsert*
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_CommandStringInsert_System_Object_
+  commentId: M:Shiang.EntityDB.CommandStringInsert(System.Object)
+  fullName: Shiang.EntityDB.CommandStringInsert(System.Object)
+  nameWithType: EntityDB.CommandStringInsert(Object)
+- uid: Shiang.EntityDB.CommandStringInsert*
   name: CommandStringInsert
-  href: api/Shiang.Database-1.html#Shiang_Database_1_CommandStringInsert_
-  commentId: Overload:Shiang.Database`1.CommandStringInsert
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_CommandStringInsert_
+  commentId: Overload:Shiang.EntityDB.CommandStringInsert
   isSpec: "True"
-  fullName: Shiang.Database<T1>.CommandStringInsert
-  fullName.vb: Shiang.Database(Of T1).CommandStringInsert
-  nameWithType: Database<T1>.CommandStringInsert
-  nameWithType.vb: Database(Of T1).CommandStringInsert
-- uid: Shiang.Database`1.CommandStringRetrive
+  fullName: Shiang.EntityDB.CommandStringInsert
+  nameWithType: EntityDB.CommandStringInsert
+- uid: Shiang.EntityDB.CommandStringRetrive(System.String)
+  name: CommandStringRetrive(String)
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_CommandStringRetrive_System_String_
+  commentId: M:Shiang.EntityDB.CommandStringRetrive(System.String)
+  fullName: Shiang.EntityDB.CommandStringRetrive(System.String)
+  nameWithType: EntityDB.CommandStringRetrive(String)
+- uid: Shiang.EntityDB.CommandStringRetrive*
   name: CommandStringRetrive
-  href: api/Shiang.Database-1.html#Shiang_Database_1_CommandStringRetrive
-  commentId: P:Shiang.Database`1.CommandStringRetrive
-  fullName: Shiang.Database<T1>.CommandStringRetrive
-  fullName.vb: Shiang.Database(Of T1).CommandStringRetrive
-  nameWithType: Database<T1>.CommandStringRetrive
-  nameWithType.vb: Database(Of T1).CommandStringRetrive
-- uid: Shiang.Database`1.CommandStringRetrive*
-  name: CommandStringRetrive
-  href: api/Shiang.Database-1.html#Shiang_Database_1_CommandStringRetrive_
-  commentId: Overload:Shiang.Database`1.CommandStringRetrive
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_CommandStringRetrive_
+  commentId: Overload:Shiang.EntityDB.CommandStringRetrive
   isSpec: "True"
-  fullName: Shiang.Database<T1>.CommandStringRetrive
-  fullName.vb: Shiang.Database(Of T1).CommandStringRetrive
-  nameWithType: Database<T1>.CommandStringRetrive
-  nameWithType.vb: Database(Of T1).CommandStringRetrive
-- uid: Shiang.Database`1.Create
-  name: Create()
-  href: api/Shiang.Database-1.html#Shiang_Database_1_Create
-  commentId: M:Shiang.Database`1.Create
-  fullName: Shiang.Database<T1>.Create()
-  fullName.vb: Shiang.Database(Of T1).Create()
-  nameWithType: Database<T1>.Create()
-  nameWithType.vb: Database(Of T1).Create()
-- uid: Shiang.Database`1.Create*
-  name: Create
-  href: api/Shiang.Database-1.html#Shiang_Database_1_Create_
-  commentId: Overload:Shiang.Database`1.Create
+  fullName: Shiang.EntityDB.CommandStringRetrive
+  nameWithType: EntityDB.CommandStringRetrive
+- uid: Shiang.EntityDB.ConnectAndRead(System.String,Func{IDataReader,System.Boolean})
+  name: ConnectAndRead(String, Func<IDataReader, Boolean>)
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_ConnectAndRead_System_String_Func_IDataReader_System_Boolean__
+  commentId: M:Shiang.EntityDB.ConnectAndRead(System.String,Func{IDataReader,System.Boolean})
+  name.vb: ConnectAndRead(String, Func(Of IDataReader, Boolean))
+  fullName: Shiang.EntityDB.ConnectAndRead(System.String, Func<IDataReader, System.Boolean>)
+  fullName.vb: Shiang.EntityDB.ConnectAndRead(System.String, Func(Of IDataReader, System.Boolean))
+  nameWithType: EntityDB.ConnectAndRead(String, Func<IDataReader, Boolean>)
+  nameWithType.vb: EntityDB.ConnectAndRead(String, Func(Of IDataReader, Boolean))
+- uid: Shiang.EntityDB.ConnectAndRead*
+  name: ConnectAndRead
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_ConnectAndRead_
+  commentId: Overload:Shiang.EntityDB.ConnectAndRead
   isSpec: "True"
-  fullName: Shiang.Database<T1>.Create
-  fullName.vb: Shiang.Database(Of T1).Create
-  nameWithType: Database<T1>.Create
-  nameWithType.vb: Database(Of T1).Create
-- uid: Shiang.Database`1.Data
+  fullName: Shiang.EntityDB.ConnectAndRead
+  nameWithType: EntityDB.ConnectAndRead
+- uid: Shiang.EntityDB.Data
   name: Data
-  href: api/Shiang.Database-1.html#Shiang_Database_1_Data
-  commentId: P:Shiang.Database`1.Data
-  fullName: Shiang.Database<T1>.Data
-  fullName.vb: Shiang.Database(Of T1).Data
-  nameWithType: Database<T1>.Data
-  nameWithType.vb: Database(Of T1).Data
-- uid: Shiang.Database`1.Data*
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_Data
+  commentId: P:Shiang.EntityDB.Data
+  fullName: Shiang.EntityDB.Data
+  nameWithType: EntityDB.Data
+- uid: Shiang.EntityDB.Data*
   name: Data
-  href: api/Shiang.Database-1.html#Shiang_Database_1_Data_
-  commentId: Overload:Shiang.Database`1.Data
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_Data_
+  commentId: Overload:Shiang.EntityDB.Data
   isSpec: "True"
-  fullName: Shiang.Database<T1>.Data
-  fullName.vb: Shiang.Database(Of T1).Data
-  nameWithType: Database<T1>.Data
-  nameWithType.vb: Database(Of T1).Data
-- uid: Shiang.Database`1.Insert(System.Object)
-  name: Insert(Object)
-  href: api/Shiang.Database-1.html#Shiang_Database_1_Insert_System_Object_
-  commentId: M:Shiang.Database`1.Insert(System.Object)
-  fullName: Shiang.Database<T1>.Insert(System.Object)
-  fullName.vb: Shiang.Database(Of T1).Insert(System.Object)
-  nameWithType: Database<T1>.Insert(Object)
-  nameWithType.vb: Database(Of T1).Insert(Object)
-- uid: Shiang.Database`1.Insert*
-  name: Insert
-  href: api/Shiang.Database-1.html#Shiang_Database_1_Insert_
-  commentId: Overload:Shiang.Database`1.Insert
-  isSpec: "True"
-  fullName: Shiang.Database<T1>.Insert
-  fullName.vb: Shiang.Database(Of T1).Insert
-  nameWithType: Database<T1>.Insert
-  nameWithType.vb: Database(Of T1).Insert
-- uid: Shiang.Database`1.Retrieve
+  fullName: Shiang.EntityDB.Data
+  nameWithType: EntityDB.Data
+- uid: Shiang.EntityDB.Retrieve
   name: Retrieve()
-  href: api/Shiang.Database-1.html#Shiang_Database_1_Retrieve
-  commentId: M:Shiang.Database`1.Retrieve
-  fullName: Shiang.Database<T1>.Retrieve()
-  fullName.vb: Shiang.Database(Of T1).Retrieve()
-  nameWithType: Database<T1>.Retrieve()
-  nameWithType.vb: Database(Of T1).Retrieve()
-- uid: Shiang.Database`1.Retrieve*
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_Retrieve
+  commentId: M:Shiang.EntityDB.Retrieve
+  fullName: Shiang.EntityDB.Retrieve()
+  nameWithType: EntityDB.Retrieve()
+- uid: Shiang.EntityDB.Retrieve*
   name: Retrieve
-  href: api/Shiang.Database-1.html#Shiang_Database_1_Retrieve_
-  commentId: Overload:Shiang.Database`1.Retrieve
+  href: api/Shiang.EntityDB.html#Shiang_EntityDB_Retrieve_
+  commentId: Overload:Shiang.EntityDB.Retrieve
   isSpec: "True"
-  fullName: Shiang.Database<T1>.Retrieve
-  fullName.vb: Shiang.Database(Of T1).Retrieve
-  nameWithType: Database<T1>.Retrieve
-  nameWithType.vb: Database(Of T1).Retrieve
-- uid: Shiang.Database`1.RetrieveData(IDataReader)
-  name: RetrieveData(IDataReader)
-  href: api/Shiang.Database-1.html#Shiang_Database_1_RetrieveData_IDataReader_
-  commentId: M:Shiang.Database`1.RetrieveData(IDataReader)
-  fullName: Shiang.Database<T1>.RetrieveData(IDataReader)
-  fullName.vb: Shiang.Database(Of T1).RetrieveData(IDataReader)
-  nameWithType: Database<T1>.RetrieveData(IDataReader)
-  nameWithType.vb: Database(Of T1).RetrieveData(IDataReader)
-- uid: Shiang.Database`1.RetrieveData*
-  name: RetrieveData
-  href: api/Shiang.Database-1.html#Shiang_Database_1_RetrieveData_
-  commentId: Overload:Shiang.Database`1.RetrieveData
-  isSpec: "True"
-  fullName: Shiang.Database<T1>.RetrieveData
-  fullName.vb: Shiang.Database(Of T1).RetrieveData
-  nameWithType: Database<T1>.RetrieveData
-  nameWithType.vb: Database(Of T1).RetrieveData
+  fullName: Shiang.EntityDB.Retrieve
+  nameWithType: EntityDB.Retrieve
 - uid: Shiang.Equipment
   name: Equipment
   href: api/Shiang.Equipment.html
@@ -1466,6 +1441,19 @@ references:
   commentId: T:Shiang.Fist
   fullName: Shiang.Fist
   nameWithType: Fist
+- uid: Shiang.Fist.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.Fist.html#Shiang_Fist_Clone_System_Int32_
+  commentId: M:Shiang.Fist.Clone(System.Int32)
+  fullName: Shiang.Fist.Clone(System.Int32)
+  nameWithType: Fist.Clone(Int32)
+- uid: Shiang.Fist.Clone*
+  name: Clone
+  href: api/Shiang.Fist.html#Shiang_Fist_Clone_
+  commentId: Overload:Shiang.Fist.Clone
+  isSpec: "True"
+  fullName: Shiang.Fist.Clone
+  nameWithType: Fist.Clone
 - uid: Shiang.Fist.Hit(Shiang.IHurtable)
   name: Hit(IHurtable)
   href: api/Shiang.Fist.html#Shiang_Fist_Hit_Shiang_IHurtable_
@@ -1737,6 +1725,19 @@ references:
   isSpec: "True"
   fullName: Shiang.IDatabase.Create
   nameWithType: IDatabase.Create
+- uid: Shiang.IDatabase.Data
+  name: Data
+  href: api/Shiang.IDatabase.html#Shiang_IDatabase_Data
+  commentId: P:Shiang.IDatabase.Data
+  fullName: Shiang.IDatabase.Data
+  nameWithType: IDatabase.Data
+- uid: Shiang.IDatabase.Data*
+  name: Data
+  href: api/Shiang.IDatabase.html#Shiang_IDatabase_Data_
+  commentId: Overload:Shiang.IDatabase.Data
+  isSpec: "True"
+  fullName: Shiang.IDatabase.Data
+  nameWithType: IDatabase.Data
 - uid: Shiang.IDatabase.Insert(System.Object)
   name: Insert(Object)
   href: api/Shiang.IDatabase.html#Shiang_IDatabase_Insert_System_Object_
@@ -1871,19 +1872,6 @@ references:
   commentId: T:Shiang.IFriend
   fullName: Shiang.IFriend
   nameWithType: IFriend
-- uid: Shiang.IFriend.Who
-  name: Who
-  href: api/Shiang.IFriend.html#Shiang_IFriend_Who
-  commentId: P:Shiang.IFriend.Who
-  fullName: Shiang.IFriend.Who
-  nameWithType: IFriend.Who
-- uid: Shiang.IFriend.Who*
-  name: Who
-  href: api/Shiang.IFriend.html#Shiang_IFriend_Who_
-  commentId: Overload:Shiang.IFriend.Who
-  isSpec: "True"
-  fullName: Shiang.IFriend.Who
-  nameWithType: IFriend.Who
 - uid: Shiang.IGameEntity
   name: IGameEntity
   href: api/Shiang.IGameEntity.html
@@ -2022,6 +2010,12 @@ references:
   commentId: F:Shiang.Info.CONSUMABLE_DB
   fullName: Shiang.Info.CONSUMABLE_DB
   nameWithType: Info.CONSUMABLE_DB
+- uid: Shiang.Info.ENTITY_DB_COLLECTION
+  name: ENTITY_DB_COLLECTION
+  href: api/Shiang.Info.html#Shiang_Info_ENTITY_DB_COLLECTION
+  commentId: F:Shiang.Info.ENTITY_DB_COLLECTION
+  fullName: Shiang.Info.ENTITY_DB_COLLECTION
+  nameWithType: Info.ENTITY_DB_COLLECTION
 - uid: Shiang.Info.LoadDatabase
   name: LoadDatabase()
   href: api/Shiang.Info.html#Shiang_Info_LoadDatabase
@@ -2462,6 +2456,18 @@ references:
   commentId: T:Shiang.Item
   fullName: Shiang.Item
   nameWithType: Item
+- uid: Shiang.Item.Clone
+  name: Clone()
+  href: api/Shiang.Item.html#Shiang_Item_Clone
+  commentId: M:Shiang.Item.Clone
+  fullName: Shiang.Item.Clone()
+  nameWithType: Item.Clone()
+- uid: Shiang.Item.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.Item.html#Shiang_Item_Clone_System_Int32_
+  commentId: M:Shiang.Item.Clone(System.Int32)
+  fullName: Shiang.Item.Clone(System.Int32)
+  nameWithType: Item.Clone(Int32)
 - uid: Shiang.Item.Clone*
   name: Clone
   href: api/Shiang.Item.html#Shiang_Item_Clone_
@@ -2469,24 +2475,6 @@ references:
   isSpec: "True"
   fullName: Shiang.Item.Clone
   nameWithType: Item.Clone
-- uid: Shiang.Item.Clone``1
-  name: Clone<T1>()
-  href: api/Shiang.Item.html#Shiang_Item_Clone__1
-  commentId: M:Shiang.Item.Clone``1
-  name.vb: Clone(Of T1)()
-  fullName: Shiang.Item.Clone<T1>()
-  fullName.vb: Shiang.Item.Clone(Of T1)()
-  nameWithType: Item.Clone<T1>()
-  nameWithType.vb: Item.Clone(Of T1)()
-- uid: Shiang.Item.Clone``1(System.Int32)
-  name: Clone<T1>(Int32)
-  href: api/Shiang.Item.html#Shiang_Item_Clone__1_System_Int32_
-  commentId: M:Shiang.Item.Clone``1(System.Int32)
-  name.vb: Clone(Of T1)(Int32)
-  fullName: Shiang.Item.Clone<T1>(System.Int32)
-  fullName.vb: Shiang.Item.Clone(Of T1)(System.Int32)
-  nameWithType: Item.Clone<T1>(Int32)
-  nameWithType.vb: Item.Clone(Of T1)(Int32)
 - uid: Shiang.Item.Count
   name: Count
   href: api/Shiang.Item.html#Shiang_Item_Count
@@ -2557,6 +2545,19 @@ references:
   isSpec: "True"
   fullName: Shiang.ItemContainer.Count
   nameWithType: ItemContainer.Count
+- uid: Shiang.ItemContainer.Data
+  name: Data
+  href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_Data
+  commentId: P:Shiang.ItemContainer.Data
+  fullName: Shiang.ItemContainer.Data
+  nameWithType: ItemContainer.Data
+- uid: Shiang.ItemContainer.Data*
+  name: Data
+  href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_Data_
+  commentId: Overload:Shiang.ItemContainer.Data
+  isSpec: "True"
+  fullName: Shiang.ItemContainer.Data
+  nameWithType: ItemContainer.Data
 - uid: Shiang.ItemContainer.Find(Shiang.Item,Shiang.Item@)
   name: Find(Item, out Item)
   href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_Find_Shiang_Item_Shiang_Item__
@@ -2601,6 +2602,24 @@ references:
   commentId: E:Shiang.ItemContainer.OnFull
   fullName: Shiang.ItemContainer.OnFull
   nameWithType: ItemContainer.OnFull
+- uid: Shiang.ItemContainer.Receive(Shiang.Item@)
+  name: Receive(ref Item)
+  href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_Receive_Shiang_Item__
+  commentId: M:Shiang.ItemContainer.Receive(Shiang.Item@)
+  name.vb: Receive(ByRef Item)
+  fullName: Shiang.ItemContainer.Receive(ref Shiang.Item)
+  fullName.vb: Shiang.ItemContainer.Receive(ByRef Shiang.Item)
+  nameWithType: ItemContainer.Receive(ref Item)
+  nameWithType.vb: ItemContainer.Receive(ByRef Item)
+- uid: Shiang.ItemContainer.Receive(Shiang.Item@,System.Int32)
+  name: Receive(ref Item, Int32)
+  href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_Receive_Shiang_Item__System_Int32_
+  commentId: M:Shiang.ItemContainer.Receive(Shiang.Item@,System.Int32)
+  name.vb: Receive(ByRef Item, Int32)
+  fullName: Shiang.ItemContainer.Receive(ref Shiang.Item, System.Int32)
+  fullName.vb: Shiang.ItemContainer.Receive(ByRef Shiang.Item, System.Int32)
+  nameWithType: ItemContainer.Receive(ref Item, Int32)
+  nameWithType.vb: ItemContainer.Receive(ByRef Item, Int32)
 - uid: Shiang.ItemContainer.Receive*
   name: Receive
   href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_Receive_
@@ -2608,24 +2627,15 @@ references:
   isSpec: "True"
   fullName: Shiang.ItemContainer.Receive
   nameWithType: ItemContainer.Receive
-- uid: Shiang.ItemContainer.Receive``1(``0@)
-  name: Receive<T1>(ref T1)
-  href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_Receive__1___0__
-  commentId: M:Shiang.ItemContainer.Receive``1(``0@)
-  name.vb: Receive(Of T1)(ByRef T1)
-  fullName: Shiang.ItemContainer.Receive<T1>(ref T1)
-  fullName.vb: Shiang.ItemContainer.Receive(Of T1)(ByRef T1)
-  nameWithType: ItemContainer.Receive<T1>(ref T1)
-  nameWithType.vb: ItemContainer.Receive(Of T1)(ByRef T1)
-- uid: Shiang.ItemContainer.Receive``1(``0@,System.Int32)
-  name: Receive<T1>(ref T1, Int32)
-  href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_Receive__1___0__System_Int32_
-  commentId: M:Shiang.ItemContainer.Receive``1(``0@,System.Int32)
-  name.vb: Receive(Of T1)(ByRef T1, Int32)
-  fullName: Shiang.ItemContainer.Receive<T1>(ref T1, System.Int32)
-  fullName.vb: Shiang.ItemContainer.Receive(Of T1)(ByRef T1, System.Int32)
-  nameWithType: ItemContainer.Receive<T1>(ref T1, Int32)
-  nameWithType.vb: ItemContainer.Receive(Of T1)(ByRef T1, Int32)
+- uid: Shiang.ItemContainer.ReceiveAll(Shiang.Item@)
+  name: ReceiveAll(ref Item)
+  href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_ReceiveAll_Shiang_Item__
+  commentId: M:Shiang.ItemContainer.ReceiveAll(Shiang.Item@)
+  name.vb: ReceiveAll(ByRef Item)
+  fullName: Shiang.ItemContainer.ReceiveAll(ref Shiang.Item)
+  fullName.vb: Shiang.ItemContainer.ReceiveAll(ByRef Shiang.Item)
+  nameWithType: ItemContainer.ReceiveAll(ref Item)
+  nameWithType.vb: ItemContainer.ReceiveAll(ByRef Item)
 - uid: Shiang.ItemContainer.ReceiveAll*
   name: ReceiveAll
   href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_ReceiveAll_
@@ -2633,15 +2643,6 @@ references:
   isSpec: "True"
   fullName: Shiang.ItemContainer.ReceiveAll
   nameWithType: ItemContainer.ReceiveAll
-- uid: Shiang.ItemContainer.ReceiveAll``1(``0@)
-  name: ReceiveAll<T1>(ref T1)
-  href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_ReceiveAll__1___0__
-  commentId: M:Shiang.ItemContainer.ReceiveAll``1(``0@)
-  name.vb: ReceiveAll(Of T1)(ByRef T1)
-  fullName: Shiang.ItemContainer.ReceiveAll<T1>(ref T1)
-  fullName.vb: Shiang.ItemContainer.ReceiveAll(Of T1)(ByRef T1)
-  nameWithType: ItemContainer.ReceiveAll<T1>(ref T1)
-  nameWithType.vb: ItemContainer.ReceiveAll(Of T1)(ByRef T1)
 - uid: Shiang.ItemContainer.Remove(Shiang.Item)
   name: Remove(Item)
   href: api/Shiang.ItemContainer.html#Shiang_ItemContainer_Remove_Shiang_Item_
@@ -2788,64 +2789,6 @@ references:
   commentId: F:Shiang.Orientation.Right
   fullName: Shiang.Orientation.Right
   nameWithType: Orientation.Right
-- uid: Shiang.PlayerStateManager
-  name: PlayerStateManager
-  href: api/Shiang.PlayerStateManager.html
-  commentId: T:Shiang.PlayerStateManager
-  fullName: Shiang.PlayerStateManager
-  nameWithType: PlayerStateManager
-- uid: Shiang.PlayerStateManager.#ctor
-  name: PlayerStateManager()
-  href: api/Shiang.PlayerStateManager.html#Shiang_PlayerStateManager__ctor
-  commentId: M:Shiang.PlayerStateManager.#ctor
-  fullName: Shiang.PlayerStateManager.PlayerStateManager()
-  nameWithType: PlayerStateManager.PlayerStateManager()
-- uid: Shiang.PlayerStateManager.#ctor*
-  name: PlayerStateManager
-  href: api/Shiang.PlayerStateManager.html#Shiang_PlayerStateManager__ctor_
-  commentId: Overload:Shiang.PlayerStateManager.#ctor
-  isSpec: "True"
-  fullName: Shiang.PlayerStateManager.PlayerStateManager
-  nameWithType: PlayerStateManager.PlayerStateManager
-- uid: Shiang.PlayerStateManager.InitStates
-  name: InitStates()
-  href: api/Shiang.PlayerStateManager.html#Shiang_PlayerStateManager_InitStates
-  commentId: M:Shiang.PlayerStateManager.InitStates
-  fullName: Shiang.PlayerStateManager.InitStates()
-  nameWithType: PlayerStateManager.InitStates()
-- uid: Shiang.PlayerStateManager.InitStates*
-  name: InitStates
-  href: api/Shiang.PlayerStateManager.html#Shiang_PlayerStateManager_InitStates_
-  commentId: Overload:Shiang.PlayerStateManager.InitStates
-  isSpec: "True"
-  fullName: Shiang.PlayerStateManager.InitStates
-  nameWithType: PlayerStateManager.InitStates
-- uid: Shiang.PlayerStateManager.InitTransitions
-  name: InitTransitions()
-  href: api/Shiang.PlayerStateManager.html#Shiang_PlayerStateManager_InitTransitions
-  commentId: M:Shiang.PlayerStateManager.InitTransitions
-  fullName: Shiang.PlayerStateManager.InitTransitions()
-  nameWithType: PlayerStateManager.InitTransitions()
-- uid: Shiang.PlayerStateManager.InitTransitions*
-  name: InitTransitions
-  href: api/Shiang.PlayerStateManager.html#Shiang_PlayerStateManager_InitTransitions_
-  commentId: Overload:Shiang.PlayerStateManager.InitTransitions
-  isSpec: "True"
-  fullName: Shiang.PlayerStateManager.InitTransitions
-  nameWithType: PlayerStateManager.InitTransitions
-- uid: Shiang.PlayerStateManager.SetInitialState
-  name: SetInitialState()
-  href: api/Shiang.PlayerStateManager.html#Shiang_PlayerStateManager_SetInitialState
-  commentId: M:Shiang.PlayerStateManager.SetInitialState
-  fullName: Shiang.PlayerStateManager.SetInitialState()
-  nameWithType: PlayerStateManager.SetInitialState()
-- uid: Shiang.PlayerStateManager.SetInitialState*
-  name: SetInitialState
-  href: api/Shiang.PlayerStateManager.html#Shiang_PlayerStateManager_SetInitialState_
-  commentId: Overload:Shiang.PlayerStateManager.SetInitialState
-  isSpec: "True"
-  fullName: Shiang.PlayerStateManager.SetInitialState
-  nameWithType: PlayerStateManager.SetInitialState
 - uid: Shiang.Pool
   name: Pool
   href: api/Shiang.Pool.html
@@ -2904,6 +2847,32 @@ references:
   isSpec: "True"
   fullName: Shiang.Pool.Mapping
   nameWithType: Pool.Mapping
+- uid: Shiang.Pool.MappingReverse
+  name: MappingReverse
+  href: api/Shiang.Pool.html#Shiang_Pool_MappingReverse
+  commentId: P:Shiang.Pool.MappingReverse
+  fullName: Shiang.Pool.MappingReverse
+  nameWithType: Pool.MappingReverse
+- uid: Shiang.Pool.MappingReverse*
+  name: MappingReverse
+  href: api/Shiang.Pool.html#Shiang_Pool_MappingReverse_
+  commentId: Overload:Shiang.Pool.MappingReverse
+  isSpec: "True"
+  fullName: Shiang.Pool.MappingReverse
+  nameWithType: Pool.MappingReverse
+- uid: Shiang.Pool.Weapons
+  name: Weapons
+  href: api/Shiang.Pool.html#Shiang_Pool_Weapons
+  commentId: P:Shiang.Pool.Weapons
+  fullName: Shiang.Pool.Weapons
+  nameWithType: Pool.Weapons
+- uid: Shiang.Pool.Weapons*
+  name: Weapons
+  href: api/Shiang.Pool.html#Shiang_Pool_Weapons_
+  commentId: Overload:Shiang.Pool.Weapons
+  isSpec: "True"
+  fullName: Shiang.Pool.Weapons
+  nameWithType: Pool.Weapons
 - uid: Shiang.Rabbit
   name: Rabbit
   href: api/Shiang.Rabbit.html
@@ -3066,19 +3035,6 @@ references:
   isSpec: "True"
   fullName: Shiang.Rabbit.UseAbility
   nameWithType: Rabbit.UseAbility
-- uid: Shiang.Rabbit.Who
-  name: Who
-  href: api/Shiang.Rabbit.html#Shiang_Rabbit_Who
-  commentId: P:Shiang.Rabbit.Who
-  fullName: Shiang.Rabbit.Who
-  nameWithType: Rabbit.Who
-- uid: Shiang.Rabbit.Who*
-  name: Who
-  href: api/Shiang.Rabbit.html#Shiang_Rabbit_Who_
-  commentId: Overload:Shiang.Rabbit.Who
-  isSpec: "True"
-  fullName: Shiang.Rabbit.Who
-  nameWithType: Rabbit.Who
 - uid: Shiang.RanRan
   name: RanRan
   href: api/Shiang.RanRan.html
@@ -3267,6 +3223,64 @@ references:
   isSpec: "True"
   fullName: Shiang.RanRan.UseWeapon
   nameWithType: RanRan.UseWeapon
+- uid: Shiang.RanRanStateManager
+  name: RanRanStateManager
+  href: api/Shiang.RanRanStateManager.html
+  commentId: T:Shiang.RanRanStateManager
+  fullName: Shiang.RanRanStateManager
+  nameWithType: RanRanStateManager
+- uid: Shiang.RanRanStateManager.#ctor
+  name: RanRanStateManager()
+  href: api/Shiang.RanRanStateManager.html#Shiang_RanRanStateManager__ctor
+  commentId: M:Shiang.RanRanStateManager.#ctor
+  fullName: Shiang.RanRanStateManager.RanRanStateManager()
+  nameWithType: RanRanStateManager.RanRanStateManager()
+- uid: Shiang.RanRanStateManager.#ctor*
+  name: RanRanStateManager
+  href: api/Shiang.RanRanStateManager.html#Shiang_RanRanStateManager__ctor_
+  commentId: Overload:Shiang.RanRanStateManager.#ctor
+  isSpec: "True"
+  fullName: Shiang.RanRanStateManager.RanRanStateManager
+  nameWithType: RanRanStateManager.RanRanStateManager
+- uid: Shiang.RanRanStateManager.InitStates
+  name: InitStates()
+  href: api/Shiang.RanRanStateManager.html#Shiang_RanRanStateManager_InitStates
+  commentId: M:Shiang.RanRanStateManager.InitStates
+  fullName: Shiang.RanRanStateManager.InitStates()
+  nameWithType: RanRanStateManager.InitStates()
+- uid: Shiang.RanRanStateManager.InitStates*
+  name: InitStates
+  href: api/Shiang.RanRanStateManager.html#Shiang_RanRanStateManager_InitStates_
+  commentId: Overload:Shiang.RanRanStateManager.InitStates
+  isSpec: "True"
+  fullName: Shiang.RanRanStateManager.InitStates
+  nameWithType: RanRanStateManager.InitStates
+- uid: Shiang.RanRanStateManager.InitTransitions
+  name: InitTransitions()
+  href: api/Shiang.RanRanStateManager.html#Shiang_RanRanStateManager_InitTransitions
+  commentId: M:Shiang.RanRanStateManager.InitTransitions
+  fullName: Shiang.RanRanStateManager.InitTransitions()
+  nameWithType: RanRanStateManager.InitTransitions()
+- uid: Shiang.RanRanStateManager.InitTransitions*
+  name: InitTransitions
+  href: api/Shiang.RanRanStateManager.html#Shiang_RanRanStateManager_InitTransitions_
+  commentId: Overload:Shiang.RanRanStateManager.InitTransitions
+  isSpec: "True"
+  fullName: Shiang.RanRanStateManager.InitTransitions
+  nameWithType: RanRanStateManager.InitTransitions
+- uid: Shiang.RanRanStateManager.SetInitialState
+  name: SetInitialState()
+  href: api/Shiang.RanRanStateManager.html#Shiang_RanRanStateManager_SetInitialState
+  commentId: M:Shiang.RanRanStateManager.SetInitialState
+  fullName: Shiang.RanRanStateManager.SetInitialState()
+  nameWithType: RanRanStateManager.SetInitialState()
+- uid: Shiang.RanRanStateManager.SetInitialState*
+  name: SetInitialState
+  href: api/Shiang.RanRanStateManager.html#Shiang_RanRanStateManager_SetInitialState_
+  commentId: Overload:Shiang.RanRanStateManager.SetInitialState
+  isSpec: "True"
+  fullName: Shiang.RanRanStateManager.SetInitialState
+  nameWithType: RanRanStateManager.SetInitialState
 - uid: Shiang.ResourcePathData
   name: ResourcePathData
   href: api/Shiang.ResourcePathData.html
@@ -3357,12 +3371,12 @@ references:
   isSpec: "True"
   fullName: Shiang.ResourcePathDB.CommandStringInsert
   nameWithType: ResourcePathDB.CommandStringInsert
-- uid: Shiang.ResourcePathDB.CommandStringRetrive
-  name: CommandStringRetrive
-  href: api/Shiang.ResourcePathDB.html#Shiang_ResourcePathDB_CommandStringRetrive
-  commentId: P:Shiang.ResourcePathDB.CommandStringRetrive
-  fullName: Shiang.ResourcePathDB.CommandStringRetrive
-  nameWithType: ResourcePathDB.CommandStringRetrive
+- uid: Shiang.ResourcePathDB.CommandStringRetrive(System.String)
+  name: CommandStringRetrive(String)
+  href: api/Shiang.ResourcePathDB.html#Shiang_ResourcePathDB_CommandStringRetrive_System_String_
+  commentId: M:Shiang.ResourcePathDB.CommandStringRetrive(System.String)
+  fullName: Shiang.ResourcePathDB.CommandStringRetrive(System.String)
+  nameWithType: ResourcePathDB.CommandStringRetrive(String)
 - uid: Shiang.ResourcePathDB.CommandStringRetrive*
   name: CommandStringRetrive
   href: api/Shiang.ResourcePathDB.html#Shiang_ResourcePathDB_CommandStringRetrive_
@@ -3486,6 +3500,19 @@ references:
   commentId: T:Shiang.SixDemon
   fullName: Shiang.SixDemon
   nameWithType: SixDemon
+- uid: Shiang.SixDemon.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.SixDemon.html#Shiang_SixDemon_Clone_System_Int32_
+  commentId: M:Shiang.SixDemon.Clone(System.Int32)
+  fullName: Shiang.SixDemon.Clone(System.Int32)
+  nameWithType: SixDemon.Clone(Int32)
+- uid: Shiang.SixDemon.Clone*
+  name: Clone
+  href: api/Shiang.SixDemon.html#Shiang_SixDemon_Clone_
+  commentId: Overload:Shiang.SixDemon.Clone
+  isSpec: "True"
+  fullName: Shiang.SixDemon.Clone
+  nameWithType: SixDemon.Clone
 - uid: Shiang.SixDemon.Image
   name: Image
   href: api/Shiang.SixDemon.html#Shiang_SixDemon_Image
@@ -3499,6 +3526,194 @@ references:
   isSpec: "True"
   fullName: Shiang.SixDemon.Image
   nameWithType: SixDemon.Image
+- uid: Shiang.SQLiteDatabase
+  name: SQLiteDatabase
+  href: api/Shiang.SQLiteDatabase.html
+  commentId: T:Shiang.SQLiteDatabase
+  fullName: Shiang.SQLiteDatabase
+  nameWithType: SQLiteDatabase
+- uid: Shiang.SQLiteDatabase.#ctor(System.String)
+  name: SQLiteDatabase(String)
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase__ctor_System_String_
+  commentId: M:Shiang.SQLiteDatabase.#ctor(System.String)
+  fullName: Shiang.SQLiteDatabase.SQLiteDatabase(System.String)
+  nameWithType: SQLiteDatabase.SQLiteDatabase(String)
+- uid: Shiang.SQLiteDatabase.#ctor*
+  name: SQLiteDatabase
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase__ctor_
+  commentId: Overload:Shiang.SQLiteDatabase.#ctor
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.SQLiteDatabase
+  nameWithType: SQLiteDatabase.SQLiteDatabase
+- uid: Shiang.SQLiteDatabase.Clear
+  name: Clear()
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Clear
+  commentId: M:Shiang.SQLiteDatabase.Clear
+  fullName: Shiang.SQLiteDatabase.Clear()
+  nameWithType: SQLiteDatabase.Clear()
+- uid: Shiang.SQLiteDatabase.Clear*
+  name: Clear
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Clear_
+  commentId: Overload:Shiang.SQLiteDatabase.Clear
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.Clear
+  nameWithType: SQLiteDatabase.Clear
+- uid: Shiang.SQLiteDatabase.CommandStringClear
+  name: CommandStringClear()
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringClear
+  commentId: M:Shiang.SQLiteDatabase.CommandStringClear
+  fullName: Shiang.SQLiteDatabase.CommandStringClear()
+  nameWithType: SQLiteDatabase.CommandStringClear()
+- uid: Shiang.SQLiteDatabase.CommandStringClear*
+  name: CommandStringClear
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringClear_
+  commentId: Overload:Shiang.SQLiteDatabase.CommandStringClear
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.CommandStringClear
+  nameWithType: SQLiteDatabase.CommandStringClear
+- uid: Shiang.SQLiteDatabase.CommandStringCreate
+  name: CommandStringCreate()
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringCreate
+  commentId: M:Shiang.SQLiteDatabase.CommandStringCreate
+  fullName: Shiang.SQLiteDatabase.CommandStringCreate()
+  nameWithType: SQLiteDatabase.CommandStringCreate()
+- uid: Shiang.SQLiteDatabase.CommandStringCreate*
+  name: CommandStringCreate
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringCreate_
+  commentId: Overload:Shiang.SQLiteDatabase.CommandStringCreate
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.CommandStringCreate
+  nameWithType: SQLiteDatabase.CommandStringCreate
+- uid: Shiang.SQLiteDatabase.CommandStringInsert(System.Object)
+  name: CommandStringInsert(Object)
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringInsert_System_Object_
+  commentId: M:Shiang.SQLiteDatabase.CommandStringInsert(System.Object)
+  fullName: Shiang.SQLiteDatabase.CommandStringInsert(System.Object)
+  nameWithType: SQLiteDatabase.CommandStringInsert(Object)
+- uid: Shiang.SQLiteDatabase.CommandStringInsert*
+  name: CommandStringInsert
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringInsert_
+  commentId: Overload:Shiang.SQLiteDatabase.CommandStringInsert
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.CommandStringInsert
+  nameWithType: SQLiteDatabase.CommandStringInsert
+- uid: Shiang.SQLiteDatabase.CommandStringRetrive(System.String)
+  name: CommandStringRetrive(String)
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringRetrive_System_String_
+  commentId: M:Shiang.SQLiteDatabase.CommandStringRetrive(System.String)
+  fullName: Shiang.SQLiteDatabase.CommandStringRetrive(System.String)
+  nameWithType: SQLiteDatabase.CommandStringRetrive(String)
+- uid: Shiang.SQLiteDatabase.CommandStringRetrive*
+  name: CommandStringRetrive
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringRetrive_
+  commentId: Overload:Shiang.SQLiteDatabase.CommandStringRetrive
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.CommandStringRetrive
+  nameWithType: SQLiteDatabase.CommandStringRetrive
+- uid: Shiang.SQLiteDatabase.ConnectAndRead(System.String)
+  name: ConnectAndRead(String)
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_ConnectAndRead_System_String_
+  commentId: M:Shiang.SQLiteDatabase.ConnectAndRead(System.String)
+  fullName: Shiang.SQLiteDatabase.ConnectAndRead(System.String)
+  nameWithType: SQLiteDatabase.ConnectAndRead(String)
+- uid: Shiang.SQLiteDatabase.ConnectAndRead*
+  name: ConnectAndRead
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_ConnectAndRead_
+  commentId: Overload:Shiang.SQLiteDatabase.ConnectAndRead
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.ConnectAndRead
+  nameWithType: SQLiteDatabase.ConnectAndRead
+- uid: Shiang.SQLiteDatabase.ConnectAndWrite(System.String)
+  name: ConnectAndWrite(String)
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_ConnectAndWrite_System_String_
+  commentId: M:Shiang.SQLiteDatabase.ConnectAndWrite(System.String)
+  fullName: Shiang.SQLiteDatabase.ConnectAndWrite(System.String)
+  nameWithType: SQLiteDatabase.ConnectAndWrite(String)
+- uid: Shiang.SQLiteDatabase.ConnectAndWrite*
+  name: ConnectAndWrite
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_ConnectAndWrite_
+  commentId: Overload:Shiang.SQLiteDatabase.ConnectAndWrite
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.ConnectAndWrite
+  nameWithType: SQLiteDatabase.ConnectAndWrite
+- uid: Shiang.SQLiteDatabase.Create
+  name: Create()
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Create
+  commentId: M:Shiang.SQLiteDatabase.Create
+  fullName: Shiang.SQLiteDatabase.Create()
+  nameWithType: SQLiteDatabase.Create()
+- uid: Shiang.SQLiteDatabase.Create*
+  name: Create
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Create_
+  commentId: Overload:Shiang.SQLiteDatabase.Create
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.Create
+  nameWithType: SQLiteDatabase.Create
+- uid: Shiang.SQLiteDatabase.Data
+  name: Data
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Data
+  commentId: P:Shiang.SQLiteDatabase.Data
+  fullName: Shiang.SQLiteDatabase.Data
+  nameWithType: SQLiteDatabase.Data
+- uid: Shiang.SQLiteDatabase.Data*
+  name: Data
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Data_
+  commentId: Overload:Shiang.SQLiteDatabase.Data
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.Data
+  nameWithType: SQLiteDatabase.Data
+- uid: Shiang.SQLiteDatabase.DatabaseName
+  name: DatabaseName
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_DatabaseName
+  commentId: P:Shiang.SQLiteDatabase.DatabaseName
+  fullName: Shiang.SQLiteDatabase.DatabaseName
+  nameWithType: SQLiteDatabase.DatabaseName
+- uid: Shiang.SQLiteDatabase.DatabaseName*
+  name: DatabaseName
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_DatabaseName_
+  commentId: Overload:Shiang.SQLiteDatabase.DatabaseName
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.DatabaseName
+  nameWithType: SQLiteDatabase.DatabaseName
+- uid: Shiang.SQLiteDatabase.Insert(System.Object)
+  name: Insert(Object)
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Insert_System_Object_
+  commentId: M:Shiang.SQLiteDatabase.Insert(System.Object)
+  fullName: Shiang.SQLiteDatabase.Insert(System.Object)
+  nameWithType: SQLiteDatabase.Insert(Object)
+- uid: Shiang.SQLiteDatabase.Insert*
+  name: Insert
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Insert_
+  commentId: Overload:Shiang.SQLiteDatabase.Insert
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.Insert
+  nameWithType: SQLiteDatabase.Insert
+- uid: Shiang.SQLiteDatabase.Name
+  name: Name
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Name
+  commentId: P:Shiang.SQLiteDatabase.Name
+  fullName: Shiang.SQLiteDatabase.Name
+  nameWithType: SQLiteDatabase.Name
+- uid: Shiang.SQLiteDatabase.Name*
+  name: Name
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Name_
+  commentId: Overload:Shiang.SQLiteDatabase.Name
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.Name
+  nameWithType: SQLiteDatabase.Name
+- uid: Shiang.SQLiteDatabase.Retrieve
+  name: Retrieve()
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Retrieve
+  commentId: M:Shiang.SQLiteDatabase.Retrieve
+  fullName: Shiang.SQLiteDatabase.Retrieve()
+  nameWithType: SQLiteDatabase.Retrieve()
+- uid: Shiang.SQLiteDatabase.Retrieve*
+  name: Retrieve
+  href: api/Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Retrieve_
+  commentId: Overload:Shiang.SQLiteDatabase.Retrieve
+  isSpec: "True"
+  fullName: Shiang.SQLiteDatabase.Retrieve
+  nameWithType: SQLiteDatabase.Retrieve
 - uid: Shiang.StateMachine
   name: StateMachine
   href: api/Shiang.StateMachine.html
@@ -3731,6 +3946,100 @@ references:
   isSpec: "True"
   fullName: Shiang.StateManagerIC.SetInputController
   nameWithType: StateManagerIC.SetInputController
+- uid: Shiang.TableDatabase`1
+  name: TableDatabase<T1>
+  href: api/Shiang.TableDatabase-1.html
+  commentId: T:Shiang.TableDatabase`1
+  name.vb: TableDatabase(Of T1)
+  fullName: Shiang.TableDatabase<T1>
+  fullName.vb: Shiang.TableDatabase(Of T1)
+  nameWithType: TableDatabase<T1>
+  nameWithType.vb: TableDatabase(Of T1)
+- uid: Shiang.TableDatabase`1.#ctor(System.String)
+  name: TableDatabase(String)
+  href: api/Shiang.TableDatabase-1.html#Shiang_TableDatabase_1__ctor_System_String_
+  commentId: M:Shiang.TableDatabase`1.#ctor(System.String)
+  fullName: Shiang.TableDatabase<T1>.TableDatabase(System.String)
+  fullName.vb: Shiang.TableDatabase(Of T1).TableDatabase(System.String)
+  nameWithType: TableDatabase<T1>.TableDatabase(String)
+  nameWithType.vb: TableDatabase(Of T1).TableDatabase(String)
+- uid: Shiang.TableDatabase`1.#ctor*
+  name: TableDatabase
+  href: api/Shiang.TableDatabase-1.html#Shiang_TableDatabase_1__ctor_
+  commentId: Overload:Shiang.TableDatabase`1.#ctor
+  isSpec: "True"
+  fullName: Shiang.TableDatabase<T1>.TableDatabase
+  fullName.vb: Shiang.TableDatabase(Of T1).TableDatabase
+  nameWithType: TableDatabase<T1>.TableDatabase
+  nameWithType.vb: TableDatabase(Of T1).TableDatabase
+- uid: Shiang.TableDatabase`1.ConnectAndRead(System.String)
+  name: ConnectAndRead(String)
+  href: api/Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_ConnectAndRead_System_String_
+  commentId: M:Shiang.TableDatabase`1.ConnectAndRead(System.String)
+  fullName: Shiang.TableDatabase<T1>.ConnectAndRead(System.String)
+  fullName.vb: Shiang.TableDatabase(Of T1).ConnectAndRead(System.String)
+  nameWithType: TableDatabase<T1>.ConnectAndRead(String)
+  nameWithType.vb: TableDatabase(Of T1).ConnectAndRead(String)
+- uid: Shiang.TableDatabase`1.ConnectAndRead*
+  name: ConnectAndRead
+  href: api/Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_ConnectAndRead_
+  commentId: Overload:Shiang.TableDatabase`1.ConnectAndRead
+  isSpec: "True"
+  fullName: Shiang.TableDatabase<T1>.ConnectAndRead
+  fullName.vb: Shiang.TableDatabase(Of T1).ConnectAndRead
+  nameWithType: TableDatabase<T1>.ConnectAndRead
+  nameWithType.vb: TableDatabase(Of T1).ConnectAndRead
+- uid: Shiang.TableDatabase`1.Data
+  name: Data
+  href: api/Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_Data
+  commentId: P:Shiang.TableDatabase`1.Data
+  fullName: Shiang.TableDatabase<T1>.Data
+  fullName.vb: Shiang.TableDatabase(Of T1).Data
+  nameWithType: TableDatabase<T1>.Data
+  nameWithType.vb: TableDatabase(Of T1).Data
+- uid: Shiang.TableDatabase`1.Data*
+  name: Data
+  href: api/Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_Data_
+  commentId: Overload:Shiang.TableDatabase`1.Data
+  isSpec: "True"
+  fullName: Shiang.TableDatabase<T1>.Data
+  fullName.vb: Shiang.TableDatabase(Of T1).Data
+  nameWithType: TableDatabase<T1>.Data
+  nameWithType.vb: TableDatabase(Of T1).Data
+- uid: Shiang.TableDatabase`1.Retrieve
+  name: Retrieve()
+  href: api/Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_Retrieve
+  commentId: M:Shiang.TableDatabase`1.Retrieve
+  fullName: Shiang.TableDatabase<T1>.Retrieve()
+  fullName.vb: Shiang.TableDatabase(Of T1).Retrieve()
+  nameWithType: TableDatabase<T1>.Retrieve()
+  nameWithType.vb: TableDatabase(Of T1).Retrieve()
+- uid: Shiang.TableDatabase`1.Retrieve*
+  name: Retrieve
+  href: api/Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_Retrieve_
+  commentId: Overload:Shiang.TableDatabase`1.Retrieve
+  isSpec: "True"
+  fullName: Shiang.TableDatabase<T1>.Retrieve
+  fullName.vb: Shiang.TableDatabase(Of T1).Retrieve
+  nameWithType: TableDatabase<T1>.Retrieve
+  nameWithType.vb: TableDatabase(Of T1).Retrieve
+- uid: Shiang.TableDatabase`1.RetrieveData(IDataReader)
+  name: RetrieveData(IDataReader)
+  href: api/Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_RetrieveData_IDataReader_
+  commentId: M:Shiang.TableDatabase`1.RetrieveData(IDataReader)
+  fullName: Shiang.TableDatabase<T1>.RetrieveData(IDataReader)
+  fullName.vb: Shiang.TableDatabase(Of T1).RetrieveData(IDataReader)
+  nameWithType: TableDatabase<T1>.RetrieveData(IDataReader)
+  nameWithType.vb: TableDatabase(Of T1).RetrieveData(IDataReader)
+- uid: Shiang.TableDatabase`1.RetrieveData*
+  name: RetrieveData
+  href: api/Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_RetrieveData_
+  commentId: Overload:Shiang.TableDatabase`1.RetrieveData
+  isSpec: "True"
+  fullName: Shiang.TableDatabase<T1>.RetrieveData
+  fullName.vb: Shiang.TableDatabase(Of T1).RetrieveData
+  nameWithType: TableDatabase<T1>.RetrieveData
+  nameWithType.vb: TableDatabase(Of T1).RetrieveData
 - uid: Shiang.Transition
   name: Transition
   href: api/Shiang.Transition.html
@@ -3867,22 +4176,6 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.CreateAbilityTree
   nameWithType: Utils.CreateAbilityTree
-- uid: Shiang.Utils.CreateDatabase*
-  name: CreateDatabase
-  href: api/Shiang.Utils.html#Shiang_Utils_CreateDatabase_
-  commentId: Overload:Shiang.Utils.CreateDatabase
-  isSpec: "True"
-  fullName: Shiang.Utils.CreateDatabase
-  nameWithType: Utils.CreateDatabase
-- uid: Shiang.Utils.CreateDatabase``1
-  name: CreateDatabase<T1>()
-  href: api/Shiang.Utils.html#Shiang_Utils_CreateDatabase__1
-  commentId: M:Shiang.Utils.CreateDatabase``1
-  name.vb: CreateDatabase(Of T1)()
-  fullName: Shiang.Utils.CreateDatabase<T1>()
-  fullName.vb: Shiang.Utils.CreateDatabase(Of T1)()
-  nameWithType: Utils.CreateDatabase<T1>()
-  nameWithType.vb: Utils.CreateDatabase(Of T1)()
 - uid: Shiang.Utils.CreateItemContainer
   name: CreateItemContainer()
   href: api/Shiang.Utils.html#Shiang_Utils_CreateItemContainer
@@ -3902,6 +4195,31 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.CreateItemContainer
   nameWithType: Utils.CreateItemContainer
+- uid: Shiang.Utils.CreateSQLiteDatabase*
+  name: CreateSQLiteDatabase
+  href: api/Shiang.Utils.html#Shiang_Utils_CreateSQLiteDatabase_
+  commentId: Overload:Shiang.Utils.CreateSQLiteDatabase
+  isSpec: "True"
+  fullName: Shiang.Utils.CreateSQLiteDatabase
+  nameWithType: Utils.CreateSQLiteDatabase
+- uid: Shiang.Utils.CreateSQLiteDatabase``1
+  name: CreateSQLiteDatabase<T1>()
+  href: api/Shiang.Utils.html#Shiang_Utils_CreateSQLiteDatabase__1
+  commentId: M:Shiang.Utils.CreateSQLiteDatabase``1
+  name.vb: CreateSQLiteDatabase(Of T1)()
+  fullName: Shiang.Utils.CreateSQLiteDatabase<T1>()
+  fullName.vb: Shiang.Utils.CreateSQLiteDatabase(Of T1)()
+  nameWithType: Utils.CreateSQLiteDatabase<T1>()
+  nameWithType.vb: Utils.CreateSQLiteDatabase(Of T1)()
+- uid: Shiang.Utils.CreateSQLiteDatabase``1(System.String)
+  name: CreateSQLiteDatabase<T1>(String)
+  href: api/Shiang.Utils.html#Shiang_Utils_CreateSQLiteDatabase__1_System_String_
+  commentId: M:Shiang.Utils.CreateSQLiteDatabase``1(System.String)
+  name.vb: CreateSQLiteDatabase(Of T1)(String)
+  fullName: Shiang.Utils.CreateSQLiteDatabase<T1>(System.String)
+  fullName.vb: Shiang.Utils.CreateSQLiteDatabase(Of T1)(System.String)
+  nameWithType: Utils.CreateSQLiteDatabase<T1>(String)
+  nameWithType.vb: Utils.CreateSQLiteDatabase(Of T1)(String)
 - uid: Shiang.Utils.CreateStateManager*
   name: CreateStateManager
   href: api/Shiang.Utils.html#Shiang_Utils_CreateStateManager_
@@ -3966,6 +4284,15 @@ references:
   fullName.vb: Shiang.Utils.ItemClonedFromPoolOfType(Of T1)()
   nameWithType: Utils.ItemClonedFromPoolOfType<T1>()
   nameWithType.vb: Utils.ItemClonedFromPoolOfType(Of T1)()
+- uid: Shiang.Utils.ItemLose(System.Int32,Shiang.Item@)
+  name: ItemLose(Int32, ref Item)
+  href: api/Shiang.Utils.html#Shiang_Utils_ItemLose_System_Int32_Shiang_Item__
+  commentId: M:Shiang.Utils.ItemLose(System.Int32,Shiang.Item@)
+  name.vb: ItemLose(Int32, ByRef Item)
+  fullName: Shiang.Utils.ItemLose(System.Int32, ref Shiang.Item)
+  fullName.vb: Shiang.Utils.ItemLose(System.Int32, ByRef Shiang.Item)
+  nameWithType: Utils.ItemLose(Int32, ref Item)
+  nameWithType.vb: Utils.ItemLose(Int32, ByRef Item)
 - uid: Shiang.Utils.ItemLose*
   name: ItemLose
   href: api/Shiang.Utils.html#Shiang_Utils_ItemLose_
@@ -3973,15 +4300,6 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.ItemLose
   nameWithType: Utils.ItemLose
-- uid: Shiang.Utils.ItemLose``1(System.Int32,``0@)
-  name: ItemLose<T1>(Int32, ref T1)
-  href: api/Shiang.Utils.html#Shiang_Utils_ItemLose__1_System_Int32___0__
-  commentId: M:Shiang.Utils.ItemLose``1(System.Int32,``0@)
-  name.vb: ItemLose(Of T1)(Int32, ByRef T1)
-  fullName: Shiang.Utils.ItemLose<T1>(System.Int32, ref T1)
-  fullName.vb: Shiang.Utils.ItemLose(Of T1)(System.Int32, ByRef T1)
-  nameWithType: Utils.ItemLose<T1>(Int32, ref T1)
-  nameWithType.vb: Utils.ItemLose(Of T1)(Int32, ByRef T1)
 - uid: Shiang.Utils.ItemMerge(Shiang.Item,Shiang.Item@)
   name: ItemMerge(Item, ref Item)
   href: api/Shiang.Utils.html#Shiang_Utils_ItemMerge_Shiang_Item_Shiang_Item__
@@ -3998,6 +4316,22 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.ItemMerge
   nameWithType: Utils.ItemMerge
+- uid: Shiang.Utils.LoadEntityDatabase(System.String,Shiang.ItemContainer@,Shiang.AbilityContainer@)
+  name: LoadEntityDatabase(String, ref ItemContainer, ref AbilityContainer)
+  href: api/Shiang.Utils.html#Shiang_Utils_LoadEntityDatabase_System_String_Shiang_ItemContainer__Shiang_AbilityContainer__
+  commentId: M:Shiang.Utils.LoadEntityDatabase(System.String,Shiang.ItemContainer@,Shiang.AbilityContainer@)
+  name.vb: LoadEntityDatabase(String, ByRef ItemContainer, ByRef AbilityContainer)
+  fullName: Shiang.Utils.LoadEntityDatabase(System.String, ref Shiang.ItemContainer, ref Shiang.AbilityContainer)
+  fullName.vb: Shiang.Utils.LoadEntityDatabase(System.String, ByRef Shiang.ItemContainer, ByRef Shiang.AbilityContainer)
+  nameWithType: Utils.LoadEntityDatabase(String, ref ItemContainer, ref AbilityContainer)
+  nameWithType.vb: Utils.LoadEntityDatabase(String, ByRef ItemContainer, ByRef AbilityContainer)
+- uid: Shiang.Utils.LoadEntityDatabase*
+  name: LoadEntityDatabase
+  href: api/Shiang.Utils.html#Shiang_Utils_LoadEntityDatabase_
+  commentId: Overload:Shiang.Utils.LoadEntityDatabase
+  isSpec: "True"
+  fullName: Shiang.Utils.LoadEntityDatabase
+  nameWithType: Utils.LoadEntityDatabase
 - uid: Shiang.Weapon
   name: Weapon
   href: api/Shiang.Weapon.html
@@ -4276,12 +4610,12 @@ references:
   isSpec: "True"
   fullName: Shiang.WeaponDB.CommandStringInsert
   nameWithType: WeaponDB.CommandStringInsert
-- uid: Shiang.WeaponDB.CommandStringRetrive
-  name: CommandStringRetrive
-  href: api/Shiang.WeaponDB.html#Shiang_WeaponDB_CommandStringRetrive
-  commentId: P:Shiang.WeaponDB.CommandStringRetrive
-  fullName: Shiang.WeaponDB.CommandStringRetrive
-  nameWithType: WeaponDB.CommandStringRetrive
+- uid: Shiang.WeaponDB.CommandStringRetrive(System.String)
+  name: CommandStringRetrive(String)
+  href: api/Shiang.WeaponDB.html#Shiang_WeaponDB_CommandStringRetrive_System_String_
+  commentId: M:Shiang.WeaponDB.CommandStringRetrive(System.String)
+  fullName: Shiang.WeaponDB.CommandStringRetrive(System.String)
+  nameWithType: WeaponDB.CommandStringRetrive(String)
 - uid: Shiang.WeaponDB.CommandStringRetrive*
   name: CommandStringRetrive
   href: api/Shiang.WeaponDB.html#Shiang_WeaponDB_CommandStringRetrive_
@@ -4308,6 +4642,19 @@ references:
   commentId: T:Shiang.Whip
   fullName: Shiang.Whip
   nameWithType: Whip
+- uid: Shiang.Whip.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.Whip.html#Shiang_Whip_Clone_System_Int32_
+  commentId: M:Shiang.Whip.Clone(System.Int32)
+  fullName: Shiang.Whip.Clone(System.Int32)
+  nameWithType: Whip.Clone(Int32)
+- uid: Shiang.Whip.Clone*
+  name: Clone
+  href: api/Shiang.Whip.html#Shiang_Whip_Clone_
+  commentId: Overload:Shiang.Whip.Clone
+  isSpec: "True"
+  fullName: Shiang.Whip.Clone
+  nameWithType: Whip.Clone
 - uid: Shiang.Whip.Hit(Shiang.IHurtable)
   name: Hit(IHurtable)
   href: api/Shiang.Whip.html#Shiang_Whip_Hit_Shiang_IHurtable_
@@ -5122,6 +5469,19 @@ references:
   commentId: T:ShiangTest.Ar1
   fullName: ShiangTest.Ar1
   nameWithType: Ar1
+- uid: ShiangTest.Ar1.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.Ar1.html#ShiangTest_Ar1_Clone_System_Int32_
+  commentId: M:ShiangTest.Ar1.Clone(System.Int32)
+  fullName: ShiangTest.Ar1.Clone(System.Int32)
+  nameWithType: Ar1.Clone(Int32)
+- uid: ShiangTest.Ar1.Clone*
+  name: Clone
+  href: api/ShiangTest.Ar1.html#ShiangTest_Ar1_Clone_
+  commentId: Overload:ShiangTest.Ar1.Clone
+  isSpec: "True"
+  fullName: ShiangTest.Ar1.Clone
+  nameWithType: Ar1.Clone
 - uid: ShiangTest.Ar1.Description
   name: Description
   href: api/ShiangTest.Ar1.html#ShiangTest_Ar1_Description
@@ -5180,6 +5540,19 @@ references:
   commentId: T:ShiangTest.Ar2
   fullName: ShiangTest.Ar2
   nameWithType: Ar2
+- uid: ShiangTest.Ar2.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.Ar2.html#ShiangTest_Ar2_Clone_System_Int32_
+  commentId: M:ShiangTest.Ar2.Clone(System.Int32)
+  fullName: ShiangTest.Ar2.Clone(System.Int32)
+  nameWithType: Ar2.Clone(Int32)
+- uid: ShiangTest.Ar2.Clone*
+  name: Clone
+  href: api/ShiangTest.Ar2.html#ShiangTest_Ar2_Clone_
+  commentId: Overload:ShiangTest.Ar2.Clone
+  isSpec: "True"
+  fullName: ShiangTest.Ar2.Clone
+  nameWithType: Ar2.Clone
 - uid: ShiangTest.Ar2.Description
   name: Description
   href: api/ShiangTest.Ar2.html#ShiangTest_Ar2_Description
@@ -5238,6 +5611,19 @@ references:
   commentId: T:ShiangTest.Ar3
   fullName: ShiangTest.Ar3
   nameWithType: Ar3
+- uid: ShiangTest.Ar3.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.Ar3.html#ShiangTest_Ar3_Clone_System_Int32_
+  commentId: M:ShiangTest.Ar3.Clone(System.Int32)
+  fullName: ShiangTest.Ar3.Clone(System.Int32)
+  nameWithType: Ar3.Clone(Int32)
+- uid: ShiangTest.Ar3.Clone*
+  name: Clone
+  href: api/ShiangTest.Ar3.html#ShiangTest_Ar3_Clone_
+  commentId: Overload:ShiangTest.Ar3.Clone
+  isSpec: "True"
+  fullName: ShiangTest.Ar3.Clone
+  nameWithType: Ar3.Clone
 - uid: ShiangTest.Ar3.Description
   name: Description
   href: api/ShiangTest.Ar3.html#ShiangTest_Ar3_Description
@@ -5296,6 +5682,19 @@ references:
   commentId: T:ShiangTest.Ar4
   fullName: ShiangTest.Ar4
   nameWithType: Ar4
+- uid: ShiangTest.Ar4.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.Ar4.html#ShiangTest_Ar4_Clone_System_Int32_
+  commentId: M:ShiangTest.Ar4.Clone(System.Int32)
+  fullName: ShiangTest.Ar4.Clone(System.Int32)
+  nameWithType: Ar4.Clone(Int32)
+- uid: ShiangTest.Ar4.Clone*
+  name: Clone
+  href: api/ShiangTest.Ar4.html#ShiangTest_Ar4_Clone_
+  commentId: Overload:ShiangTest.Ar4.Clone
+  isSpec: "True"
+  fullName: ShiangTest.Ar4.Clone
+  nameWithType: Ar4.Clone
 - uid: ShiangTest.Ar4.Description
   name: Description
   href: api/ShiangTest.Ar4.html#ShiangTest_Ar4_Description
@@ -5354,6 +5753,19 @@ references:
   commentId: T:ShiangTest.I1
   fullName: ShiangTest.I1
   nameWithType: I1
+- uid: ShiangTest.I1.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.I1.html#ShiangTest_I1_Clone_System_Int32_
+  commentId: M:ShiangTest.I1.Clone(System.Int32)
+  fullName: ShiangTest.I1.Clone(System.Int32)
+  nameWithType: I1.Clone(Int32)
+- uid: ShiangTest.I1.Clone*
+  name: Clone
+  href: api/ShiangTest.I1.html#ShiangTest_I1_Clone_
+  commentId: Overload:ShiangTest.I1.Clone
+  isSpec: "True"
+  fullName: ShiangTest.I1.Clone
+  nameWithType: I1.Clone
 - uid: ShiangTest.I1.Description
   name: Description
   href: api/ShiangTest.I1.html#ShiangTest_I1_Description
@@ -5412,6 +5824,19 @@ references:
   commentId: T:ShiangTest.I2
   fullName: ShiangTest.I2
   nameWithType: I2
+- uid: ShiangTest.I2.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.I2.html#ShiangTest_I2_Clone_System_Int32_
+  commentId: M:ShiangTest.I2.Clone(System.Int32)
+  fullName: ShiangTest.I2.Clone(System.Int32)
+  nameWithType: I2.Clone(Int32)
+- uid: ShiangTest.I2.Clone*
+  name: Clone
+  href: api/ShiangTest.I2.html#ShiangTest_I2_Clone_
+  commentId: Overload:ShiangTest.I2.Clone
+  isSpec: "True"
+  fullName: ShiangTest.I2.Clone
+  nameWithType: I2.Clone
 - uid: ShiangTest.I2.Description
   name: Description
   href: api/ShiangTest.I2.html#ShiangTest_I2_Description
@@ -5470,6 +5895,19 @@ references:
   commentId: T:ShiangTest.I3
   fullName: ShiangTest.I3
   nameWithType: I3
+- uid: ShiangTest.I3.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.I3.html#ShiangTest_I3_Clone_System_Int32_
+  commentId: M:ShiangTest.I3.Clone(System.Int32)
+  fullName: ShiangTest.I3.Clone(System.Int32)
+  nameWithType: I3.Clone(Int32)
+- uid: ShiangTest.I3.Clone*
+  name: Clone
+  href: api/ShiangTest.I3.html#ShiangTest_I3_Clone_
+  commentId: Overload:ShiangTest.I3.Clone
+  isSpec: "True"
+  fullName: ShiangTest.I3.Clone
+  nameWithType: I3.Clone
 - uid: ShiangTest.I3.Description
   name: Description
   href: api/ShiangTest.I3.html#ShiangTest_I3_Description
@@ -5528,6 +5966,19 @@ references:
   commentId: T:ShiangTest.I4
   fullName: ShiangTest.I4
   nameWithType: I4
+- uid: ShiangTest.I4.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.I4.html#ShiangTest_I4_Clone_System_Int32_
+  commentId: M:ShiangTest.I4.Clone(System.Int32)
+  fullName: ShiangTest.I4.Clone(System.Int32)
+  nameWithType: I4.Clone(Int32)
+- uid: ShiangTest.I4.Clone*
+  name: Clone
+  href: api/ShiangTest.I4.html#ShiangTest_I4_Clone_
+  commentId: Overload:ShiangTest.I4.Clone
+  isSpec: "True"
+  fullName: ShiangTest.I4.Clone
+  nameWithType: I4.Clone
 - uid: ShiangTest.I4.Description
   name: Description
   href: api/ShiangTest.I4.html#ShiangTest_I4_Description
@@ -5734,6 +6185,19 @@ references:
   isSpec: "True"
   fullName: ShiangTest.TestDatabase.WriteToConsumableDB
   nameWithType: TestDatabase.WriteToConsumableDB
+- uid: ShiangTest.TestDatabase.WriteToEntityDB
+  name: WriteToEntityDB()
+  href: api/ShiangTest.TestDatabase.html#ShiangTest_TestDatabase_WriteToEntityDB
+  commentId: M:ShiangTest.TestDatabase.WriteToEntityDB
+  fullName: ShiangTest.TestDatabase.WriteToEntityDB()
+  nameWithType: TestDatabase.WriteToEntityDB()
+- uid: ShiangTest.TestDatabase.WriteToEntityDB*
+  name: WriteToEntityDB
+  href: api/ShiangTest.TestDatabase.html#ShiangTest_TestDatabase_WriteToEntityDB_
+  commentId: Overload:ShiangTest.TestDatabase.WriteToEntityDB
+  isSpec: "True"
+  fullName: ShiangTest.TestDatabase.WriteToEntityDB
+  nameWithType: TestDatabase.WriteToEntityDB
 - uid: ShiangTest.TestDatabase.WriteToResourcePathDB
   name: WriteToResourcePathDB()
   href: api/ShiangTest.TestDatabase.html#ShiangTest_TestDatabase_WriteToResourcePathDB
@@ -5934,6 +6398,19 @@ references:
   isSpec: "True"
   fullName: ShiangTest.W1.Clips
   nameWithType: W1.Clips
+- uid: ShiangTest.W1.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.W1.html#ShiangTest_W1_Clone_System_Int32_
+  commentId: M:ShiangTest.W1.Clone(System.Int32)
+  fullName: ShiangTest.W1.Clone(System.Int32)
+  nameWithType: W1.Clone(Int32)
+- uid: ShiangTest.W1.Clone*
+  name: Clone
+  href: api/ShiangTest.W1.html#ShiangTest_W1_Clone_
+  commentId: Overload:ShiangTest.W1.Clone
+  isSpec: "True"
+  fullName: ShiangTest.W1.Clone
+  nameWithType: W1.Clone
 - uid: ShiangTest.W1.Description
   name: Description
   href: api/ShiangTest.W1.html#ShiangTest_W1_Description
@@ -6031,6 +6508,19 @@ references:
   isSpec: "True"
   fullName: ShiangTest.W2.Clips
   nameWithType: W2.Clips
+- uid: ShiangTest.W2.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.W2.html#ShiangTest_W2_Clone_System_Int32_
+  commentId: M:ShiangTest.W2.Clone(System.Int32)
+  fullName: ShiangTest.W2.Clone(System.Int32)
+  nameWithType: W2.Clone(Int32)
+- uid: ShiangTest.W2.Clone*
+  name: Clone
+  href: api/ShiangTest.W2.html#ShiangTest_W2_Clone_
+  commentId: Overload:ShiangTest.W2.Clone
+  isSpec: "True"
+  fullName: ShiangTest.W2.Clone
+  nameWithType: W2.Clone
 - uid: ShiangTest.W2.Description
   name: Description
   href: api/ShiangTest.W2.html#ShiangTest_W2_Description
@@ -6128,6 +6618,19 @@ references:
   isSpec: "True"
   fullName: ShiangTest.W3.Clips
   nameWithType: W3.Clips
+- uid: ShiangTest.W3.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.W3.html#ShiangTest_W3_Clone_System_Int32_
+  commentId: M:ShiangTest.W3.Clone(System.Int32)
+  fullName: ShiangTest.W3.Clone(System.Int32)
+  nameWithType: W3.Clone(Int32)
+- uid: ShiangTest.W3.Clone*
+  name: Clone
+  href: api/ShiangTest.W3.html#ShiangTest_W3_Clone_
+  commentId: Overload:ShiangTest.W3.Clone
+  isSpec: "True"
+  fullName: ShiangTest.W3.Clone
+  nameWithType: W3.Clone
 - uid: ShiangTest.W3.Description
   name: Description
   href: api/ShiangTest.W3.html#ShiangTest_W3_Description
@@ -6225,6 +6728,19 @@ references:
   isSpec: "True"
   fullName: ShiangTest.W4.Clips
   nameWithType: W4.Clips
+- uid: ShiangTest.W4.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/ShiangTest.W4.html#ShiangTest_W4_Clone_System_Int32_
+  commentId: M:ShiangTest.W4.Clone(System.Int32)
+  fullName: ShiangTest.W4.Clone(System.Int32)
+  nameWithType: W4.Clone(Int32)
+- uid: ShiangTest.W4.Clone*
+  name: Clone
+  href: api/ShiangTest.W4.html#ShiangTest_W4_Clone_
+  commentId: Overload:ShiangTest.W4.Clone
+  isSpec: "True"
+  fullName: ShiangTest.W4.Clone
+  nameWithType: W4.Clone
 - uid: ShiangTest.W4.Description
   name: Description
   href: api/ShiangTest.W4.html#ShiangTest_W4_Description

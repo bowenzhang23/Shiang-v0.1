@@ -88,8 +88,9 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="Shiang.Database-1.html">Database</a>&lt;<a class="xref" href="Shiang.ResourcePathData.html">ResourcePathData</a>&gt;</div>
-    <div class="level2"><span class="xref">ResourcePathDB</span></div>
+    <div class="level1"><a class="xref" href="Shiang.SQLiteDatabase.html">SQLiteDatabase</a></div>
+    <div class="level2"><a class="xref" href="Shiang.TableDatabase-1.html">TableDatabase</a>&lt;<a class="xref" href="Shiang.ResourcePathData.html">ResourcePathData</a>&gt;</div>
+    <div class="level3"><span class="xref">ResourcePathDB</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -98,26 +99,38 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Shiang.Database-1.html#Shiang_Database_1_Data">Database&lt;ResourcePathData&gt;.Data</a>
+      <a class="xref" href="Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_Data">TableDatabase&lt;ResourcePathData&gt;.Data</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.Database-1.html#Shiang_Database_1_Create">Database&lt;ResourcePathData&gt;.Create()</a>
+      <a class="xref" href="Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_Retrieve">TableDatabase&lt;ResourcePathData&gt;.Retrieve()</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.Database-1.html#Shiang_Database_1_Insert_System_Object_">Database&lt;ResourcePathData&gt;.Insert(Object)</a>
+      <a class="xref" href="Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_ConnectAndRead_System_String_">TableDatabase&lt;ResourcePathData&gt;.ConnectAndRead(String)</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.Database-1.html#Shiang_Database_1_Retrieve">Database&lt;ResourcePathData&gt;.Retrieve()</a>
+      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Name">SQLiteDatabase.Name</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.Database-1.html#Shiang_Database_1_Clear">Database&lt;ResourcePathData&gt;.Clear()</a>
+      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_DatabaseName">SQLiteDatabase.DatabaseName</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Create">SQLiteDatabase.Create()</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Insert_System_Object_">SQLiteDatabase.Insert(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Clear">SQLiteDatabase.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_ConnectAndWrite_System_String_">SQLiteDatabase.ConnectAndWrite(String)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Shiang_ResourcePathDB_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ResourcePathDB : Database&lt;ResourcePathData&gt;, IDatabase</code></pre>
+    <pre><code class="lang-csharp hljs">public class ResourcePathDB : TableDatabase&lt;ResourcePathData&gt;, IDatabase</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -131,35 +144,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ResourcePathDB()</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Shiang_ResourcePathDB_CommandStringRetrive_" data-uid="Shiang.ResourcePathDB.CommandStringRetrive*"></a>
-  <h4 id="Shiang_ResourcePathDB_CommandStringRetrive" data-uid="Shiang.ResourcePathDB.CommandStringRetrive">CommandStringRetrive</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string CommandStringRetrive { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Shiang.Database&lt;Shiang.ResourcePathData&gt;.CommandStringRetrive</span></div>
   <h3 id="methods">Methods
   </h3>
   
@@ -188,7 +172,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Shiang.Database&lt;Shiang.ResourcePathData&gt;.CommandStringClear()</span></div>
+  <div><a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringClear">SQLiteDatabase.CommandStringClear()</a></div>
   
   
   <a id="Shiang_ResourcePathDB_CommandStringCreate_" data-uid="Shiang.ResourcePathDB.CommandStringCreate*"></a>
@@ -215,7 +199,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Shiang.Database&lt;Shiang.ResourcePathData&gt;.CommandStringCreate()</span></div>
+  <div><a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringCreate">SQLiteDatabase.CommandStringCreate()</a></div>
   
   
   <a id="Shiang_ResourcePathDB_CommandStringInsert_" data-uid="Shiang.ResourcePathDB.CommandStringInsert*"></a>
@@ -259,7 +243,51 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Shiang.Database&lt;Shiang.ResourcePathData&gt;.CommandStringInsert(System.Object)</span></div>
+  <div><a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringInsert_System_Object_">SQLiteDatabase.CommandStringInsert(Object)</a></div>
+  
+  
+  <a id="Shiang_ResourcePathDB_CommandStringRetrive_" data-uid="Shiang.ResourcePathDB.CommandStringRetrive*"></a>
+  <h4 id="Shiang_ResourcePathDB_CommandStringRetrive_System_String_" data-uid="Shiang.ResourcePathDB.CommandStringRetrive(System.String)">CommandStringRetrive(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string CommandStringRetrive(string what)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">what</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringRetrive_System_String_">SQLiteDatabase.CommandStringRetrive(String)</a></div>
   
   
   <a id="Shiang_ResourcePathDB_RetrieveData_" data-uid="Shiang.ResourcePathDB.RetrieveData*"></a>
@@ -303,7 +331,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Shiang.Database&lt;Shiang.ResourcePathData&gt;.RetrieveData(IDataReader)</span></div>
+  <div><span class="xref">Shiang.TableDatabase&lt;Shiang.ResourcePathData&gt;.RetrieveData(IDataReader)</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Shiang.IDatabase.html">IDatabase</a>

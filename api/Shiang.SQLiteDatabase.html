@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ConsumableDB
+    <title>Class SQLiteDatabase
    | Shiang v0.1.0 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ConsumableDB
+    <meta name="title" content="Class SQLiteDatabase
    | Shiang v0.1.0 ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -78,83 +78,157 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Shiang.ConsumableDB">
+            <article class="content wrap" id="_content" data-uid="Shiang.SQLiteDatabase">
   
   
-  <h1 id="Shiang_ConsumableDB" data-uid="Shiang.ConsumableDB" class="text-break">Class ConsumableDB
+  <h1 id="Shiang_SQLiteDatabase" data-uid="Shiang.SQLiteDatabase" class="text-break">Class SQLiteDatabase
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="Shiang.SQLiteDatabase.html">SQLiteDatabase</a></div>
-    <div class="level2"><a class="xref" href="Shiang.TableDatabase-1.html">TableDatabase</a>&lt;<a class="xref" href="Shiang.ConsumableData.html">ConsumableData</a>&gt;</div>
-    <div class="level3"><span class="xref">ConsumableDB</span></div>
+    <div class="level1"><span class="xref">SQLiteDatabase</span></div>
+      <div class="level2"><a class="xref" href="Shiang.EntityDB.html">EntityDB</a></div>
+      <div class="level2"><a class="xref" href="Shiang.TableDatabase-1.html">TableDatabase&lt;T1&gt;</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Shiang.IDatabase.html">IDatabase</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_Data">TableDatabase&lt;ConsumableData&gt;.Data</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_Retrieve">TableDatabase&lt;ConsumableData&gt;.Retrieve()</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.TableDatabase-1.html#Shiang_TableDatabase_1_ConnectAndRead_System_String_">TableDatabase&lt;ConsumableData&gt;.ConnectAndRead(String)</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Name">SQLiteDatabase.Name</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_DatabaseName">SQLiteDatabase.DatabaseName</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Create">SQLiteDatabase.Create()</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Insert_System_Object_">SQLiteDatabase.Insert(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_Clear">SQLiteDatabase.Clear()</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_ConnectAndWrite_System_String_">SQLiteDatabase.ConnectAndWrite(String)</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Shiang_ConsumableDB_syntax">Syntax</h5>
+  <h5 id="Shiang_SQLiteDatabase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ConsumableDB : TableDatabase&lt;ConsumableData&gt;, IDatabase</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class SQLiteDatabase : IDatabase</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Shiang_ConsumableDB__ctor_" data-uid="Shiang.ConsumableDB.#ctor*"></a>
-  <h4 id="Shiang_ConsumableDB__ctor" data-uid="Shiang.ConsumableDB.#ctor">ConsumableDB()</h4>
+  <a id="Shiang_SQLiteDatabase__ctor_" data-uid="Shiang.SQLiteDatabase.#ctor*"></a>
+  <h4 id="Shiang_SQLiteDatabase__ctor_System_String_" data-uid="Shiang.SQLiteDatabase.#ctor(System.String)">SQLiteDatabase(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ConsumableDB()</code></pre>
+    <pre><code class="lang-csharp hljs">public SQLiteDatabase(string databaseName)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">databaseName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Shiang_SQLiteDatabase_Data_" data-uid="Shiang.SQLiteDatabase.Data*"></a>
+  <h4 id="Shiang_SQLiteDatabase_Data" data-uid="Shiang.SQLiteDatabase.Data">Data</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract object Data { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_SQLiteDatabase_DatabaseName_" data-uid="Shiang.SQLiteDatabase.DatabaseName*"></a>
+  <h4 id="Shiang_SQLiteDatabase_DatabaseName" data-uid="Shiang.SQLiteDatabase.DatabaseName">DatabaseName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string DatabaseName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_SQLiteDatabase_Name_" data-uid="Shiang.SQLiteDatabase.Name*"></a>
+  <h4 id="Shiang_SQLiteDatabase_Name" data-uid="Shiang.SQLiteDatabase.Name">Name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Shiang_ConsumableDB_CommandStringClear_" data-uid="Shiang.ConsumableDB.CommandStringClear*"></a>
-  <h4 id="Shiang_ConsumableDB_CommandStringClear" data-uid="Shiang.ConsumableDB.CommandStringClear">CommandStringClear()</h4>
+  <a id="Shiang_SQLiteDatabase_Clear_" data-uid="Shiang.SQLiteDatabase.Clear*"></a>
+  <h4 id="Shiang_SQLiteDatabase_Clear" data-uid="Shiang.SQLiteDatabase.Clear">Clear()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string CommandStringClear()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void Clear()</code></pre>
+  </div>
+  
+  
+  <a id="Shiang_SQLiteDatabase_CommandStringClear_" data-uid="Shiang.SQLiteDatabase.CommandStringClear*"></a>
+  <h4 id="Shiang_SQLiteDatabase_CommandStringClear" data-uid="Shiang.SQLiteDatabase.CommandStringClear">CommandStringClear()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string CommandStringClear()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -171,17 +245,15 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringClear">SQLiteDatabase.CommandStringClear()</a></div>
   
   
-  <a id="Shiang_ConsumableDB_CommandStringCreate_" data-uid="Shiang.ConsumableDB.CommandStringCreate*"></a>
-  <h4 id="Shiang_ConsumableDB_CommandStringCreate" data-uid="Shiang.ConsumableDB.CommandStringCreate">CommandStringCreate()</h4>
+  <a id="Shiang_SQLiteDatabase_CommandStringCreate_" data-uid="Shiang.SQLiteDatabase.CommandStringCreate*"></a>
+  <h4 id="Shiang_SQLiteDatabase_CommandStringCreate" data-uid="Shiang.SQLiteDatabase.CommandStringCreate">CommandStringCreate()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string CommandStringCreate()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract string CommandStringCreate()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -198,17 +270,15 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringCreate">SQLiteDatabase.CommandStringCreate()</a></div>
   
   
-  <a id="Shiang_ConsumableDB_CommandStringInsert_" data-uid="Shiang.ConsumableDB.CommandStringInsert*"></a>
-  <h4 id="Shiang_ConsumableDB_CommandStringInsert_System_Object_" data-uid="Shiang.ConsumableDB.CommandStringInsert(System.Object)">CommandStringInsert(Object)</h4>
+  <a id="Shiang_SQLiteDatabase_CommandStringInsert_" data-uid="Shiang.SQLiteDatabase.CommandStringInsert*"></a>
+  <h4 id="Shiang_SQLiteDatabase_CommandStringInsert_System_Object_" data-uid="Shiang.SQLiteDatabase.CommandStringInsert(System.Object)">CommandStringInsert(Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string CommandStringInsert(object entry)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract string CommandStringInsert(object entry)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -242,17 +312,15 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringInsert_System_Object_">SQLiteDatabase.CommandStringInsert(Object)</a></div>
   
   
-  <a id="Shiang_ConsumableDB_CommandStringRetrive_" data-uid="Shiang.ConsumableDB.CommandStringRetrive*"></a>
-  <h4 id="Shiang_ConsumableDB_CommandStringRetrive_System_String_" data-uid="Shiang.ConsumableDB.CommandStringRetrive(System.String)">CommandStringRetrive(String)</h4>
+  <a id="Shiang_SQLiteDatabase_CommandStringRetrive_" data-uid="Shiang.SQLiteDatabase.CommandStringRetrive*"></a>
+  <h4 id="Shiang_SQLiteDatabase_CommandStringRetrive_System_String_" data-uid="Shiang.SQLiteDatabase.CommandStringRetrive(System.String)">CommandStringRetrive(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string CommandStringRetrive(string what)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract string CommandStringRetrive(string what)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -286,17 +354,15 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Shiang.SQLiteDatabase.html#Shiang_SQLiteDatabase_CommandStringRetrive_System_String_">SQLiteDatabase.CommandStringRetrive(String)</a></div>
   
   
-  <a id="Shiang_ConsumableDB_RetrieveData_" data-uid="Shiang.ConsumableDB.RetrieveData*"></a>
-  <h4 id="Shiang_ConsumableDB_RetrieveData_IDataReader_" data-uid="Shiang.ConsumableDB.RetrieveData(IDataReader)">RetrieveData(IDataReader)</h4>
+  <a id="Shiang_SQLiteDatabase_ConnectAndRead_" data-uid="Shiang.SQLiteDatabase.ConnectAndRead*"></a>
+  <h4 id="Shiang_SQLiteDatabase_ConnectAndRead_System_String_" data-uid="Shiang.SQLiteDatabase.ConnectAndRead(System.String)">ConnectAndRead(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override ConsumableData RetrieveData(IDataReader reader)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void ConnectAndRead(string str)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -309,29 +375,86 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IDataReader</span></td>
-        <td><span class="parametername">reader</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">str</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="Shiang_SQLiteDatabase_ConnectAndWrite_" data-uid="Shiang.SQLiteDatabase.ConnectAndWrite*"></a>
+  <h4 id="Shiang_SQLiteDatabase_ConnectAndWrite_System_String_" data-uid="Shiang.SQLiteDatabase.ConnectAndWrite(System.String)">ConnectAndWrite(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ConnectAndWrite(string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Shiang.ConsumableData.html">ConsumableData</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">str</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Shiang.TableDatabase&lt;Shiang.ConsumableData&gt;.RetrieveData(IDataReader)</span></div>
+  
+  
+  <a id="Shiang_SQLiteDatabase_Create_" data-uid="Shiang.SQLiteDatabase.Create*"></a>
+  <h4 id="Shiang_SQLiteDatabase_Create" data-uid="Shiang.SQLiteDatabase.Create">Create()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Create()</code></pre>
+  </div>
+  
+  
+  <a id="Shiang_SQLiteDatabase_Insert_" data-uid="Shiang.SQLiteDatabase.Insert*"></a>
+  <h4 id="Shiang_SQLiteDatabase_Insert_System_Object_" data-uid="Shiang.SQLiteDatabase.Insert(System.Object)">Insert(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Insert(object entry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_SQLiteDatabase_Retrieve_" data-uid="Shiang.SQLiteDatabase.Retrieve*"></a>
+  <h4 id="Shiang_SQLiteDatabase_Retrieve" data-uid="Shiang.SQLiteDatabase.Retrieve">Retrieve()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Retrieve()</code></pre>
+  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Shiang.IDatabase.html">IDatabase</a>

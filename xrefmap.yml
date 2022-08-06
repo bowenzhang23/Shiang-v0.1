@@ -511,13 +511,13 @@ references:
   commentId: T:Shiang.AbilityTree.Node
   fullName: Shiang.AbilityTree.Node
   nameWithType: AbilityTree.Node
-- uid: Shiang.AbilityTree.Node.#ctor(Shiang.Ability,System.Collections.Generic.List{Shiang.AbilityTree.Node})
+- uid: Shiang.AbilityTree.Node.#ctor(Shiang.Ability,List{Shiang.AbilityTree.Node})
   name: Node(Ability, List<AbilityTree.Node>)
-  href: api/Shiang.AbilityTree.Node.html#Shiang_AbilityTree_Node__ctor_Shiang_Ability_System_Collections_Generic_List_Shiang_AbilityTree_Node__
-  commentId: M:Shiang.AbilityTree.Node.#ctor(Shiang.Ability,System.Collections.Generic.List{Shiang.AbilityTree.Node})
+  href: api/Shiang.AbilityTree.Node.html#Shiang_AbilityTree_Node__ctor_Shiang_Ability_List_Shiang_AbilityTree_Node__
+  commentId: M:Shiang.AbilityTree.Node.#ctor(Shiang.Ability,List{Shiang.AbilityTree.Node})
   name.vb: Node(Ability, List(Of AbilityTree.Node))
-  fullName: Shiang.AbilityTree.Node.Node(Shiang.Ability, System.Collections.Generic.List<Shiang.AbilityTree.Node>)
-  fullName.vb: Shiang.AbilityTree.Node.Node(Shiang.Ability, System.Collections.Generic.List(Of Shiang.AbilityTree.Node))
+  fullName: Shiang.AbilityTree.Node.Node(Shiang.Ability, List<Shiang.AbilityTree.Node>)
+  fullName.vb: Shiang.AbilityTree.Node.Node(Shiang.Ability, List(Of Shiang.AbilityTree.Node))
   nameWithType: AbilityTree.Node.Node(Ability, List<AbilityTree.Node>)
   nameWithType.vb: AbilityTree.Node.Node(Ability, List(Of AbilityTree.Node))
 - uid: Shiang.AbilityTree.Node.#ctor*
@@ -810,6 +810,70 @@ references:
   isSpec: "True"
   fullName: Shiang.Bahu.UseWeapon
   nameWithType: Bahu.UseWeapon
+- uid: Shiang.CloseState
+  name: CloseState
+  href: api/Shiang.CloseState.html
+  commentId: T:Shiang.CloseState
+  fullName: Shiang.CloseState
+  nameWithType: CloseState
+- uid: Shiang.CloseState.Enter
+  name: Enter()
+  href: api/Shiang.CloseState.html#Shiang_CloseState_Enter
+  commentId: M:Shiang.CloseState.Enter
+  fullName: Shiang.CloseState.Enter()
+  nameWithType: CloseState.Enter()
+- uid: Shiang.CloseState.Enter*
+  name: Enter
+  href: api/Shiang.CloseState.html#Shiang_CloseState_Enter_
+  commentId: Overload:Shiang.CloseState.Enter
+  isSpec: "True"
+  fullName: Shiang.CloseState.Enter
+  nameWithType: CloseState.Enter
+- uid: Shiang.CloseState.Exit
+  name: Exit()
+  href: api/Shiang.CloseState.html#Shiang_CloseState_Exit
+  commentId: M:Shiang.CloseState.Exit
+  fullName: Shiang.CloseState.Exit()
+  nameWithType: CloseState.Exit()
+- uid: Shiang.CloseState.Exit*
+  name: Exit
+  href: api/Shiang.CloseState.html#Shiang_CloseState_Exit_
+  commentId: Overload:Shiang.CloseState.Exit
+  isSpec: "True"
+  fullName: Shiang.CloseState.Exit
+  nameWithType: CloseState.Exit
+- uid: Shiang.CloseState.Tick
+  name: Tick()
+  href: api/Shiang.CloseState.html#Shiang_CloseState_Tick
+  commentId: M:Shiang.CloseState.Tick
+  fullName: Shiang.CloseState.Tick()
+  nameWithType: CloseState.Tick()
+- uid: Shiang.CloseState.Tick*
+  name: Tick
+  href: api/Shiang.CloseState.html#Shiang_CloseState_Tick_
+  commentId: Overload:Shiang.CloseState.Tick
+  isSpec: "True"
+  fullName: Shiang.CloseState.Tick
+  nameWithType: CloseState.Tick
+- uid: Shiang.CollisionDetector
+  name: CollisionDetector
+  href: api/Shiang.CollisionDetector.html
+  commentId: T:Shiang.CollisionDetector
+  fullName: Shiang.CollisionDetector
+  nameWithType: CollisionDetector
+- uid: Shiang.CollisionDetector.PlayerDetected
+  name: PlayerDetected
+  href: api/Shiang.CollisionDetector.html#Shiang_CollisionDetector_PlayerDetected
+  commentId: P:Shiang.CollisionDetector.PlayerDetected
+  fullName: Shiang.CollisionDetector.PlayerDetected
+  nameWithType: CollisionDetector.PlayerDetected
+- uid: Shiang.CollisionDetector.PlayerDetected*
+  name: PlayerDetected
+  href: api/Shiang.CollisionDetector.html#Shiang_CollisionDetector_PlayerDetected_
+  commentId: Overload:Shiang.CollisionDetector.PlayerDetected
+  isSpec: "True"
+  fullName: Shiang.CollisionDetector.PlayerDetected
+  nameWithType: CollisionDetector.PlayerDetected
 - uid: Shiang.CommonStateManager
   name: CommonStateManager
   href: api/Shiang.CommonStateManager.html
@@ -1499,6 +1563,116 @@ references:
   isSpec: "True"
   fullName: Shiang.FootstepSound.Step
   nameWithType: FootstepSound.Step
+- uid: Shiang.Fridge
+  name: Fridge
+  href: api/Shiang.Fridge.html
+  commentId: T:Shiang.Fridge
+  fullName: Shiang.Fridge
+  nameWithType: Fridge
+- uid: Shiang.Fridge.Anim
+  name: Anim
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Anim
+  commentId: P:Shiang.Fridge.Anim
+  fullName: Shiang.Fridge.Anim
+  nameWithType: Fridge.Anim
+- uid: Shiang.Fridge.Anim*
+  name: Anim
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Anim_
+  commentId: Overload:Shiang.Fridge.Anim
+  isSpec: "True"
+  fullName: Shiang.Fridge.Anim
+  nameWithType: Fridge.Anim
+- uid: Shiang.Fridge.Close
+  name: Close()
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Close
+  commentId: M:Shiang.Fridge.Close
+  fullName: Shiang.Fridge.Close()
+  nameWithType: Fridge.Close()
+- uid: Shiang.Fridge.Close*
+  name: Close
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Close_
+  commentId: Overload:Shiang.Fridge.Close
+  isSpec: "True"
+  fullName: Shiang.Fridge.Close
+  nameWithType: Fridge.Close
+- uid: Shiang.Fridge.Detector
+  name: Detector
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Detector
+  commentId: P:Shiang.Fridge.Detector
+  fullName: Shiang.Fridge.Detector
+  nameWithType: Fridge.Detector
+- uid: Shiang.Fridge.Detector*
+  name: Detector
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Detector_
+  commentId: Overload:Shiang.Fridge.Detector
+  isSpec: "True"
+  fullName: Shiang.Fridge.Detector
+  nameWithType: Fridge.Detector
+- uid: Shiang.Fridge.Idle
+  name: Idle()
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Idle
+  commentId: M:Shiang.Fridge.Idle
+  fullName: Shiang.Fridge.Idle()
+  nameWithType: Fridge.Idle()
+- uid: Shiang.Fridge.Idle*
+  name: Idle
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Idle_
+  commentId: Overload:Shiang.Fridge.Idle
+  isSpec: "True"
+  fullName: Shiang.Fridge.Idle
+  nameWithType: Fridge.Idle
+- uid: Shiang.Fridge.IsOpen
+  name: IsOpen
+  href: api/Shiang.Fridge.html#Shiang_Fridge_IsOpen
+  commentId: P:Shiang.Fridge.IsOpen
+  fullName: Shiang.Fridge.IsOpen
+  nameWithType: Fridge.IsOpen
+- uid: Shiang.Fridge.IsOpen*
+  name: IsOpen
+  href: api/Shiang.Fridge.html#Shiang_Fridge_IsOpen_
+  commentId: Overload:Shiang.Fridge.IsOpen
+  isSpec: "True"
+  fullName: Shiang.Fridge.IsOpen
+  nameWithType: Fridge.IsOpen
+- uid: Shiang.Fridge.Items
+  name: Items
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Items
+  commentId: P:Shiang.Fridge.Items
+  fullName: Shiang.Fridge.Items
+  nameWithType: Fridge.Items
+- uid: Shiang.Fridge.Items*
+  name: Items
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Items_
+  commentId: Overload:Shiang.Fridge.Items
+  isSpec: "True"
+  fullName: Shiang.Fridge.Items
+  nameWithType: Fridge.Items
+- uid: Shiang.Fridge.Open
+  name: Open()
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Open
+  commentId: M:Shiang.Fridge.Open
+  fullName: Shiang.Fridge.Open()
+  nameWithType: Fridge.Open()
+- uid: Shiang.Fridge.Open*
+  name: Open
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Open_
+  commentId: Overload:Shiang.Fridge.Open
+  isSpec: "True"
+  fullName: Shiang.Fridge.Open
+  nameWithType: Fridge.Open
+- uid: Shiang.Fridge.StateMgr
+  name: StateMgr
+  href: api/Shiang.Fridge.html#Shiang_Fridge_StateMgr
+  commentId: P:Shiang.Fridge.StateMgr
+  fullName: Shiang.Fridge.StateMgr
+  nameWithType: Fridge.StateMgr
+- uid: Shiang.Fridge.StateMgr*
+  name: StateMgr
+  href: api/Shiang.Fridge.html#Shiang_Fridge_StateMgr_
+  commentId: Overload:Shiang.Fridge.StateMgr
+  isSpec: "True"
+  fullName: Shiang.Fridge.StateMgr
+  nameWithType: Fridge.StateMgr
 - uid: Shiang.GameController
   name: GameController
   href: api/Shiang.GameController.html
@@ -1675,6 +1849,51 @@ references:
   isSpec: "True"
   fullName: Shiang.IAttackable.UseWeapon
   nameWithType: IAttackable.UseWeapon
+- uid: Shiang.IBinary
+  name: IBinary
+  href: api/Shiang.IBinary.html
+  commentId: T:Shiang.IBinary
+  fullName: Shiang.IBinary
+  nameWithType: IBinary
+- uid: Shiang.IBinary.Close
+  name: Close()
+  href: api/Shiang.IBinary.html#Shiang_IBinary_Close
+  commentId: M:Shiang.IBinary.Close
+  fullName: Shiang.IBinary.Close()
+  nameWithType: IBinary.Close()
+- uid: Shiang.IBinary.Close*
+  name: Close
+  href: api/Shiang.IBinary.html#Shiang_IBinary_Close_
+  commentId: Overload:Shiang.IBinary.Close
+  isSpec: "True"
+  fullName: Shiang.IBinary.Close
+  nameWithType: IBinary.Close
+- uid: Shiang.IBinary.IsOpen
+  name: IsOpen
+  href: api/Shiang.IBinary.html#Shiang_IBinary_IsOpen
+  commentId: P:Shiang.IBinary.IsOpen
+  fullName: Shiang.IBinary.IsOpen
+  nameWithType: IBinary.IsOpen
+- uid: Shiang.IBinary.IsOpen*
+  name: IsOpen
+  href: api/Shiang.IBinary.html#Shiang_IBinary_IsOpen_
+  commentId: Overload:Shiang.IBinary.IsOpen
+  isSpec: "True"
+  fullName: Shiang.IBinary.IsOpen
+  nameWithType: IBinary.IsOpen
+- uid: Shiang.IBinary.Open
+  name: Open()
+  href: api/Shiang.IBinary.html#Shiang_IBinary_Open
+  commentId: M:Shiang.IBinary.Open
+  fullName: Shiang.IBinary.Open()
+  nameWithType: IBinary.Open()
+- uid: Shiang.IBinary.Open*
+  name: Open
+  href: api/Shiang.IBinary.html#Shiang_IBinary_Open_
+  commentId: Overload:Shiang.IBinary.Open
+  isSpec: "True"
+  fullName: Shiang.IBinary.Open
+  nameWithType: IBinary.Open
 - uid: Shiang.IContextClueNotifier
   name: IContextClueNotifier
   href: api/Shiang.IContextClueNotifier.html
@@ -2771,6 +2990,64 @@ references:
   isSpec: "True"
   fullName: Shiang.MoveState.Tick
   nameWithType: MoveState.Tick
+- uid: Shiang.OpenState
+  name: OpenState
+  href: api/Shiang.OpenState.html
+  commentId: T:Shiang.OpenState
+  fullName: Shiang.OpenState
+  nameWithType: OpenState
+- uid: Shiang.OpenState.#ctor(Shiang.IBinary)
+  name: OpenState(IBinary)
+  href: api/Shiang.OpenState.html#Shiang_OpenState__ctor_Shiang_IBinary_
+  commentId: M:Shiang.OpenState.#ctor(Shiang.IBinary)
+  fullName: Shiang.OpenState.OpenState(Shiang.IBinary)
+  nameWithType: OpenState.OpenState(IBinary)
+- uid: Shiang.OpenState.#ctor*
+  name: OpenState
+  href: api/Shiang.OpenState.html#Shiang_OpenState__ctor_
+  commentId: Overload:Shiang.OpenState.#ctor
+  isSpec: "True"
+  fullName: Shiang.OpenState.OpenState
+  nameWithType: OpenState.OpenState
+- uid: Shiang.OpenState.Enter
+  name: Enter()
+  href: api/Shiang.OpenState.html#Shiang_OpenState_Enter
+  commentId: M:Shiang.OpenState.Enter
+  fullName: Shiang.OpenState.Enter()
+  nameWithType: OpenState.Enter()
+- uid: Shiang.OpenState.Enter*
+  name: Enter
+  href: api/Shiang.OpenState.html#Shiang_OpenState_Enter_
+  commentId: Overload:Shiang.OpenState.Enter
+  isSpec: "True"
+  fullName: Shiang.OpenState.Enter
+  nameWithType: OpenState.Enter
+- uid: Shiang.OpenState.Exit
+  name: Exit()
+  href: api/Shiang.OpenState.html#Shiang_OpenState_Exit
+  commentId: M:Shiang.OpenState.Exit
+  fullName: Shiang.OpenState.Exit()
+  nameWithType: OpenState.Exit()
+- uid: Shiang.OpenState.Exit*
+  name: Exit
+  href: api/Shiang.OpenState.html#Shiang_OpenState_Exit_
+  commentId: Overload:Shiang.OpenState.Exit
+  isSpec: "True"
+  fullName: Shiang.OpenState.Exit
+  nameWithType: OpenState.Exit
+- uid: Shiang.OpenState.Tick
+  name: Tick()
+  href: api/Shiang.OpenState.html#Shiang_OpenState_Tick
+  commentId: M:Shiang.OpenState.Tick
+  fullName: Shiang.OpenState.Tick()
+  nameWithType: OpenState.Tick()
+- uid: Shiang.OpenState.Tick*
+  name: Tick
+  href: api/Shiang.OpenState.html#Shiang_OpenState_Tick_
+  commentId: Overload:Shiang.OpenState.Tick
+  isSpec: "True"
+  fullName: Shiang.OpenState.Tick
+  nameWithType: OpenState.Tick
 - uid: Shiang.Orientation
   name: Orientation
   href: api/Shiang.Orientation.html
@@ -4316,6 +4593,15 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.ItemMerge
   nameWithType: Utils.ItemMerge
+- uid: Shiang.Utils.LoadEntityDatabase(System.String,Shiang.ItemContainer@)
+  name: LoadEntityDatabase(String, ref ItemContainer)
+  href: api/Shiang.Utils.html#Shiang_Utils_LoadEntityDatabase_System_String_Shiang_ItemContainer__
+  commentId: M:Shiang.Utils.LoadEntityDatabase(System.String,Shiang.ItemContainer@)
+  name.vb: LoadEntityDatabase(String, ByRef ItemContainer)
+  fullName: Shiang.Utils.LoadEntityDatabase(System.String, ref Shiang.ItemContainer)
+  fullName.vb: Shiang.Utils.LoadEntityDatabase(System.String, ByRef Shiang.ItemContainer)
+  nameWithType: Utils.LoadEntityDatabase(String, ref ItemContainer)
+  nameWithType.vb: Utils.LoadEntityDatabase(String, ByRef ItemContainer)
 - uid: Shiang.Utils.LoadEntityDatabase(System.String,Shiang.ItemContainer@,Shiang.AbilityContainer@)
   name: LoadEntityDatabase(String, ref ItemContainer, ref AbilityContainer)
   href: api/Shiang.Utils.html#Shiang_Utils_LoadEntityDatabase_System_String_Shiang_ItemContainer__Shiang_AbilityContainer__
@@ -6198,6 +6484,19 @@ references:
   isSpec: "True"
   fullName: ShiangTest.TestDatabase.WriteToEntityDB
   nameWithType: TestDatabase.WriteToEntityDB
+- uid: ShiangTest.TestDatabase.WriteToEntityDBForFridge
+  name: WriteToEntityDBForFridge()
+  href: api/ShiangTest.TestDatabase.html#ShiangTest_TestDatabase_WriteToEntityDBForFridge
+  commentId: M:ShiangTest.TestDatabase.WriteToEntityDBForFridge
+  fullName: ShiangTest.TestDatabase.WriteToEntityDBForFridge()
+  nameWithType: TestDatabase.WriteToEntityDBForFridge()
+- uid: ShiangTest.TestDatabase.WriteToEntityDBForFridge*
+  name: WriteToEntityDBForFridge
+  href: api/ShiangTest.TestDatabase.html#ShiangTest_TestDatabase_WriteToEntityDBForFridge_
+  commentId: Overload:ShiangTest.TestDatabase.WriteToEntityDBForFridge
+  isSpec: "True"
+  fullName: ShiangTest.TestDatabase.WriteToEntityDBForFridge
+  nameWithType: TestDatabase.WriteToEntityDBForFridge
 - uid: ShiangTest.TestDatabase.WriteToResourcePathDB
   name: WriteToResourcePathDB()
   href: api/ShiangTest.TestDatabase.html#ShiangTest_TestDatabase_WriteToResourcePathDB

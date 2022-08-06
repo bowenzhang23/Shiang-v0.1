@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.AbilityContainer.html",
-          "hash": "XoQY/CRAV57r4CttEhSpZfSV4WAeLfLq86+gK8wtubA="
+          "hash": "0334V252d7hTG7mOggGrRCdW2Ixv7ttEXSuuq6Uv8qI="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.AbilityTree.Node.html",
-          "hash": "i+NbDvZssiPgwRxQBlVR1UDOAeM0pFTypvU0zLJLnoc="
+          "hash": "Lr1c50k3belSPmq0+ndXR3LA7PIHIBBSWQosQDensgE="
         }
       },
       "is_incremental": false,
@@ -137,6 +137,30 @@
         ".html": {
           "relative_path": "api/Shiang.Bahu.html",
           "hash": "Iopou0fmR7KDfcwdytr5FrsM3U4GBe5Mgwan+Xlcq2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.CloseState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.CloseState.html",
+          "hash": "gRxEWHQR7JmJ8bcEqLZiLYXK1ptL05YxE9slIq2UBa4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.CollisionDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.CollisionDetector.html",
+          "hash": "LYk7u2gbzTufiAVlgHAqgvTBwuepeoPSlS8/W4l7dKY="
         }
       },
       "is_incremental": false,
@@ -208,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Cooldown.html",
-          "hash": "VSRh/tv+VLrL7D1Pbv+eXKpIkKx8BFVRz3A3JzM6yQU="
+          "hash": "XBHsS9qovQ/mElYitu0YRhVTgRwkwNBBPrvEFQoWmbU="
         }
       },
       "is_incremental": false,
@@ -232,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.EntityData.html",
-          "hash": "cr/A9nkDRINYSqk4YxlcsDSrUea/+RWzq0oyZjvFgwA="
+          "hash": "fZpAuVvM1pWPBhR6vguuyUIv+snbYf6JBF7STptB75M="
         }
       },
       "is_incremental": false,
@@ -281,6 +305,18 @@
         ".html": {
           "relative_path": "api/Shiang.FootstepSound.html",
           "hash": "dYGrXUHd4pwySBNPsjl2xBRo0nliRTsJOsyACk19vo4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Fridge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Fridge.html",
+          "hash": "l/PilC0W9tPbVwtaizQxGTxMY/+GoUrE6yuIbDJeL2Q="
         }
       },
       "is_incremental": false,
@@ -389,6 +425,18 @@
         ".html": {
           "relative_path": "api/Shiang.IAttackable.html",
           "hash": "3JsABeL6lDkrDWvS5MqfMqlV6+VVjPy/J1E5A1IEFLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IBinary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IBinary.html",
+          "hash": "FFtrT08+v/sVYz2EnQ0ktLJbqtT1b7To82bOXwkhnuA="
         }
       },
       "is_incremental": false,
@@ -628,7 +676,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Info.html",
-          "hash": "eF+zUs5dKJzm3yZNljcyxbIFqSql/cUnyvKPvZjNnaA="
+          "hash": "MLaKy1i0vGcSts3iiJup3Gi6goIwFmtV+K+kiRwGFWU="
         }
       },
       "is_incremental": false,
@@ -688,7 +736,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.ItemContainer.html",
-          "hash": "oHay4PQ/4V79YhUOsjj6M0ls/gStcwhPXOD4b9ia5tw="
+          "hash": "R/xV4ookG4qIcW4/wz2AzaNe/BagVsOZDG6xuplkgfA="
         }
       },
       "is_incremental": false,
@@ -701,6 +749,18 @@
         ".html": {
           "relative_path": "api/Shiang.MoveState.html",
           "hash": "K5mdlKiKXtgkW1lOBA80k2wXvXbY/42GaJEGvMkyFRA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.OpenState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.OpenState.html",
+          "hash": "6BQKtzyQGYJcZBc5r7mk6YGt89TrX29UMUJp9fdQgd0="
         }
       },
       "is_incremental": false,
@@ -724,7 +784,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Pool.html",
-          "hash": "VftCwCZjvCjd2neHHhzE1Dxh1JdPQtYtF59pQfvq7I4="
+          "hash": "NVwgcqhTtk3P+k7a9qwsIy6gfnVYX/Wi5krDfSZdvRk="
         }
       },
       "is_incremental": false,
@@ -928,7 +988,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Utils.html",
-          "hash": "S2rWdcmJ7g1elpn3Pfy8JNK4IE+VIKQ60n91zdkU4cc="
+          "hash": "snvbwe6Pm6fmsYQMXRifccgmSEh4Vz0OhE/qVDHoIU8="
         }
       },
       "is_incremental": false,
@@ -988,7 +1048,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.html",
-          "hash": "zBD56NT8Et+A7zeZFxL+WdX8vA/E379BC5AiyKZ4xOU="
+          "hash": "/XRfxR6QFgUMcq/vrtcfiYkpd/7TyoiYvWCZ5alq0/4="
         }
       },
       "is_incremental": false,
@@ -1228,7 +1288,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ShiangTest.TestDatabase.html",
-          "hash": "a8FqH1mZTlmzxOCxaAzzk3xoUu2ai8oEBTIgAYNz9d4="
+          "hash": "gjTS/P/GP+5Xw4vF5keTYvt/jgugeRC8CM2XShrk5sc="
         }
       },
       "is_incremental": false,
@@ -1324,7 +1384,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "2+97nSP/dl4D1eUk3NGDU9SjP7gu21HBWQ87OG9KV8Y="
+          "hash": "H3ouI62eBI0t1MwDIcHpjnP8iQ4wkZDfBZvZlmh+j4A="
         }
       },
       "is_incremental": false,
@@ -1434,7 +1494,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 108,
+          "total_file_count": 113,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

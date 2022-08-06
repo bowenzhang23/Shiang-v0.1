@@ -10,16 +10,8 @@ namespace Shiang
 
         public int Count { get => _count; set => _count = value; }
 
-        public T1 Clone<T1>() where T1 : Item, new()
-        {
-            return Clone<T1>(Count);
-        }
+        public Item Clone() => Clone(Count);
 
-        public T1 Clone<T1>(int n) where T1 : Item, new()
-        {
-            T1 item = new T1();
-            item.Count = n;
-            return item;
-        }
+        public abstract Item Clone(int n);
     }
 }

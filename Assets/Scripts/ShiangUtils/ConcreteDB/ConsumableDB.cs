@@ -12,7 +12,7 @@ namespace Shiang
         public int SpriteIndex { get; set; }
     }
 
-    public class ConsumableDB : Database<ConsumableData>
+    public class ConsumableDB : TableDatabase<ConsumableData>
     {
         public ConsumableDB() : base("Consumable") { }
 
@@ -38,9 +38,11 @@ namespace Shiang
                 $"'{entryData.SpriteIndex}');";
         }
 
-        public override string CommandStringRetrive => "SELECT * FROM consumable;";
+        public override string CommandStringRetrive(string what)
+            => $"SELECT * FROM {what};";
 
-        public override string CommandStringClear() => "DELETE FROM consumable;";
+        public override string CommandStringClear() 
+            => "DELETE FROM consumable;";
 
         protected override ConsumableData RetrieveData(IDataReader reader)
         {

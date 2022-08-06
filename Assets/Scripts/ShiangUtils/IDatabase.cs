@@ -1,6 +1,11 @@
 ﻿
 namespace Shiang
 {
+    public interface IDBData
+    {
+
+    }
+
     public interface IDatabase
     {
         public void Create();
@@ -11,10 +16,7 @@ namespace Shiang
 
         public void Clear();
 
-    }
+        public object Data { get; }
 
-    public interface IDBData 
-    {
-    
     }
 }

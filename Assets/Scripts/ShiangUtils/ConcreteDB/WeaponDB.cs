@@ -14,7 +14,7 @@ namespace Shiang
         public float CdTime { get; set; }
     }
 
-    public class WeaponDB : Database<WeaponData>
+    public class WeaponDB : TableDatabase<WeaponData>
     {
         public WeaponDB() : base("Weapon") { }
 
@@ -44,9 +44,11 @@ namespace Shiang
                 $"'{entryData.CdTime}');";
         }
 
-        public override string CommandStringRetrive => "SELECT * FROM weapon;";
+        public override string CommandStringRetrive(string what)
+            => $"SELECT * FROM {what};";
 
-        public override string CommandStringClear() => "DELETE FROM weapon;";
+        public override string CommandStringClear() 
+            => "DELETE FROM weapon;";
 
         protected override WeaponData RetrieveData(IDataReader reader)
         {

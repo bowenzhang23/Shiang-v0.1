@@ -14,7 +14,7 @@ namespace Shiang
         public float CdTime { get; set; }
     }
 
-    public class AbilityDB : Database<AbilityData>
+    public class AbilityDB : TableDatabase<AbilityData>
     {
         public AbilityDB() : base("Ability") { }
 
@@ -44,9 +44,11 @@ namespace Shiang
                 $"'{entryData.CdTime}');";
         }
 
-        public override string CommandStringRetrive => "SELECT * FROM ability;";
+        public override string CommandStringRetrive(string what) 
+            => $"SELECT * FROM {what};";
 
-        public override string CommandStringClear() => "DELETE FROM ability;";
+        public override string CommandStringClear() 
+            => "DELETE FROM ability;";
 
         protected override AbilityData RetrieveData(IDataReader reader)
         {

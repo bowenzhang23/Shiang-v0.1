@@ -24,34 +24,34 @@ namespace ShiangTest
             bool fullSignalEmitted = false;
             itemCont.OnFull += () => fullSignalEmitted = true;
 
-            SixDemon sixGod = new SixDemon() { Count = 20 };
+            Item sixGod = new SixDemon() { Count = 20 };
             itemCont.Receive(ref sixGod, 10); // Count = 1 by default
             itemCont.Receive(ref sixGod); // Count = 1 by default
             Assert.AreEqual(itemCont.Size(), 1);
             Assert.AreEqual(itemCont.Count(), 11);
             Assert.AreEqual(itemCont.Capacity(), 6);
 
-            I1 i1 = new I1() { Count = 10 };
+            Item i1 = new I1() { Count = 10 };
             itemCont.ReceiveAll(ref i1);
             Assert.AreEqual(itemCont.Size(), 2);
             Assert.AreEqual(itemCont.Count(), 21);
             Assert.IsFalse(fullSignalEmitted);
 
-            I2 i2 = new I2() { Count = 2 };
+            Item i2 = new I2() { Count = 2 };
             itemCont.Receive(ref i2);
             itemCont.Receive(ref i2);
             Assert.AreEqual(itemCont.Size(), 3);
             Assert.AreEqual(itemCont.Count(), 23);
             Assert.IsFalse(fullSignalEmitted);
 
-            Ar1 ar1 = new Ar1();
+            Item ar1 = new Ar1();
             itemCont.Receive(ref ar1);
             Assert.AreEqual(itemCont.Size(), 4);
             Assert.AreEqual(itemCont.Count(), 24);
 
-            Whip whip = new Whip();
+            Item whip = new Whip();
             itemCont.Receive(ref whip);
-            W1 w1 = new W1() { Count = 10 };
+            Item w1 = new W1() { Count = 10 };
             itemCont.Receive(ref w1);
             Assert.AreEqual(itemCont.Size(), 6);
             Assert.AreEqual(itemCont.Count(), 26);
@@ -72,10 +72,10 @@ namespace ShiangTest
             bool fullSignalEmitted = false;
             itemCont.OnFull += () => fullSignalEmitted = true;
 
-            W1 w1 = new W1() { Count = 2 };
-            Ar2 ar2 = new Ar2() { Count = 2 };
-            W3 w3 = new W3();
-            Ar4 ar4 = new Ar4();
+            Item w1 = new W1() { Count = 2 };
+            Item ar2 = new Ar2() { Count = 2 };
+            Item w3 = new W3();
+            Item ar4 = new Ar4();
             itemCont.Receive(ref w1, 2);
             itemCont.Receive(ref ar2, 2);
             itemCont.Receive(ref w3);
@@ -92,9 +92,9 @@ namespace ShiangTest
         public void ContainerRemove()
         {
             ItemContainer itemCont = Utils.CreateItemContainer(2);
-            W1 w1 = new W1() { Count = 2 };
-            Ar2 ar2 = new Ar2() { Count = 2 };
-            W3 w3 = new W3();
+            Item w1 = new W1() { Count = 2 };
+            Item ar2 = new Ar2() { Count = 2 };
+            Item w3 = new W3();
             itemCont.Receive(ref w1, 2);
             itemCont.Receive(ref ar2, 2);
             itemCont.Receive(ref w3);
@@ -112,17 +112,17 @@ namespace ShiangTest
         public void ItemClone()
         {
             Item i = new I1() { Count = 42 };
-            var iCopy = i.Clone<I1>();
+            var iCopy = i.Clone();
             Assert.AreEqual(iCopy.Count, 42);
             Assert.AreEqual(iCopy.Hash, i.Hash);
 
             Item w = new W1() { Count = 42 };
-            var wCopy = w.Clone<W1>();
+            var wCopy = w.Clone();
             Assert.AreEqual(wCopy.Count, 42);
             Assert.AreEqual(wCopy.Hash, w.Hash);
 
             Item a = new Ar1() { Count = 42 };
-            var aCopy = a.Clone<Ar1>();
+            var aCopy = a.Clone();
             Assert.AreEqual(aCopy.Count, 42);
             Assert.AreEqual(aCopy.Hash, a.Hash);
         }
@@ -131,11 +131,11 @@ namespace ShiangTest
         public void ContainerWeapons()
         {
             ItemContainer itemCont = Utils.CreateItemContainer(3);
-            Whip whip1 = new Whip() { Count = 3 };
-            W1 w1 = new W1();
-            W2 w2 = new W2();
-            W3 w3 = new W3();
-            W4 w4 = new W4();
+            Item whip1 = new Whip() { Count = 3 };
+            Item w1 = new W1();
+            Item w2 = new W2();
+            Item w3 = new W3();
+            Item w4 = new W4();
             itemCont.Receive(ref whip1);
             itemCont.Receive(ref whip1);
             itemCont.Receive(ref whip1);
@@ -156,7 +156,7 @@ namespace ShiangTest
         [Test]
         public void ItemTransfer()
         {
-            I1 i1 = new I1() { Count = 10 };
+            Item i1 = new I1() { Count = 10 };
             ItemContainer itemCont = new ItemContainer(10);
             itemCont.ReceiveAll(ref i1);
             Assert.IsNull(i1);

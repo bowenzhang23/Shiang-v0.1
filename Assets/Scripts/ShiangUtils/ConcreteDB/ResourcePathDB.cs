@@ -9,7 +9,7 @@ namespace Shiang
         public string Path { get; set; }
     }
 
-    public class ResourcePathDB : Database<ResourcePathData>
+    public class ResourcePathDB : TableDatabase<ResourcePathData>
     {
         public ResourcePathDB() : base("ResourcePath") { }
 
@@ -27,9 +27,11 @@ namespace Shiang
                 $"('{entryData.Name}', '{entryData.Path}');";
         }
 
-        public override string CommandStringRetrive => "SELECT * FROM resourcepath;";
+        public override string CommandStringRetrive(string what) 
+            => $"SELECT * FROM {what};";
 
-        public override string CommandStringClear() => "DELETE FROM resourcepath;";
+        public override string CommandStringClear()
+            => "DELETE FROM resourcepath;";
 
         protected override ResourcePathData RetrieveData(IDataReader reader)
         {

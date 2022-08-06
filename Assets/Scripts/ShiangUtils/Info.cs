@@ -12,10 +12,12 @@ namespace Shiang
     /// </summary>
     public static class Info
     {
-        public static ResourcePathDB RESOURCEPATH_DB;
-        public static ConsumableDB CONSUMABLE_DB;
-        public static WeaponDB WEAPON_DB;
-        public static AbilityDB ABILITY_DB;
+        public static SQLiteDatabase RESOURCEPATH_DB;
+        public static SQLiteDatabase CONSUMABLE_DB;
+        public static SQLiteDatabase WEAPON_DB;
+        public static SQLiteDatabase ABILITY_DB;
+        public static Dictionary<string, SQLiteDatabase> ENTITY_DB_COLLECTION = 
+            new Dictionary<string, SQLiteDatabase>();
 
         static readonly int IL = StoH("Idle_Left");
         static readonly int IR = StoH("Idle_Right");
@@ -52,20 +54,20 @@ namespace Shiang
         /// </summary>
         public static void LoadDatabase()
         {
-            RESOURCEPATH_DB = Utils.CreateDatabase<ResourcePathDB>();
-            CONSUMABLE_DB = Utils.CreateDatabase<ConsumableDB>();
-            WEAPON_DB = Utils.CreateDatabase<WeaponDB>();
-            ABILITY_DB = Utils.CreateDatabase<AbilityDB>();
+            RESOURCEPATH_DB = Utils.CreateSQLiteDatabase<ResourcePathDB>();
+            CONSUMABLE_DB = Utils.CreateSQLiteDatabase<ConsumableDB>();
+            WEAPON_DB = Utils.CreateSQLiteDatabase<WeaponDB>();
+            ABILITY_DB = Utils.CreateSQLiteDatabase<AbilityDB>();
 
             RESOURCEPATH_DB.Retrieve();
             CONSUMABLE_DB.Retrieve();
             WEAPON_DB.Retrieve();
             ABILITY_DB.Retrieve();
 
-            RESOURCE_DATA = RESOURCEPATH_DB.Data.ToDictionary(k => k.Name, k => k.Path);
-            CONSUMABLE_DATA = CONSUMABLE_DB.Data.ToDictionary(k => k.ClassID, k => k);
-            WEAPON_DATA = WEAPON_DB.Data.ToDictionary(k => k.ClassID, k => k);
-            ABILITY_DATA = ABILITY_DB.Data.ToDictionary(k => k.ClassID, k => k);
+            RESOURCE_DATA = ((List<ResourcePathData>)RESOURCEPATH_DB.Data).ToDictionary(k => k.Name, k => k.Path);
+            CONSUMABLE_DATA = ((List<ConsumableData>)CONSUMABLE_DB.Data).ToDictionary(k => k.ClassID, k => k);
+            WEAPON_DATA = ((List<WeaponData>)WEAPON_DB.Data).ToDictionary(k => k.ClassID, k => k);
+            ABILITY_DATA = ((List<AbilityData>)ABILITY_DB.Data).ToDictionary(k => k.ClassID, k => k);
         }
 
         public static void LoadResources()

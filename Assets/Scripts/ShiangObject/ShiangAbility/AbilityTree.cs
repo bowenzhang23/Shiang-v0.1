@@ -29,6 +29,8 @@ namespace Shiang
 
         public int Size { get => _size; }
 
+        public Node Root { get => _root; }
+
         public Node FindNode(Type targetAbilityType)
         {
             return FindNodeDFS(_root, targetAbilityType);

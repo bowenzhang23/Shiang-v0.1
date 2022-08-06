@@ -60,6 +60,6 @@ namespace Shiang
             return false;
         }
 
-        public List<Ability> Abilities() => _abilities;
+        public List<Ability> Data { get => _abilities; }
     }
 }

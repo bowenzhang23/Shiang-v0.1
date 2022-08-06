@@ -46,11 +46,11 @@ namespace Shiang
             return manager;
         }
 
-        public static T1 ItemLose<T1>(int n, ref T1 toLose) where T1: Item, new()
+        public static Item ItemLose(int n, ref Item toLose)
         {
             n = Math.Min(n, toLose.Count);
 
-            var splitted = toLose.Clone<T1>();
+            var splitted = toLose.Clone();
             splitted.Count = n;
             toLose.Count -= n;
             
@@ -95,11 +95,40 @@ namespace Shiang
             return objects;
         }
 
-        public static T1 CreateDatabase<T1>() where T1 : IDatabase, new()
+        public static SQLiteDatabase CreateSQLiteDatabase<T1>() where T1: SQLiteDatabase
         {
-            var db = Activator.CreateInstance<T1>();
+            var db = (T1)Activator.CreateInstance(typeof(T1));
             db.Create();
             return db;
+        }
+
+        public static SQLiteDatabase CreateSQLiteDatabase<T1>(string name) where T1 : SQLiteDatabase
+        {
+            var db = (T1)Activator.CreateInstance(typeof(T1), name);
+            db.Create();
+            return db;
+        }
+
+        public static void LoadEntityDatabase(string name, 
+            ref ItemContainer itemContainer, 
+            ref AbilityContainer abilityContainer)
+        {
+            Info.ENTITY_DB_COLLECTION[name] = CreateSQLiteDatabase<EntityDB>(name);
+            if (!Info.ENTITY_DB_COLLECTION.TryGetValue(name, out var db))
+                return;
+            db.Retrieve();
+            var data = (EntityData)db.Data;
+
+            foreach (var itemCount in data.Items)
+            {
+                Item item = Pool.Items[itemCount.Key].Clone(itemCount.Value);
+                itemContainer.ReceiveAll(ref item);
+            }
+            foreach (var abilityHash in data.Abilities)
+            {
+                var ability = Pool.Abilities[abilityHash];
+                abilityContainer.Receive(ability);
+            }
         }
 
         public static AnimationClip[] BuildClips(
@@ -107,12 +136,14 @@ namespace Shiang
             => animationClips.Where(k => k.name.Contains(pattern))
                 .OrderBy(k => k.name.Contains("Right")).ToArray();
 
-        public static T1 ItemClonedFromPoolOfType<T1>()
+        [Obsolete]
+        public static Item ItemClonedFromPoolOfType<T1>()
             where T1 : Item, new()
-            => Pool.Items[Pool.Mapping[typeof(T1)]].Clone<T1>();
+            => Pool.Items[Pool.Mapping[typeof(T1)]].Clone();
 
+        [Obsolete]
         public static T1 AbilityRefFromPoolOfType<T1>()
-            where T1 : Ability
+            where T1 : Ability, new()
             => (T1)Pool.Abilities[Pool.Mapping[typeof(T1)]];
     }
 }

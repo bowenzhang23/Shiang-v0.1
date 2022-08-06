@@ -30,15 +30,15 @@ namespace Shiang
             return 0;
         }
 
-        public void Receive<T1>(ref T1 item) where T1 : Item, new() 
-            => Receive<T1>(ref item, 1);
+        public void Receive(ref Item item)
+            => Receive(ref item, 1);
 
-        public void ReceiveAll<T1>(ref T1 item) where T1 : Item, new() 
-            => Receive<T1>(ref item, item.Count);
+        public void ReceiveAll(ref Item item) 
+            => Receive(ref item, item.Count);
 
-        public void Receive<T1>(ref T1 item, int n) where T1: Item, new()
+        public void Receive(ref Item item, int n)
         {
-            Item receivedItem = Utils.ItemLose<T1>(n, ref item);
+            Item receivedItem = Utils.ItemLose(n, ref item);
 
             if (Find(receivedItem, out var existedItem))
             {
@@ -109,5 +109,7 @@ namespace Shiang
 
         public List<Item> Weapons() 
             => _items.FindAll((Item i) => i.GetType().IsSubclassOf(typeof(Weapon)));
+
+        public List<Item> Data { get => _items; }
     }
 }

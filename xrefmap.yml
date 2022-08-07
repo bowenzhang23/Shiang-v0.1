@@ -810,6 +810,38 @@ references:
   isSpec: "True"
   fullName: Shiang.Bahu.UseWeapon
   nameWithType: Bahu.UseWeapon
+- uid: Shiang.Bonbon
+  name: Bonbon
+  href: api/Shiang.Bonbon.html
+  commentId: T:Shiang.Bonbon
+  fullName: Shiang.Bonbon
+  nameWithType: Bonbon
+- uid: Shiang.Bonbon.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.Bonbon.html#Shiang_Bonbon_Clone_System_Int32_
+  commentId: M:Shiang.Bonbon.Clone(System.Int32)
+  fullName: Shiang.Bonbon.Clone(System.Int32)
+  nameWithType: Bonbon.Clone(Int32)
+- uid: Shiang.Bonbon.Clone*
+  name: Clone
+  href: api/Shiang.Bonbon.html#Shiang_Bonbon_Clone_
+  commentId: Overload:Shiang.Bonbon.Clone
+  isSpec: "True"
+  fullName: Shiang.Bonbon.Clone
+  nameWithType: Bonbon.Clone
+- uid: Shiang.Bonbon.Image
+  name: Image
+  href: api/Shiang.Bonbon.html#Shiang_Bonbon_Image
+  commentId: P:Shiang.Bonbon.Image
+  fullName: Shiang.Bonbon.Image
+  nameWithType: Bonbon.Image
+- uid: Shiang.Bonbon.Image*
+  name: Image
+  href: api/Shiang.Bonbon.html#Shiang_Bonbon_Image_
+  commentId: Overload:Shiang.Bonbon.Image
+  isSpec: "True"
+  fullName: Shiang.Bonbon.Image
+  nameWithType: Bonbon.Image
 - uid: Shiang.CloseState
   name: CloseState
   href: api/Shiang.CloseState.html
@@ -1273,6 +1305,25 @@ references:
   isSpec: "True"
   fullName: Shiang.CoolState.Tick
   nameWithType: CoolState.Tick
+- uid: Shiang.DescriptionPanel
+  name: DescriptionPanel
+  href: api/Shiang.DescriptionPanel.html
+  commentId: T:Shiang.DescriptionPanel
+  fullName: Shiang.DescriptionPanel
+  nameWithType: DescriptionPanel
+- uid: Shiang.DescriptionPanel.UpdateText(System.String)
+  name: UpdateText(String)
+  href: api/Shiang.DescriptionPanel.html#Shiang_DescriptionPanel_UpdateText_System_String_
+  commentId: M:Shiang.DescriptionPanel.UpdateText(System.String)
+  fullName: Shiang.DescriptionPanel.UpdateText(System.String)
+  nameWithType: DescriptionPanel.UpdateText(String)
+- uid: Shiang.DescriptionPanel.UpdateText*
+  name: UpdateText
+  href: api/Shiang.DescriptionPanel.html#Shiang_DescriptionPanel_UpdateText_
+  commentId: Overload:Shiang.DescriptionPanel.UpdateText
+  isSpec: "True"
+  fullName: Shiang.DescriptionPanel.UpdateText
+  nameWithType: DescriptionPanel.UpdateText
 - uid: Shiang.EntityData
   name: EntityData
   href: api/Shiang.EntityData.html
@@ -1621,6 +1672,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Fridge.Idle
   nameWithType: Fridge.Idle
+- uid: Shiang.Fridge.IsClosedByIC
+  name: IsClosedByIC
+  href: api/Shiang.Fridge.html#Shiang_Fridge_IsClosedByIC
+  commentId: P:Shiang.Fridge.IsClosedByIC
+  fullName: Shiang.Fridge.IsClosedByIC
+  nameWithType: Fridge.IsClosedByIC
+- uid: Shiang.Fridge.IsClosedByIC*
+  name: IsClosedByIC
+  href: api/Shiang.Fridge.html#Shiang_Fridge_IsClosedByIC_
+  commentId: Overload:Shiang.Fridge.IsClosedByIC
+  isSpec: "True"
+  fullName: Shiang.Fridge.IsClosedByIC
+  nameWithType: Fridge.IsClosedByIC
 - uid: Shiang.Fridge.IsOpen
   name: IsOpen
   href: api/Shiang.Fridge.html#Shiang_Fridge_IsOpen
@@ -1647,6 +1711,18 @@ references:
   isSpec: "True"
   fullName: Shiang.Fridge.Items
   nameWithType: Fridge.Items
+- uid: Shiang.Fridge.OnFridgeClose
+  name: OnFridgeClose
+  href: api/Shiang.Fridge.html#Shiang_Fridge_OnFridgeClose
+  commentId: E:Shiang.Fridge.OnFridgeClose
+  fullName: Shiang.Fridge.OnFridgeClose
+  nameWithType: Fridge.OnFridgeClose
+- uid: Shiang.Fridge.OnFridgeOpen
+  name: OnFridgeOpen
+  href: api/Shiang.Fridge.html#Shiang_Fridge_OnFridgeOpen
+  commentId: E:Shiang.Fridge.OnFridgeOpen
+  fullName: Shiang.Fridge.OnFridgeOpen
+  nameWithType: Fridge.OnFridgeOpen
 - uid: Shiang.Fridge.Open
   name: Open()
   href: api/Shiang.Fridge.html#Shiang_Fridge_Open
@@ -1660,6 +1736,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Fridge.Open
   nameWithType: Fridge.Open
+- uid: Shiang.Fridge.OpenCo
+  name: OpenCo()
+  href: api/Shiang.Fridge.html#Shiang_Fridge_OpenCo
+  commentId: M:Shiang.Fridge.OpenCo
+  fullName: Shiang.Fridge.OpenCo()
+  nameWithType: Fridge.OpenCo()
+- uid: Shiang.Fridge.OpenCo*
+  name: OpenCo
+  href: api/Shiang.Fridge.html#Shiang_Fridge_OpenCo_
+  commentId: Overload:Shiang.Fridge.OpenCo
+  isSpec: "True"
+  fullName: Shiang.Fridge.OpenCo
+  nameWithType: Fridge.OpenCo
 - uid: Shiang.Fridge.StateMgr
   name: StateMgr
   href: api/Shiang.Fridge.html#Shiang_Fridge_StateMgr
@@ -1679,6 +1768,19 @@ references:
   commentId: T:Shiang.GameController
   fullName: Shiang.GameController
   nameWithType: GameController
+- uid: Shiang.GameController.QuitGame
+  name: QuitGame()
+  href: api/Shiang.GameController.html#Shiang_GameController_QuitGame
+  commentId: M:Shiang.GameController.QuitGame
+  fullName: Shiang.GameController.QuitGame()
+  nameWithType: GameController.QuitGame()
+- uid: Shiang.GameController.QuitGame*
+  name: QuitGame
+  href: api/Shiang.GameController.html#Shiang_GameController_QuitGame_
+  commentId: Overload:Shiang.GameController.QuitGame
+  isSpec: "True"
+  fullName: Shiang.GameController.QuitGame
+  nameWithType: GameController.QuitGame
 - uid: Shiang.GameModeState
   name: GameModeState
   href: api/Shiang.GameModeState.html
@@ -2412,6 +2514,12 @@ references:
   isSpec: "True"
   fullName: Shiang.InputController.Mode
   nameWithType: InputController.Mode
+- uid: Shiang.InputController.OnExitFromUIMode
+  name: OnExitFromUIMode
+  href: api/Shiang.InputController.html#Shiang_InputController_OnExitFromUIMode
+  commentId: E:Shiang.InputController.OnExitFromUIMode
+  fullName: Shiang.InputController.OnExitFromUIMode
+  nameWithType: InputController.OnExitFromUIMode
 - uid: Shiang.InputController.OpenStatMenu
   name: OpenStatMenu
   href: api/Shiang.InputController.html#Shiang_InputController_OpenStatMenu
@@ -2907,6 +3015,109 @@ references:
   isSpec: "True"
   fullName: Shiang.ItemContainer.Weapons
   nameWithType: ItemContainer.Weapons
+- uid: Shiang.ItemSlot
+  name: ItemSlot
+  href: api/Shiang.ItemSlot.html
+  commentId: T:Shiang.ItemSlot
+  fullName: Shiang.ItemSlot
+  nameWithType: ItemSlot
+- uid: Shiang.ItemSlot.Button
+  name: Button
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_Button
+  commentId: P:Shiang.ItemSlot.Button
+  fullName: Shiang.ItemSlot.Button
+  nameWithType: ItemSlot.Button
+- uid: Shiang.ItemSlot.Button*
+  name: Button
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_Button_
+  commentId: Overload:Shiang.ItemSlot.Button
+  isSpec: "True"
+  fullName: Shiang.ItemSlot.Button
+  nameWithType: ItemSlot.Button
+- uid: Shiang.ItemSlot.Clear
+  name: Clear()
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_Clear
+  commentId: M:Shiang.ItemSlot.Clear
+  fullName: Shiang.ItemSlot.Clear()
+  nameWithType: ItemSlot.Clear()
+- uid: Shiang.ItemSlot.Clear*
+  name: Clear
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_Clear_
+  commentId: Overload:Shiang.ItemSlot.Clear
+  isSpec: "True"
+  fullName: Shiang.ItemSlot.Clear
+  nameWithType: ItemSlot.Clear
+- uid: Shiang.ItemSlot.Image
+  name: Image
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_Image
+  commentId: P:Shiang.ItemSlot.Image
+  fullName: Shiang.ItemSlot.Image
+  nameWithType: ItemSlot.Image
+- uid: Shiang.ItemSlot.Image*
+  name: Image
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_Image_
+  commentId: Overload:Shiang.ItemSlot.Image
+  isSpec: "True"
+  fullName: Shiang.ItemSlot.Image
+  nameWithType: ItemSlot.Image
+- uid: Shiang.ItemSlot.ItemHeld
+  name: ItemHeld
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_ItemHeld
+  commentId: P:Shiang.ItemSlot.ItemHeld
+  fullName: Shiang.ItemSlot.ItemHeld
+  nameWithType: ItemSlot.ItemHeld
+- uid: Shiang.ItemSlot.ItemHeld*
+  name: ItemHeld
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_ItemHeld_
+  commentId: Overload:Shiang.ItemSlot.ItemHeld
+  isSpec: "True"
+  fullName: Shiang.ItemSlot.ItemHeld
+  nameWithType: ItemSlot.ItemHeld
+- uid: Shiang.ItemSlot.OnItemSlotSelected
+  name: OnItemSlotSelected
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_OnItemSlotSelected
+  commentId: E:Shiang.ItemSlot.OnItemSlotSelected
+  fullName: Shiang.ItemSlot.OnItemSlotSelected
+  nameWithType: ItemSlot.OnItemSlotSelected
+- uid: Shiang.ItemSlot.OnSelect(BaseEventData)
+  name: OnSelect(BaseEventData)
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_OnSelect_BaseEventData_
+  commentId: M:Shiang.ItemSlot.OnSelect(BaseEventData)
+  fullName: Shiang.ItemSlot.OnSelect(BaseEventData)
+  nameWithType: ItemSlot.OnSelect(BaseEventData)
+- uid: Shiang.ItemSlot.OnSelect*
+  name: OnSelect
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_OnSelect_
+  commentId: Overload:Shiang.ItemSlot.OnSelect
+  isSpec: "True"
+  fullName: Shiang.ItemSlot.OnSelect
+  nameWithType: ItemSlot.OnSelect
+- uid: Shiang.ItemSlot.Set(Shiang.Item)
+  name: Set(Item)
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_Set_Shiang_Item_
+  commentId: M:Shiang.ItemSlot.Set(Shiang.Item)
+  fullName: Shiang.ItemSlot.Set(Shiang.Item)
+  nameWithType: ItemSlot.Set(Item)
+- uid: Shiang.ItemSlot.Set*
+  name: Set
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_Set_
+  commentId: Overload:Shiang.ItemSlot.Set
+  isSpec: "True"
+  fullName: Shiang.ItemSlot.Set
+  nameWithType: ItemSlot.Set
+- uid: Shiang.ItemSlot.Text
+  name: Text
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_Text
+  commentId: P:Shiang.ItemSlot.Text
+  fullName: Shiang.ItemSlot.Text
+  nameWithType: ItemSlot.Text
+- uid: Shiang.ItemSlot.Text*
+  name: Text
+  href: api/Shiang.ItemSlot.html#Shiang_ItemSlot_Text_
+  commentId: Overload:Shiang.ItemSlot.Text
+  isSpec: "True"
+  fullName: Shiang.ItemSlot.Text
+  nameWithType: ItemSlot.Text
 - uid: Shiang.ITreasure
   name: ITreasure
   href: api/Shiang.ITreasure.html
@@ -2932,6 +3143,102 @@ references:
   commentId: T:Shiang.IUiTrigger
   fullName: Shiang.IUiTrigger
   nameWithType: IUiTrigger
+- uid: Shiang.LemonSoda
+  name: LemonSoda
+  href: api/Shiang.LemonSoda.html
+  commentId: T:Shiang.LemonSoda
+  fullName: Shiang.LemonSoda
+  nameWithType: LemonSoda
+- uid: Shiang.LemonSoda.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.LemonSoda.html#Shiang_LemonSoda_Clone_System_Int32_
+  commentId: M:Shiang.LemonSoda.Clone(System.Int32)
+  fullName: Shiang.LemonSoda.Clone(System.Int32)
+  nameWithType: LemonSoda.Clone(Int32)
+- uid: Shiang.LemonSoda.Clone*
+  name: Clone
+  href: api/Shiang.LemonSoda.html#Shiang_LemonSoda_Clone_
+  commentId: Overload:Shiang.LemonSoda.Clone
+  isSpec: "True"
+  fullName: Shiang.LemonSoda.Clone
+  nameWithType: LemonSoda.Clone
+- uid: Shiang.LemonSoda.Image
+  name: Image
+  href: api/Shiang.LemonSoda.html#Shiang_LemonSoda_Image
+  commentId: P:Shiang.LemonSoda.Image
+  fullName: Shiang.LemonSoda.Image
+  nameWithType: LemonSoda.Image
+- uid: Shiang.LemonSoda.Image*
+  name: Image
+  href: api/Shiang.LemonSoda.html#Shiang_LemonSoda_Image_
+  commentId: Overload:Shiang.LemonSoda.Image
+  isSpec: "True"
+  fullName: Shiang.LemonSoda.Image
+  nameWithType: LemonSoda.Image
+- uid: Shiang.LongJing
+  name: LongJing
+  href: api/Shiang.LongJing.html
+  commentId: T:Shiang.LongJing
+  fullName: Shiang.LongJing
+  nameWithType: LongJing
+- uid: Shiang.LongJing.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.LongJing.html#Shiang_LongJing_Clone_System_Int32_
+  commentId: M:Shiang.LongJing.Clone(System.Int32)
+  fullName: Shiang.LongJing.Clone(System.Int32)
+  nameWithType: LongJing.Clone(Int32)
+- uid: Shiang.LongJing.Clone*
+  name: Clone
+  href: api/Shiang.LongJing.html#Shiang_LongJing_Clone_
+  commentId: Overload:Shiang.LongJing.Clone
+  isSpec: "True"
+  fullName: Shiang.LongJing.Clone
+  nameWithType: LongJing.Clone
+- uid: Shiang.LongJing.Image
+  name: Image
+  href: api/Shiang.LongJing.html#Shiang_LongJing_Image
+  commentId: P:Shiang.LongJing.Image
+  fullName: Shiang.LongJing.Image
+  nameWithType: LongJing.Image
+- uid: Shiang.LongJing.Image*
+  name: Image
+  href: api/Shiang.LongJing.html#Shiang_LongJing_Image_
+  commentId: Overload:Shiang.LongJing.Image
+  isSpec: "True"
+  fullName: Shiang.LongJing.Image
+  nameWithType: LongJing.Image
+- uid: Shiang.Mints
+  name: Mints
+  href: api/Shiang.Mints.html
+  commentId: T:Shiang.Mints
+  fullName: Shiang.Mints
+  nameWithType: Mints
+- uid: Shiang.Mints.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.Mints.html#Shiang_Mints_Clone_System_Int32_
+  commentId: M:Shiang.Mints.Clone(System.Int32)
+  fullName: Shiang.Mints.Clone(System.Int32)
+  nameWithType: Mints.Clone(Int32)
+- uid: Shiang.Mints.Clone*
+  name: Clone
+  href: api/Shiang.Mints.html#Shiang_Mints_Clone_
+  commentId: Overload:Shiang.Mints.Clone
+  isSpec: "True"
+  fullName: Shiang.Mints.Clone
+  nameWithType: Mints.Clone
+- uid: Shiang.Mints.Image
+  name: Image
+  href: api/Shiang.Mints.html#Shiang_Mints_Image
+  commentId: P:Shiang.Mints.Image
+  fullName: Shiang.Mints.Image
+  nameWithType: Mints.Image
+- uid: Shiang.Mints.Image*
+  name: Image
+  href: api/Shiang.Mints.html#Shiang_Mints_Image_
+  commentId: Overload:Shiang.Mints.Image
+  isSpec: "True"
+  fullName: Shiang.Mints.Image
+  nameWithType: Mints.Image
 - uid: Shiang.MoveState
   name: MoveState
   href: api/Shiang.MoveState.html
@@ -3048,6 +3355,38 @@ references:
   isSpec: "True"
   fullName: Shiang.OpenState.Tick
   nameWithType: OpenState.Tick
+- uid: Shiang.OpuntiaFruit
+  name: OpuntiaFruit
+  href: api/Shiang.OpuntiaFruit.html
+  commentId: T:Shiang.OpuntiaFruit
+  fullName: Shiang.OpuntiaFruit
+  nameWithType: OpuntiaFruit
+- uid: Shiang.OpuntiaFruit.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.OpuntiaFruit.html#Shiang_OpuntiaFruit_Clone_System_Int32_
+  commentId: M:Shiang.OpuntiaFruit.Clone(System.Int32)
+  fullName: Shiang.OpuntiaFruit.Clone(System.Int32)
+  nameWithType: OpuntiaFruit.Clone(Int32)
+- uid: Shiang.OpuntiaFruit.Clone*
+  name: Clone
+  href: api/Shiang.OpuntiaFruit.html#Shiang_OpuntiaFruit_Clone_
+  commentId: Overload:Shiang.OpuntiaFruit.Clone
+  isSpec: "True"
+  fullName: Shiang.OpuntiaFruit.Clone
+  nameWithType: OpuntiaFruit.Clone
+- uid: Shiang.OpuntiaFruit.Image
+  name: Image
+  href: api/Shiang.OpuntiaFruit.html#Shiang_OpuntiaFruit_Image
+  commentId: P:Shiang.OpuntiaFruit.Image
+  fullName: Shiang.OpuntiaFruit.Image
+  nameWithType: OpuntiaFruit.Image
+- uid: Shiang.OpuntiaFruit.Image*
+  name: Image
+  href: api/Shiang.OpuntiaFruit.html#Shiang_OpuntiaFruit_Image_
+  commentId: Overload:Shiang.OpuntiaFruit.Image
+  isSpec: "True"
+  fullName: Shiang.OpuntiaFruit.Image
+  nameWithType: OpuntiaFruit.Image
 - uid: Shiang.Orientation
   name: Orientation
   href: api/Shiang.Orientation.html
@@ -3803,6 +4142,38 @@ references:
   isSpec: "True"
   fullName: Shiang.SixDemon.Image
   nameWithType: SixDemon.Image
+- uid: Shiang.SnowCream
+  name: SnowCream
+  href: api/Shiang.SnowCream.html
+  commentId: T:Shiang.SnowCream
+  fullName: Shiang.SnowCream
+  nameWithType: SnowCream
+- uid: Shiang.SnowCream.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.SnowCream.html#Shiang_SnowCream_Clone_System_Int32_
+  commentId: M:Shiang.SnowCream.Clone(System.Int32)
+  fullName: Shiang.SnowCream.Clone(System.Int32)
+  nameWithType: SnowCream.Clone(Int32)
+- uid: Shiang.SnowCream.Clone*
+  name: Clone
+  href: api/Shiang.SnowCream.html#Shiang_SnowCream_Clone_
+  commentId: Overload:Shiang.SnowCream.Clone
+  isSpec: "True"
+  fullName: Shiang.SnowCream.Clone
+  nameWithType: SnowCream.Clone
+- uid: Shiang.SnowCream.Image
+  name: Image
+  href: api/Shiang.SnowCream.html#Shiang_SnowCream_Image
+  commentId: P:Shiang.SnowCream.Image
+  fullName: Shiang.SnowCream.Image
+  nameWithType: SnowCream.Image
+- uid: Shiang.SnowCream.Image*
+  name: Image
+  href: api/Shiang.SnowCream.html#Shiang_SnowCream_Image_
+  commentId: Overload:Shiang.SnowCream.Image
+  isSpec: "True"
+  fullName: Shiang.SnowCream.Image
+  nameWithType: SnowCream.Image
 - uid: Shiang.SQLiteDatabase
   name: SQLiteDatabase
   href: api/Shiang.SQLiteDatabase.html
@@ -4317,6 +4688,38 @@ references:
   fullName.vb: Shiang.TableDatabase(Of T1).RetrieveData
   nameWithType: TableDatabase<T1>.RetrieveData
   nameWithType.vb: TableDatabase(Of T1).RetrieveData
+- uid: Shiang.Ticket
+  name: Ticket
+  href: api/Shiang.Ticket.html
+  commentId: T:Shiang.Ticket
+  fullName: Shiang.Ticket
+  nameWithType: Ticket
+- uid: Shiang.Ticket.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.Ticket.html#Shiang_Ticket_Clone_System_Int32_
+  commentId: M:Shiang.Ticket.Clone(System.Int32)
+  fullName: Shiang.Ticket.Clone(System.Int32)
+  nameWithType: Ticket.Clone(Int32)
+- uid: Shiang.Ticket.Clone*
+  name: Clone
+  href: api/Shiang.Ticket.html#Shiang_Ticket_Clone_
+  commentId: Overload:Shiang.Ticket.Clone
+  isSpec: "True"
+  fullName: Shiang.Ticket.Clone
+  nameWithType: Ticket.Clone
+- uid: Shiang.Ticket.Image
+  name: Image
+  href: api/Shiang.Ticket.html#Shiang_Ticket_Image
+  commentId: P:Shiang.Ticket.Image
+  fullName: Shiang.Ticket.Image
+  nameWithType: Ticket.Image
+- uid: Shiang.Ticket.Image*
+  name: Image
+  href: api/Shiang.Ticket.html#Shiang_Ticket_Image_
+  commentId: Overload:Shiang.Ticket.Image
+  isSpec: "True"
+  fullName: Shiang.Ticket.Image
+  nameWithType: Ticket.Image
 - uid: Shiang.Transition
   name: Transition
   href: api/Shiang.Transition.html
@@ -4365,12 +4768,120 @@ references:
   isSpec: "True"
   fullName: Shiang.Transition.To
   nameWithType: Transition.To
+- uid: Shiang.TreasurePanel
+  name: TreasurePanel
+  href: api/Shiang.TreasurePanel.html
+  commentId: T:Shiang.TreasurePanel
+  fullName: Shiang.TreasurePanel
+  nameWithType: TreasurePanel
+- uid: Shiang.TreasurePanel.CurrentSlot
+  name: CurrentSlot
+  href: api/Shiang.TreasurePanel.html#Shiang_TreasurePanel_CurrentSlot
+  commentId: P:Shiang.TreasurePanel.CurrentSlot
+  fullName: Shiang.TreasurePanel.CurrentSlot
+  nameWithType: TreasurePanel.CurrentSlot
+- uid: Shiang.TreasurePanel.CurrentSlot*
+  name: CurrentSlot
+  href: api/Shiang.TreasurePanel.html#Shiang_TreasurePanel_CurrentSlot_
+  commentId: Overload:Shiang.TreasurePanel.CurrentSlot
+  isSpec: "True"
+  fullName: Shiang.TreasurePanel.CurrentSlot
+  nameWithType: TreasurePanel.CurrentSlot
+- uid: Shiang.TreasurePanel.CurrentTreasure
+  name: CurrentTreasure
+  href: api/Shiang.TreasurePanel.html#Shiang_TreasurePanel_CurrentTreasure
+  commentId: P:Shiang.TreasurePanel.CurrentTreasure
+  fullName: Shiang.TreasurePanel.CurrentTreasure
+  nameWithType: TreasurePanel.CurrentTreasure
+- uid: Shiang.TreasurePanel.CurrentTreasure*
+  name: CurrentTreasure
+  href: api/Shiang.TreasurePanel.html#Shiang_TreasurePanel_CurrentTreasure_
+  commentId: Overload:Shiang.TreasurePanel.CurrentTreasure
+  isSpec: "True"
+  fullName: Shiang.TreasurePanel.CurrentTreasure
+  nameWithType: TreasurePanel.CurrentTreasure
+- uid: Shiang.TreasurePanel.SetOwner(Shiang.ITreasure)
+  name: SetOwner(ITreasure)
+  href: api/Shiang.TreasurePanel.html#Shiang_TreasurePanel_SetOwner_Shiang_ITreasure_
+  commentId: M:Shiang.TreasurePanel.SetOwner(Shiang.ITreasure)
+  fullName: Shiang.TreasurePanel.SetOwner(Shiang.ITreasure)
+  nameWithType: TreasurePanel.SetOwner(ITreasure)
+- uid: Shiang.TreasurePanel.SetOwner*
+  name: SetOwner
+  href: api/Shiang.TreasurePanel.html#Shiang_TreasurePanel_SetOwner_
+  commentId: Overload:Shiang.TreasurePanel.SetOwner
+  isSpec: "True"
+  fullName: Shiang.TreasurePanel.SetOwner
+  nameWithType: TreasurePanel.SetOwner
+- uid: Shiang.UIManagement
+  name: UIManagement
+  href: api/Shiang.UIManagement.html
+  commentId: T:Shiang.UIManagement
+  fullName: Shiang.UIManagement
+  nameWithType: UIManagement
+- uid: Shiang.UIManagement.CurrentTreasurePanelOwner
+  name: CurrentTreasurePanelOwner
+  href: api/Shiang.UIManagement.html#Shiang_UIManagement_CurrentTreasurePanelOwner
+  commentId: P:Shiang.UIManagement.CurrentTreasurePanelOwner
+  fullName: Shiang.UIManagement.CurrentTreasurePanelOwner
+  nameWithType: UIManagement.CurrentTreasurePanelOwner
+- uid: Shiang.UIManagement.CurrentTreasurePanelOwner*
+  name: CurrentTreasurePanelOwner
+  href: api/Shiang.UIManagement.html#Shiang_UIManagement_CurrentTreasurePanelOwner_
+  commentId: Overload:Shiang.UIManagement.CurrentTreasurePanelOwner
+  isSpec: "True"
+  fullName: Shiang.UIManagement.CurrentTreasurePanelOwner
+  nameWithType: UIManagement.CurrentTreasurePanelOwner
 - uid: Shiang.UiModeState
   name: UiModeState
   href: api/Shiang.UiModeState.html
   commentId: T:Shiang.UiModeState
   fullName: Shiang.UiModeState
   nameWithType: UiModeState
+- uid: Shiang.UISceneLoader
+  name: UISceneLoader
+  href: api/Shiang.UISceneLoader.html
+  commentId: T:Shiang.UISceneLoader
+  fullName: Shiang.UISceneLoader
+  nameWithType: UISceneLoader
+- uid: Shiang.UISceneLoader.LoadTreasureUI
+  name: LoadTreasureUI()
+  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_LoadTreasureUI
+  commentId: M:Shiang.UISceneLoader.LoadTreasureUI
+  fullName: Shiang.UISceneLoader.LoadTreasureUI()
+  nameWithType: UISceneLoader.LoadTreasureUI()
+- uid: Shiang.UISceneLoader.LoadTreasureUI*
+  name: LoadTreasureUI
+  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_LoadTreasureUI_
+  commentId: Overload:Shiang.UISceneLoader.LoadTreasureUI
+  isSpec: "True"
+  fullName: Shiang.UISceneLoader.LoadTreasureUI
+  nameWithType: UISceneLoader.LoadTreasureUI
+- uid: Shiang.UISceneLoader.OnUISceneLoad
+  name: OnUISceneLoad
+  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_OnUISceneLoad
+  commentId: E:Shiang.UISceneLoader.OnUISceneLoad
+  fullName: Shiang.UISceneLoader.OnUISceneLoad
+  nameWithType: UISceneLoader.OnUISceneLoad
+- uid: Shiang.UISceneLoader.OnUISceneUnload
+  name: OnUISceneUnload
+  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_OnUISceneUnload
+  commentId: E:Shiang.UISceneLoader.OnUISceneUnload
+  fullName: Shiang.UISceneLoader.OnUISceneUnload
+  nameWithType: UISceneLoader.OnUISceneUnload
+- uid: Shiang.UISceneLoader.UnloadTreasureUI
+  name: UnloadTreasureUI()
+  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_UnloadTreasureUI
+  commentId: M:Shiang.UISceneLoader.UnloadTreasureUI
+  fullName: Shiang.UISceneLoader.UnloadTreasureUI()
+  nameWithType: UISceneLoader.UnloadTreasureUI()
+- uid: Shiang.UISceneLoader.UnloadTreasureUI*
+  name: UnloadTreasureUI
+  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_UnloadTreasureUI_
+  commentId: Overload:Shiang.UISceneLoader.UnloadTreasureUI
+  isSpec: "True"
+  fullName: Shiang.UISceneLoader.UnloadTreasureUI
+  nameWithType: UISceneLoader.UnloadTreasureUI
 - uid: Shiang.UseAbilityState
   name: UseAbilityState
   href: api/Shiang.UseAbilityState.html
@@ -4618,6 +5129,51 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.LoadEntityDatabase
   nameWithType: Utils.LoadEntityDatabase
+- uid: Shiang.Utils.SaveEntityDatabase(System.String,Shiang.ItemContainer,Shiang.AbilityContainer)
+  name: SaveEntityDatabase(String, ItemContainer, AbilityContainer)
+  href: api/Shiang.Utils.html#Shiang_Utils_SaveEntityDatabase_System_String_Shiang_ItemContainer_Shiang_AbilityContainer_
+  commentId: M:Shiang.Utils.SaveEntityDatabase(System.String,Shiang.ItemContainer,Shiang.AbilityContainer)
+  fullName: Shiang.Utils.SaveEntityDatabase(System.String, Shiang.ItemContainer, Shiang.AbilityContainer)
+  nameWithType: Utils.SaveEntityDatabase(String, ItemContainer, AbilityContainer)
+- uid: Shiang.Utils.SaveEntityDatabase*
+  name: SaveEntityDatabase
+  href: api/Shiang.Utils.html#Shiang_Utils_SaveEntityDatabase_
+  commentId: Overload:Shiang.Utils.SaveEntityDatabase
+  isSpec: "True"
+  fullName: Shiang.Utils.SaveEntityDatabase
+  nameWithType: Utils.SaveEntityDatabase
+- uid: Shiang.WangWangMilk
+  name: WangWangMilk
+  href: api/Shiang.WangWangMilk.html
+  commentId: T:Shiang.WangWangMilk
+  fullName: Shiang.WangWangMilk
+  nameWithType: WangWangMilk
+- uid: Shiang.WangWangMilk.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.WangWangMilk.html#Shiang_WangWangMilk_Clone_System_Int32_
+  commentId: M:Shiang.WangWangMilk.Clone(System.Int32)
+  fullName: Shiang.WangWangMilk.Clone(System.Int32)
+  nameWithType: WangWangMilk.Clone(Int32)
+- uid: Shiang.WangWangMilk.Clone*
+  name: Clone
+  href: api/Shiang.WangWangMilk.html#Shiang_WangWangMilk_Clone_
+  commentId: Overload:Shiang.WangWangMilk.Clone
+  isSpec: "True"
+  fullName: Shiang.WangWangMilk.Clone
+  nameWithType: WangWangMilk.Clone
+- uid: Shiang.WangWangMilk.Image
+  name: Image
+  href: api/Shiang.WangWangMilk.html#Shiang_WangWangMilk_Image
+  commentId: P:Shiang.WangWangMilk.Image
+  fullName: Shiang.WangWangMilk.Image
+  nameWithType: WangWangMilk.Image
+- uid: Shiang.WangWangMilk.Image*
+  name: Image
+  href: api/Shiang.WangWangMilk.html#Shiang_WangWangMilk_Image_
+  commentId: Overload:Shiang.WangWangMilk.Image
+  isSpec: "True"
+  fullName: Shiang.WangWangMilk.Image
+  nameWithType: WangWangMilk.Image
 - uid: Shiang.Weapon
   name: Weapon
   href: api/Shiang.Weapon.html

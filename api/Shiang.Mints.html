@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IPlayer
+    <title>Class Mints
    | Shiang v0.1.0 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IPlayer
+    <meta name="title" content="Class Mints
    | Shiang v0.1.0 ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -78,57 +78,70 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Shiang.IPlayer">
+            <article class="content wrap" id="_content" data-uid="Shiang.Mints">
   
   
-  <h1 id="Shiang_IPlayer" data-uid="Shiang.IPlayer" class="text-break">Interface IPlayer
+  <h1 id="Shiang_Mints" data-uid="Shiang.Mints" class="text-break">Class Mints
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="Shiang.ShiangObject.html">ShiangObject</a></div>
+    <div class="level2"><a class="xref" href="Shiang.Item.html">Item</a></div>
+    <div class="level3"><a class="xref" href="Shiang.Consumable.html">Consumable</a></div>
+    <div class="level4"><span class="xref">Mints</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Shiang.IGameObject.html">IGameObject</a></div>
+    <div><span class="xref">IComparable</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Shiang.ITreasure.html#Shiang_ITreasure_Items">ITreasure.Items</a>
+      <a class="xref" href="Shiang.Consumable.html#Shiang_Consumable_OnUse">Consumable.OnUse</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.ISkillFul.html#Shiang_ISkillFul_Abilities">ISkillFul.Abilities</a>
+      <a class="xref" href="Shiang.Consumable.html#Shiang_Consumable_Hash">Consumable.Hash</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.ISkillFul.html#Shiang_ISkillFul_UseAbility">ISkillFul.UseAbility()</a>
+      <a class="xref" href="Shiang.Consumable.html#Shiang_Consumable_Name">Consumable.Name</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.IStateHolder.html#Shiang_IStateHolder_StateMgr">IStateHolder.StateMgr</a>
+      <a class="xref" href="Shiang.Consumable.html#Shiang_Consumable_Description">Consumable.Description</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.IAnimatorHolder.html#Shiang_IAnimatorHolder_Anim">IAnimatorHolder.Anim</a>
+      <a class="xref" href="Shiang.Item.html#Shiang_Item_Count">Item.Count</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.IDynamic.html#Shiang_IDynamic_Orientation">IDynamic.Orientation</a>
+      <a class="xref" href="Shiang.Item.html#Shiang_Item_Clone">Item.Clone()</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.IDynamic.html#Shiang_IDynamic_Move">IDynamic.Move()</a>
+      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_ClassID">ShiangObject.ClassID</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.IGameEntity.html#Shiang_IGameEntity_Idle">IGameEntity.Idle()</a>
+      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_CompareTo_System_Object_">ShiangObject.CompareTo(Object)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Shiang_IPlayer_syntax">Syntax</h5>
+  <h5 id="Shiang_Mints_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IPlayer : ITreasure, ICreature, ISkillFul, IStateHolder, IAnimatorHolder, IDynamic, IGameEntity, IControllable</code></pre>
+    <pre><code class="lang-csharp hljs">public class Mints : Consumable, IGameObject</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Shiang_IPlayer_Coordinate_" data-uid="Shiang.IPlayer.Coordinate*"></a>
-  <h4 id="Shiang_IPlayer_Coordinate" data-uid="Shiang.IPlayer.Coordinate">Coordinate</h4>
+  <a id="Shiang_Mints_Image_" data-uid="Shiang.Mints.Image*"></a>
+  <h4 id="Shiang_Mints_Image" data-uid="Shiang.Mints.Image">Image</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Vector3 Coordinate { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override Sprite Image { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,22 +153,65 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><span class="xref">Sprite</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Image">ShiangObject.Image</a></div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Shiang_IPlayer_Cool_" data-uid="Shiang.IPlayer.Cool*"></a>
-  <h4 id="Shiang_IPlayer_Cool" data-uid="Shiang.IPlayer.Cool">Cool()</h4>
+  <a id="Shiang_Mints_Clone_" data-uid="Shiang.Mints.Clone*"></a>
+  <h4 id="Shiang_Mints_Clone_System_Int32_" data-uid="Shiang.Mints.Clone(System.Int32)">Clone(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Cool()</code></pre>
+    <pre><code class="lang-csharp hljs">public override Item Clone(int n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Shiang.Item.html">Item</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.Item.html#Shiang_Item_Clone_System_Int32_">Item.Clone(Int32)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Shiang.IGameObject.html">IGameObject</a>
+  </div>
+  <div>
+      <span class="xref">IComparable</span>
   </div>
 </article>
           </div>

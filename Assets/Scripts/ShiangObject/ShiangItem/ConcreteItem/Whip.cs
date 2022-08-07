@@ -11,6 +11,6 @@ namespace Shiang
 
         public override Item Clone(int n) => new Whip { Count = n };
 
-        public override Sprite Image => Info.SPRITES_ICON1[Info.WEAPON_DATA[ClassID].SpriteIndex];
+        public override Sprite Image => Info.SPRITES_ICON2[Info.WEAPON_DATA[ClassID].SpriteIndex];
     }
 }

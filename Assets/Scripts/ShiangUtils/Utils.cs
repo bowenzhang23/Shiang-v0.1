@@ -147,6 +147,20 @@ namespace Shiang
             }
         }
 
+        public static void SaveEntityDatabase(string name,
+            ItemContainer inventory, 
+            AbilityContainer abilityContainer)
+        {
+            var db =Info.ENTITY_DB_COLLECTION[name];
+
+            db.Clear(); // clear first
+            db.Insert(new EntityData()
+            {
+                Items = inventory.Data.ToDictionary(k => k.Hash, k => k.Count),
+                Abilities = abilityContainer.Data.Select(k => k.Hash).ToList(),
+            });
+        }
+
         public static AnimationClip[] BuildClips(
             AnimationClip[] animationClips, string pattern) 
             => animationClips.Where(k => k.name.Contains(pattern))

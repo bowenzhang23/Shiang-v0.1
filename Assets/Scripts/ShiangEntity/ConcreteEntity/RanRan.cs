@@ -52,7 +52,7 @@ namespace Shiang
 
             SM.AddTransiton(_move, _idle, () => IC.ChangeX == 0);
             SM.AddTransiton(_useWeapon, _cool, () => SM.TimeInState > _useWeaponStayTime);
-            SM.AddTransiton(_useAbility, _cool, () => SM.TimeInState > _useAbilityStayTime);
+            SM.AddTransiton(_useAbility, _idle, () => SM.TimeInState > _useAbilityStayTime);
             SM.AddTransiton(_cool, _idle, () => SM.TimeInState > _coolStayTime);
         }
 
@@ -60,7 +60,7 @@ namespace Shiang
     }
     #endregion
     
-    public class RanRan : MonoBehaviour, IPlayer, ICreature, IDynamic, IControllable, ITreasure
+    public class RanRan : MonoBehaviour, IPlayer
     {
         // TODO
         private const float _speed = 2.4f;
@@ -144,6 +144,11 @@ namespace Shiang
 
             _currentWeapon = (Weapon)_inventory.Weapons()[0];
             _currentAbility = _abilityContainer.Data[0];
+        }
+
+        private void OnDestroy()
+        {
+            Utils.SaveEntityDatabase(GetType().Name, _inventory, _abilityContainer);
         }
 
         void Update() => _stateMgr.Tick();

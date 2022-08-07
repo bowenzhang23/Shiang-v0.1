@@ -11,5 +11,7 @@ namespace Shiang
             Info.LoadResources();
             Pool.Load();
         }
+
+        public static void QuitGame() => Application.Quit();
     }
 }

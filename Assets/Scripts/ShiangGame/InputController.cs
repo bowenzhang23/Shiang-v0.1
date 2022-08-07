@@ -1,4 +1,5 @@
 
+using System;
 using UnityEngine;
 
 namespace Shiang
@@ -63,12 +64,16 @@ namespace Shiang
 
         public bool Exit { get; private set; }
 
-        public bool OpenStatMenu { get; private set; }
+        public bool OpenStatMenu { get; private set; } // TODO
+
+        public static event Action OnExitFromUIMode;
 
         private void Awake()
         {
             _stateMgr = Utils.CreateStateManager<InputStateManager, InputController>(this);
             Mode = InputMode.Game;
+            UISceneLoader.OnUISceneLoad += () => Mode = InputMode.Ui;
+            UISceneLoader.OnUISceneUnload += () => Mode = InputMode.Game;
         }
 
         public void Idle() { }
@@ -91,12 +96,23 @@ namespace Shiang
             OpenStatMenu = Input.GetKeyDown(KeyCode.Alpha1);
 
             if (OpenStatMenu) Mode = InputMode.Ui;
+
+            if (Exit) GameController.QuitGame(); // TODO
         }
 
         public void UiMode()
         {
+            // pause game
+            Time.timeScale = 0f;
+
             Exit = Input.GetKeyDown(KeyCode.Escape);
-            if (Exit) Mode = InputMode.Game;
+
+            if (Exit)
+            {
+                Mode = InputMode.Game;
+                Time.timeScale = 1f;
+                OnExitFromUIMode?.Invoke();
+            }
         }
 
         private void Update() => _stateMgr.Tick();

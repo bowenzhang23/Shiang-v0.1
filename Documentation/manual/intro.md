@@ -1,6 +1,6 @@
 # Introduction
 
-The game is for Barloy, the HeapyHeapy and all sorts of Babinos.
+The game is for Barloy, RanRan and all of the Babinos.
 
 ## Idea
 

@@ -12,3 +12,6 @@
 
 to be added..
 
+## Project tracking
+
+We use [Trello](https://trello.com/b/uGCuN74T/shiang) to track the project. 

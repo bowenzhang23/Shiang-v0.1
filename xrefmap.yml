@@ -1711,6 +1711,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Fridge.Items
   nameWithType: Fridge.Items
+- uid: Shiang.Fridge.Load
+  name: Load()
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Load
+  commentId: M:Shiang.Fridge.Load
+  fullName: Shiang.Fridge.Load()
+  nameWithType: Fridge.Load()
+- uid: Shiang.Fridge.Load*
+  name: Load
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Load_
+  commentId: Overload:Shiang.Fridge.Load
+  isSpec: "True"
+  fullName: Shiang.Fridge.Load
+  nameWithType: Fridge.Load
 - uid: Shiang.Fridge.OnFridgeClose
   name: OnFridgeClose
   href: api/Shiang.Fridge.html#Shiang_Fridge_OnFridgeClose
@@ -1749,6 +1762,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Fridge.OpenCo
   nameWithType: Fridge.OpenCo
+- uid: Shiang.Fridge.Save
+  name: Save()
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Save
+  commentId: M:Shiang.Fridge.Save
+  fullName: Shiang.Fridge.Save()
+  nameWithType: Fridge.Save()
+- uid: Shiang.Fridge.Save*
+  name: Save
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Save_
+  commentId: Overload:Shiang.Fridge.Save
+  isSpec: "True"
+  fullName: Shiang.Fridge.Save
+  nameWithType: Fridge.Save
 - uid: Shiang.Fridge.StateMgr
   name: StateMgr
   href: api/Shiang.Fridge.html#Shiang_Fridge_StateMgr
@@ -2363,6 +2389,12 @@ references:
   isSpec: "True"
   fullName: Shiang.Info.LoadResources
   nameWithType: Info.LoadResources
+- uid: Shiang.Info.PERSIST_ENTITIES
+  name: PERSIST_ENTITIES
+  href: api/Shiang.Info.html#Shiang_Info_PERSIST_ENTITIES
+  commentId: F:Shiang.Info.PERSIST_ENTITIES
+  fullName: Shiang.Info.PERSIST_ENTITIES
+  nameWithType: Info.PERSIST_ENTITIES
 - uid: Shiang.Info.RESOURCE_DATA
   name: RESOURCE_DATA
   href: api/Shiang.Info.html#Shiang_Info_RESOURCE_DATA
@@ -2643,6 +2675,38 @@ references:
   isSpec: "True"
   fullName: Shiang.InputStateManager.SetInitialState
   nameWithType: InputStateManager.SetInitialState
+- uid: Shiang.IPersist
+  name: IPersist
+  href: api/Shiang.IPersist.html
+  commentId: T:Shiang.IPersist
+  fullName: Shiang.IPersist
+  nameWithType: IPersist
+- uid: Shiang.IPersist.Load
+  name: Load()
+  href: api/Shiang.IPersist.html#Shiang_IPersist_Load
+  commentId: M:Shiang.IPersist.Load
+  fullName: Shiang.IPersist.Load()
+  nameWithType: IPersist.Load()
+- uid: Shiang.IPersist.Load*
+  name: Load
+  href: api/Shiang.IPersist.html#Shiang_IPersist_Load_
+  commentId: Overload:Shiang.IPersist.Load
+  isSpec: "True"
+  fullName: Shiang.IPersist.Load
+  nameWithType: IPersist.Load
+- uid: Shiang.IPersist.Save
+  name: Save()
+  href: api/Shiang.IPersist.html#Shiang_IPersist_Save
+  commentId: M:Shiang.IPersist.Save
+  fullName: Shiang.IPersist.Save()
+  nameWithType: IPersist.Save()
+- uid: Shiang.IPersist.Save*
+  name: Save
+  href: api/Shiang.IPersist.html#Shiang_IPersist_Save_
+  commentId: Overload:Shiang.IPersist.Save
+  isSpec: "True"
+  fullName: Shiang.IPersist.Save
+  nameWithType: IPersist.Save
 - uid: Shiang.IPlayer
   name: IPlayer
   href: api/Shiang.IPlayer.html
@@ -3761,6 +3825,19 @@ references:
   isSpec: "True"
   fullName: Shiang.RanRan.Items
   nameWithType: RanRan.Items
+- uid: Shiang.RanRan.Load
+  name: Load()
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Load
+  commentId: M:Shiang.RanRan.Load
+  fullName: Shiang.RanRan.Load()
+  nameWithType: RanRan.Load()
+- uid: Shiang.RanRan.Load*
+  name: Load
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Load_
+  commentId: Overload:Shiang.RanRan.Load
+  isSpec: "True"
+  fullName: Shiang.RanRan.Load
+  nameWithType: RanRan.Load
 - uid: Shiang.RanRan.Move
   name: Move()
   href: api/Shiang.RanRan.html#Shiang_RanRan_Move
@@ -3787,6 +3864,19 @@ references:
   isSpec: "True"
   fullName: Shiang.RanRan.Orientation
   nameWithType: RanRan.Orientation
+- uid: Shiang.RanRan.Save
+  name: Save()
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Save
+  commentId: M:Shiang.RanRan.Save
+  fullName: Shiang.RanRan.Save()
+  nameWithType: RanRan.Save()
+- uid: Shiang.RanRan.Save*
+  name: Save
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Save_
+  commentId: Overload:Shiang.RanRan.Save
+  isSpec: "True"
+  fullName: Shiang.RanRan.Save
+  nameWithType: RanRan.Save
 - uid: Shiang.RanRan.StateMgr
   name: StateMgr
   href: api/Shiang.RanRan.html#Shiang_RanRan_StateMgr
@@ -4813,75 +4903,75 @@ references:
   isSpec: "True"
   fullName: Shiang.TreasurePanel.SetOwner
   nameWithType: TreasurePanel.SetOwner
-- uid: Shiang.UIManagement
-  name: UIManagement
-  href: api/Shiang.UIManagement.html
-  commentId: T:Shiang.UIManagement
-  fullName: Shiang.UIManagement
-  nameWithType: UIManagement
-- uid: Shiang.UIManagement.CurrentTreasurePanelOwner
+- uid: Shiang.UiManagement
+  name: UiManagement
+  href: api/Shiang.UiManagement.html
+  commentId: T:Shiang.UiManagement
+  fullName: Shiang.UiManagement
+  nameWithType: UiManagement
+- uid: Shiang.UiManagement.CurrentTreasurePanelOwner
   name: CurrentTreasurePanelOwner
-  href: api/Shiang.UIManagement.html#Shiang_UIManagement_CurrentTreasurePanelOwner
-  commentId: P:Shiang.UIManagement.CurrentTreasurePanelOwner
-  fullName: Shiang.UIManagement.CurrentTreasurePanelOwner
-  nameWithType: UIManagement.CurrentTreasurePanelOwner
-- uid: Shiang.UIManagement.CurrentTreasurePanelOwner*
+  href: api/Shiang.UiManagement.html#Shiang_UiManagement_CurrentTreasurePanelOwner
+  commentId: P:Shiang.UiManagement.CurrentTreasurePanelOwner
+  fullName: Shiang.UiManagement.CurrentTreasurePanelOwner
+  nameWithType: UiManagement.CurrentTreasurePanelOwner
+- uid: Shiang.UiManagement.CurrentTreasurePanelOwner*
   name: CurrentTreasurePanelOwner
-  href: api/Shiang.UIManagement.html#Shiang_UIManagement_CurrentTreasurePanelOwner_
-  commentId: Overload:Shiang.UIManagement.CurrentTreasurePanelOwner
+  href: api/Shiang.UiManagement.html#Shiang_UiManagement_CurrentTreasurePanelOwner_
+  commentId: Overload:Shiang.UiManagement.CurrentTreasurePanelOwner
   isSpec: "True"
-  fullName: Shiang.UIManagement.CurrentTreasurePanelOwner
-  nameWithType: UIManagement.CurrentTreasurePanelOwner
+  fullName: Shiang.UiManagement.CurrentTreasurePanelOwner
+  nameWithType: UiManagement.CurrentTreasurePanelOwner
 - uid: Shiang.UiModeState
   name: UiModeState
   href: api/Shiang.UiModeState.html
   commentId: T:Shiang.UiModeState
   fullName: Shiang.UiModeState
   nameWithType: UiModeState
-- uid: Shiang.UISceneLoader
-  name: UISceneLoader
-  href: api/Shiang.UISceneLoader.html
-  commentId: T:Shiang.UISceneLoader
-  fullName: Shiang.UISceneLoader
-  nameWithType: UISceneLoader
-- uid: Shiang.UISceneLoader.LoadTreasureUI
+- uid: Shiang.UiSceneLoader
+  name: UiSceneLoader
+  href: api/Shiang.UiSceneLoader.html
+  commentId: T:Shiang.UiSceneLoader
+  fullName: Shiang.UiSceneLoader
+  nameWithType: UiSceneLoader
+- uid: Shiang.UiSceneLoader.LoadTreasureUI
   name: LoadTreasureUI()
-  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_LoadTreasureUI
-  commentId: M:Shiang.UISceneLoader.LoadTreasureUI
-  fullName: Shiang.UISceneLoader.LoadTreasureUI()
-  nameWithType: UISceneLoader.LoadTreasureUI()
-- uid: Shiang.UISceneLoader.LoadTreasureUI*
+  href: api/Shiang.UiSceneLoader.html#Shiang_UiSceneLoader_LoadTreasureUI
+  commentId: M:Shiang.UiSceneLoader.LoadTreasureUI
+  fullName: Shiang.UiSceneLoader.LoadTreasureUI()
+  nameWithType: UiSceneLoader.LoadTreasureUI()
+- uid: Shiang.UiSceneLoader.LoadTreasureUI*
   name: LoadTreasureUI
-  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_LoadTreasureUI_
-  commentId: Overload:Shiang.UISceneLoader.LoadTreasureUI
+  href: api/Shiang.UiSceneLoader.html#Shiang_UiSceneLoader_LoadTreasureUI_
+  commentId: Overload:Shiang.UiSceneLoader.LoadTreasureUI
   isSpec: "True"
-  fullName: Shiang.UISceneLoader.LoadTreasureUI
-  nameWithType: UISceneLoader.LoadTreasureUI
-- uid: Shiang.UISceneLoader.OnUISceneLoad
+  fullName: Shiang.UiSceneLoader.LoadTreasureUI
+  nameWithType: UiSceneLoader.LoadTreasureUI
+- uid: Shiang.UiSceneLoader.OnUISceneLoad
   name: OnUISceneLoad
-  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_OnUISceneLoad
-  commentId: E:Shiang.UISceneLoader.OnUISceneLoad
-  fullName: Shiang.UISceneLoader.OnUISceneLoad
-  nameWithType: UISceneLoader.OnUISceneLoad
-- uid: Shiang.UISceneLoader.OnUISceneUnload
+  href: api/Shiang.UiSceneLoader.html#Shiang_UiSceneLoader_OnUISceneLoad
+  commentId: E:Shiang.UiSceneLoader.OnUISceneLoad
+  fullName: Shiang.UiSceneLoader.OnUISceneLoad
+  nameWithType: UiSceneLoader.OnUISceneLoad
+- uid: Shiang.UiSceneLoader.OnUISceneUnload
   name: OnUISceneUnload
-  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_OnUISceneUnload
-  commentId: E:Shiang.UISceneLoader.OnUISceneUnload
-  fullName: Shiang.UISceneLoader.OnUISceneUnload
-  nameWithType: UISceneLoader.OnUISceneUnload
-- uid: Shiang.UISceneLoader.UnloadTreasureUI
+  href: api/Shiang.UiSceneLoader.html#Shiang_UiSceneLoader_OnUISceneUnload
+  commentId: E:Shiang.UiSceneLoader.OnUISceneUnload
+  fullName: Shiang.UiSceneLoader.OnUISceneUnload
+  nameWithType: UiSceneLoader.OnUISceneUnload
+- uid: Shiang.UiSceneLoader.UnloadTreasureUI
   name: UnloadTreasureUI()
-  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_UnloadTreasureUI
-  commentId: M:Shiang.UISceneLoader.UnloadTreasureUI
-  fullName: Shiang.UISceneLoader.UnloadTreasureUI()
-  nameWithType: UISceneLoader.UnloadTreasureUI()
-- uid: Shiang.UISceneLoader.UnloadTreasureUI*
+  href: api/Shiang.UiSceneLoader.html#Shiang_UiSceneLoader_UnloadTreasureUI
+  commentId: M:Shiang.UiSceneLoader.UnloadTreasureUI
+  fullName: Shiang.UiSceneLoader.UnloadTreasureUI()
+  nameWithType: UiSceneLoader.UnloadTreasureUI()
+- uid: Shiang.UiSceneLoader.UnloadTreasureUI*
   name: UnloadTreasureUI
-  href: api/Shiang.UISceneLoader.html#Shiang_UISceneLoader_UnloadTreasureUI_
-  commentId: Overload:Shiang.UISceneLoader.UnloadTreasureUI
+  href: api/Shiang.UiSceneLoader.html#Shiang_UiSceneLoader_UnloadTreasureUI_
+  commentId: Overload:Shiang.UiSceneLoader.UnloadTreasureUI
   isSpec: "True"
-  fullName: Shiang.UISceneLoader.UnloadTreasureUI
-  nameWithType: UISceneLoader.UnloadTreasureUI
+  fullName: Shiang.UiSceneLoader.UnloadTreasureUI
+  nameWithType: UiSceneLoader.UnloadTreasureUI
 - uid: Shiang.UseAbilityState
   name: UseAbilityState
   href: api/Shiang.UseAbilityState.html
@@ -5129,6 +5219,25 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.LoadEntityDatabase
   nameWithType: Utils.LoadEntityDatabase
+- uid: Shiang.Utils.RegisterForPersistenceAndLoad(Shiang.IPersist)
+  name: RegisterForPersistenceAndLoad(IPersist)
+  href: api/Shiang.Utils.html#Shiang_Utils_RegisterForPersistenceAndLoad_Shiang_IPersist_
+  commentId: M:Shiang.Utils.RegisterForPersistenceAndLoad(Shiang.IPersist)
+  fullName: Shiang.Utils.RegisterForPersistenceAndLoad(Shiang.IPersist)
+  nameWithType: Utils.RegisterForPersistenceAndLoad(IPersist)
+- uid: Shiang.Utils.RegisterForPersistenceAndLoad*
+  name: RegisterForPersistenceAndLoad
+  href: api/Shiang.Utils.html#Shiang_Utils_RegisterForPersistenceAndLoad_
+  commentId: Overload:Shiang.Utils.RegisterForPersistenceAndLoad
+  isSpec: "True"
+  fullName: Shiang.Utils.RegisterForPersistenceAndLoad
+  nameWithType: Utils.RegisterForPersistenceAndLoad
+- uid: Shiang.Utils.SaveEntityDatabase(System.String,Shiang.ItemContainer)
+  name: SaveEntityDatabase(String, ItemContainer)
+  href: api/Shiang.Utils.html#Shiang_Utils_SaveEntityDatabase_System_String_Shiang_ItemContainer_
+  commentId: M:Shiang.Utils.SaveEntityDatabase(System.String,Shiang.ItemContainer)
+  fullName: Shiang.Utils.SaveEntityDatabase(System.String, Shiang.ItemContainer)
+  nameWithType: Utils.SaveEntityDatabase(String, ItemContainer)
 - uid: Shiang.Utils.SaveEntityDatabase(System.String,Shiang.ItemContainer,Shiang.AbilityContainer)
   name: SaveEntityDatabase(String, ItemContainer, AbilityContainer)
   href: api/Shiang.Utils.html#Shiang_Utils_SaveEntityDatabase_System_String_Shiang_ItemContainer_Shiang_AbilityContainer_
@@ -5142,6 +5251,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.SaveEntityDatabase
   nameWithType: Utils.SaveEntityDatabase
+- uid: Shiang.Utils.SaveForPersistence
+  name: SaveForPersistence()
+  href: api/Shiang.Utils.html#Shiang_Utils_SaveForPersistence
+  commentId: M:Shiang.Utils.SaveForPersistence
+  fullName: Shiang.Utils.SaveForPersistence()
+  nameWithType: Utils.SaveForPersistence()
+- uid: Shiang.Utils.SaveForPersistence*
+  name: SaveForPersistence
+  href: api/Shiang.Utils.html#Shiang_Utils_SaveForPersistence_
+  commentId: Overload:Shiang.Utils.SaveForPersistence
+  isSpec: "True"
+  fullName: Shiang.Utils.SaveForPersistence
+  nameWithType: Utils.SaveForPersistence
 - uid: Shiang.WangWangMilk
   name: WangWangMilk
   href: api/Shiang.WangWangMilk.html

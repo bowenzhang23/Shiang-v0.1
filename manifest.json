@@ -340,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Fridge.html",
-          "hash": "lz2hproUE2L+3eAnALzF38aVRJFJTxhuwzKWBKVy1mM="
+          "hash": "h4892jt89ehMlpAcHWFM+GGL6olbAXtGraqQHi+lZPc="
         }
       },
       "is_incremental": false,
@@ -600,6 +600,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.IPersist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.IPersist.html",
+          "hash": "68qqwTV2xA8IVjUayRiWut7MoW3KSXIcaBJjiYq99Uk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.IPlayer.yml",
       "output": {
         ".html": {
@@ -700,7 +712,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Info.html",
-          "hash": "MLaKy1i0vGcSts3iiJup3Gi6goIwFmtV+K+kiRwGFWU="
+          "hash": "vQYRXbOzfIpjw8a8au/pUg5BovHxHyX4Y81K0PYJ9sE="
         }
       },
       "is_incremental": false,
@@ -892,7 +904,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.RanRan.html",
-          "hash": "8HacNX0l7MHqaKWbDvoSigbq4fpfa62qu9v1xNf1vCg="
+          "hash": "HjrRS3QmbUZj4pC7fW0YbCoGmNQ0W4HaupQC4rUAYwA="
         }
       },
       "is_incremental": false,
@@ -1068,23 +1080,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Shiang.UIManagement.yml",
+      "source_relative_path": "api/Shiang.UiManagement.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Shiang.UIManagement.html",
-          "hash": "5cl8RatA8BdMmWOkagxO265nnD/3rPkUlEnHKP0zjpo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Shiang.UISceneLoader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Shiang.UISceneLoader.html",
-          "hash": "24qzy6bKhYoCioOFGUN3xYFxNcjxEyATvy6WFUyn95M="
+          "relative_path": "api/Shiang.UiManagement.html",
+          "hash": "bn8vOLp18wdhfJ2ZdV1Cb9Ky3kRFfgtwN4V1HpU6jTk="
         }
       },
       "is_incremental": false,
@@ -1097,6 +1097,18 @@
         ".html": {
           "relative_path": "api/Shiang.UiModeState.html",
           "hash": "D9Np6XYd9ITMaEExZJkZXm8T2mjH8kAR1cxQ/F+E7Ks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.UiSceneLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.UiSceneLoader.html",
+          "hash": "dU5DiUxeDX6sqqkMYxKSxTp5NsEJJ94rOKh/q8KjY4Q="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1144,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Utils.html",
-          "hash": "lmQxLfy3ZoTPwfn7dinSk6z2wRyH0yXgs/m4LZ+Kz+o="
+          "hash": "HWf/YEsGfTnw8E6OLu21LsezHUil+msr2Nvo7CZ7+ok="
         }
       },
       "is_incremental": false,
@@ -1204,7 +1216,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.html",
-          "hash": "r4WFdRRbd0jAl3AG+LTvJAXxl8dG3Au7Rz3W3sqQhTg="
+          "hash": "j26s7FiJ5ZeR189IAJyqyVkaWMUP1VkAgEBUDTii230="
         }
       },
       "is_incremental": false,
@@ -1540,7 +1552,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "q0q5NVQFSWxZcqGgDYsnV6XNq4eEtd+o+F2N67VmW+0="
+          "hash": "GOnvbMf3q0e0LBqK9vs5z3GxoIGA+oqZbxW/EFBzgvY="
         }
       },
       "is_incremental": false,
@@ -1650,7 +1662,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 126,
+          "total_file_count": 127,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

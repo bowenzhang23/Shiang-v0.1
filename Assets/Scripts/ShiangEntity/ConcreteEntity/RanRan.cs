@@ -60,7 +60,7 @@ namespace Shiang
     }
     #endregion
     
-    public class RanRan : MonoBehaviour, IPlayer
+    public class RanRan : MonoBehaviour, IPlayer, IPersist
     {
         // TODO
         private const float _speed = 2.4f;
@@ -72,7 +72,6 @@ namespace Shiang
         Orientation _orientation;
         ItemContainer _inventory;
         AbilityContainer _abilityContainer;
-        EntityDB _database;
 
         private Weapon _currentWeapon;
         private Ability _currentAbility;
@@ -131,13 +130,8 @@ namespace Shiang
             StartCoroutine(_currentAbility.Cd.CountdownCo());
         }
 
-        private void Awake()
+        public void Load()
         {
-            _orientation = Orientation.Right;
-            _anim = GetComponent<Animator>();
-            _inputController = FindObjectOfType<InputController>();
-            _stateMgr = Utils.CreateStateManagerIC<RanRanStateManager, RanRan>(this, _inputController);
-            
             _inventory = new ItemContainer(GameMechanism.INVENTORY_CAPACITY);
             _abilityContainer = new AbilityContainer(GameMechanism.ABILITY_CAPACITY);
             Utils.LoadEntityDatabase(GetType().Name, ref _inventory, ref _abilityContainer);
@@ -146,9 +140,16 @@ namespace Shiang
             _currentAbility = _abilityContainer.Data[0];
         }
 
-        private void OnDestroy()
+        public void Save()
+            => Utils.SaveEntityDatabase(GetType().Name, _inventory, _abilityContainer);
+
+        private void Awake()
         {
-            Utils.SaveEntityDatabase(GetType().Name, _inventory, _abilityContainer);
+            Utils.RegisterForPersistenceAndLoad(this);
+            _orientation = Orientation.Right;
+            _anim = GetComponent<Animator>();
+            _inputController = FindObjectOfType<InputController>();
+            _stateMgr = Utils.CreateStateManagerIC<RanRanStateManager, RanRan>(this, _inputController);
         }
 
         void Update() => _stateMgr.Tick();

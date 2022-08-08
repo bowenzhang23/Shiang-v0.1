@@ -72,8 +72,8 @@ namespace Shiang
         {
             _stateMgr = Utils.CreateStateManager<InputStateManager, InputController>(this);
             Mode = InputMode.Game;
-            UISceneLoader.OnUISceneLoad += () => Mode = InputMode.Ui;
-            UISceneLoader.OnUISceneUnload += () => Mode = InputMode.Game;
+            UiSceneLoader.OnUISceneLoad += () => Mode = InputMode.Ui;
+            UiSceneLoader.OnUISceneUnload += () => Mode = InputMode.Game;
         }
 
         public void Idle() { }

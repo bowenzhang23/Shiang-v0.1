@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 namespace Shiang
 {
-    public class UISceneLoader : MonoBehaviour
+    public class UiSceneLoader : MonoBehaviour
     {
         public static event Action OnUISceneLoad;
         public static event Action OnUISceneUnload;

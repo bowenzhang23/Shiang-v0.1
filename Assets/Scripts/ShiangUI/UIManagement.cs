@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Shiang
 {
-    public class UIManagement : MonoBehaviour
+    public class UiManagement : MonoBehaviour
     {
         public static ITreasure CurrentTreasurePanelOwner { get; set; }
     }

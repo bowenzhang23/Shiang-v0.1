@@ -12,6 +12,10 @@ namespace Shiang
             Pool.Load();
         }
 
-        public static void QuitGame() => Application.Quit();
+        public static void QuitGame()
+        {
+            Utils.SaveForPersistence();
+            Application.Quit();
+        }
     }
 }

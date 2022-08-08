@@ -43,7 +43,7 @@ namespace Shiang
     #endregion
 
     [RequireComponent(typeof(CollisionDetector))]
-    public class Fridge : MonoBehaviour, IStatic, IStateHolder, ITreasure, IAnimatorHolder, IBinary
+    public class Fridge : MonoBehaviour, IStatic, IStateHolder, ITreasure, IAnimatorHolder, IBinary, IPersist
     {
         StateManager _stateMgr;
         ItemContainer _itemContainer = new ItemContainer(GameMechanism.TREASUREBOX_CAPACITY);
@@ -71,7 +71,7 @@ namespace Shiang
         {
             Anim.Play(Info.ANIM_NAMES[typeof(OpenState)][0]);
             IsOpen = false;
-            UIManagement.CurrentTreasurePanelOwner = null;
+            UiManagement.CurrentTreasurePanelOwner = null;
             OnFridgeClose?.Invoke();
         }
 
@@ -85,15 +85,16 @@ namespace Shiang
         {
             Anim.Play(Info.ANIM_NAMES[typeof(OpenState)][1]);
             IsOpen = true;
-            UIManagement.CurrentTreasurePanelOwner = this;
+            UiManagement.CurrentTreasurePanelOwner = this;
             yield return new WaitForSeconds(FridgeStateManager.ANIM_DURATION);
             OnFridgeOpen?.Invoke();
         }
 
         private void Awake()
         {
+            Utils.RegisterForPersistenceAndLoad(this);
             _anim = GetComponent<Animator>();
-            Utils.LoadEntityDatabase(_databaseName, ref _itemContainer);
+            
             _stateMgr = Utils.CreateStateManagerIC<FridgeStateManager, Fridge>(this,
                 FindObjectOfType<InputController>());
             _colliDetec = GetComponent<CollisionDetector>();
@@ -102,5 +103,15 @@ namespace Shiang
         }
 
         private void Update() => _stateMgr.Tick();
+
+        public void Save()
+        {
+            Utils.SaveEntityDatabase(_databaseName, _itemContainer);
+        }
+
+        public void Load()
+        {
+            Utils.LoadEntityDatabase(_databaseName, ref _itemContainer);
+        }
     }
 }

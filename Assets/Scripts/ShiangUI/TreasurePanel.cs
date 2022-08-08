@@ -42,7 +42,7 @@ namespace Shiang
 
         private void OnEnable()
         {
-            SetOwner(UIManagement.CurrentTreasurePanelOwner);
+            SetOwner(UiManagement.CurrentTreasurePanelOwner);
         }
     }
 }

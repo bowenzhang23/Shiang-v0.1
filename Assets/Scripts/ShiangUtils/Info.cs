@@ -19,6 +19,9 @@ namespace Shiang
         public static Dictionary<string, SQLiteDatabase> ENTITY_DB_COLLECTION = 
             new Dictionary<string, SQLiteDatabase>();
 
+        public static List<IPersist> PERSIST_ENTITIES =
+            new List<IPersist>();
+
         static readonly int OPEN = StoH("Open");
         static readonly int CLOSE = StoH("Close");
         static readonly int IDLE_LEFT = StoH("Idle_Left");

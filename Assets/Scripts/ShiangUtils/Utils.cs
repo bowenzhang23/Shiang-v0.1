@@ -112,17 +112,8 @@ namespace Shiang
         public static void LoadEntityDatabase(string name,
             ref ItemContainer itemContainer)
         {
-            Info.ENTITY_DB_COLLECTION[name] = CreateSQLiteDatabase<EntityDB>(name);
-            if (!Info.ENTITY_DB_COLLECTION.TryGetValue(name, out var db))
-                return;
-            db.Retrieve();
-            var data = (EntityData)db.Data;
-
-            foreach (var itemCount in data.Items)
-            {
-                Item item = Pool.Items[itemCount.Key].Clone(itemCount.Value);
-                itemContainer.ReceiveAll(ref item);
-            }
+            AbilityContainer ac = null;
+            LoadEntityDatabase(name, ref itemContainer, ref ac);
         }
 
         public static void LoadEntityDatabase(string name, 
@@ -140,11 +131,20 @@ namespace Shiang
                 Item item = Pool.Items[itemCount.Key].Clone(itemCount.Value);
                 itemContainer.ReceiveAll(ref item);
             }
+
+            if (abilityContainer == null) return;
+
             foreach (var abilityHash in data.Abilities)
             {
                 var ability = Pool.Abilities[abilityHash];
                 abilityContainer.Receive(ability);
             }
+        }
+
+        public static void SaveEntityDatabase(string name,
+            ItemContainer inventory)
+        {
+            SaveEntityDatabase(name, inventory, null);
         }
 
         public static void SaveEntityDatabase(string name,
@@ -157,9 +157,19 @@ namespace Shiang
             db.Insert(new EntityData()
             {
                 Items = inventory.Data.ToDictionary(k => k.Hash, k => k.Count),
-                Abilities = abilityContainer.Data.Select(k => k.Hash).ToList(),
+                Abilities = abilityContainer == null ? 
+                    new List<uint>() : abilityContainer.Data.Select(k => k.Hash).ToList(),
             });
         }
+
+        public static void RegisterForPersistenceAndLoad(IPersist persist)
+        {
+            persist.Load();
+            Info.PERSIST_ENTITIES.Add(persist);
+        }
+
+        public static void SaveForPersistence()
+            => Info.PERSIST_ENTITIES.ForEach(p => p.Save());
 
         public static AnimationClip[] BuildClips(
             AnimationClip[] animationClips, string pattern) 

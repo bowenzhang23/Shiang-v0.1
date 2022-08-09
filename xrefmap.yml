@@ -654,19 +654,32 @@ references:
   isSpec: "True"
   fullName: Shiang.Bahu.Anim
   nameWithType: Bahu.Anim
-- uid: Shiang.Bahu.FollowPlayer
-  name: FollowPlayer()
-  href: api/Shiang.Bahu.html#Shiang_Bahu_FollowPlayer
-  commentId: M:Shiang.Bahu.FollowPlayer
-  fullName: Shiang.Bahu.FollowPlayer()
-  nameWithType: Bahu.FollowPlayer()
-- uid: Shiang.Bahu.FollowPlayer*
-  name: FollowPlayer
-  href: api/Shiang.Bahu.html#Shiang_Bahu_FollowPlayer_
-  commentId: Overload:Shiang.Bahu.FollowPlayer
+- uid: Shiang.Bahu.CurrentWeapon
+  name: CurrentWeapon
+  href: api/Shiang.Bahu.html#Shiang_Bahu_CurrentWeapon
+  commentId: P:Shiang.Bahu.CurrentWeapon
+  fullName: Shiang.Bahu.CurrentWeapon
+  nameWithType: Bahu.CurrentWeapon
+- uid: Shiang.Bahu.CurrentWeapon*
+  name: CurrentWeapon
+  href: api/Shiang.Bahu.html#Shiang_Bahu_CurrentWeapon_
+  commentId: Overload:Shiang.Bahu.CurrentWeapon
   isSpec: "True"
-  fullName: Shiang.Bahu.FollowPlayer
-  nameWithType: Bahu.FollowPlayer
+  fullName: Shiang.Bahu.CurrentWeapon
+  nameWithType: Bahu.CurrentWeapon
+- uid: Shiang.Bahu.Follow
+  name: Follow()
+  href: api/Shiang.Bahu.html#Shiang_Bahu_Follow
+  commentId: M:Shiang.Bahu.Follow
+  fullName: Shiang.Bahu.Follow()
+  nameWithType: Bahu.Follow()
+- uid: Shiang.Bahu.Follow*
+  name: Follow
+  href: api/Shiang.Bahu.html#Shiang_Bahu_Follow_
+  commentId: Overload:Shiang.Bahu.Follow
+  isSpec: "True"
+  fullName: Shiang.Bahu.Follow
+  nameWithType: Bahu.Follow
 - uid: Shiang.Bahu.Idle
   name: Idle()
   href: api/Shiang.Bahu.html#Shiang_Bahu_Idle
@@ -719,19 +732,32 @@ references:
   isSpec: "True"
   fullName: Shiang.Bahu.Orientation
   nameWithType: Bahu.Orientation
-- uid: Shiang.Bahu.PositionDiff
-  name: PositionDiff
-  href: api/Shiang.Bahu.html#Shiang_Bahu_PositionDiff
-  commentId: P:Shiang.Bahu.PositionDiff
-  fullName: Shiang.Bahu.PositionDiff
-  nameWithType: Bahu.PositionDiff
-- uid: Shiang.Bahu.PositionDiff*
-  name: PositionDiff
-  href: api/Shiang.Bahu.html#Shiang_Bahu_PositionDiff_
-  commentId: Overload:Shiang.Bahu.PositionDiff
+- uid: Shiang.Bahu.PositionDiffToTarget
+  name: PositionDiffToTarget
+  href: api/Shiang.Bahu.html#Shiang_Bahu_PositionDiffToTarget
+  commentId: P:Shiang.Bahu.PositionDiffToTarget
+  fullName: Shiang.Bahu.PositionDiffToTarget
+  nameWithType: Bahu.PositionDiffToTarget
+- uid: Shiang.Bahu.PositionDiffToTarget*
+  name: PositionDiffToTarget
+  href: api/Shiang.Bahu.html#Shiang_Bahu_PositionDiffToTarget_
+  commentId: Overload:Shiang.Bahu.PositionDiffToTarget
   isSpec: "True"
-  fullName: Shiang.Bahu.PositionDiff
-  nameWithType: Bahu.PositionDiff
+  fullName: Shiang.Bahu.PositionDiffToTarget
+  nameWithType: Bahu.PositionDiffToTarget
+- uid: Shiang.Bahu.ResetStopFollowDistance
+  name: ResetStopFollowDistance()
+  href: api/Shiang.Bahu.html#Shiang_Bahu_ResetStopFollowDistance
+  commentId: M:Shiang.Bahu.ResetStopFollowDistance
+  fullName: Shiang.Bahu.ResetStopFollowDistance()
+  nameWithType: Bahu.ResetStopFollowDistance()
+- uid: Shiang.Bahu.ResetStopFollowDistance*
+  name: ResetStopFollowDistance
+  href: api/Shiang.Bahu.html#Shiang_Bahu_ResetStopFollowDistance_
+  commentId: Overload:Shiang.Bahu.ResetStopFollowDistance
+  isSpec: "True"
+  fullName: Shiang.Bahu.ResetStopFollowDistance
+  nameWithType: Bahu.ResetStopFollowDistance
 - uid: Shiang.Bahu.StartFollowDistance
   name: StartFollowDistance
   href: api/Shiang.Bahu.html#Shiang_Bahu_StartFollowDistance
@@ -810,6 +836,51 @@ references:
   isSpec: "True"
   fullName: Shiang.Bahu.UseWeapon
   nameWithType: Bahu.UseWeapon
+- uid: Shiang.BahuStateManager
+  name: BahuStateManager
+  href: api/Shiang.BahuStateManager.html
+  commentId: T:Shiang.BahuStateManager
+  fullName: Shiang.BahuStateManager
+  nameWithType: BahuStateManager
+- uid: Shiang.BahuStateManager.InitStates
+  name: InitStates()
+  href: api/Shiang.BahuStateManager.html#Shiang_BahuStateManager_InitStates
+  commentId: M:Shiang.BahuStateManager.InitStates
+  fullName: Shiang.BahuStateManager.InitStates()
+  nameWithType: BahuStateManager.InitStates()
+- uid: Shiang.BahuStateManager.InitStates*
+  name: InitStates
+  href: api/Shiang.BahuStateManager.html#Shiang_BahuStateManager_InitStates_
+  commentId: Overload:Shiang.BahuStateManager.InitStates
+  isSpec: "True"
+  fullName: Shiang.BahuStateManager.InitStates
+  nameWithType: BahuStateManager.InitStates
+- uid: Shiang.BahuStateManager.InitTransitions
+  name: InitTransitions()
+  href: api/Shiang.BahuStateManager.html#Shiang_BahuStateManager_InitTransitions
+  commentId: M:Shiang.BahuStateManager.InitTransitions
+  fullName: Shiang.BahuStateManager.InitTransitions()
+  nameWithType: BahuStateManager.InitTransitions()
+- uid: Shiang.BahuStateManager.InitTransitions*
+  name: InitTransitions
+  href: api/Shiang.BahuStateManager.html#Shiang_BahuStateManager_InitTransitions_
+  commentId: Overload:Shiang.BahuStateManager.InitTransitions
+  isSpec: "True"
+  fullName: Shiang.BahuStateManager.InitTransitions
+  nameWithType: BahuStateManager.InitTransitions
+- uid: Shiang.BahuStateManager.SetInitialState
+  name: SetInitialState()
+  href: api/Shiang.BahuStateManager.html#Shiang_BahuStateManager_SetInitialState
+  commentId: M:Shiang.BahuStateManager.SetInitialState
+  fullName: Shiang.BahuStateManager.SetInitialState()
+  nameWithType: BahuStateManager.SetInitialState()
+- uid: Shiang.BahuStateManager.SetInitialState*
+  name: SetInitialState
+  href: api/Shiang.BahuStateManager.html#Shiang_BahuStateManager_SetInitialState_
+  commentId: Overload:Shiang.BahuStateManager.SetInitialState
+  isSpec: "True"
+  fullName: Shiang.BahuStateManager.SetInitialState
+  nameWithType: BahuStateManager.SetInitialState
 - uid: Shiang.Bonbon
   name: Bonbon
   href: api/Shiang.Bonbon.html
@@ -842,6 +913,51 @@ references:
   isSpec: "True"
   fullName: Shiang.Bonbon.Image
   nameWithType: Bonbon.Image
+- uid: Shiang.Broadsword
+  name: Broadsword
+  href: api/Shiang.Broadsword.html
+  commentId: T:Shiang.Broadsword
+  fullName: Shiang.Broadsword
+  nameWithType: Broadsword
+- uid: Shiang.Broadsword.Clone(System.Int32)
+  name: Clone(Int32)
+  href: api/Shiang.Broadsword.html#Shiang_Broadsword_Clone_System_Int32_
+  commentId: M:Shiang.Broadsword.Clone(System.Int32)
+  fullName: Shiang.Broadsword.Clone(System.Int32)
+  nameWithType: Broadsword.Clone(Int32)
+- uid: Shiang.Broadsword.Clone*
+  name: Clone
+  href: api/Shiang.Broadsword.html#Shiang_Broadsword_Clone_
+  commentId: Overload:Shiang.Broadsword.Clone
+  isSpec: "True"
+  fullName: Shiang.Broadsword.Clone
+  nameWithType: Broadsword.Clone
+- uid: Shiang.Broadsword.Hit(Shiang.IHurtable)
+  name: Hit(IHurtable)
+  href: api/Shiang.Broadsword.html#Shiang_Broadsword_Hit_Shiang_IHurtable_
+  commentId: M:Shiang.Broadsword.Hit(Shiang.IHurtable)
+  fullName: Shiang.Broadsword.Hit(Shiang.IHurtable)
+  nameWithType: Broadsword.Hit(IHurtable)
+- uid: Shiang.Broadsword.Hit*
+  name: Hit
+  href: api/Shiang.Broadsword.html#Shiang_Broadsword_Hit_
+  commentId: Overload:Shiang.Broadsword.Hit
+  isSpec: "True"
+  fullName: Shiang.Broadsword.Hit
+  nameWithType: Broadsword.Hit
+- uid: Shiang.Broadsword.Image
+  name: Image
+  href: api/Shiang.Broadsword.html#Shiang_Broadsword_Image
+  commentId: P:Shiang.Broadsword.Image
+  fullName: Shiang.Broadsword.Image
+  nameWithType: Broadsword.Image
+- uid: Shiang.Broadsword.Image*
+  name: Image
+  href: api/Shiang.Broadsword.html#Shiang_Broadsword_Image_
+  commentId: Overload:Shiang.Broadsword.Image
+  isSpec: "True"
+  fullName: Shiang.Broadsword.Image
+  nameWithType: Broadsword.Image
 - uid: Shiang.CloseState
   name: CloseState
   href: api/Shiang.CloseState.html
@@ -1762,6 +1878,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Fridge.OpenCo
   nameWithType: Fridge.OpenCo
+- uid: Shiang.Fridge.Persister
+  name: Persister
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Persister
+  commentId: P:Shiang.Fridge.Persister
+  fullName: Shiang.Fridge.Persister
+  nameWithType: Fridge.Persister
+- uid: Shiang.Fridge.Persister*
+  name: Persister
+  href: api/Shiang.Fridge.html#Shiang_Fridge_Persister_
+  commentId: Overload:Shiang.Fridge.Persister
+  isSpec: "True"
+  fullName: Shiang.Fridge.Persister
+  nameWithType: Fridge.Persister
 - uid: Shiang.Fridge.Save
   name: Save()
   href: api/Shiang.Fridge.html#Shiang_Fridge_Save
@@ -2694,6 +2823,19 @@ references:
   isSpec: "True"
   fullName: Shiang.IPersist.Load
   nameWithType: IPersist.Load
+- uid: Shiang.IPersist.Persister
+  name: Persister
+  href: api/Shiang.IPersist.html#Shiang_IPersist_Persister
+  commentId: P:Shiang.IPersist.Persister
+  fullName: Shiang.IPersist.Persister
+  nameWithType: IPersist.Persister
+- uid: Shiang.IPersist.Persister*
+  name: Persister
+  href: api/Shiang.IPersist.html#Shiang_IPersist_Persister_
+  commentId: Overload:Shiang.IPersist.Persister
+  isSpec: "True"
+  fullName: Shiang.IPersist.Persister
+  nameWithType: IPersist.Persister
 - uid: Shiang.IPersist.Save
   name: Save()
   href: api/Shiang.IPersist.html#Shiang_IPersist_Save
@@ -3469,6 +3611,25 @@ references:
   commentId: F:Shiang.Orientation.Right
   fullName: Shiang.Orientation.Right
   nameWithType: Orientation.Right
+- uid: Shiang.Persister
+  name: Persister
+  href: api/Shiang.Persister.html
+  commentId: T:Shiang.Persister
+  fullName: Shiang.Persister
+  nameWithType: Persister
+- uid: Shiang.Persister.#ctor(Shiang.IPersist)
+  name: Persister(IPersist)
+  href: api/Shiang.Persister.html#Shiang_Persister__ctor_Shiang_IPersist_
+  commentId: M:Shiang.Persister.#ctor(Shiang.IPersist)
+  fullName: Shiang.Persister.Persister(Shiang.IPersist)
+  nameWithType: Persister.Persister(IPersist)
+- uid: Shiang.Persister.#ctor*
+  name: Persister
+  href: api/Shiang.Persister.html#Shiang_Persister__ctor_
+  commentId: Overload:Shiang.Persister.#ctor
+  isSpec: "True"
+  fullName: Shiang.Persister.Persister
+  nameWithType: Persister.Persister
 - uid: Shiang.Pool
   name: Pool
   href: api/Shiang.Pool.html
@@ -3585,19 +3746,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Rabbit.Anim
   nameWithType: Rabbit.Anim
-- uid: Shiang.Rabbit.FollowPlayer
-  name: FollowPlayer()
-  href: api/Shiang.Rabbit.html#Shiang_Rabbit_FollowPlayer
-  commentId: M:Shiang.Rabbit.FollowPlayer
-  fullName: Shiang.Rabbit.FollowPlayer()
-  nameWithType: Rabbit.FollowPlayer()
-- uid: Shiang.Rabbit.FollowPlayer*
-  name: FollowPlayer
-  href: api/Shiang.Rabbit.html#Shiang_Rabbit_FollowPlayer_
-  commentId: Overload:Shiang.Rabbit.FollowPlayer
+- uid: Shiang.Rabbit.Follow
+  name: Follow()
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_Follow
+  commentId: M:Shiang.Rabbit.Follow
+  fullName: Shiang.Rabbit.Follow()
+  nameWithType: Rabbit.Follow()
+- uid: Shiang.Rabbit.Follow*
+  name: Follow
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_Follow_
+  commentId: Overload:Shiang.Rabbit.Follow
   isSpec: "True"
-  fullName: Shiang.Rabbit.FollowPlayer
-  nameWithType: Rabbit.FollowPlayer
+  fullName: Shiang.Rabbit.Follow
+  nameWithType: Rabbit.Follow
 - uid: Shiang.Rabbit.Idle
   name: Idle()
   href: api/Shiang.Rabbit.html#Shiang_Rabbit_Idle
@@ -3650,19 +3811,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Rabbit.Orientation
   nameWithType: Rabbit.Orientation
-- uid: Shiang.Rabbit.PositionDiff
-  name: PositionDiff
-  href: api/Shiang.Rabbit.html#Shiang_Rabbit_PositionDiff
-  commentId: P:Shiang.Rabbit.PositionDiff
-  fullName: Shiang.Rabbit.PositionDiff
-  nameWithType: Rabbit.PositionDiff
-- uid: Shiang.Rabbit.PositionDiff*
-  name: PositionDiff
-  href: api/Shiang.Rabbit.html#Shiang_Rabbit_PositionDiff_
-  commentId: Overload:Shiang.Rabbit.PositionDiff
+- uid: Shiang.Rabbit.PositionDiffToTarget
+  name: PositionDiffToTarget
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_PositionDiffToTarget
+  commentId: P:Shiang.Rabbit.PositionDiffToTarget
+  fullName: Shiang.Rabbit.PositionDiffToTarget
+  nameWithType: Rabbit.PositionDiffToTarget
+- uid: Shiang.Rabbit.PositionDiffToTarget*
+  name: PositionDiffToTarget
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_PositionDiffToTarget_
+  commentId: Overload:Shiang.Rabbit.PositionDiffToTarget
   isSpec: "True"
-  fullName: Shiang.Rabbit.PositionDiff
-  nameWithType: Rabbit.PositionDiff
+  fullName: Shiang.Rabbit.PositionDiffToTarget
+  nameWithType: Rabbit.PositionDiffToTarget
 - uid: Shiang.Rabbit.StartFollowDistance
   name: StartFollowDistance
   href: api/Shiang.Rabbit.html#Shiang_Rabbit_StartFollowDistance
@@ -3864,6 +4025,19 @@ references:
   isSpec: "True"
   fullName: Shiang.RanRan.Orientation
   nameWithType: RanRan.Orientation
+- uid: Shiang.RanRan.Persister
+  name: Persister
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Persister
+  commentId: P:Shiang.RanRan.Persister
+  fullName: Shiang.RanRan.Persister
+  nameWithType: RanRan.Persister
+- uid: Shiang.RanRan.Persister*
+  name: Persister
+  href: api/Shiang.RanRan.html#Shiang_RanRan_Persister_
+  commentId: Overload:Shiang.RanRan.Persister
+  isSpec: "True"
+  fullName: Shiang.RanRan.Persister
+  nameWithType: RanRan.Persister
 - uid: Shiang.RanRan.Save
   name: Save()
   href: api/Shiang.RanRan.html#Shiang_RanRan_Save

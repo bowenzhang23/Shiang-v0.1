@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IPersist
+    <title>Class BahuStateManager
    | Shiang v0.1.1 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IPersist
+    <meta name="title" content="Class BahuStateManager
    | Shiang v0.1.1 ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -78,68 +78,78 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Shiang.IPersist">
+            <article class="content wrap" id="_content" data-uid="Shiang.BahuStateManager">
   
   
-  <h1 id="Shiang_IPersist" data-uid="Shiang.IPersist" class="text-break">Interface IPersist
+  <h1 id="Shiang_BahuStateManager" data-uid="Shiang.BahuStateManager" class="text-break">Class BahuStateManager
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="Shiang.StateManager.html">StateManager</a></div>
+    <div class="level2"><span class="xref">BahuStateManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Shiang.StateManager.html#Shiang_StateManager_SM">StateManager.SM</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.StateManager.html#Shiang_StateManager_Owner">StateManager.Owner</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.StateManager.html#Shiang_StateManager_SetOwner_Shiang_IGameEntity_">StateManager.SetOwner(IGameEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.StateManager.html#Shiang_StateManager_Tick">StateManager.Tick()</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Shiang_IPersist_syntax">Syntax</h5>
+  <h5 id="Shiang_BahuStateManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IPersist</code></pre>
+    <pre><code class="lang-csharp hljs">public class BahuStateManager : StateManager</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Shiang_IPersist_Persister_" data-uid="Shiang.IPersist.Persister*"></a>
-  <h4 id="Shiang_IPersist_Persister" data-uid="Shiang.IPersist.Persister">Persister</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Persister Persister { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Shiang.Persister.html">Persister</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Shiang_IPersist_Load_" data-uid="Shiang.IPersist.Load*"></a>
-  <h4 id="Shiang_IPersist_Load" data-uid="Shiang.IPersist.Load">Load()</h4>
+  <a id="Shiang_BahuStateManager_InitStates_" data-uid="Shiang.BahuStateManager.InitStates*"></a>
+  <h4 id="Shiang_BahuStateManager_InitStates" data-uid="Shiang.BahuStateManager.InitStates">InitStates()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Load()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void InitStates()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.StateManager.html#Shiang_StateManager_InitStates">StateManager.InitStates()</a></div>
   
   
-  <a id="Shiang_IPersist_Save_" data-uid="Shiang.IPersist.Save*"></a>
-  <h4 id="Shiang_IPersist_Save" data-uid="Shiang.IPersist.Save">Save()</h4>
+  <a id="Shiang_BahuStateManager_InitTransitions_" data-uid="Shiang.BahuStateManager.InitTransitions*"></a>
+  <h4 id="Shiang_BahuStateManager_InitTransitions" data-uid="Shiang.BahuStateManager.InitTransitions">InitTransitions()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Save()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void InitTransitions()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.StateManager.html#Shiang_StateManager_InitTransitions">StateManager.InitTransitions()</a></div>
+  
+  
+  <a id="Shiang_BahuStateManager_SetInitialState_" data-uid="Shiang.BahuStateManager.SetInitialState*"></a>
+  <h4 id="Shiang_BahuStateManager_SetInitialState" data-uid="Shiang.BahuStateManager.SetInitialState">SetInitialState()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetInitialState()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.StateManager.html#Shiang_StateManager_SetInitialState">StateManager.SetInitialState()</a></div>
 </article>
           </div>
           

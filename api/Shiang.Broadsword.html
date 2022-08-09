@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Weapon
+    <title>Class Broadsword
    | Shiang v0.1.1 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Weapon
+    <meta name="title" content="Class Broadsword
    | Shiang v0.1.1 ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Shiang.Weapon">
+            <article class="content wrap" id="_content" data-uid="Shiang.Broadsword">
   
   
-  <h1 id="Shiang_Weapon" data-uid="Shiang.Weapon" class="text-break">Class Weapon
+  <h1 id="Shiang_Broadsword" data-uid="Shiang.Broadsword" class="text-break">Class Broadsword
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -91,11 +91,8 @@
     <div class="level1"><a class="xref" href="Shiang.ShiangObject.html">ShiangObject</a></div>
     <div class="level2"><a class="xref" href="Shiang.Item.html">Item</a></div>
     <div class="level3"><a class="xref" href="Shiang.Equipment.html">Equipment</a></div>
-    <div class="level4"><span class="xref">Weapon</span></div>
-      <div class="level5"><a class="xref" href="Shiang.Axe.html">Axe</a></div>
-      <div class="level5"><a class="xref" href="Shiang.Broadsword.html">Broadsword</a></div>
-      <div class="level5"><a class="xref" href="Shiang.Fist.html">Fist</a></div>
-      <div class="level5"><a class="xref" href="Shiang.Whip.html">Whip</a></div>
+    <div class="level4"><a class="xref" href="Shiang.Weapon.html">Weapon</a></div>
+    <div class="level5"><span class="xref">Broadsword</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -104,6 +101,30 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Shiang.Weapon.html#Shiang_Weapon_Clips">Weapon.Clips</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.Weapon.html#Shiang_Weapon_Name">Weapon.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.Weapon.html#Shiang_Weapon_Description">Weapon.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.Weapon.html#Shiang_Weapon_Hash">Weapon.Hash</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.Weapon.html#Shiang_Weapon_CdTime">Weapon.CdTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.Weapon.html#Shiang_Weapon_ClipNames">Weapon.ClipNames</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.Weapon.html#Shiang_Weapon_ClipLength">Weapon.ClipLength</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.Weapon.html#Shiang_Weapon_Cd">Weapon.Cd</a>
+    </div>
     <div>
       <a class="xref" href="Shiang.Equipment.html#Shiang_Equipment_OnEquiped">Equipment.OnEquiped</a>
     </div>
@@ -117,13 +138,7 @@
       <a class="xref" href="Shiang.Item.html#Shiang_Item_Clone">Item.Clone()</a>
     </div>
     <div>
-      <a class="xref" href="Shiang.Item.html#Shiang_Item_Clone_System_Int32_">Item.Clone(Int32)</a>
-    </div>
-    <div>
       <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_ClassID">ShiangObject.ClassID</a>
-    </div>
-    <div>
-      <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Image">ShiangObject.Image</a>
     </div>
     <div>
       <a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_CompareTo_System_Object_">ShiangObject.CompareTo(Object)</a>
@@ -131,21 +146,21 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Shiang_Weapon_syntax">Syntax</h5>
+  <h5 id="Shiang_Broadsword_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Weapon : Equipment, IGameObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class Broadsword : Weapon, IGameObject</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Shiang_Weapon_Cd_" data-uid="Shiang.Weapon.Cd*"></a>
-  <h4 id="Shiang_Weapon_Cd" data-uid="Shiang.Weapon.Cd">Cd</h4>
+  <a id="Shiang_Broadsword_Image_" data-uid="Shiang.Broadsword.Image*"></a>
+  <h4 id="Shiang_Broadsword_Image" data-uid="Shiang.Broadsword.Image">Image</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Cooldown Cd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override Sprite Image { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,203 +172,68 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Shiang.Cooldown.html">Cooldown</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Weapon_CdTime_" data-uid="Shiang.Weapon.CdTime*"></a>
-  <h4 id="Shiang_Weapon_CdTime" data-uid="Shiang.Weapon.CdTime">CdTime</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual float CdTime { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Weapon_ClipLength_" data-uid="Shiang.Weapon.ClipLength*"></a>
-  <h4 id="Shiang_Weapon_ClipLength" data-uid="Shiang.Weapon.ClipLength">ClipLength</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float ClipLength { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Weapon_ClipNames_" data-uid="Shiang.Weapon.ClipNames*"></a>
-  <h4 id="Shiang_Weapon_ClipNames" data-uid="Shiang.Weapon.ClipNames">ClipNames</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] ClipNames { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Weapon_Clips_" data-uid="Shiang.Weapon.Clips*"></a>
-  <h4 id="Shiang_Weapon_Clips" data-uid="Shiang.Weapon.Clips">Clips</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual AnimationClip[] Clips { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">AnimationClip</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Shiang_Weapon_Description_" data-uid="Shiang.Weapon.Description*"></a>
-  <h4 id="Shiang_Weapon_Description" data-uid="Shiang.Weapon.Description">Description</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string Description { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">Sprite</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Description">ShiangObject.Description</a></div>
-  
-  
-  <a id="Shiang_Weapon_Hash_" data-uid="Shiang.Weapon.Hash*"></a>
-  <h4 id="Shiang_Weapon_Hash" data-uid="Shiang.Weapon.Hash">Hash</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override uint Hash { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Hash">ShiangObject.Hash</a></div>
-  
-  
-  <a id="Shiang_Weapon_Name_" data-uid="Shiang.Weapon.Name*"></a>
-  <h4 id="Shiang_Weapon_Name" data-uid="Shiang.Weapon.Name">Name</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string Name { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Name">ShiangObject.Name</a></div>
+  <div><a class="xref" href="Shiang.ShiangObject.html#Shiang_ShiangObject_Image">ShiangObject.Image</a></div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Shiang_Weapon_Hit_" data-uid="Shiang.Weapon.Hit*"></a>
-  <h4 id="Shiang_Weapon_Hit_Shiang_IHurtable_" data-uid="Shiang.Weapon.Hit(Shiang.IHurtable)">Hit(IHurtable)</h4>
+  <a id="Shiang_Broadsword_Clone_" data-uid="Shiang.Broadsword.Clone*"></a>
+  <h4 id="Shiang_Broadsword_Clone_System_Int32_" data-uid="Shiang.Broadsword.Clone(System.Int32)">Clone(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Hit(IHurtable hurtable)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Item Clone(int n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Shiang.Item.html">Item</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.Item.html#Shiang_Item_Clone_System_Int32_">Item.Clone(Int32)</a></div>
+  
+  
+  <a id="Shiang_Broadsword_Hit_" data-uid="Shiang.Broadsword.Hit*"></a>
+  <h4 id="Shiang_Broadsword_Hit_Shiang_IHurtable_" data-uid="Shiang.Broadsword.Hit(Shiang.IHurtable)">Hit(IHurtable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Hit(IHurtable hurtable)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -372,6 +252,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Shiang.Weapon.html#Shiang_Weapon_Hit_Shiang_IHurtable_">Weapon.Hit(IHurtable)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Shiang.IGameObject.html">IGameObject</a>

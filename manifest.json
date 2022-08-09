@@ -136,7 +136,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Bahu.html",
-          "hash": "cTpP9G4Fk7YKycUpR7GQNpYvkYjP+1AonzvFmGAQz3U="
+          "hash": "jAwk4BswYKmrJoKf8UJuV2F9/8ctVVkdcfOLZ1KL5Cs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.BahuStateManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.BahuStateManager.html",
+          "hash": "SVydrzSSbRgLXEjfU2CIHdRGMsnXMWeVoKNHUxg3ESg="
         }
       },
       "is_incremental": false,
@@ -149,6 +161,18 @@
         ".html": {
           "relative_path": "api/Shiang.Bonbon.html",
           "hash": "tyaAlsCUUv16adF2QEoNvVIyHKiWfgpIFOZdmBNEH4c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Broadsword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Broadsword.html",
+          "hash": "ZrQetp+Hrasz/yKZ3pxdxgQweWR1Tt1KPRKrjIl3yEg="
         }
       },
       "is_incremental": false,
@@ -340,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Fridge.html",
-          "hash": "dzFHCg9uDO3Txhot3lS+7UIiyW3i97DdPlPVDSoSf+s="
+          "hash": "Xfjai8EmSmrrOFoJ1wQ9MvDPiLZeAgYi1nLZMe8TnfM="
         }
       },
       "is_incremental": false,
@@ -604,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.IPersist.html",
-          "hash": "af8ngfPJgfLNdY1ZhpBo2JdFEcsGCIlqWGyQ1QBot28="
+          "hash": "X8+4/IHzF/+5FcMrseqtfEKenEv81vqHB+aD1boO+V0="
         }
       },
       "is_incremental": false,
@@ -876,6 +900,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.Persister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.Persister.html",
+          "hash": "AcU3ULsPr8Tz5Ozubwu5iA5miE8TTgelqV1Uo2kWV38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.Pool.yml",
       "output": {
         ".html": {
@@ -892,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Rabbit.html",
-          "hash": "fvgEmv7X8BIpzYxfT87pFhmEGsCiTmtK+0XGy6rMJTI="
+          "hash": "5RO5PXhbjoxxxtk+dvegGB8XBVCYuTaDimqpSGjdluo="
         }
       },
       "is_incremental": false,
@@ -904,7 +940,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.RanRan.html",
-          "hash": "k7z4FcuRNB6rUWmhXWeWAxicJJiT5sVASWxurazfHgM="
+          "hash": "Rgb6TjDpJAMtUY/t6b287OUSpKzG1y21T+bg3+3rNNY="
         }
       },
       "is_incremental": false,
@@ -1012,7 +1048,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.StateManager.html",
-          "hash": "4I1CmcRNLJ/8svfGvt3yaaIjAwp0bzjpxU8v/baKphs="
+          "hash": "o7DNTCV4uwm3bKojU/PCwcL8Excj7Oi40aKgIGMJF0c="
         }
       },
       "is_incremental": false,
@@ -1168,7 +1204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Weapon.html",
-          "hash": "xocQJ3/NVHf53isghZbeXIEHD23Fw3mRD3SDK1dx1lE="
+          "hash": "8qCRGRjM2QzvCiuI+IUdFnW7++kK3Xa1k3DnL0Z7/R8="
         }
       },
       "is_incremental": false,
@@ -1216,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.html",
-          "hash": "upzS1qXNOL6RX9+l2aOL98ffTB99jxzeBE4F19w850k="
+          "hash": "3Wgq4MxFfYIUXtAHDLGAbNGSI8L+YBD7ARXr45oPneQ="
         }
       },
       "is_incremental": false,
@@ -1552,7 +1588,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "GOnvbMf3q0e0LBqK9vs5z3GxoIGA+oqZbxW/EFBzgvY="
+          "hash": "wVfuhmXQIz1TlerC1s3utSP2boJqeQAd+KGUmP+c+xk="
         }
       },
       "is_incremental": false,
@@ -1662,7 +1698,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 127,
+          "total_file_count": 130,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -11,6 +11,6 @@ namespace Shiang
 
         public void Exit() { }
 
-        public void Tick() => _follower.FollowPlayer();
+        public void Tick() => _follower.Follow();
     }
 }

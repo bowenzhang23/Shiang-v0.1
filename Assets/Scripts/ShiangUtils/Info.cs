@@ -72,8 +72,6 @@ namespace Shiang
 
         public static void LoadResources()
         {
-            ANIM_CLIPS[typeof(RanRan)] = Resources.LoadAll<AnimationClip>(RESOURCE_DATA["PlayerAnimClips"]);
-            ANIM_CLIPS[typeof(Rabbit)] = Resources.LoadAll<AnimationClip>(RESOURCE_DATA["RabbitAnimClips"]);
             ANIM_CLIPS[typeof(Ability)] = Resources.LoadAll<AnimationClip>(RESOURCE_DATA["AbilityAnimClips"]);
             ANIM_CLIPS[typeof(Weapon)] = Resources.LoadAll<AnimationClip>(RESOURCE_DATA["WeaponAnimClips"]);
             SPRITES_ICON1 = Resources.LoadAll<Sprite>(RESOURCE_DATA["SpritesIcon-1"]);

@@ -46,9 +46,9 @@ namespace Shiang
             SM.AddTransiton(_cool, _move,
                 () => IC.ChangeX != 0 && SM.TimeInState > _EXTITIME);
             SM.AddAnyTransition(_useWeapon,
-                () => _ranran.CurrentWeapon.Cd.IsCooldown && IC.UseWeapon);
+                () => _ranran.CurrentWeapon != null && _ranran.CurrentWeapon.Cd.IsCooldown && IC.UseWeapon);
             SM.AddAnyTransition(_useAbility,
-                () => _ranran.CurrentAbility.Cd.IsCooldown && IC.UseAbility);
+                () => _ranran.CurrentAbility != null && _ranran.CurrentAbility.Cd.IsCooldown && IC.UseAbility);
 
             SM.AddTransiton(_move, _idle, () => IC.ChangeX == 0);
             SM.AddTransiton(_useWeapon, _cool, () => SM.TimeInState > _useWeaponStayTime);
@@ -72,6 +72,7 @@ namespace Shiang
         Orientation _orientation;
         ItemContainer _inventory;
         AbilityContainer _abilityContainer;
+        Persister _persister;
 
         private Weapon _currentWeapon;
         private Ability _currentAbility;
@@ -91,6 +92,8 @@ namespace Shiang
         public Ability CurrentAbility => _currentAbility;
 
         public Vector3 Coordinate => transform.position;
+
+        public Persister Persister => _persister;
 
         public void Idle()
         {
@@ -145,7 +148,7 @@ namespace Shiang
 
         private void Awake()
         {
-            Utils.RegisterForPersistenceAndLoad(this);
+            _persister = new Persister(this);
             _orientation = Orientation.Right;
             _anim = GetComponent<Animator>();
             _inputController = FindObjectOfType<InputController>();

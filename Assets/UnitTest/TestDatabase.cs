@@ -28,8 +28,6 @@ namespace ShiangTest
         {
             var db = Utils.CreateSQLiteDatabase<ResourcePathDB>();
             db.Clear(); // clear first
-            db.Insert(new ResourcePathData() { Name = "PlayerAnimClips", Path = "Anims/Player" });
-            db.Insert(new ResourcePathData() { Name = "RabbitAnimClips", Path = "Anims/Rabbit" });
             db.Insert(new ResourcePathData() { Name = "AbilityAnimClips", Path = "Anims/Ability" });
             db.Insert(new ResourcePathData() { Name = "WeaponAnimClips", Path = "Anims/Weapon" });
             db.Insert(new ResourcePathData() { Name = "SpritesIcon-1", Path = "Arts/Icons/Icons-1" });
@@ -73,10 +71,20 @@ namespace ShiangTest
                 CdTime = 2f,
                 Hash = 0xE1014,
                 SpriteIndex = 14
-            }); 
+            });
+            db.Insert(new WeaponData()
+            {
+                ClassID = "Broadsword",
+                Name = "跋扈的大刀",
+                Description = "一刀一个不管埋！",
+                AnimPattern = "Broadsword",
+                CdTime = 4f,
+                Hash = 0xEE000,
+                SpriteIndex = 11
+            });
             Assert.AreEqual(((List<WeaponData>)db.Data).Count, 0);
             db.Retrieve();
-            Assert.AreEqual(((List<WeaponData>)db.Data).Count, 3);
+            Assert.AreEqual(((List<WeaponData>)db.Data).Count, 4);
         }
 
         [Test]
@@ -89,7 +97,7 @@ namespace ShiangTest
                 ClassID="GoldenScepter",
                 Name = "黄金权杖",
                 Description = "堆中法器",
-                AnimPattern = "Magic",
+                AnimPattern = "GoldenScepter",
                 CdTime = 5f,
                 Hash = 0xA1012,
                 SpriteIndex = 12

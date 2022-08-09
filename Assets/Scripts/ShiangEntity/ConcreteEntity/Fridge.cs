@@ -49,6 +49,7 @@ namespace Shiang
         ItemContainer _itemContainer = new ItemContainer(GameMechanism.TREASUREBOX_CAPACITY);
         Animator _anim;
         CollisionDetector _colliDetec;
+        Persister _persister;
         [SerializeField] string _databaseName;
         bool _isOpen = false;
 
@@ -63,6 +64,8 @@ namespace Shiang
 
         public CollisionDetector Detector { get => _colliDetec; }
 
+        public Persister Persister => _persister;
+        
         public bool IsOpen { get => _isOpen; set => _isOpen = value; }
 
         public bool IsClosedByIC { get; set; }
@@ -92,9 +95,8 @@ namespace Shiang
 
         private void Awake()
         {
-            Utils.RegisterForPersistenceAndLoad(this);
+            _persister = new Persister(this);
             _anim = GetComponent<Animator>();
-            
             _stateMgr = Utils.CreateStateManagerIC<FridgeStateManager, Fridge>(this,
                 FindObjectOfType<InputController>());
             _colliDetec = GetComponent<CollisionDetector>();

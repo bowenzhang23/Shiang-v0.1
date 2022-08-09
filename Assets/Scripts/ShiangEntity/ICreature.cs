@@ -2,8 +2,7 @@ using UnityEngine;
 
 namespace Shiang
 {
-    public interface ICreature : 
-        ISkillFul, IStateHolder, IAnimatorHolder
+    public interface ICreature : ISkillFul, IStateHolder, IAnimatorHolder
     {
 
     }

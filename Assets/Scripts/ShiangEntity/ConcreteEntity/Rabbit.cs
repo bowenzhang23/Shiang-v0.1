@@ -51,7 +51,7 @@ namespace Shiang
 
         public float StopFollowDistance => 4f;
 
-        public float PositionDiff => transform.position.x - _player.Coordinate.x;
+        public float PositionDiffToTarget => transform.position.x - _player.Coordinate.x;
 
         public void Idle()
         {
@@ -61,14 +61,14 @@ namespace Shiang
         public void Move()
         {
             Anim.Play(Info.ANIM_NAMES[typeof(MoveState)][(int)_orientation]);
-            _orientation = PositionDiff < 0 ? Orientation.Right : Orientation.Left;
+            _orientation = PositionDiffToTarget < 0 ? Orientation.Right : Orientation.Left;
             transform.position +=
                 Vector3.right * (_orientation == Orientation.Right ? 1f : -1f) * _speed * Time.deltaTime;
         }
 
         public void UseAbility() { }
 
-        public void FollowPlayer() => Move();
+        public void Follow() => Move();
 
         private void Awake()
         {
@@ -82,7 +82,7 @@ namespace Shiang
 
         public bool MeetFollowCriteria()
         {
-            float distance = Mathf.Abs(PositionDiff);
+            float distance = Mathf.Abs(PositionDiffToTarget);
             return distance < StartFollowDistance && distance > StopFollowDistance;
         }
     }

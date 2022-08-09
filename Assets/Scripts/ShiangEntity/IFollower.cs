@@ -7,9 +7,9 @@ namespace Shiang
 
         public float StopFollowDistance{ get; }
 
-        public float PositionDiff { get; }
+        public float PositionDiffToTarget { get; }
 
-        public void FollowPlayer();
+        public void Follow();
 
         public bool MeetFollowCriteria();
     }

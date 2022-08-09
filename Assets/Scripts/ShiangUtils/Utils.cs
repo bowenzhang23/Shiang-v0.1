@@ -6,6 +6,11 @@ using UnityEngine;
 
 namespace Shiang
 {
+    public class Persister
+    {
+        public Persister(IPersist persist) => Utils.RegisterForPersistenceAndLoad(persist);
+    }
+
     public static class Utils
     {
         /// <summary>
@@ -176,12 +181,10 @@ namespace Shiang
             => animationClips.Where(k => k.name.Contains(pattern))
                 .OrderBy(k => k.name.Contains("Right")).ToArray();
 
-        [Obsolete]
         public static Item ItemClonedFromPoolOfType<T1>()
             where T1 : Item, new()
             => Pool.Items[Pool.Mapping[typeof(T1)]].Clone();
 
-        [Obsolete]
         public static T1 AbilityRefFromPoolOfType<T1>()
             where T1 : Ability, new()
             => (T1)Pool.Abilities[Pool.Mapping[typeof(T1)]];

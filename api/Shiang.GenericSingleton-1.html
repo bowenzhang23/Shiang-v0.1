@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class A4
+    <title>Class GenericSingleton&lt;T&gt;
    | Shiang v0.1.1 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class A4
+    <meta name="title" content="Class GenericSingleton&lt;T&gt;
    | Shiang v0.1.1 ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -78,39 +78,55 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ShiangTest.A4">
+            <article class="content wrap" id="_content" data-uid="Shiang.GenericSingleton`1">
   
   
-  <h1 id="ShiangTest_A4" data-uid="ShiangTest.A4" class="text-break">Class A4
+  <h1 id="Shiang_GenericSingleton_1" data-uid="Shiang.GenericSingleton`1" class="text-break">Class GenericSingleton&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">A4</span></div>
+    <div class="level1"><span class="xref">GenericSingleton&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="Shiang.BackgroundMusic.html">BackgroundMusic</a></div>
+      <div class="level2"><a class="xref" href="Shiang.GameController.html">GameController</a></div>
+      <div class="level2"><a class="xref" href="Shiang.InputController.html">InputController</a></div>
+      <div class="level2"><a class="xref" href="Shiang.SoundtrackDB.html">SoundtrackDB</a></div>
+      <div class="level2"><a class="xref" href="Shiang.UiSceneLoader.html">UiSceneLoader</a></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="ShiangTest.IDummy.html">IDummy</a></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ShiangTest.html">ShiangTest</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="ShiangTest_A4_syntax">Syntax</h5>
+  <h5 id="Shiang_GenericSingleton_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class A4 : Ability, IDummy</code></pre>
+    <pre><code class="lang-csharp hljs">public class GenericSingleton&lt;T&gt; : MonoBehaviour where T : Component</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="ShiangTest_A4_Clips_" data-uid="ShiangTest.A4.Clips*"></a>
-  <h4 id="ShiangTest_A4_Clips" data-uid="ShiangTest.A4.Clips">Clips</h4>
+  <a id="Shiang_GenericSingleton_1_Instance_" data-uid="Shiang.GenericSingleton`1.Instance*"></a>
+  <h4 id="Shiang_GenericSingleton_1_Instance" data-uid="Shiang.GenericSingleton`1.Instance">Instance</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override AnimationClip[] Clips { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static T Instance { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,107 +138,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">AnimationClip</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ShiangTest_A4_Description_" data-uid="ShiangTest.A4.Description*"></a>
-  <h4 id="ShiangTest_A4_Description" data-uid="ShiangTest.A4.Description">Description</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string Description { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ShiangTest_A4_Hash_" data-uid="ShiangTest.A4.Hash*"></a>
-  <h4 id="ShiangTest_A4_Hash" data-uid="ShiangTest.A4.Hash">Hash</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override uint Hash { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ShiangTest_A4_Image_" data-uid="ShiangTest.A4.Image*"></a>
-  <h4 id="ShiangTest_A4_Image" data-uid="ShiangTest.A4.Image">Image</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Sprite Image { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Sprite</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ShiangTest_A4_Name_" data-uid="ShiangTest.A4.Name*"></a>
-  <h4 id="ShiangTest_A4_Name" data-uid="ShiangTest.A4.Name">Name</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string Name { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -231,34 +147,13 @@
   </h3>
   
   
-  <a id="ShiangTest_A4_Affect_" data-uid="ShiangTest.A4.Affect*"></a>
-  <h4 id="ShiangTest_A4_Affect_IGameEntity_" data-uid="ShiangTest.A4.Affect(IGameEntity)">Affect(IGameEntity)</h4>
+  <a id="Shiang_GenericSingleton_1_Awake_" data-uid="Shiang.GenericSingleton`1.Awake*"></a>
+  <h4 id="Shiang_GenericSingleton_1_Awake" data-uid="Shiang.GenericSingleton`1.Awake">Awake()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Affect(IGameEntity entity)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IGameEntity</span></td>
-        <td><span class="parametername">entity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="ShiangTest.IDummy.html">IDummy</a>
+    <pre><code class="lang-csharp hljs">public virtual void Awake()</code></pre>
   </div>
 </article>
           </div>

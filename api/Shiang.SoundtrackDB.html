@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class W2
+    <title>Class SoundtrackDB
    | Shiang v0.1.1 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class W2
+    <meta name="title" content="Class SoundtrackDB
    | Shiang v0.1.1 ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -78,39 +78,49 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ShiangTest.W2">
+            <article class="content wrap" id="_content" data-uid="Shiang.SoundtrackDB">
   
   
-  <h1 id="ShiangTest_W2" data-uid="ShiangTest.W2" class="text-break">Class W2
+  <h1 id="Shiang_SoundtrackDB" data-uid="Shiang.SoundtrackDB" class="text-break">Class SoundtrackDB
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">W2</span></div>
+    <div class="level1"><a class="xref" href="Shiang.GenericSingleton-1.html">GenericSingleton</a>&lt;<a class="xref" href="Shiang.SoundtrackDB.html">SoundtrackDB</a>&gt;</div>
+    <div class="level2"><span class="xref">SoundtrackDB</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="ShiangTest.IDummy.html">IDummy</a></div>
+    <div><a class="xref" href="Shiang.IDatabase.html">IDatabase</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ShiangTest.html">ShiangTest</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Shiang.GenericSingleton-1.html#Shiang_GenericSingleton_1_Instance">GenericSingleton&lt;SoundtrackDB&gt;.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="Shiang.GenericSingleton-1.html#Shiang_GenericSingleton_1_Awake">GenericSingleton&lt;SoundtrackDB&gt;.Awake()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="ShiangTest_W2_syntax">Syntax</h5>
+  <h5 id="Shiang_SoundtrackDB_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class W2 : Weapon, IDummy</code></pre>
+    <pre><code class="lang-csharp hljs">public class SoundtrackDB : GenericSingleton&lt;SoundtrackDB&gt;, IDatabase</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="ShiangTest_W2_Clips_" data-uid="ShiangTest.W2.Clips*"></a>
-  <h4 id="ShiangTest_W2_Clips" data-uid="ShiangTest.W2.Clips">Clips</h4>
+  <a id="Shiang_SoundtrackDB_Data_" data-uid="Shiang.SoundtrackDB.Data*"></a>
+  <h4 id="Shiang_SoundtrackDB_Data" data-uid="Shiang.SoundtrackDB.Data">Data</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override AnimationClip[] Clips { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public object Data { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,107 +132,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">AnimationClip</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ShiangTest_W2_Description_" data-uid="ShiangTest.W2.Description*"></a>
-  <h4 id="ShiangTest_W2_Description" data-uid="ShiangTest.W2.Description">Description</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string Description { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ShiangTest_W2_Hash_" data-uid="ShiangTest.W2.Hash*"></a>
-  <h4 id="ShiangTest_W2_Hash" data-uid="ShiangTest.W2.Hash">Hash</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override uint Hash { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ShiangTest_W2_Image_" data-uid="ShiangTest.W2.Image*"></a>
-  <h4 id="ShiangTest_W2_Image" data-uid="ShiangTest.W2.Image">Image</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Sprite Image { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Sprite</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="ShiangTest_W2_Name_" data-uid="ShiangTest.W2.Name*"></a>
-  <h4 id="ShiangTest_W2_Name" data-uid="ShiangTest.W2.Name">Name</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string Name { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -231,13 +141,33 @@
   </h3>
   
   
-  <a id="ShiangTest_W2_Clone_" data-uid="ShiangTest.W2.Clone*"></a>
-  <h4 id="ShiangTest_W2_Clone_System_Int32_" data-uid="ShiangTest.W2.Clone(System.Int32)">Clone(Int32)</h4>
+  <a id="Shiang_SoundtrackDB_Clear_" data-uid="Shiang.SoundtrackDB.Clear*"></a>
+  <h4 id="Shiang_SoundtrackDB_Clear" data-uid="Shiang.SoundtrackDB.Clear">Clear()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Item Clone(int n)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  
+  
+  <a id="Shiang_SoundtrackDB_Create_" data-uid="Shiang.SoundtrackDB.Create*"></a>
+  <h4 id="Shiang_SoundtrackDB_Create" data-uid="Shiang.SoundtrackDB.Create">Create()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Create()</code></pre>
+  </div>
+  
+  
+  <a id="Shiang_SoundtrackDB_Insert_" data-uid="Shiang.SoundtrackDB.Insert*"></a>
+  <h4 id="Shiang_SoundtrackDB_Insert_System_Object_" data-uid="Shiang.SoundtrackDB.Insert(System.Object)">Insert(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Insert(object entry)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -250,57 +180,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">n</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Item</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">entry</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="ShiangTest_W2_Hit_" data-uid="ShiangTest.W2.Hit*"></a>
-  <h4 id="ShiangTest_W2_Hit_IHurtable_" data-uid="ShiangTest.W2.Hit(IHurtable)">Hit(IHurtable)</h4>
+  <a id="Shiang_SoundtrackDB_Retrieve_" data-uid="Shiang.SoundtrackDB.Retrieve*"></a>
+  <h4 id="Shiang_SoundtrackDB_Retrieve" data-uid="Shiang.SoundtrackDB.Retrieve">Retrieve()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Hit(IHurtable hurtable)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Retrieve()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IHurtable</span></td>
-        <td><span class="parametername">hurtable</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="ShiangTest.IDummy.html">IDummy</a>
+      <a class="xref" href="Shiang.IDatabase.html">IDatabase</a>
   </div>
 </article>
           </div>

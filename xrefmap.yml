@@ -136,6 +136,19 @@ references:
   commentId: E:Shiang.Ability.OnUse
   fullName: Shiang.Ability.OnUse
   nameWithType: Ability.OnUse
+- uid: Shiang.Ability.SoundtrackName
+  name: SoundtrackName
+  href: api/Shiang.Ability.html#Shiang_Ability_SoundtrackName
+  commentId: P:Shiang.Ability.SoundtrackName
+  fullName: Shiang.Ability.SoundtrackName
+  nameWithType: Ability.SoundtrackName
+- uid: Shiang.Ability.SoundtrackName*
+  name: SoundtrackName
+  href: api/Shiang.Ability.html#Shiang_Ability_SoundtrackName_
+  commentId: Overload:Shiang.Ability.SoundtrackName
+  isSpec: "True"
+  fullName: Shiang.Ability.SoundtrackName
+  nameWithType: Ability.SoundtrackName
 - uid: Shiang.AbilityContainer
   name: AbilityContainer
   href: api/Shiang.AbilityContainer.html
@@ -360,6 +373,19 @@ references:
   isSpec: "True"
   fullName: Shiang.AbilityData.Name
   nameWithType: AbilityData.Name
+- uid: Shiang.AbilityData.SoundtrackName
+  name: SoundtrackName
+  href: api/Shiang.AbilityData.html#Shiang_AbilityData_SoundtrackName
+  commentId: P:Shiang.AbilityData.SoundtrackName
+  fullName: Shiang.AbilityData.SoundtrackName
+  nameWithType: AbilityData.SoundtrackName
+- uid: Shiang.AbilityData.SoundtrackName*
+  name: SoundtrackName
+  href: api/Shiang.AbilityData.html#Shiang_AbilityData_SoundtrackName_
+  commentId: Overload:Shiang.AbilityData.SoundtrackName
+  isSpec: "True"
+  fullName: Shiang.AbilityData.SoundtrackName
+  nameWithType: AbilityData.SoundtrackName
 - uid: Shiang.AbilityData.SpriteIndex
   name: SpriteIndex
   href: api/Shiang.AbilityData.html#Shiang_AbilityData_SpriteIndex
@@ -622,6 +648,25 @@ references:
   isSpec: "True"
   fullName: Shiang.Axe.Image
   nameWithType: Axe.Image
+- uid: Shiang.BackgroundMusic
+  name: BackgroundMusic
+  href: api/Shiang.BackgroundMusic.html
+  commentId: T:Shiang.BackgroundMusic
+  fullName: Shiang.BackgroundMusic
+  nameWithType: BackgroundMusic
+- uid: Shiang.BackgroundMusic.Awake
+  name: Awake()
+  href: api/Shiang.BackgroundMusic.html#Shiang_BackgroundMusic_Awake
+  commentId: M:Shiang.BackgroundMusic.Awake
+  fullName: Shiang.BackgroundMusic.Awake()
+  nameWithType: BackgroundMusic.Awake()
+- uid: Shiang.BackgroundMusic.Awake*
+  name: Awake
+  href: api/Shiang.BackgroundMusic.html#Shiang_BackgroundMusic_Awake_
+  commentId: Overload:Shiang.BackgroundMusic.Awake
+  isSpec: "True"
+  fullName: Shiang.BackgroundMusic.Awake
+  nameWithType: BackgroundMusic.Awake
 - uid: Shiang.Bahu
   name: Bahu
   href: api/Shiang.Bahu.html
@@ -1923,6 +1968,19 @@ references:
   commentId: T:Shiang.GameController
   fullName: Shiang.GameController
   nameWithType: GameController
+- uid: Shiang.GameController.Awake
+  name: Awake()
+  href: api/Shiang.GameController.html#Shiang_GameController_Awake
+  commentId: M:Shiang.GameController.Awake
+  fullName: Shiang.GameController.Awake()
+  nameWithType: GameController.Awake()
+- uid: Shiang.GameController.Awake*
+  name: Awake
+  href: api/Shiang.GameController.html#Shiang_GameController_Awake_
+  commentId: Overload:Shiang.GameController.Awake
+  isSpec: "True"
+  fullName: Shiang.GameController.Awake
+  nameWithType: GameController.Awake
 - uid: Shiang.GameController.QuitGame
   name: QuitGame()
   href: api/Shiang.GameController.html#Shiang_GameController_QuitGame
@@ -1942,6 +2000,49 @@ references:
   commentId: T:Shiang.GameModeState
   fullName: Shiang.GameModeState
   nameWithType: GameModeState
+- uid: Shiang.GenericSingleton`1
+  name: GenericSingleton<T>
+  href: api/Shiang.GenericSingleton-1.html
+  commentId: T:Shiang.GenericSingleton`1
+  name.vb: GenericSingleton(Of T)
+  fullName: Shiang.GenericSingleton<T>
+  fullName.vb: Shiang.GenericSingleton(Of T)
+  nameWithType: GenericSingleton<T>
+  nameWithType.vb: GenericSingleton(Of T)
+- uid: Shiang.GenericSingleton`1.Awake
+  name: Awake()
+  href: api/Shiang.GenericSingleton-1.html#Shiang_GenericSingleton_1_Awake
+  commentId: M:Shiang.GenericSingleton`1.Awake
+  fullName: Shiang.GenericSingleton<T>.Awake()
+  fullName.vb: Shiang.GenericSingleton(Of T).Awake()
+  nameWithType: GenericSingleton<T>.Awake()
+  nameWithType.vb: GenericSingleton(Of T).Awake()
+- uid: Shiang.GenericSingleton`1.Awake*
+  name: Awake
+  href: api/Shiang.GenericSingleton-1.html#Shiang_GenericSingleton_1_Awake_
+  commentId: Overload:Shiang.GenericSingleton`1.Awake
+  isSpec: "True"
+  fullName: Shiang.GenericSingleton<T>.Awake
+  fullName.vb: Shiang.GenericSingleton(Of T).Awake
+  nameWithType: GenericSingleton<T>.Awake
+  nameWithType.vb: GenericSingleton(Of T).Awake
+- uid: Shiang.GenericSingleton`1.Instance
+  name: Instance
+  href: api/Shiang.GenericSingleton-1.html#Shiang_GenericSingleton_1_Instance
+  commentId: P:Shiang.GenericSingleton`1.Instance
+  fullName: Shiang.GenericSingleton<T>.Instance
+  fullName.vb: Shiang.GenericSingleton(Of T).Instance
+  nameWithType: GenericSingleton<T>.Instance
+  nameWithType.vb: GenericSingleton(Of T).Instance
+- uid: Shiang.GenericSingleton`1.Instance*
+  name: Instance
+  href: api/Shiang.GenericSingleton-1.html#Shiang_GenericSingleton_1_Instance_
+  commentId: Overload:Shiang.GenericSingleton`1.Instance
+  isSpec: "True"
+  fullName: Shiang.GenericSingleton<T>.Instance
+  fullName.vb: Shiang.GenericSingleton(Of T).Instance
+  nameWithType: GenericSingleton<T>.Instance
+  nameWithType.vb: GenericSingleton(Of T).Instance
 - uid: Shiang.GoldenScepter
   name: GoldenScepter
   href: api/Shiang.GoldenScepter.html
@@ -2536,6 +2637,18 @@ references:
   commentId: F:Shiang.Info.RESOURCEPATH_DB
   fullName: Shiang.Info.RESOURCEPATH_DB
   nameWithType: Info.RESOURCEPATH_DB
+- uid: Shiang.Info.SOUNDTRACK_DATA
+  name: SOUNDTRACK_DATA
+  href: api/Shiang.Info.html#Shiang_Info_SOUNDTRACK_DATA
+  commentId: F:Shiang.Info.SOUNDTRACK_DATA
+  fullName: Shiang.Info.SOUNDTRACK_DATA
+  nameWithType: Info.SOUNDTRACK_DATA
+- uid: Shiang.Info.SOUNDTRACK_DB
+  name: SOUNDTRACK_DB
+  href: api/Shiang.Info.html#Shiang_Info_SOUNDTRACK_DB
+  commentId: F:Shiang.Info.SOUNDTRACK_DB
+  fullName: Shiang.Info.SOUNDTRACK_DB
+  nameWithType: Info.SOUNDTRACK_DB
 - uid: Shiang.Info.SPRITES_ICON1
   name: SPRITES_ICON1
   href: api/Shiang.Info.html#Shiang_Info_SPRITES_ICON1
@@ -2566,6 +2679,19 @@ references:
   commentId: T:Shiang.InputController
   fullName: Shiang.InputController
   nameWithType: InputController
+- uid: Shiang.InputController.Awake
+  name: Awake()
+  href: api/Shiang.InputController.html#Shiang_InputController_Awake
+  commentId: M:Shiang.InputController.Awake
+  fullName: Shiang.InputController.Awake()
+  nameWithType: InputController.Awake()
+- uid: Shiang.InputController.Awake*
+  name: Awake
+  href: api/Shiang.InputController.html#Shiang_InputController_Awake_
+  commentId: Overload:Shiang.InputController.Awake
+  isSpec: "True"
+  fullName: Shiang.InputController.Awake
+  nameWithType: InputController.Awake
 - uid: Shiang.InputController.ChangeX
   name: ChangeX
   href: api/Shiang.InputController.html#Shiang_InputController_ChangeX
@@ -3611,6 +3737,12 @@ references:
   commentId: F:Shiang.Orientation.Right
   fullName: Shiang.Orientation.Right
   nameWithType: Orientation.Right
+- uid: Shiang.ParticleFollow
+  name: ParticleFollow
+  href: api/Shiang.ParticleFollow.html
+  commentId: T:Shiang.ParticleFollow
+  fullName: Shiang.ParticleFollow
+  nameWithType: ParticleFollow
 - uid: Shiang.Persister
   name: Persister
   href: api/Shiang.Persister.html
@@ -4438,6 +4570,120 @@ references:
   isSpec: "True"
   fullName: Shiang.SnowCream.Image
   nameWithType: SnowCream.Image
+- uid: Shiang.SoundtrackData
+  name: SoundtrackData
+  href: api/Shiang.SoundtrackData.html
+  commentId: T:Shiang.SoundtrackData
+  fullName: Shiang.SoundtrackData
+  nameWithType: SoundtrackData
+- uid: Shiang.SoundtrackData.AudioSourceSet(AudioSource)
+  name: AudioSourceSet(AudioSource)
+  href: api/Shiang.SoundtrackData.html#Shiang_SoundtrackData_AudioSourceSet_AudioSource_
+  commentId: M:Shiang.SoundtrackData.AudioSourceSet(AudioSource)
+  fullName: Shiang.SoundtrackData.AudioSourceSet(AudioSource)
+  nameWithType: SoundtrackData.AudioSourceSet(AudioSource)
+- uid: Shiang.SoundtrackData.AudioSourceSet*
+  name: AudioSourceSet
+  href: api/Shiang.SoundtrackData.html#Shiang_SoundtrackData_AudioSourceSet_
+  commentId: Overload:Shiang.SoundtrackData.AudioSourceSet
+  isSpec: "True"
+  fullName: Shiang.SoundtrackData.AudioSourceSet
+  nameWithType: SoundtrackData.AudioSourceSet
+- uid: Shiang.SoundtrackData.clip
+  name: clip
+  href: api/Shiang.SoundtrackData.html#Shiang_SoundtrackData_clip
+  commentId: F:Shiang.SoundtrackData.clip
+  fullName: Shiang.SoundtrackData.clip
+  nameWithType: SoundtrackData.clip
+- uid: Shiang.SoundtrackData.name
+  name: name
+  href: api/Shiang.SoundtrackData.html#Shiang_SoundtrackData_name
+  commentId: F:Shiang.SoundtrackData.name
+  fullName: Shiang.SoundtrackData.name
+  nameWithType: SoundtrackData.name
+- uid: Shiang.SoundtrackData.pitch
+  name: pitch
+  href: api/Shiang.SoundtrackData.html#Shiang_SoundtrackData_pitch
+  commentId: F:Shiang.SoundtrackData.pitch
+  fullName: Shiang.SoundtrackData.pitch
+  nameWithType: SoundtrackData.pitch
+- uid: Shiang.SoundtrackData.volumn
+  name: volumn
+  href: api/Shiang.SoundtrackData.html#Shiang_SoundtrackData_volumn
+  commentId: F:Shiang.SoundtrackData.volumn
+  fullName: Shiang.SoundtrackData.volumn
+  nameWithType: SoundtrackData.volumn
+- uid: Shiang.SoundtrackDB
+  name: SoundtrackDB
+  href: api/Shiang.SoundtrackDB.html
+  commentId: T:Shiang.SoundtrackDB
+  fullName: Shiang.SoundtrackDB
+  nameWithType: SoundtrackDB
+- uid: Shiang.SoundtrackDB.Clear
+  name: Clear()
+  href: api/Shiang.SoundtrackDB.html#Shiang_SoundtrackDB_Clear
+  commentId: M:Shiang.SoundtrackDB.Clear
+  fullName: Shiang.SoundtrackDB.Clear()
+  nameWithType: SoundtrackDB.Clear()
+- uid: Shiang.SoundtrackDB.Clear*
+  name: Clear
+  href: api/Shiang.SoundtrackDB.html#Shiang_SoundtrackDB_Clear_
+  commentId: Overload:Shiang.SoundtrackDB.Clear
+  isSpec: "True"
+  fullName: Shiang.SoundtrackDB.Clear
+  nameWithType: SoundtrackDB.Clear
+- uid: Shiang.SoundtrackDB.Create
+  name: Create()
+  href: api/Shiang.SoundtrackDB.html#Shiang_SoundtrackDB_Create
+  commentId: M:Shiang.SoundtrackDB.Create
+  fullName: Shiang.SoundtrackDB.Create()
+  nameWithType: SoundtrackDB.Create()
+- uid: Shiang.SoundtrackDB.Create*
+  name: Create
+  href: api/Shiang.SoundtrackDB.html#Shiang_SoundtrackDB_Create_
+  commentId: Overload:Shiang.SoundtrackDB.Create
+  isSpec: "True"
+  fullName: Shiang.SoundtrackDB.Create
+  nameWithType: SoundtrackDB.Create
+- uid: Shiang.SoundtrackDB.Data
+  name: Data
+  href: api/Shiang.SoundtrackDB.html#Shiang_SoundtrackDB_Data
+  commentId: P:Shiang.SoundtrackDB.Data
+  fullName: Shiang.SoundtrackDB.Data
+  nameWithType: SoundtrackDB.Data
+- uid: Shiang.SoundtrackDB.Data*
+  name: Data
+  href: api/Shiang.SoundtrackDB.html#Shiang_SoundtrackDB_Data_
+  commentId: Overload:Shiang.SoundtrackDB.Data
+  isSpec: "True"
+  fullName: Shiang.SoundtrackDB.Data
+  nameWithType: SoundtrackDB.Data
+- uid: Shiang.SoundtrackDB.Insert(System.Object)
+  name: Insert(Object)
+  href: api/Shiang.SoundtrackDB.html#Shiang_SoundtrackDB_Insert_System_Object_
+  commentId: M:Shiang.SoundtrackDB.Insert(System.Object)
+  fullName: Shiang.SoundtrackDB.Insert(System.Object)
+  nameWithType: SoundtrackDB.Insert(Object)
+- uid: Shiang.SoundtrackDB.Insert*
+  name: Insert
+  href: api/Shiang.SoundtrackDB.html#Shiang_SoundtrackDB_Insert_
+  commentId: Overload:Shiang.SoundtrackDB.Insert
+  isSpec: "True"
+  fullName: Shiang.SoundtrackDB.Insert
+  nameWithType: SoundtrackDB.Insert
+- uid: Shiang.SoundtrackDB.Retrieve
+  name: Retrieve()
+  href: api/Shiang.SoundtrackDB.html#Shiang_SoundtrackDB_Retrieve
+  commentId: M:Shiang.SoundtrackDB.Retrieve
+  fullName: Shiang.SoundtrackDB.Retrieve()
+  nameWithType: SoundtrackDB.Retrieve()
+- uid: Shiang.SoundtrackDB.Retrieve*
+  name: Retrieve
+  href: api/Shiang.SoundtrackDB.html#Shiang_SoundtrackDB_Retrieve_
+  commentId: Overload:Shiang.SoundtrackDB.Retrieve
+  isSpec: "True"
+  fullName: Shiang.SoundtrackDB.Retrieve
+  nameWithType: SoundtrackDB.Retrieve
 - uid: Shiang.SQLiteDatabase
   name: SQLiteDatabase
   href: api/Shiang.SQLiteDatabase.html
@@ -4826,38 +5072,6 @@ references:
   isSpec: "True"
   fullName: Shiang.StateManager.Tick
   nameWithType: StateManager.Tick
-- uid: Shiang.StateManagerIC
-  name: StateManagerIC
-  href: api/Shiang.StateManagerIC.html
-  commentId: T:Shiang.StateManagerIC
-  fullName: Shiang.StateManagerIC
-  nameWithType: StateManagerIC
-- uid: Shiang.StateManagerIC.IC
-  name: IC
-  href: api/Shiang.StateManagerIC.html#Shiang_StateManagerIC_IC
-  commentId: P:Shiang.StateManagerIC.IC
-  fullName: Shiang.StateManagerIC.IC
-  nameWithType: StateManagerIC.IC
-- uid: Shiang.StateManagerIC.IC*
-  name: IC
-  href: api/Shiang.StateManagerIC.html#Shiang_StateManagerIC_IC_
-  commentId: Overload:Shiang.StateManagerIC.IC
-  isSpec: "True"
-  fullName: Shiang.StateManagerIC.IC
-  nameWithType: StateManagerIC.IC
-- uid: Shiang.StateManagerIC.SetInputController(Shiang.InputController)
-  name: SetInputController(InputController)
-  href: api/Shiang.StateManagerIC.html#Shiang_StateManagerIC_SetInputController_Shiang_InputController_
-  commentId: M:Shiang.StateManagerIC.SetInputController(Shiang.InputController)
-  fullName: Shiang.StateManagerIC.SetInputController(Shiang.InputController)
-  nameWithType: StateManagerIC.SetInputController(InputController)
-- uid: Shiang.StateManagerIC.SetInputController*
-  name: SetInputController
-  href: api/Shiang.StateManagerIC.html#Shiang_StateManagerIC_SetInputController_
-  commentId: Overload:Shiang.StateManagerIC.SetInputController
-  isSpec: "True"
-  fullName: Shiang.StateManagerIC.SetInputController
-  nameWithType: StateManagerIC.SetInputController
 - uid: Shiang.TableDatabase`1
   name: TableDatabase<T1>
   href: api/Shiang.TableDatabase-1.html
@@ -5108,6 +5322,19 @@ references:
   commentId: T:Shiang.UiSceneLoader
   fullName: Shiang.UiSceneLoader
   nameWithType: UiSceneLoader
+- uid: Shiang.UiSceneLoader.Awake
+  name: Awake()
+  href: api/Shiang.UiSceneLoader.html#Shiang_UiSceneLoader_Awake
+  commentId: M:Shiang.UiSceneLoader.Awake
+  fullName: Shiang.UiSceneLoader.Awake()
+  nameWithType: UiSceneLoader.Awake()
+- uid: Shiang.UiSceneLoader.Awake*
+  name: Awake
+  href: api/Shiang.UiSceneLoader.html#Shiang_UiSceneLoader_Awake_
+  commentId: Overload:Shiang.UiSceneLoader.Awake
+  isSpec: "True"
+  fullName: Shiang.UiSceneLoader.Awake
+  nameWithType: UiSceneLoader.Awake
 - uid: Shiang.UiSceneLoader.LoadTreasureUI
   name: LoadTreasureUI()
   href: api/Shiang.UiSceneLoader.html#Shiang_UiSceneLoader_LoadTreasureUI
@@ -5228,6 +5455,22 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.CreateAbilityTree
   nameWithType: Utils.CreateAbilityTree
+- uid: Shiang.Utils.CreateDatabase*
+  name: CreateDatabase
+  href: api/Shiang.Utils.html#Shiang_Utils_CreateDatabase_
+  commentId: Overload:Shiang.Utils.CreateDatabase
+  isSpec: "True"
+  fullName: Shiang.Utils.CreateDatabase
+  nameWithType: Utils.CreateDatabase
+- uid: Shiang.Utils.CreateDatabase``1
+  name: CreateDatabase<T1>()
+  href: api/Shiang.Utils.html#Shiang_Utils_CreateDatabase__1
+  commentId: M:Shiang.Utils.CreateDatabase``1
+  name.vb: CreateDatabase(Of T1)()
+  fullName: Shiang.Utils.CreateDatabase<T1>()
+  fullName.vb: Shiang.Utils.CreateDatabase(Of T1)()
+  nameWithType: Utils.CreateDatabase<T1>()
+  nameWithType.vb: Utils.CreateDatabase(Of T1)()
 - uid: Shiang.Utils.CreateItemContainer
   name: CreateItemContainer()
   href: api/Shiang.Utils.html#Shiang_Utils_CreateItemContainer
@@ -5288,22 +5531,19 @@ references:
   fullName.vb: Shiang.Utils.CreateStateManager(Of T1, T2)(T2)
   nameWithType: Utils.CreateStateManager<T1, T2>(T2)
   nameWithType.vb: Utils.CreateStateManager(Of T1, T2)(T2)
-- uid: Shiang.Utils.CreateStateManagerIC*
-  name: CreateStateManagerIC
-  href: api/Shiang.Utils.html#Shiang_Utils_CreateStateManagerIC_
-  commentId: Overload:Shiang.Utils.CreateStateManagerIC
+- uid: Shiang.Utils.GetSoundtrackByName(System.String)
+  name: GetSoundtrackByName(String)
+  href: api/Shiang.Utils.html#Shiang_Utils_GetSoundtrackByName_System_String_
+  commentId: M:Shiang.Utils.GetSoundtrackByName(System.String)
+  fullName: Shiang.Utils.GetSoundtrackByName(System.String)
+  nameWithType: Utils.GetSoundtrackByName(String)
+- uid: Shiang.Utils.GetSoundtrackByName*
+  name: GetSoundtrackByName
+  href: api/Shiang.Utils.html#Shiang_Utils_GetSoundtrackByName_
+  commentId: Overload:Shiang.Utils.GetSoundtrackByName
   isSpec: "True"
-  fullName: Shiang.Utils.CreateStateManagerIC
-  nameWithType: Utils.CreateStateManagerIC
-- uid: Shiang.Utils.CreateStateManagerIC``2(``1,Shiang.InputController)
-  name: CreateStateManagerIC<T1, T2>(T2, InputController)
-  href: api/Shiang.Utils.html#Shiang_Utils_CreateStateManagerIC__2___1_Shiang_InputController_
-  commentId: M:Shiang.Utils.CreateStateManagerIC``2(``1,Shiang.InputController)
-  name.vb: CreateStateManagerIC(Of T1, T2)(T2, InputController)
-  fullName: Shiang.Utils.CreateStateManagerIC<T1, T2>(T2, Shiang.InputController)
-  fullName.vb: Shiang.Utils.CreateStateManagerIC(Of T1, T2)(T2, Shiang.InputController)
-  nameWithType: Utils.CreateStateManagerIC<T1, T2>(T2, InputController)
-  nameWithType.vb: Utils.CreateStateManagerIC(Of T1, T2)(T2, InputController)
+  fullName: Shiang.Utils.GetSoundtrackByName
+  nameWithType: Utils.GetSoundtrackByName
 - uid: Shiang.Utils.GetSubclassesOf*
   name: GetSubclassesOf
   href: api/Shiang.Utils.html#Shiang_Utils_GetSubclassesOf_
@@ -5593,6 +5833,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Weapon.Name
   nameWithType: Weapon.Name
+- uid: Shiang.Weapon.SoundtrackName
+  name: SoundtrackName
+  href: api/Shiang.Weapon.html#Shiang_Weapon_SoundtrackName
+  commentId: P:Shiang.Weapon.SoundtrackName
+  fullName: Shiang.Weapon.SoundtrackName
+  nameWithType: Weapon.SoundtrackName
+- uid: Shiang.Weapon.SoundtrackName*
+  name: SoundtrackName
+  href: api/Shiang.Weapon.html#Shiang_Weapon_SoundtrackName_
+  commentId: Overload:Shiang.Weapon.SoundtrackName
+  isSpec: "True"
+  fullName: Shiang.Weapon.SoundtrackName
+  nameWithType: Weapon.SoundtrackName
 - uid: Shiang.WeaponData
   name: WeaponData
   href: api/Shiang.WeaponData.html
@@ -5677,6 +5930,19 @@ references:
   isSpec: "True"
   fullName: Shiang.WeaponData.Name
   nameWithType: WeaponData.Name
+- uid: Shiang.WeaponData.SoundtrackName
+  name: SoundtrackName
+  href: api/Shiang.WeaponData.html#Shiang_WeaponData_SoundtrackName
+  commentId: P:Shiang.WeaponData.SoundtrackName
+  fullName: Shiang.WeaponData.SoundtrackName
+  nameWithType: WeaponData.SoundtrackName
+- uid: Shiang.WeaponData.SoundtrackName*
+  name: SoundtrackName
+  href: api/Shiang.WeaponData.html#Shiang_WeaponData_SoundtrackName_
+  commentId: Overload:Shiang.WeaponData.SoundtrackName
+  isSpec: "True"
+  fullName: Shiang.WeaponData.SoundtrackName
+  nameWithType: WeaponData.SoundtrackName
 - uid: Shiang.WeaponData.SpriteIndex
   name: SpriteIndex
   href: api/Shiang.WeaponData.html#Shiang_WeaponData_SpriteIndex
@@ -5844,19 +6110,6 @@ references:
   isSpec: "True"
   fullName: ShiangTest.A1.Affect
   nameWithType: A1.Affect
-- uid: ShiangTest.A1.CdTime
-  name: CdTime
-  href: api/ShiangTest.A1.html#ShiangTest_A1_CdTime
-  commentId: P:ShiangTest.A1.CdTime
-  fullName: ShiangTest.A1.CdTime
-  nameWithType: A1.CdTime
-- uid: ShiangTest.A1.CdTime*
-  name: CdTime
-  href: api/ShiangTest.A1.html#ShiangTest_A1_CdTime_
-  commentId: Overload:ShiangTest.A1.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.A1.CdTime
-  nameWithType: A1.CdTime
 - uid: ShiangTest.A1.Clips
   name: Clips
   href: api/ShiangTest.A1.html#ShiangTest_A1_Clips
@@ -5941,19 +6194,6 @@ references:
   isSpec: "True"
   fullName: ShiangTest.A2.Affect
   nameWithType: A2.Affect
-- uid: ShiangTest.A2.CdTime
-  name: CdTime
-  href: api/ShiangTest.A2.html#ShiangTest_A2_CdTime
-  commentId: P:ShiangTest.A2.CdTime
-  fullName: ShiangTest.A2.CdTime
-  nameWithType: A2.CdTime
-- uid: ShiangTest.A2.CdTime*
-  name: CdTime
-  href: api/ShiangTest.A2.html#ShiangTest_A2_CdTime_
-  commentId: Overload:ShiangTest.A2.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.A2.CdTime
-  nameWithType: A2.CdTime
 - uid: ShiangTest.A2.Clips
   name: Clips
   href: api/ShiangTest.A2.html#ShiangTest_A2_Clips
@@ -6038,19 +6278,6 @@ references:
   isSpec: "True"
   fullName: ShiangTest.A3.Affect
   nameWithType: A3.Affect
-- uid: ShiangTest.A3.CdTime
-  name: CdTime
-  href: api/ShiangTest.A3.html#ShiangTest_A3_CdTime
-  commentId: P:ShiangTest.A3.CdTime
-  fullName: ShiangTest.A3.CdTime
-  nameWithType: A3.CdTime
-- uid: ShiangTest.A3.CdTime*
-  name: CdTime
-  href: api/ShiangTest.A3.html#ShiangTest_A3_CdTime_
-  commentId: Overload:ShiangTest.A3.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.A3.CdTime
-  nameWithType: A3.CdTime
 - uid: ShiangTest.A3.Clips
   name: Clips
   href: api/ShiangTest.A3.html#ShiangTest_A3_Clips
@@ -6135,19 +6362,6 @@ references:
   isSpec: "True"
   fullName: ShiangTest.A4.Affect
   nameWithType: A4.Affect
-- uid: ShiangTest.A4.CdTime
-  name: CdTime
-  href: api/ShiangTest.A4.html#ShiangTest_A4_CdTime
-  commentId: P:ShiangTest.A4.CdTime
-  fullName: ShiangTest.A4.CdTime
-  nameWithType: A4.CdTime
-- uid: ShiangTest.A4.CdTime*
-  name: CdTime
-  href: api/ShiangTest.A4.html#ShiangTest_A4_CdTime_
-  commentId: Overload:ShiangTest.A4.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.A4.CdTime
-  nameWithType: A4.CdTime
 - uid: ShiangTest.A4.Clips
   name: Clips
   href: api/ShiangTest.A4.html#ShiangTest_A4_Clips
@@ -6232,19 +6446,6 @@ references:
   isSpec: "True"
   fullName: ShiangTest.A5.Affect
   nameWithType: A5.Affect
-- uid: ShiangTest.A5.CdTime
-  name: CdTime
-  href: api/ShiangTest.A5.html#ShiangTest_A5_CdTime
-  commentId: P:ShiangTest.A5.CdTime
-  fullName: ShiangTest.A5.CdTime
-  nameWithType: A5.CdTime
-- uid: ShiangTest.A5.CdTime*
-  name: CdTime
-  href: api/ShiangTest.A5.html#ShiangTest_A5_CdTime_
-  commentId: Overload:ShiangTest.A5.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.A5.CdTime
-  nameWithType: A5.CdTime
 - uid: ShiangTest.A5.Clips
   name: Clips
   href: api/ShiangTest.A5.html#ShiangTest_A5_Clips
@@ -6329,19 +6530,6 @@ references:
   isSpec: "True"
   fullName: ShiangTest.A6.Affect
   nameWithType: A6.Affect
-- uid: ShiangTest.A6.CdTime
-  name: CdTime
-  href: api/ShiangTest.A6.html#ShiangTest_A6_CdTime
-  commentId: P:ShiangTest.A6.CdTime
-  fullName: ShiangTest.A6.CdTime
-  nameWithType: A6.CdTime
-- uid: ShiangTest.A6.CdTime*
-  name: CdTime
-  href: api/ShiangTest.A6.html#ShiangTest_A6_CdTime_
-  commentId: Overload:ShiangTest.A6.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.A6.CdTime
-  nameWithType: A6.CdTime
 - uid: ShiangTest.A6.Clips
   name: Clips
   href: api/ShiangTest.A6.html#ShiangTest_A6_Clips
@@ -6426,19 +6614,6 @@ references:
   isSpec: "True"
   fullName: ShiangTest.A7.Affect
   nameWithType: A7.Affect
-- uid: ShiangTest.A7.CdTime
-  name: CdTime
-  href: api/ShiangTest.A7.html#ShiangTest_A7_CdTime
-  commentId: P:ShiangTest.A7.CdTime
-  fullName: ShiangTest.A7.CdTime
-  nameWithType: A7.CdTime
-- uid: ShiangTest.A7.CdTime*
-  name: CdTime
-  href: api/ShiangTest.A7.html#ShiangTest_A7_CdTime_
-  commentId: Overload:ShiangTest.A7.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.A7.CdTime
-  nameWithType: A7.CdTime
 - uid: ShiangTest.A7.Clips
   name: Clips
   href: api/ShiangTest.A7.html#ShiangTest_A7_Clips
@@ -6523,19 +6698,6 @@ references:
   isSpec: "True"
   fullName: ShiangTest.A8.Affect
   nameWithType: A8.Affect
-- uid: ShiangTest.A8.CdTime
-  name: CdTime
-  href: api/ShiangTest.A8.html#ShiangTest_A8_CdTime
-  commentId: P:ShiangTest.A8.CdTime
-  fullName: ShiangTest.A8.CdTime
-  nameWithType: A8.CdTime
-- uid: ShiangTest.A8.CdTime*
-  name: CdTime
-  href: api/ShiangTest.A8.html#ShiangTest_A8_CdTime_
-  commentId: Overload:ShiangTest.A8.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.A8.CdTime
-  nameWithType: A8.CdTime
 - uid: ShiangTest.A8.Clips
   name: Clips
   href: api/ShiangTest.A8.html#ShiangTest_A8_Clips
@@ -7523,19 +7685,6 @@ references:
   commentId: T:ShiangTest.W1
   fullName: ShiangTest.W1
   nameWithType: W1
-- uid: ShiangTest.W1.CdTime
-  name: CdTime
-  href: api/ShiangTest.W1.html#ShiangTest_W1_CdTime
-  commentId: P:ShiangTest.W1.CdTime
-  fullName: ShiangTest.W1.CdTime
-  nameWithType: W1.CdTime
-- uid: ShiangTest.W1.CdTime*
-  name: CdTime
-  href: api/ShiangTest.W1.html#ShiangTest_W1_CdTime_
-  commentId: Overload:ShiangTest.W1.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.W1.CdTime
-  nameWithType: W1.CdTime
 - uid: ShiangTest.W1.Clips
   name: Clips
   href: api/ShiangTest.W1.html#ShiangTest_W1_Clips
@@ -7633,19 +7782,6 @@ references:
   commentId: T:ShiangTest.W2
   fullName: ShiangTest.W2
   nameWithType: W2
-- uid: ShiangTest.W2.CdTime
-  name: CdTime
-  href: api/ShiangTest.W2.html#ShiangTest_W2_CdTime
-  commentId: P:ShiangTest.W2.CdTime
-  fullName: ShiangTest.W2.CdTime
-  nameWithType: W2.CdTime
-- uid: ShiangTest.W2.CdTime*
-  name: CdTime
-  href: api/ShiangTest.W2.html#ShiangTest_W2_CdTime_
-  commentId: Overload:ShiangTest.W2.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.W2.CdTime
-  nameWithType: W2.CdTime
 - uid: ShiangTest.W2.Clips
   name: Clips
   href: api/ShiangTest.W2.html#ShiangTest_W2_Clips
@@ -7743,19 +7879,6 @@ references:
   commentId: T:ShiangTest.W3
   fullName: ShiangTest.W3
   nameWithType: W3
-- uid: ShiangTest.W3.CdTime
-  name: CdTime
-  href: api/ShiangTest.W3.html#ShiangTest_W3_CdTime
-  commentId: P:ShiangTest.W3.CdTime
-  fullName: ShiangTest.W3.CdTime
-  nameWithType: W3.CdTime
-- uid: ShiangTest.W3.CdTime*
-  name: CdTime
-  href: api/ShiangTest.W3.html#ShiangTest_W3_CdTime_
-  commentId: Overload:ShiangTest.W3.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.W3.CdTime
-  nameWithType: W3.CdTime
 - uid: ShiangTest.W3.Clips
   name: Clips
   href: api/ShiangTest.W3.html#ShiangTest_W3_Clips
@@ -7853,19 +7976,6 @@ references:
   commentId: T:ShiangTest.W4
   fullName: ShiangTest.W4
   nameWithType: W4
-- uid: ShiangTest.W4.CdTime
-  name: CdTime
-  href: api/ShiangTest.W4.html#ShiangTest_W4_CdTime
-  commentId: P:ShiangTest.W4.CdTime
-  fullName: ShiangTest.W4.CdTime
-  nameWithType: W4.CdTime
-- uid: ShiangTest.W4.CdTime*
-  name: CdTime
-  href: api/ShiangTest.W4.html#ShiangTest_W4_CdTime_
-  commentId: Overload:ShiangTest.W4.CdTime
-  isSpec: "True"
-  fullName: ShiangTest.W4.CdTime
-  nameWithType: W4.CdTime
 - uid: ShiangTest.W4.Clips
   name: Clips
   href: api/ShiangTest.W4.html#ShiangTest_W4_Clips

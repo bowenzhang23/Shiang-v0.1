@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Shiang
 {
     #region state manager
-    class FridgeStateManager : StateManagerIC
+    class FridgeStateManager : StateManager
     {
         public static readonly float ANIM_DURATION = 0.75f;
         IdleState _idle;
@@ -26,6 +26,8 @@ namespace Shiang
 
         public override void InitTransitions()
         {
+            var IC = InputController.Instance;
+
             SM.AddAnyTransition(_open, 
                 () => _fridge.Detector.PlayerDetected && IC.Interact && !_fridge.IsOpen);
             SM.AddTransiton(_open, _close, 
@@ -97,8 +99,7 @@ namespace Shiang
         {
             _persister = new Persister(this);
             _anim = GetComponent<Animator>();
-            _stateMgr = Utils.CreateStateManagerIC<FridgeStateManager, Fridge>(this,
-                FindObjectOfType<InputController>());
+            _stateMgr = Utils.CreateStateManager<FridgeStateManager, Fridge>(this);
             _colliDetec = GetComponent<CollisionDetector>();
 
             InputController.OnExitFromUIMode += () => IsClosedByIC = true;

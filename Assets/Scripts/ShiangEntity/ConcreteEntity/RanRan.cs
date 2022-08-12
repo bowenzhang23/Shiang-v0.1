@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Shiang
 {
     #region state manager
-    public class RanRanStateManager : StateManagerIC
+    public class RanRanStateManager : StateManager
     {
         IdleState _idle;
         MoveState _move;
@@ -42,6 +42,8 @@ namespace Shiang
 
         public override void InitTransitions()
         {
+            var IC = InputController.Instance;
+
             SM.AddTransiton(_idle, _move, () => IC.ChangeX != 0);
             SM.AddTransiton(_cool, _move,
                 () => IC.ChangeX != 0 && SM.TimeInState > _EXTITIME);
@@ -76,6 +78,9 @@ namespace Shiang
 
         private Weapon _currentWeapon;
         private Ability _currentAbility;
+
+        private SoundEffect _weaponSoundEffect;
+        private SoundEffect _abilitySoundEffect;
 
         public StateManager StateMgr => _stateMgr;
         
@@ -122,6 +127,7 @@ namespace Shiang
             if (_currentWeapon == null) 
                 return;
             Anim.Play(_currentWeapon.ClipNames[(int)_orientation]);
+            _weaponSoundEffect.Play(_currentWeapon.SoundtrackName);
             StartCoroutine(_currentWeapon.Cd.CountdownCo());
         }
 
@@ -130,6 +136,7 @@ namespace Shiang
             if (_currentAbility == null)
                 return;
             Anim.Play(_currentAbility.ClipNames[(int)_orientation]);
+            _abilitySoundEffect.Play(_currentAbility.SoundtrackName);
             StartCoroutine(_currentAbility.Cd.CountdownCo());
         }
 
@@ -151,8 +158,10 @@ namespace Shiang
             _persister = new Persister(this);
             _orientation = Orientation.Right;
             _anim = GetComponent<Animator>();
-            _inputController = FindObjectOfType<InputController>();
-            _stateMgr = Utils.CreateStateManagerIC<RanRanStateManager, RanRan>(this, _inputController);
+            _inputController = InputController.Instance;
+            _stateMgr = Utils.CreateStateManager<RanRanStateManager, RanRan>(this);
+            _weaponSoundEffect = gameObject.AddComponent<SoundEffect>();
+            _abilitySoundEffect = gameObject.AddComponent<SoundEffect>();
         }
 
         void Update() => _stateMgr.Tick();

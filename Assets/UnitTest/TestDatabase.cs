@@ -34,7 +34,7 @@ namespace ShiangTest
             db.Insert(new ResourcePathData() { Name = "SpritesIcon-2", Path = "Arts/Icons/Icons-2" });
             Assert.AreEqual(((List<ResourcePathData>)db.Data).Count, 0);
             db.Retrieve();
-            Assert.AreEqual(((List<ResourcePathData>)db.Data).Count, 6);
+            Assert.AreEqual(((List<ResourcePathData>)db.Data).Count, 4);
         }
 
         [Test]
@@ -48,6 +48,7 @@ namespace ShiangTest
                 Name = "长鞭",
                 Description = "从小练习挥鞭",
                 AnimPattern = "Whip",
+                SoundtrackName = "attack_whip",
                 CdTime = 1.1f,
                 Hash = 0xE2000,
                 SpriteIndex = 0
@@ -58,6 +59,7 @@ namespace ShiangTest
                 Name = " 拳头",
                 Description = "朝我拳头跑来，我懒得过去打你",
                 AnimPattern = "Attack",
+                SoundtrackName = "attack_fist",
                 CdTime = 1.1f,
                 Hash = 0xE1011,
                 SpriteIndex = 11
@@ -68,6 +70,7 @@ namespace ShiangTest
                 Name = "开山斧",
                 Description = "祖传开山神斧",
                 AnimPattern = "Axe",
+                SoundtrackName = "attack_axe",
                 CdTime = 2f,
                 Hash = 0xE1014,
                 SpriteIndex = 14
@@ -78,6 +81,7 @@ namespace ShiangTest
                 Name = "跋扈的大刀",
                 Description = "一刀一个不管埋！",
                 AnimPattern = "Broadsword",
+                SoundtrackName = "attack_broadsword",
                 CdTime = 4f,
                 Hash = 0xEE000,
                 SpriteIndex = 11
@@ -98,6 +102,7 @@ namespace ShiangTest
                 Name = "黄金权杖",
                 Description = "堆中法器",
                 AnimPattern = "GoldenScepter",
+                SoundtrackName = "magic_goldenScepter",
                 CdTime = 5f,
                 Hash = 0xA1012,
                 SpriteIndex = 12

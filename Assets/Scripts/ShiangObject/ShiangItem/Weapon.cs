@@ -22,7 +22,9 @@ namespace Shiang
 
         public override uint Hash => Info.WEAPON_DATA[ClassID].Hash;
 
-        public virtual float CdTime => Info.WEAPON_DATA[ClassID].CdTime;
+        public float CdTime => Info.WEAPON_DATA[ClassID].CdTime;
+
+        public string SoundtrackName => Info.WEAPON_DATA[ClassID].SoundtrackName;
 
         public string[] ClipNames
             => _clipNames == null ? _clipNames = new string[2] { Clips[0].name, Clips[1].name } : _clipNames;

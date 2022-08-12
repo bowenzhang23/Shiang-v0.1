@@ -12,6 +12,7 @@ namespace Shiang
         public int SpriteIndex { get; set; }
         public string AnimPattern { get; set; }
         public float CdTime { get; set; }
+        public string SoundtrackName { get; set; }
     }
 
     public class WeaponDB : TableDatabase<WeaponData>
@@ -27,6 +28,7 @@ namespace Shiang
                 "hash INT UNSIGNED, " +
                 "spriteindex INT, " +
                 "animpattern VARCHAR(20), " +
+                "soundtrackname NVARCHAR(20), " +
                 "cdtime FLOAT);";
         }
 
@@ -34,13 +36,14 @@ namespace Shiang
         {
             WeaponData entryData = (WeaponData)entry;
             return "INSERT INTO weapon " +
-                "(classid, name, description, hash, spriteindex, animpattern, cdtime) VALUES (" +
+                "(classid, name, description, hash, spriteindex, animpattern, soundtrackname, cdtime) VALUES (" +
                 $"'{entryData.ClassID}', " +
                 $"'{entryData.Name}', " +
                 $"'{entryData.Description}', " +
                 $"'{entryData.Hash}', " +
                 $"'{entryData.SpriteIndex}', " +
                 $"'{entryData.AnimPattern}', " +
+                $"'{entryData.SoundtrackName}', " +
                 $"'{entryData.CdTime}');";
         }
 
@@ -60,6 +63,7 @@ namespace Shiang
                 Hash = uint.Parse(reader["hash"].ToString()),
                 SpriteIndex = int.Parse(reader["spriteindex"].ToString()),
                 AnimPattern = reader["animpattern"].ToString(),
+                SoundtrackName = reader["soundtrackname"].ToString(),
                 CdTime = float.Parse(reader["cdtime"].ToString()),
             };
         }

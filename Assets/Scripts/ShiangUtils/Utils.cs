@@ -31,26 +31,6 @@ namespace Shiang
             return manager;
         }
 
-        /// <summary>
-        /// Factory method that creates State manager that involves <c>InputController</c>
-        /// </summary>
-        /// <typeparam name="T1">Type of StateManagerIC</typeparam>
-        /// <typeparam name="T2">Type of IGameEntity</typeparam>
-        /// <param name="entity">The IGameEntity object</param>
-        /// <param name="ic">The InputController object</param>
-        /// <returns>A StateManagerIC object</returns>
-        public static T1 CreateStateManagerIC<T1, T2>(T2 entity, InputController ic)
-            where T1 : StateManagerIC, new() where T2 : IGameEntity
-        {
-            T1 manager = Activator.CreateInstance<T1>();
-            manager.SetInputController(ic);
-            manager.SetOwner(entity);
-            manager.InitStates();
-            manager.InitTransitions();
-            manager.SetInitialState();
-            return manager;
-        }
-
         public static Item ItemLose(int n, ref Item toLose)
         {
             n = Math.Min(n, toLose.Count);
@@ -107,11 +87,16 @@ namespace Shiang
             return db;
         }
 
-        public static SQLiteDatabase CreateSQLiteDatabase<T1>(string name) where T1 : SQLiteDatabase
+        public static SQLiteDatabase CreateSQLiteDatabase<T1>(string name) where T1: SQLiteDatabase
         {
             var db = (T1)Activator.CreateInstance(typeof(T1), name);
             db.Create();
             return db;
+        }
+
+        public static IDatabase CreateDatabase<T1>() where T1: IDatabase, new()
+        {
+            return SoundtrackDB.Instance;
         }
 
         public static void LoadEntityDatabase(string name,
@@ -188,5 +173,12 @@ namespace Shiang
         public static T1 AbilityRefFromPoolOfType<T1>()
             where T1 : Ability, new()
             => (T1)Pool.Abilities[Pool.Mapping[typeof(T1)]];
+
+        public static SoundtrackData GetSoundtrackByName(string name)
+        {
+            if (Info.SOUNDTRACK_DATA.TryGetValue(name, out var soundtrack))
+                return soundtrack;
+            return null;
+        }
     }
 }

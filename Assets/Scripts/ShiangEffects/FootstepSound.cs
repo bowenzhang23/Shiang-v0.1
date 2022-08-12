@@ -13,36 +13,26 @@ namespace Shiang {
     /// 
     /// <seealso cref="Shiang.GroundCheck"/>
     /// 
-    [RequireComponent(typeof(AudioSource))]
     public class FootstepSound : MonoBehaviour
     {
-        Dictionary<GroundType, AudioClip[]> _footstepClips = 
-            new Dictionary<GroundType, AudioClip[]>();
+        Dictionary<GroundType, string[]> _footstepClips = 
+            new Dictionary<GroundType, string[]>();
 
         // Add new ones here
-        [SerializeField] AudioClip[] _normal;
-        [SerializeField] AudioClip[] _snow;
+        [SerializeField] string[] _normal;
+        [SerializeField] string[] _snow;
+        string[] _current;
 
-        [SerializeField, Range(0, 1)] float _defaultVolume = 0.4f;
-        [SerializeField, Range(0, 2)] float _defaultPitch = 1.2f;
-
-        /// <summary>
-        /// current clip cache
-        /// </summary>
-        AudioClip[] current;
-
+        AudioSource _audioSource;
         [SerializeField] GroundCheck _groundCheck;
-        [SerializeField] AudioSource _audioSource;
 
         private void Awake()
         {
-            // practical settings
-            _audioSource.volume = _defaultVolume;
-            _audioSource.pitch = _defaultPitch;
-
             // Add new ones here
             _footstepClips.Add(GroundType.Normal, _normal);
             _footstepClips.Add(GroundType.Snow, _snow);
+            _audioSource = gameObject.AddComponent<AudioSource>();
+            _audioSource.loop = false;
         }
 
         /// <summary>
@@ -52,21 +42,24 @@ namespace Shiang {
         /// </summary>
         public void Step()
         {
+            if (_audioSource.isPlaying)
+                return;
+
             GroundType type = _groundCheck.CurrentGroundType;
-            if (type == GroundType.None) return;
-            // Debug.Log(type);
-            current = _footstepClips[type];
-            AudioClip clip = GetRandomClip();
-            _audioSource.PlayOneShot(clip);
+            if (type == GroundType.None) 
+                return;
+            
+            _current = _footstepClips[type];
+            var soundtrack = GetRandomSoundtrack();
+            soundtrack.AudioSourceSet(_audioSource);
+            _audioSource.Play();
         }
 
         /// <summary>
         /// Add a bit of randomness of footstep sound
         /// </summary>
         /// <returns>One of the clip, usually from a total of four.</returns>
-        private AudioClip GetRandomClip()
-        {
-            return current[UnityEngine.Random.Range(0, current.Length)];
-        }
+        private SoundtrackData GetRandomSoundtrack()
+            => Utils.GetSoundtrackByName(_current[Random.Range(0, _current.Length)]);
     }
 }

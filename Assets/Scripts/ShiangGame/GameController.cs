@@ -3,10 +3,11 @@ using UnityEngine;
 namespace Shiang
 {
     [DefaultExecutionOrder(-200)]
-    public class GameController : MonoBehaviour
+    public class GameController : GenericSingleton<GameController>
     {
-        void Awake()
+        public override void Awake()
         {
+            base.Awake();
             Info.LoadDatabase();
             Info.LoadResources();
             Pool.Load();

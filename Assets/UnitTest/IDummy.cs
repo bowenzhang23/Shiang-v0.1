@@ -13,7 +13,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFF;
         public override Sprite Image => null;
         public override string Name => "A1";
-        public override float CdTime => 1f;
         public override void Affect(IGameEntity entity) { }
     }
 
@@ -24,7 +23,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFE;
         public override Sprite Image => null;
         public override string Name => "A2";
-        public override float CdTime => 1f;
         public override void Affect(IGameEntity entity) { }
     }
 
@@ -35,7 +33,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFD;
         public override Sprite Image => null;
         public override string Name => "A4";
-        public override float CdTime => 1f;
         public override void Affect(IGameEntity entity) { }
     }
 
@@ -46,7 +43,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFC;
         public override Sprite Image => null;
         public override string Name => "A4";
-        public override float CdTime => 1f;
         public override void Affect(IGameEntity entity) { }
     }
 
@@ -57,7 +53,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFB;
         public override Sprite Image => null;
         public override string Name => "A5";
-        public override float CdTime => 1f;
         public override void Affect(IGameEntity entity) { }
     }
 
@@ -68,7 +63,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFFA;
         public override Sprite Image => null;
         public override string Name => "A6";
-        public override float CdTime => 1f;
         public override void Affect(IGameEntity entity) { }
     }
 
@@ -79,7 +73,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFF9;
         public override Sprite Image => null;
         public override string Name => "A7";
-        public override float CdTime => 1f;
         public override void Affect(IGameEntity entity) { }
     }
 
@@ -90,7 +83,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFF8;
         public override Sprite Image => null;
         public override string Name => "A8";
-        public override float CdTime => 1f;
         public override void Affect(IGameEntity entity) { }
     }
     #endregion
@@ -140,7 +132,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFEB;
         public override Sprite Image => null;
         public override string Name => "W1";
-        public override float CdTime => 1f;
         public override void Hit(IHurtable hurtable) { }
         public override Item Clone(int n) => new W1 { Count = n };
     }
@@ -152,7 +143,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFEA;
         public override Sprite Image => null;
         public override string Name => "W2";
-        public override float CdTime => 1f;
         public override void Hit(IHurtable hurtable) { }
         public override Item Clone(int n) => new W2 { Count = n };
     }
@@ -164,7 +154,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFE9;
         public override Sprite Image => null;
         public override string Name => "W3";
-        public override float CdTime => 1f;
         public override void Hit(IHurtable hurtable) { }
         public override Item Clone(int n) => new W3 { Count = n };
     }
@@ -176,7 +165,6 @@ namespace ShiangTest
         public override uint Hash => 0xFFFFFFE8;
         public override Sprite Image => null;
         public override string Name => "W4";
-        public override float CdTime => 1f;
         public override void Hit(IHurtable hurtable) { }
         public override Item Clone(int n) => new W4 { Count = n };
     }

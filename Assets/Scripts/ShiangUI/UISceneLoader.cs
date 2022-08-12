@@ -5,15 +5,22 @@ using UnityEngine.SceneManagement;
 
 namespace Shiang
 {
-    public class UiSceneLoader : MonoBehaviour
+    public class UiSceneLoader : GenericSingleton<UiSceneLoader>
     {
         public static event Action OnUISceneLoad;
         public static event Action OnUISceneUnload;
 
-        private void Awake()
+        public override void Awake()
         {
+            base.Awake();
             Fridge.OnFridgeOpen += LoadTreasureUI;
             InputController.OnExitFromUIMode += UnloadTreasureUI;
+        }
+
+        private void OnDestroy()
+        {
+            Fridge.OnFridgeOpen -= LoadTreasureUI;
+            InputController.OnExitFromUIMode -= UnloadTreasureUI;
         }
 
         public static void LoadTreasureUI()

@@ -42,7 +42,7 @@ namespace Shiang
     #endregion
 
     [DefaultExecutionOrder(-100)]
-    public class InputController : MonoBehaviour, IGameEntity
+    public class InputController : GenericSingleton<InputController>, IGameEntity
     {
         public enum InputMode { Game, Ui }
 
@@ -68,8 +68,9 @@ namespace Shiang
 
         public static event Action OnExitFromUIMode;
 
-        private void Awake()
+        public override void Awake()
         {
+            base.Awake();
             _stateMgr = Utils.CreateStateManager<InputStateManager, InputController>(this);
             Mode = InputMode.Game;
             UiSceneLoader.OnUISceneLoad += () => Mode = InputMode.Ui;

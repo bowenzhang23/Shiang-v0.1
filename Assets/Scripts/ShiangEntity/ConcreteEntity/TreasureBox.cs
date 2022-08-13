@@ -6,21 +6,21 @@ using UnityEngine;
 namespace Shiang
 {
     #region state manager
-    class FridgeStateManager : StateManager
+    class TreasureBoxStateManager : StateManager
     {
         public static readonly float ANIM_DURATION = 0.75f;
         IdleState _idle;
         OpenState _open;
         CloseState _close;
-        Fridge _fridge;
+        TreasureBox _treasureBox;
 
         public override void InitStates()
         {
-            if (_fridge == null)
-                _fridge = (Fridge)Owner;
+            if (_treasureBox == null)
+                _treasureBox = (TreasureBox)Owner;
 
-            _idle = new IdleState(_fridge);
-            _open = new OpenState(_fridge);
+            _idle = new IdleState(_treasureBox);
+            _open = new OpenState(_treasureBox);
             _close = new CloseState();
         }
 
@@ -29,11 +29,11 @@ namespace Shiang
             var IC = InputController.Instance;
 
             SM.AddAnyTransition(_open, 
-                () => _fridge.Detector.PlayerDetected && IC.Interact && !_fridge.IsOpen);
+                () => _treasureBox.Detector.PlayerDetected && IC.Interact && !_treasureBox.IsOpen);
             SM.AddTransiton(_open, _close, 
                 () => {
-                    bool ret = _fridge.IsClosedByIC && _fridge.IsOpen;
-                    _fridge.IsClosedByIC = false;
+                    bool ret = _treasureBox.IsClosedByIC && _treasureBox.IsOpen;
+                    _treasureBox.IsClosedByIC = false;
                     return ret;
                 });
             SM.AddTransiton(_close, _idle,
@@ -45,7 +45,7 @@ namespace Shiang
     #endregion
 
     [RequireComponent(typeof(CollisionDetector))]
-    public class Fridge : MonoBehaviour, IStatic, IStateHolder, ITreasure, IAnimatorHolder, IBinary, IPersist
+    public class TreasureBox : MonoBehaviour, IStatic, IStateHolder, ITreasure, IAnimatorHolder, IBinary, IPersist
     {
         StateManager _stateMgr;
         ItemContainer _itemContainer = new ItemContainer(GameMechanism.TREASUREBOX_CAPACITY);
@@ -55,8 +55,8 @@ namespace Shiang
         [SerializeField] string _databaseName;
         bool _isOpen = false;
 
-        public static event Action OnFridgeOpen;
-        public static event Action OnFridgeClose;
+        public static event Action OnOpen;
+        public static event Action OnClose;
 
         public StateManager StateMgr => _stateMgr;
 
@@ -77,7 +77,7 @@ namespace Shiang
             Anim.Play(Info.ANIM_NAMES[typeof(OpenState)][0]);
             IsOpen = false;
             UiManagement.CurrentTreasurePanelOwner = null;
-            OnFridgeClose?.Invoke();
+            OnClose?.Invoke();
         }
 
         public void Idle()
@@ -91,15 +91,15 @@ namespace Shiang
             Anim.Play(Info.ANIM_NAMES[typeof(OpenState)][1]);
             IsOpen = true;
             UiManagement.CurrentTreasurePanelOwner = this;
-            yield return new WaitForSeconds(FridgeStateManager.ANIM_DURATION);
-            OnFridgeOpen?.Invoke();
+            yield return new WaitForSeconds(TreasureBoxStateManager.ANIM_DURATION);
+            OnOpen?.Invoke();
         }
 
         private void Awake()
         {
             _persister = new Persister(this);
             _anim = GetComponent<Animator>();
-            _stateMgr = Utils.CreateStateManager<FridgeStateManager, Fridge>(this);
+            _stateMgr = Utils.CreateStateManager<TreasureBoxStateManager, TreasureBox>(this);
             _colliDetec = GetComponent<CollisionDetector>();
 
             InputController.OnExitFromUIMode += () => IsClosedByIC = true;

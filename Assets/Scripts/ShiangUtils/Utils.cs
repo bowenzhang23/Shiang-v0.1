@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace Shiang
 {
@@ -179,6 +181,39 @@ namespace Shiang
             if (Info.SOUNDTRACK_DATA.TryGetValue(name, out var soundtrack))
                 return soundtrack;
             return null;
+        }
+
+        public static void LockCursor()
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        public static void EventSystemFirstSelect(GameObject gameObject)
+            => EventSystem.current.firstSelectedGameObject = gameObject;
+
+        public static void EventSystemSelect(GameObject gameObject) 
+            => EventSystem.current.SetSelectedGameObject(gameObject);
+
+        /// <summary>
+        /// I stuck for a while and found the trick here:
+        /// https://answers.unity.com/questions/1159573/eventsystemsetselectedgameobject-doesnt-highlight.html
+        /// </summary>
+        /// <param name="btn"></param>
+        public static void HighlightButton(Button btn)
+        {
+            btn.Select();
+            btn.OnSelect(null);
+        }
+
+        public static void SelectAndHighlightButton(Button btn)
+        {
+            EventSystemSelect(btn.gameObject);
+            HighlightButton(btn);
+        }
+
+        public static Func<TResult> Bind<T, TResult>(Func<T, TResult> func, T arg)
+        {
+            return () => func(arg);
         }
     }
 }

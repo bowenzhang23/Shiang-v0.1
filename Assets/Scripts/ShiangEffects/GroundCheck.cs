@@ -25,10 +25,12 @@ namespace Shiang
 
             IsGrounded = hit;
 
+#if UNITY_EDITOR
             Debug.DrawRay(
                 transform.position,
                 Vector2.up * _endPoint.localPosition.y,
                 Color.green);
+#endif
 
             if (IsGrounded)
             {

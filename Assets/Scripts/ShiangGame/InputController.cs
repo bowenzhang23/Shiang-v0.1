@@ -47,6 +47,7 @@ namespace Shiang
         public enum InputMode { Game, Ui }
 
         private InputStateManager _stateMgr;
+        private const float PAUSE_DURATION = 0.5f;
 
         public InputMode Mode { get; set; }
 
@@ -81,8 +82,8 @@ namespace Shiang
 
         public void GameMode()
         {
-            float dx = Input.GetAxisRaw("Horizontal");
-            float dy = Input.GetAxisRaw("Vertical");
+            float dx = Input.GetAxisRaw("Horizontal_m");
+            float dy = Input.GetAxisRaw("Vertical_m");
 
             ChangeX = dx != 0f ? Mathf.Sign(dx) : 0f;
             ChangeY = dy != 0f ? Mathf.Sign(dy) : 0f;
@@ -103,7 +104,6 @@ namespace Shiang
 
         public void UiMode()
         {
-            // pause game
             Time.timeScale = 0f;
 
             Exit = Input.GetKeyDown(KeyCode.Escape);

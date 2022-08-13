@@ -13,13 +13,13 @@ namespace Shiang
         public override void Awake()
         {
             base.Awake();
-            Fridge.OnFridgeOpen += LoadTreasureUI;
+            TreasureBox.OnOpen += LoadTreasureUI;
             InputController.OnExitFromUIMode += UnloadTreasureUI;
         }
 
         private void OnDestroy()
         {
-            Fridge.OnFridgeOpen -= LoadTreasureUI;
+            TreasureBox.OnOpen -= LoadTreasureUI;
             InputController.OnExitFromUIMode -= UnloadTreasureUI;
         }
 

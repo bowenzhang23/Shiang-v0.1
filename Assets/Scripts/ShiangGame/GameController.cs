@@ -8,6 +8,9 @@ namespace Shiang
         public override void Awake()
         {
             base.Awake();
+#if !UNITY_EDITOR
+            Utils.LockCursor();
+#endif
             Info.LoadDatabase();
             Info.LoadResources();
             Pool.Load();

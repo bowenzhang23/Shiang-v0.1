@@ -18,7 +18,9 @@ namespace Shiang
             _itemSlots = new List<ItemSlot>(itemSlots.Length);
             foreach (var slot in itemSlots)
                 _itemSlots.Add(slot);
+
             ClearSlots();
+            Utils.SelectAndHighlightButton(_itemSlots[0].Button);
         }
 
         private void ClearSlots()

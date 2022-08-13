@@ -1,4 +1,7 @@
 
+using Ink.Runtime;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Shiang
@@ -29,7 +32,8 @@ namespace Shiang
     }
     #endregion
 
-    public class Rabbit : MonoBehaviour, IFriend, ICreature, IDynamic, IFollower
+    [RequireComponent(typeof(DialogueTrigger))]
+    public class Rabbit : MonoBehaviour, IFriend, ICreature, IDynamic, IFollower, IStoryTeller
     {
         // TODO
         private float _speed = 1.0f;
@@ -38,6 +42,10 @@ namespace Shiang
         Animator _anim;
         Orientation _orientation;
         IPlayer _player;
+
+        [SerializeField] DialogueData[] _dialogues;
+        Dictionary<string, Story> _stories;
+        DialogueTrigger _dialogueTrigger;
 
         public StateManager StateMgr => _stateMgr;
 
@@ -52,6 +60,8 @@ namespace Shiang
         public float StopFollowDistance => 4f;
 
         public float PositionDiffToTarget => transform.position.x - _player.Coordinate.x;
+
+        public Dictionary<string, Story> Stories => _stories;
 
         public void Idle()
         {
@@ -76,6 +86,9 @@ namespace Shiang
             _anim = GetComponent<Animator>();
             _stateMgr = Utils.CreateStateManager<RabbitStateManager, Rabbit>(this);
             _player = FindObjectOfType<RanRan>();
+            _stories = _dialogues.ToDictionary(k => k.name, k => new Story(k.textAsset.text));
+            _dialogueTrigger = GetComponent<DialogueTrigger>();
+            _dialogueTrigger.CurrentStory = _stories["meeting"]; // TODO
         }
 
         void Update() => _stateMgr.Tick();

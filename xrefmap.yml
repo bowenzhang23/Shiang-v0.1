@@ -1054,6 +1054,24 @@ references:
   commentId: T:Shiang.CollisionDetector
   fullName: Shiang.CollisionDetector
   nameWithType: CollisionDetector
+- uid: Shiang.CollisionDetector.OnPlayerEnter
+  name: OnPlayerEnter
+  href: api/Shiang.CollisionDetector.html#Shiang_CollisionDetector_OnPlayerEnter
+  commentId: E:Shiang.CollisionDetector.OnPlayerEnter
+  fullName: Shiang.CollisionDetector.OnPlayerEnter
+  nameWithType: CollisionDetector.OnPlayerEnter
+- uid: Shiang.CollisionDetector.OnPlayerExit
+  name: OnPlayerExit
+  href: api/Shiang.CollisionDetector.html#Shiang_CollisionDetector_OnPlayerExit
+  commentId: E:Shiang.CollisionDetector.OnPlayerExit
+  fullName: Shiang.CollisionDetector.OnPlayerExit
+  nameWithType: CollisionDetector.OnPlayerExit
+- uid: Shiang.CollisionDetector.OnPlayerStay
+  name: OnPlayerStay
+  href: api/Shiang.CollisionDetector.html#Shiang_CollisionDetector_OnPlayerStay
+  commentId: E:Shiang.CollisionDetector.OnPlayerStay
+  fullName: Shiang.CollisionDetector.OnPlayerStay
+  nameWithType: CollisionDetector.OnPlayerStay
 - uid: Shiang.CollisionDetector.PlayerDetected
   name: PlayerDetected
   href: api/Shiang.CollisionDetector.html#Shiang_CollisionDetector_PlayerDetected
@@ -1485,6 +1503,93 @@ references:
   isSpec: "True"
   fullName: Shiang.DescriptionPanel.UpdateText
   nameWithType: DescriptionPanel.UpdateText
+- uid: Shiang.DialogueData
+  name: DialogueData
+  href: api/Shiang.DialogueData.html
+  commentId: T:Shiang.DialogueData
+  fullName: Shiang.DialogueData
+  nameWithType: DialogueData
+- uid: Shiang.DialogueData.name
+  name: name
+  href: api/Shiang.DialogueData.html#Shiang_DialogueData_name
+  commentId: F:Shiang.DialogueData.name
+  fullName: Shiang.DialogueData.name
+  nameWithType: DialogueData.name
+- uid: Shiang.DialogueData.textAsset
+  name: textAsset
+  href: api/Shiang.DialogueData.html#Shiang_DialogueData_textAsset
+  commentId: F:Shiang.DialogueData.textAsset
+  fullName: Shiang.DialogueData.textAsset
+  nameWithType: DialogueData.textAsset
+- uid: Shiang.DialogueOption
+  name: DialogueOption
+  href: api/Shiang.DialogueOption.html
+  commentId: T:Shiang.DialogueOption
+  fullName: Shiang.DialogueOption
+  nameWithType: DialogueOption
+- uid: Shiang.DialogueOption.button
+  name: button
+  href: api/Shiang.DialogueOption.html#Shiang_DialogueOption_button
+  commentId: F:Shiang.DialogueOption.button
+  fullName: Shiang.DialogueOption.button
+  nameWithType: DialogueOption.button
+- uid: Shiang.DialogueOption.text
+  name: text
+  href: api/Shiang.DialogueOption.html#Shiang_DialogueOption_text
+  commentId: F:Shiang.DialogueOption.text
+  fullName: Shiang.DialogueOption.text
+  nameWithType: DialogueOption.text
+- uid: Shiang.DialoguePanel
+  name: DialoguePanel
+  href: api/Shiang.DialoguePanel.html
+  commentId: T:Shiang.DialoguePanel
+  fullName: Shiang.DialoguePanel
+  nameWithType: DialoguePanel
+- uid: Shiang.DialoguePanel.StartStory(Story)
+  name: StartStory(Story)
+  href: api/Shiang.DialoguePanel.html#Shiang_DialoguePanel_StartStory_Story_
+  commentId: M:Shiang.DialoguePanel.StartStory(Story)
+  fullName: Shiang.DialoguePanel.StartStory(Story)
+  nameWithType: DialoguePanel.StartStory(Story)
+- uid: Shiang.DialoguePanel.StartStory*
+  name: StartStory
+  href: api/Shiang.DialoguePanel.html#Shiang_DialoguePanel_StartStory_
+  commentId: Overload:Shiang.DialoguePanel.StartStory
+  isSpec: "True"
+  fullName: Shiang.DialoguePanel.StartStory
+  nameWithType: DialoguePanel.StartStory
+- uid: Shiang.DialogueTrigger
+  name: DialogueTrigger
+  href: api/Shiang.DialogueTrigger.html
+  commentId: T:Shiang.DialogueTrigger
+  fullName: Shiang.DialogueTrigger
+  nameWithType: DialogueTrigger
+- uid: Shiang.DialogueTrigger.CurrentStory
+  name: CurrentStory
+  href: api/Shiang.DialogueTrigger.html#Shiang_DialogueTrigger_CurrentStory
+  commentId: P:Shiang.DialogueTrigger.CurrentStory
+  fullName: Shiang.DialogueTrigger.CurrentStory
+  nameWithType: DialogueTrigger.CurrentStory
+- uid: Shiang.DialogueTrigger.CurrentStory*
+  name: CurrentStory
+  href: api/Shiang.DialogueTrigger.html#Shiang_DialogueTrigger_CurrentStory_
+  commentId: Overload:Shiang.DialogueTrigger.CurrentStory
+  isSpec: "True"
+  fullName: Shiang.DialogueTrigger.CurrentStory
+  nameWithType: DialogueTrigger.CurrentStory
+- uid: Shiang.DialogueTrigger.Idle
+  name: Idle()
+  href: api/Shiang.DialogueTrigger.html#Shiang_DialogueTrigger_Idle
+  commentId: M:Shiang.DialogueTrigger.Idle
+  fullName: Shiang.DialogueTrigger.Idle()
+  nameWithType: DialogueTrigger.Idle()
+- uid: Shiang.DialogueTrigger.Idle*
+  name: Idle
+  href: api/Shiang.DialogueTrigger.html#Shiang_DialogueTrigger_Idle_
+  commentId: Overload:Shiang.DialogueTrigger.Idle
+  isSpec: "True"
+  fullName: Shiang.DialogueTrigger.Idle
+  nameWithType: DialogueTrigger.Idle
 - uid: Shiang.EntityData
   name: EntityData
   href: api/Shiang.EntityData.html
@@ -1775,193 +1880,6 @@ references:
   isSpec: "True"
   fullName: Shiang.FootstepSound.Step
   nameWithType: FootstepSound.Step
-- uid: Shiang.Fridge
-  name: Fridge
-  href: api/Shiang.Fridge.html
-  commentId: T:Shiang.Fridge
-  fullName: Shiang.Fridge
-  nameWithType: Fridge
-- uid: Shiang.Fridge.Anim
-  name: Anim
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Anim
-  commentId: P:Shiang.Fridge.Anim
-  fullName: Shiang.Fridge.Anim
-  nameWithType: Fridge.Anim
-- uid: Shiang.Fridge.Anim*
-  name: Anim
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Anim_
-  commentId: Overload:Shiang.Fridge.Anim
-  isSpec: "True"
-  fullName: Shiang.Fridge.Anim
-  nameWithType: Fridge.Anim
-- uid: Shiang.Fridge.Close
-  name: Close()
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Close
-  commentId: M:Shiang.Fridge.Close
-  fullName: Shiang.Fridge.Close()
-  nameWithType: Fridge.Close()
-- uid: Shiang.Fridge.Close*
-  name: Close
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Close_
-  commentId: Overload:Shiang.Fridge.Close
-  isSpec: "True"
-  fullName: Shiang.Fridge.Close
-  nameWithType: Fridge.Close
-- uid: Shiang.Fridge.Detector
-  name: Detector
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Detector
-  commentId: P:Shiang.Fridge.Detector
-  fullName: Shiang.Fridge.Detector
-  nameWithType: Fridge.Detector
-- uid: Shiang.Fridge.Detector*
-  name: Detector
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Detector_
-  commentId: Overload:Shiang.Fridge.Detector
-  isSpec: "True"
-  fullName: Shiang.Fridge.Detector
-  nameWithType: Fridge.Detector
-- uid: Shiang.Fridge.Idle
-  name: Idle()
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Idle
-  commentId: M:Shiang.Fridge.Idle
-  fullName: Shiang.Fridge.Idle()
-  nameWithType: Fridge.Idle()
-- uid: Shiang.Fridge.Idle*
-  name: Idle
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Idle_
-  commentId: Overload:Shiang.Fridge.Idle
-  isSpec: "True"
-  fullName: Shiang.Fridge.Idle
-  nameWithType: Fridge.Idle
-- uid: Shiang.Fridge.IsClosedByIC
-  name: IsClosedByIC
-  href: api/Shiang.Fridge.html#Shiang_Fridge_IsClosedByIC
-  commentId: P:Shiang.Fridge.IsClosedByIC
-  fullName: Shiang.Fridge.IsClosedByIC
-  nameWithType: Fridge.IsClosedByIC
-- uid: Shiang.Fridge.IsClosedByIC*
-  name: IsClosedByIC
-  href: api/Shiang.Fridge.html#Shiang_Fridge_IsClosedByIC_
-  commentId: Overload:Shiang.Fridge.IsClosedByIC
-  isSpec: "True"
-  fullName: Shiang.Fridge.IsClosedByIC
-  nameWithType: Fridge.IsClosedByIC
-- uid: Shiang.Fridge.IsOpen
-  name: IsOpen
-  href: api/Shiang.Fridge.html#Shiang_Fridge_IsOpen
-  commentId: P:Shiang.Fridge.IsOpen
-  fullName: Shiang.Fridge.IsOpen
-  nameWithType: Fridge.IsOpen
-- uid: Shiang.Fridge.IsOpen*
-  name: IsOpen
-  href: api/Shiang.Fridge.html#Shiang_Fridge_IsOpen_
-  commentId: Overload:Shiang.Fridge.IsOpen
-  isSpec: "True"
-  fullName: Shiang.Fridge.IsOpen
-  nameWithType: Fridge.IsOpen
-- uid: Shiang.Fridge.Items
-  name: Items
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Items
-  commentId: P:Shiang.Fridge.Items
-  fullName: Shiang.Fridge.Items
-  nameWithType: Fridge.Items
-- uid: Shiang.Fridge.Items*
-  name: Items
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Items_
-  commentId: Overload:Shiang.Fridge.Items
-  isSpec: "True"
-  fullName: Shiang.Fridge.Items
-  nameWithType: Fridge.Items
-- uid: Shiang.Fridge.Load
-  name: Load()
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Load
-  commentId: M:Shiang.Fridge.Load
-  fullName: Shiang.Fridge.Load()
-  nameWithType: Fridge.Load()
-- uid: Shiang.Fridge.Load*
-  name: Load
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Load_
-  commentId: Overload:Shiang.Fridge.Load
-  isSpec: "True"
-  fullName: Shiang.Fridge.Load
-  nameWithType: Fridge.Load
-- uid: Shiang.Fridge.OnFridgeClose
-  name: OnFridgeClose
-  href: api/Shiang.Fridge.html#Shiang_Fridge_OnFridgeClose
-  commentId: E:Shiang.Fridge.OnFridgeClose
-  fullName: Shiang.Fridge.OnFridgeClose
-  nameWithType: Fridge.OnFridgeClose
-- uid: Shiang.Fridge.OnFridgeOpen
-  name: OnFridgeOpen
-  href: api/Shiang.Fridge.html#Shiang_Fridge_OnFridgeOpen
-  commentId: E:Shiang.Fridge.OnFridgeOpen
-  fullName: Shiang.Fridge.OnFridgeOpen
-  nameWithType: Fridge.OnFridgeOpen
-- uid: Shiang.Fridge.Open
-  name: Open()
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Open
-  commentId: M:Shiang.Fridge.Open
-  fullName: Shiang.Fridge.Open()
-  nameWithType: Fridge.Open()
-- uid: Shiang.Fridge.Open*
-  name: Open
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Open_
-  commentId: Overload:Shiang.Fridge.Open
-  isSpec: "True"
-  fullName: Shiang.Fridge.Open
-  nameWithType: Fridge.Open
-- uid: Shiang.Fridge.OpenCo
-  name: OpenCo()
-  href: api/Shiang.Fridge.html#Shiang_Fridge_OpenCo
-  commentId: M:Shiang.Fridge.OpenCo
-  fullName: Shiang.Fridge.OpenCo()
-  nameWithType: Fridge.OpenCo()
-- uid: Shiang.Fridge.OpenCo*
-  name: OpenCo
-  href: api/Shiang.Fridge.html#Shiang_Fridge_OpenCo_
-  commentId: Overload:Shiang.Fridge.OpenCo
-  isSpec: "True"
-  fullName: Shiang.Fridge.OpenCo
-  nameWithType: Fridge.OpenCo
-- uid: Shiang.Fridge.Persister
-  name: Persister
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Persister
-  commentId: P:Shiang.Fridge.Persister
-  fullName: Shiang.Fridge.Persister
-  nameWithType: Fridge.Persister
-- uid: Shiang.Fridge.Persister*
-  name: Persister
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Persister_
-  commentId: Overload:Shiang.Fridge.Persister
-  isSpec: "True"
-  fullName: Shiang.Fridge.Persister
-  nameWithType: Fridge.Persister
-- uid: Shiang.Fridge.Save
-  name: Save()
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Save
-  commentId: M:Shiang.Fridge.Save
-  fullName: Shiang.Fridge.Save()
-  nameWithType: Fridge.Save()
-- uid: Shiang.Fridge.Save*
-  name: Save
-  href: api/Shiang.Fridge.html#Shiang_Fridge_Save_
-  commentId: Overload:Shiang.Fridge.Save
-  isSpec: "True"
-  fullName: Shiang.Fridge.Save
-  nameWithType: Fridge.Save
-- uid: Shiang.Fridge.StateMgr
-  name: StateMgr
-  href: api/Shiang.Fridge.html#Shiang_Fridge_StateMgr
-  commentId: P:Shiang.Fridge.StateMgr
-  fullName: Shiang.Fridge.StateMgr
-  nameWithType: Fridge.StateMgr
-- uid: Shiang.Fridge.StateMgr*
-  name: StateMgr
-  href: api/Shiang.Fridge.html#Shiang_Fridge_StateMgr_
-  commentId: Overload:Shiang.Fridge.StateMgr
-  isSpec: "True"
-  fullName: Shiang.Fridge.StateMgr
-  nameWithType: Fridge.StateMgr
 - uid: Shiang.GameController
   name: GameController
   href: api/Shiang.GameController.html
@@ -3109,6 +3027,25 @@ references:
   commentId: T:Shiang.IStatic
   fullName: Shiang.IStatic
   nameWithType: IStatic
+- uid: Shiang.IStoryTeller
+  name: IStoryTeller
+  href: api/Shiang.IStoryTeller.html
+  commentId: T:Shiang.IStoryTeller
+  fullName: Shiang.IStoryTeller
+  nameWithType: IStoryTeller
+- uid: Shiang.IStoryTeller.Stories
+  name: Stories
+  href: api/Shiang.IStoryTeller.html#Shiang_IStoryTeller_Stories
+  commentId: P:Shiang.IStoryTeller.Stories
+  fullName: Shiang.IStoryTeller.Stories
+  nameWithType: IStoryTeller.Stories
+- uid: Shiang.IStoryTeller.Stories*
+  name: Stories
+  href: api/Shiang.IStoryTeller.html#Shiang_IStoryTeller_Stories_
+  commentId: Overload:Shiang.IStoryTeller.Stories
+  isSpec: "True"
+  fullName: Shiang.IStoryTeller.Stories
+  nameWithType: IStoryTeller.Stories
 - uid: Shiang.Item
   name: Item
   href: api/Shiang.Item.html
@@ -3469,12 +3406,6 @@ references:
   isSpec: "True"
   fullName: Shiang.ITreasure.Items
   nameWithType: ITreasure.Items
-- uid: Shiang.IUiTrigger
-  name: IUiTrigger
-  href: api/Shiang.IUiTrigger.html
-  commentId: T:Shiang.IUiTrigger
-  fullName: Shiang.IUiTrigger
-  nameWithType: IUiTrigger
 - uid: Shiang.LemonSoda
   name: LemonSoda
   href: api/Shiang.LemonSoda.html
@@ -3995,6 +3926,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Rabbit.StopFollowDistance
   nameWithType: Rabbit.StopFollowDistance
+- uid: Shiang.Rabbit.Stories
+  name: Stories
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_Stories
+  commentId: P:Shiang.Rabbit.Stories
+  fullName: Shiang.Rabbit.Stories
+  nameWithType: Rabbit.Stories
+- uid: Shiang.Rabbit.Stories*
+  name: Stories
+  href: api/Shiang.Rabbit.html#Shiang_Rabbit_Stories_
+  commentId: Overload:Shiang.Rabbit.Stories
+  isSpec: "True"
+  fullName: Shiang.Rabbit.Stories
+  nameWithType: Rabbit.Stories
 - uid: Shiang.Rabbit.UseAbility
   name: UseAbility()
   href: api/Shiang.Rabbit.html#Shiang_Rabbit_UseAbility
@@ -5246,6 +5190,193 @@ references:
   isSpec: "True"
   fullName: Shiang.Transition.To
   nameWithType: Transition.To
+- uid: Shiang.TreasureBox
+  name: TreasureBox
+  href: api/Shiang.TreasureBox.html
+  commentId: T:Shiang.TreasureBox
+  fullName: Shiang.TreasureBox
+  nameWithType: TreasureBox
+- uid: Shiang.TreasureBox.Anim
+  name: Anim
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Anim
+  commentId: P:Shiang.TreasureBox.Anim
+  fullName: Shiang.TreasureBox.Anim
+  nameWithType: TreasureBox.Anim
+- uid: Shiang.TreasureBox.Anim*
+  name: Anim
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Anim_
+  commentId: Overload:Shiang.TreasureBox.Anim
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.Anim
+  nameWithType: TreasureBox.Anim
+- uid: Shiang.TreasureBox.Close
+  name: Close()
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Close
+  commentId: M:Shiang.TreasureBox.Close
+  fullName: Shiang.TreasureBox.Close()
+  nameWithType: TreasureBox.Close()
+- uid: Shiang.TreasureBox.Close*
+  name: Close
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Close_
+  commentId: Overload:Shiang.TreasureBox.Close
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.Close
+  nameWithType: TreasureBox.Close
+- uid: Shiang.TreasureBox.Detector
+  name: Detector
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Detector
+  commentId: P:Shiang.TreasureBox.Detector
+  fullName: Shiang.TreasureBox.Detector
+  nameWithType: TreasureBox.Detector
+- uid: Shiang.TreasureBox.Detector*
+  name: Detector
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Detector_
+  commentId: Overload:Shiang.TreasureBox.Detector
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.Detector
+  nameWithType: TreasureBox.Detector
+- uid: Shiang.TreasureBox.Idle
+  name: Idle()
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Idle
+  commentId: M:Shiang.TreasureBox.Idle
+  fullName: Shiang.TreasureBox.Idle()
+  nameWithType: TreasureBox.Idle()
+- uid: Shiang.TreasureBox.Idle*
+  name: Idle
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Idle_
+  commentId: Overload:Shiang.TreasureBox.Idle
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.Idle
+  nameWithType: TreasureBox.Idle
+- uid: Shiang.TreasureBox.IsClosedByIC
+  name: IsClosedByIC
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_IsClosedByIC
+  commentId: P:Shiang.TreasureBox.IsClosedByIC
+  fullName: Shiang.TreasureBox.IsClosedByIC
+  nameWithType: TreasureBox.IsClosedByIC
+- uid: Shiang.TreasureBox.IsClosedByIC*
+  name: IsClosedByIC
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_IsClosedByIC_
+  commentId: Overload:Shiang.TreasureBox.IsClosedByIC
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.IsClosedByIC
+  nameWithType: TreasureBox.IsClosedByIC
+- uid: Shiang.TreasureBox.IsOpen
+  name: IsOpen
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_IsOpen
+  commentId: P:Shiang.TreasureBox.IsOpen
+  fullName: Shiang.TreasureBox.IsOpen
+  nameWithType: TreasureBox.IsOpen
+- uid: Shiang.TreasureBox.IsOpen*
+  name: IsOpen
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_IsOpen_
+  commentId: Overload:Shiang.TreasureBox.IsOpen
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.IsOpen
+  nameWithType: TreasureBox.IsOpen
+- uid: Shiang.TreasureBox.Items
+  name: Items
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Items
+  commentId: P:Shiang.TreasureBox.Items
+  fullName: Shiang.TreasureBox.Items
+  nameWithType: TreasureBox.Items
+- uid: Shiang.TreasureBox.Items*
+  name: Items
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Items_
+  commentId: Overload:Shiang.TreasureBox.Items
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.Items
+  nameWithType: TreasureBox.Items
+- uid: Shiang.TreasureBox.Load
+  name: Load()
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Load
+  commentId: M:Shiang.TreasureBox.Load
+  fullName: Shiang.TreasureBox.Load()
+  nameWithType: TreasureBox.Load()
+- uid: Shiang.TreasureBox.Load*
+  name: Load
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Load_
+  commentId: Overload:Shiang.TreasureBox.Load
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.Load
+  nameWithType: TreasureBox.Load
+- uid: Shiang.TreasureBox.OnClose
+  name: OnClose
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_OnClose
+  commentId: E:Shiang.TreasureBox.OnClose
+  fullName: Shiang.TreasureBox.OnClose
+  nameWithType: TreasureBox.OnClose
+- uid: Shiang.TreasureBox.OnOpen
+  name: OnOpen
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_OnOpen
+  commentId: E:Shiang.TreasureBox.OnOpen
+  fullName: Shiang.TreasureBox.OnOpen
+  nameWithType: TreasureBox.OnOpen
+- uid: Shiang.TreasureBox.Open
+  name: Open()
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Open
+  commentId: M:Shiang.TreasureBox.Open
+  fullName: Shiang.TreasureBox.Open()
+  nameWithType: TreasureBox.Open()
+- uid: Shiang.TreasureBox.Open*
+  name: Open
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Open_
+  commentId: Overload:Shiang.TreasureBox.Open
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.Open
+  nameWithType: TreasureBox.Open
+- uid: Shiang.TreasureBox.OpenCo
+  name: OpenCo()
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_OpenCo
+  commentId: M:Shiang.TreasureBox.OpenCo
+  fullName: Shiang.TreasureBox.OpenCo()
+  nameWithType: TreasureBox.OpenCo()
+- uid: Shiang.TreasureBox.OpenCo*
+  name: OpenCo
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_OpenCo_
+  commentId: Overload:Shiang.TreasureBox.OpenCo
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.OpenCo
+  nameWithType: TreasureBox.OpenCo
+- uid: Shiang.TreasureBox.Persister
+  name: Persister
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Persister
+  commentId: P:Shiang.TreasureBox.Persister
+  fullName: Shiang.TreasureBox.Persister
+  nameWithType: TreasureBox.Persister
+- uid: Shiang.TreasureBox.Persister*
+  name: Persister
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Persister_
+  commentId: Overload:Shiang.TreasureBox.Persister
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.Persister
+  nameWithType: TreasureBox.Persister
+- uid: Shiang.TreasureBox.Save
+  name: Save()
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Save
+  commentId: M:Shiang.TreasureBox.Save
+  fullName: Shiang.TreasureBox.Save()
+  nameWithType: TreasureBox.Save()
+- uid: Shiang.TreasureBox.Save*
+  name: Save
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_Save_
+  commentId: Overload:Shiang.TreasureBox.Save
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.Save
+  nameWithType: TreasureBox.Save
+- uid: Shiang.TreasureBox.StateMgr
+  name: StateMgr
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_StateMgr
+  commentId: P:Shiang.TreasureBox.StateMgr
+  fullName: Shiang.TreasureBox.StateMgr
+  nameWithType: TreasureBox.StateMgr
+- uid: Shiang.TreasureBox.StateMgr*
+  name: StateMgr
+  href: api/Shiang.TreasureBox.html#Shiang_TreasureBox_StateMgr_
+  commentId: Overload:Shiang.TreasureBox.StateMgr
+  isSpec: "True"
+  fullName: Shiang.TreasureBox.StateMgr
+  nameWithType: TreasureBox.StateMgr
 - uid: Shiang.TreasurePanel
   name: TreasurePanel
   href: api/Shiang.TreasurePanel.html
@@ -5297,6 +5428,19 @@ references:
   commentId: T:Shiang.UiManagement
   fullName: Shiang.UiManagement
   nameWithType: UiManagement
+- uid: Shiang.UiManagement.CurrentDialogueActivator
+  name: CurrentDialogueActivator
+  href: api/Shiang.UiManagement.html#Shiang_UiManagement_CurrentDialogueActivator
+  commentId: P:Shiang.UiManagement.CurrentDialogueActivator
+  fullName: Shiang.UiManagement.CurrentDialogueActivator
+  nameWithType: UiManagement.CurrentDialogueActivator
+- uid: Shiang.UiManagement.CurrentDialogueActivator*
+  name: CurrentDialogueActivator
+  href: api/Shiang.UiManagement.html#Shiang_UiManagement_CurrentDialogueActivator_
+  commentId: Overload:Shiang.UiManagement.CurrentDialogueActivator
+  isSpec: "True"
+  fullName: Shiang.UiManagement.CurrentDialogueActivator
+  nameWithType: UiManagement.CurrentDialogueActivator
 - uid: Shiang.UiManagement.CurrentTreasurePanelOwner
   name: CurrentTreasurePanelOwner
   href: api/Shiang.UiManagement.html#Shiang_UiManagement_CurrentTreasurePanelOwner
@@ -5407,6 +5551,22 @@ references:
   fullName.vb: Shiang.Utils.AbilityRefFromPoolOfType(Of T1)()
   nameWithType: Utils.AbilityRefFromPoolOfType<T1>()
   nameWithType.vb: Utils.AbilityRefFromPoolOfType(Of T1)()
+- uid: Shiang.Utils.Bind*
+  name: Bind
+  href: api/Shiang.Utils.html#Shiang_Utils_Bind_
+  commentId: Overload:Shiang.Utils.Bind
+  isSpec: "True"
+  fullName: Shiang.Utils.Bind
+  nameWithType: Utils.Bind
+- uid: Shiang.Utils.Bind``2(Func{``0,``1},``0)
+  name: Bind<T, TResult>(Func<T, TResult>, T)
+  href: api/Shiang.Utils.html#Shiang_Utils_Bind__2_Func___0___1____0_
+  commentId: M:Shiang.Utils.Bind``2(Func{``0,``1},``0)
+  name.vb: Bind(Of T, TResult)(Func(Of T, TResult), T)
+  fullName: Shiang.Utils.Bind<T, TResult>(Func<T, TResult>, T)
+  fullName.vb: Shiang.Utils.Bind(Of T, TResult)(Func(Of T, TResult), T)
+  nameWithType: Utils.Bind<T, TResult>(Func<T, TResult>, T)
+  nameWithType.vb: Utils.Bind(Of T, TResult)(Func(Of T, TResult), T)
 - uid: Shiang.Utils.BuildClips(AnimationClip[],System.String)
   name: BuildClips(AnimationClip[], String)
   href: api/Shiang.Utils.html#Shiang_Utils_BuildClips_AnimationClip___System_String_
@@ -5531,6 +5691,32 @@ references:
   fullName.vb: Shiang.Utils.CreateStateManager(Of T1, T2)(T2)
   nameWithType: Utils.CreateStateManager<T1, T2>(T2)
   nameWithType.vb: Utils.CreateStateManager(Of T1, T2)(T2)
+- uid: Shiang.Utils.EventSystemFirstSelect(GameObject)
+  name: EventSystemFirstSelect(GameObject)
+  href: api/Shiang.Utils.html#Shiang_Utils_EventSystemFirstSelect_GameObject_
+  commentId: M:Shiang.Utils.EventSystemFirstSelect(GameObject)
+  fullName: Shiang.Utils.EventSystemFirstSelect(GameObject)
+  nameWithType: Utils.EventSystemFirstSelect(GameObject)
+- uid: Shiang.Utils.EventSystemFirstSelect*
+  name: EventSystemFirstSelect
+  href: api/Shiang.Utils.html#Shiang_Utils_EventSystemFirstSelect_
+  commentId: Overload:Shiang.Utils.EventSystemFirstSelect
+  isSpec: "True"
+  fullName: Shiang.Utils.EventSystemFirstSelect
+  nameWithType: Utils.EventSystemFirstSelect
+- uid: Shiang.Utils.EventSystemSelect(GameObject)
+  name: EventSystemSelect(GameObject)
+  href: api/Shiang.Utils.html#Shiang_Utils_EventSystemSelect_GameObject_
+  commentId: M:Shiang.Utils.EventSystemSelect(GameObject)
+  fullName: Shiang.Utils.EventSystemSelect(GameObject)
+  nameWithType: Utils.EventSystemSelect(GameObject)
+- uid: Shiang.Utils.EventSystemSelect*
+  name: EventSystemSelect
+  href: api/Shiang.Utils.html#Shiang_Utils_EventSystemSelect_
+  commentId: Overload:Shiang.Utils.EventSystemSelect
+  isSpec: "True"
+  fullName: Shiang.Utils.EventSystemSelect
+  nameWithType: Utils.EventSystemSelect
 - uid: Shiang.Utils.GetSoundtrackByName(System.String)
   name: GetSoundtrackByName(String)
   href: api/Shiang.Utils.html#Shiang_Utils_GetSoundtrackByName_System_String_
@@ -5560,6 +5746,19 @@ references:
   fullName.vb: Shiang.Utils.GetSubclassesOf(Of T1)(System.Object())
   nameWithType: Utils.GetSubclassesOf<T1>(Object[])
   nameWithType.vb: Utils.GetSubclassesOf(Of T1)(Object())
+- uid: Shiang.Utils.HighlightButton(Button)
+  name: HighlightButton(Button)
+  href: api/Shiang.Utils.html#Shiang_Utils_HighlightButton_Button_
+  commentId: M:Shiang.Utils.HighlightButton(Button)
+  fullName: Shiang.Utils.HighlightButton(Button)
+  nameWithType: Utils.HighlightButton(Button)
+- uid: Shiang.Utils.HighlightButton*
+  name: HighlightButton
+  href: api/Shiang.Utils.html#Shiang_Utils_HighlightButton_
+  commentId: Overload:Shiang.Utils.HighlightButton
+  isSpec: "True"
+  fullName: Shiang.Utils.HighlightButton
+  nameWithType: Utils.HighlightButton
 - uid: Shiang.Utils.ItemClonedFromPoolOfType*
   name: ItemClonedFromPoolOfType
   href: api/Shiang.Utils.html#Shiang_Utils_ItemClonedFromPoolOfType_
@@ -5633,6 +5832,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.LoadEntityDatabase
   nameWithType: Utils.LoadEntityDatabase
+- uid: Shiang.Utils.LockCursor
+  name: LockCursor()
+  href: api/Shiang.Utils.html#Shiang_Utils_LockCursor
+  commentId: M:Shiang.Utils.LockCursor
+  fullName: Shiang.Utils.LockCursor()
+  nameWithType: Utils.LockCursor()
+- uid: Shiang.Utils.LockCursor*
+  name: LockCursor
+  href: api/Shiang.Utils.html#Shiang_Utils_LockCursor_
+  commentId: Overload:Shiang.Utils.LockCursor
+  isSpec: "True"
+  fullName: Shiang.Utils.LockCursor
+  nameWithType: Utils.LockCursor
 - uid: Shiang.Utils.RegisterForPersistenceAndLoad(Shiang.IPersist)
   name: RegisterForPersistenceAndLoad(IPersist)
   href: api/Shiang.Utils.html#Shiang_Utils_RegisterForPersistenceAndLoad_Shiang_IPersist_
@@ -5678,6 +5890,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.SaveForPersistence
   nameWithType: Utils.SaveForPersistence
+- uid: Shiang.Utils.SelectAndHighlightButton(Button)
+  name: SelectAndHighlightButton(Button)
+  href: api/Shiang.Utils.html#Shiang_Utils_SelectAndHighlightButton_Button_
+  commentId: M:Shiang.Utils.SelectAndHighlightButton(Button)
+  fullName: Shiang.Utils.SelectAndHighlightButton(Button)
+  nameWithType: Utils.SelectAndHighlightButton(Button)
+- uid: Shiang.Utils.SelectAndHighlightButton*
+  name: SelectAndHighlightButton
+  href: api/Shiang.Utils.html#Shiang_Utils_SelectAndHighlightButton_
+  commentId: Overload:Shiang.Utils.SelectAndHighlightButton
+  isSpec: "True"
+  fullName: Shiang.Utils.SelectAndHighlightButton
+  nameWithType: Utils.SelectAndHighlightButton
 - uid: Shiang.WangWangMilk
   name: WangWangMilk
   href: api/Shiang.WangWangMilk.html

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GenericSingleton&lt;T&gt;
+    <title>Class DialogueOption
    | Shiang v0.1.1 </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GenericSingleton&lt;T&gt;
+    <meta name="title" content="Class DialogueOption
    | Shiang v0.1.1 ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -78,58 +78,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Shiang.GenericSingleton`1">
+            <article class="content wrap" id="_content" data-uid="Shiang.DialogueOption">
   
   
-  <h1 id="Shiang_GenericSingleton_1" data-uid="Shiang.GenericSingleton`1" class="text-break">Class GenericSingleton&lt;T&gt;
+  <h1 id="Shiang_DialogueOption" data-uid="Shiang.DialogueOption" class="text-break">Class DialogueOption
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">GenericSingleton&lt;T&gt;</span></div>
-      <div class="level2"><a class="xref" href="Shiang.BackgroundMusic.html">BackgroundMusic</a></div>
-      <div class="level2"><a class="xref" href="Shiang.DialoguePanel.html">DialoguePanel</a></div>
-      <div class="level2"><a class="xref" href="Shiang.GameController.html">GameController</a></div>
-      <div class="level2"><a class="xref" href="Shiang.InputController.html">InputController</a></div>
-      <div class="level2"><a class="xref" href="Shiang.SoundtrackDB.html">SoundtrackDB</a></div>
-      <div class="level2"><a class="xref" href="Shiang.UiSceneLoader.html">UiSceneLoader</a></div>
+    <div class="level1"><span class="xref">DialogueOption</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Shiang.html">Shiang</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Shiang_GenericSingleton_1_syntax">Syntax</h5>
+  <h5 id="Shiang_DialogueOption_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GenericSingleton&lt;T&gt; : MonoBehaviour where T : Component</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class DialogueOption</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="Shiang_GenericSingleton_1_Instance_" data-uid="Shiang.GenericSingleton`1.Instance*"></a>
-  <h4 id="Shiang_GenericSingleton_1_Instance" data-uid="Shiang.GenericSingleton`1.Instance">Instance</h4>
+  <h4 id="Shiang_DialogueOption_button" data-uid="Shiang.DialogueOption.button">button</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Button button</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -139,23 +118,35 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><span class="xref">Button</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Shiang_GenericSingleton_1_Awake_" data-uid="Shiang.GenericSingleton`1.Awake*"></a>
-  <h4 id="Shiang_GenericSingleton_1_Awake" data-uid="Shiang.GenericSingleton`1.Awake">Awake()</h4>
+  <h4 id="Shiang_DialogueOption_text" data-uid="Shiang.DialogueOption.text">text</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Awake()</code></pre>
+    <pre><code class="lang-csharp hljs">public TMP_Text text</code></pre>
   </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TMP_Text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

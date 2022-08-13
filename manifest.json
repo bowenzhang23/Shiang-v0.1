@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.CollisionDetector.html",
-          "hash": "QWDn1DzHOdYXypKBdmym0xgYygY+3obVjMraJVJfPNQ="
+          "hash": "DT54xfdfjgX1nnTzrJ0jUNKGiF++DgUtE0XLxJ2KJmE="
         }
       },
       "is_incremental": false,
@@ -300,6 +300,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.DialogueData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.DialogueData.html",
+          "hash": "w2SchcGNQnROf+fe/nPrp0jrx2Rb1H6y2h5Qop4GQVM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.DialogueOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.DialogueOption.html",
+          "hash": "2eqvsRjPKAoNB3xwcBDqIUb0ONy1oLooBeds64UA8fM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.DialoguePanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.DialoguePanel.html",
+          "hash": "9n9Z9AFwzGkW/2/a0rIv8WHp6S/5Nv/czZUTqdCG1WY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.DialogueTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.DialogueTrigger.html",
+          "hash": "gfqpi7JILUdNSeGYfjqtkXRsfarvFmwgXhpqIjyfiNU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.EntityDB.yml",
       "output": {
         ".html": {
@@ -372,18 +420,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Shiang.Fridge.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Shiang.Fridge.html",
-          "hash": "Xfjai8EmSmrrOFoJ1wQ9MvDPiLZeAgYi1nLZMe8TnfM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.GameController.yml",
       "output": {
         ".html": {
@@ -412,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.GenericSingleton-1.html",
-          "hash": "DhAOX8mZYBbec0B8pUhuD4P9LC6EI0qE0Pzs8w6YH78="
+          "hash": "wt39EtAEcJbfANcKlrBIbWV5kc3Ue/erfXcl37d+WFI="
         }
       },
       "is_incremental": false,
@@ -720,11 +756,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Shiang.ITreasure.yml",
+      "source_relative_path": "api/Shiang.IStoryTeller.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Shiang.ITreasure.html",
-          "hash": "W1hA2iUM4pAm4q5XjLpefQiVqvHCITZ6WupUUTrcQ88="
+          "relative_path": "api/Shiang.IStoryTeller.html",
+          "hash": "Pn27XkbL7ls/g4+HoiIytWAhFu+5sZ2YwADbCq2U73A="
         }
       },
       "is_incremental": false,
@@ -732,11 +768,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Shiang.IUiTrigger.yml",
+      "source_relative_path": "api/Shiang.ITreasure.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Shiang.IUiTrigger.html",
-          "hash": "/0JgVYDcpyxofdmJRP7MnSdYJtvOjxhPGqrpzmVddKQ="
+          "relative_path": "api/Shiang.ITreasure.html",
+          "hash": "W1hA2iUM4pAm4q5XjLpefQiVqvHCITZ6WupUUTrcQ88="
         }
       },
       "is_incremental": false,
@@ -964,7 +1000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Rabbit.html",
-          "hash": "5RO5PXhbjoxxxtk+dvegGB8XBVCYuTaDimqpSGjdluo="
+          "hash": "mQJuseITFdCIGA19sHEZCfLuxsmFbbncYLdkQOxRjrQ="
         }
       },
       "is_incremental": false,
@@ -1152,6 +1188,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.TreasureBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.TreasureBox.html",
+          "hash": "5k9RhJKkclzfs8I/vcspwz1n4/ouFB6mjNefMxmUNL0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.TreasurePanel.yml",
       "output": {
         ".html": {
@@ -1168,7 +1216,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.UiManagement.html",
-          "hash": "wa/DzcvTYvHQbCJqNP1sT/27lqODRBcLkjpRyZBpn0o="
+          "hash": "TcyO5EjVC16vFZxTaoXoeW6Eg29UxAt6tc+fK13KhVo="
         }
       },
       "is_incremental": false,
@@ -1228,7 +1276,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Utils.html",
-          "hash": "OkzllgUExCAvsC4UukQiL+yWkFOUvjA2bOy8Zl7LEe4="
+          "hash": "QUcCReHVG76r/y8V++w7wCrah09jmN9v5NE6K5FYcdw="
         }
       },
       "is_incremental": false,
@@ -1300,7 +1348,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.html",
-          "hash": "u9jjB9GnKkFpnHr5dlzFqbcLDDMa3C9OBDV+HXS43s0="
+          "hash": "92tV0XIUT8CuEnGWRXTGCvdrvAF+o6q2uVNeNgSAg9s="
         }
       },
       "is_incremental": false,
@@ -1636,7 +1684,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Pn6eHYbLgfwarBWqYFLw9yVGDTTZns7CPwElZxtTpO0="
+          "hash": "Uji9ECjxLe0V9Y0ZFLOuMN2PoohJ5pDk4VQsiJHs+vI="
         }
       },
       "is_incremental": false,
@@ -1746,7 +1794,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 134,
+          "total_file_count": 138,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -141,6 +141,72 @@
   </table>
   
   
+  <a id="Shiang_Utils_Bind_" data-uid="Shiang.Utils.Bind*"></a>
+  <h4 id="Shiang_Utils_Bind__2_Func___0___1____0_" data-uid="Shiang.Utils.Bind``2(Func{``0,``1},``0)">Bind&lt;T, TResult&gt;(Func&lt;T, TResult&gt;, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;TResult&gt; Bind&lt;T, TResult&gt;(Func&lt;T, TResult&gt; func, T arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Shiang_Utils_BuildClips_" data-uid="Shiang.Utils.BuildClips*"></a>
   <h4 id="Shiang_Utils_BuildClips_AnimationClip___System_String_" data-uid="Shiang.Utils.BuildClips(AnimationClip[],System.String)">BuildClips(AnimationClip[], String)</h4>
   <div class="markdown level1 summary"></div>
@@ -572,6 +638,60 @@
   </table>
   
   
+  <a id="Shiang_Utils_EventSystemFirstSelect_" data-uid="Shiang.Utils.EventSystemFirstSelect*"></a>
+  <h4 id="Shiang_Utils_EventSystemFirstSelect_GameObject_" data-uid="Shiang.Utils.EventSystemFirstSelect(GameObject)">EventSystemFirstSelect(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EventSystemFirstSelect(GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_Utils_EventSystemSelect_" data-uid="Shiang.Utils.EventSystemSelect*"></a>
+  <h4 id="Shiang_Utils_EventSystemSelect_GameObject_" data-uid="Shiang.Utils.EventSystemSelect(GameObject)">EventSystemSelect(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EventSystemSelect(GameObject gameObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Shiang_Utils_GetSoundtrackByName_" data-uid="Shiang.Utils.GetSoundtrackByName*"></a>
   <h4 id="Shiang_Utils_GetSoundtrackByName_System_String_" data-uid="Shiang.Utils.GetSoundtrackByName(System.String)">GetSoundtrackByName(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -665,6 +785,35 @@
     <tbody>
       <tr>
         <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Shiang_Utils_HighlightButton_" data-uid="Shiang.Utils.HighlightButton*"></a>
+  <h4 id="Shiang_Utils_HighlightButton_Button_" data-uid="Shiang.Utils.HighlightButton(Button)">HighlightButton(Button)</h4>
+  <div class="markdown level1 summary"><p>I stuck for a while and found the trick here:
+<a href="https://answers.unity.com/questions/1159573/eventsystemsetselectedgameobject-doesnt-highlight.html">https://answers.unity.com/questions/1159573/eventsystemsetselectedgameobject-doesnt-highlight.html</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void HighlightButton(Button btn)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Button</span></td>
+        <td><span class="parametername">btn</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -860,6 +1009,16 @@
   </table>
   
   
+  <a id="Shiang_Utils_LockCursor_" data-uid="Shiang.Utils.LockCursor*"></a>
+  <h4 id="Shiang_Utils_LockCursor" data-uid="Shiang.Utils.LockCursor">LockCursor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LockCursor()</code></pre>
+  </div>
+  
+  
   <a id="Shiang_Utils_RegisterForPersistenceAndLoad_" data-uid="Shiang.Utils.RegisterForPersistenceAndLoad*"></a>
   <h4 id="Shiang_Utils_RegisterForPersistenceAndLoad_Shiang_IPersist_" data-uid="Shiang.Utils.RegisterForPersistenceAndLoad(Shiang.IPersist)">RegisterForPersistenceAndLoad(IPersist)</h4>
   <div class="markdown level1 summary"></div>
@@ -964,6 +1123,33 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void SaveForPersistence()</code></pre>
   </div>
+  
+  
+  <a id="Shiang_Utils_SelectAndHighlightButton_" data-uid="Shiang.Utils.SelectAndHighlightButton*"></a>
+  <h4 id="Shiang_Utils_SelectAndHighlightButton_Button_" data-uid="Shiang.Utils.SelectAndHighlightButton(Button)">SelectAndHighlightButton(Button)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SelectAndHighlightButton(Button btn)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Button</span></td>
+        <td><span class="parametername">btn</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

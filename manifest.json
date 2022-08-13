@@ -192,6 +192,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.CameraSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.CameraSwitch.html",
+          "hash": "Xy1Izb89MfUdEiMuxF+dIOCYyykHZiar8LiYUmqvk1w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.CameraZoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.CameraZoom.html",
+          "hash": "/BSGPQ5H9DfYs84A2ZBmi2ucpa23PAaNUWpdSXkxYE4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.CloseState.yml",
       "output": {
         ".html": {
@@ -820,7 +844,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.InputController.html",
-          "hash": "AcgjvkvoxyyXOdRfJGjdiCAuRkE+VShaesuKSRJAKLE="
+          "hash": "/5fa9cZ+5N613khM3spj4/yn6VXt8Wkk3fH+pjVR438="
         }
       },
       "is_incremental": false,
@@ -1284,6 +1308,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.VerticalMoveBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.VerticalMoveBody.html",
+          "hash": "OwA9O+mvqmAvbgdY5gMctYMLVl1NnUCWQqE/yzrV/L4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.WangWangMilk.yml",
       "output": {
         ".html": {
@@ -1348,7 +1384,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.html",
-          "hash": "92tV0XIUT8CuEnGWRXTGCvdrvAF+o6q2uVNeNgSAg9s="
+          "hash": "jbmXu5nVMSqZUZ1W2qPaXO/74HSDs2WdaZMmQohu8+g="
         }
       },
       "is_incremental": false,
@@ -1684,7 +1720,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Uji9ECjxLe0V9Y0ZFLOuMN2PoohJ5pDk4VQsiJHs+vI="
+          "hash": "MfWoVeICgpCair06ElTUQXV4I1k33nXIM+5GZe19N9A="
         }
       },
       "is_incremental": false,
@@ -1794,7 +1830,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 138,
+          "total_file_count": 141,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -1003,6 +1003,18 @@ references:
   isSpec: "True"
   fullName: Shiang.Broadsword.Image
   nameWithType: Broadsword.Image
+- uid: Shiang.CameraSwitch
+  name: CameraSwitch
+  href: api/Shiang.CameraSwitch.html
+  commentId: T:Shiang.CameraSwitch
+  fullName: Shiang.CameraSwitch
+  nameWithType: CameraSwitch
+- uid: Shiang.CameraZoom
+  name: CameraZoom
+  href: api/Shiang.CameraZoom.html
+  commentId: T:Shiang.CameraZoom
+  fullName: Shiang.CameraZoom
+  nameWithType: CameraZoom
 - uid: Shiang.CloseState
   name: CloseState
   href: api/Shiang.CloseState.html
@@ -2610,6 +2622,45 @@ references:
   isSpec: "True"
   fullName: Shiang.InputController.Awake
   nameWithType: InputController.Awake
+- uid: Shiang.InputController.CameraSwitch
+  name: CameraSwitch
+  href: api/Shiang.InputController.html#Shiang_InputController_CameraSwitch
+  commentId: P:Shiang.InputController.CameraSwitch
+  fullName: Shiang.InputController.CameraSwitch
+  nameWithType: InputController.CameraSwitch
+- uid: Shiang.InputController.CameraSwitch*
+  name: CameraSwitch
+  href: api/Shiang.InputController.html#Shiang_InputController_CameraSwitch_
+  commentId: Overload:Shiang.InputController.CameraSwitch
+  isSpec: "True"
+  fullName: Shiang.InputController.CameraSwitch
+  nameWithType: InputController.CameraSwitch
+- uid: Shiang.InputController.CameraZoomIn
+  name: CameraZoomIn
+  href: api/Shiang.InputController.html#Shiang_InputController_CameraZoomIn
+  commentId: P:Shiang.InputController.CameraZoomIn
+  fullName: Shiang.InputController.CameraZoomIn
+  nameWithType: InputController.CameraZoomIn
+- uid: Shiang.InputController.CameraZoomIn*
+  name: CameraZoomIn
+  href: api/Shiang.InputController.html#Shiang_InputController_CameraZoomIn_
+  commentId: Overload:Shiang.InputController.CameraZoomIn
+  isSpec: "True"
+  fullName: Shiang.InputController.CameraZoomIn
+  nameWithType: InputController.CameraZoomIn
+- uid: Shiang.InputController.CameraZoomOut
+  name: CameraZoomOut
+  href: api/Shiang.InputController.html#Shiang_InputController_CameraZoomOut
+  commentId: P:Shiang.InputController.CameraZoomOut
+  fullName: Shiang.InputController.CameraZoomOut
+  nameWithType: InputController.CameraZoomOut
+- uid: Shiang.InputController.CameraZoomOut*
+  name: CameraZoomOut
+  href: api/Shiang.InputController.html#Shiang_InputController_CameraZoomOut_
+  commentId: Overload:Shiang.InputController.CameraZoomOut
+  isSpec: "True"
+  fullName: Shiang.InputController.CameraZoomOut
+  nameWithType: InputController.CameraZoomOut
 - uid: Shiang.InputController.ChangeX
   name: ChangeX
   href: api/Shiang.InputController.html#Shiang_InputController_ChangeX
@@ -2777,19 +2828,6 @@ references:
   isSpec: "True"
   fullName: Shiang.InputController.UseWeapon
   nameWithType: InputController.UseWeapon
-- uid: Shiang.InputController.Zoom
-  name: Zoom
-  href: api/Shiang.InputController.html#Shiang_InputController_Zoom
-  commentId: P:Shiang.InputController.Zoom
-  fullName: Shiang.InputController.Zoom
-  nameWithType: InputController.Zoom
-- uid: Shiang.InputController.Zoom*
-  name: Zoom
-  href: api/Shiang.InputController.html#Shiang_InputController_Zoom_
-  commentId: Overload:Shiang.InputController.Zoom
-  isSpec: "True"
-  fullName: Shiang.InputController.Zoom
-  nameWithType: InputController.Zoom
 - uid: Shiang.InputStateManager
   name: InputStateManager
   href: api/Shiang.InputStateManager.html
@@ -5903,6 +5941,51 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.SelectAndHighlightButton
   nameWithType: Utils.SelectAndHighlightButton
+- uid: Shiang.VerticalMoveBody
+  name: VerticalMoveBody
+  href: api/Shiang.VerticalMoveBody.html
+  commentId: T:Shiang.VerticalMoveBody
+  fullName: Shiang.VerticalMoveBody
+  nameWithType: VerticalMoveBody
+- uid: Shiang.VerticalMoveBody.Idle
+  name: Idle()
+  href: api/Shiang.VerticalMoveBody.html#Shiang_VerticalMoveBody_Idle
+  commentId: M:Shiang.VerticalMoveBody.Idle
+  fullName: Shiang.VerticalMoveBody.Idle()
+  nameWithType: VerticalMoveBody.Idle()
+- uid: Shiang.VerticalMoveBody.Idle*
+  name: Idle
+  href: api/Shiang.VerticalMoveBody.html#Shiang_VerticalMoveBody_Idle_
+  commentId: Overload:Shiang.VerticalMoveBody.Idle
+  isSpec: "True"
+  fullName: Shiang.VerticalMoveBody.Idle
+  nameWithType: VerticalMoveBody.Idle
+- uid: Shiang.VerticalMoveBody.Move
+  name: Move()
+  href: api/Shiang.VerticalMoveBody.html#Shiang_VerticalMoveBody_Move
+  commentId: M:Shiang.VerticalMoveBody.Move
+  fullName: Shiang.VerticalMoveBody.Move()
+  nameWithType: VerticalMoveBody.Move()
+- uid: Shiang.VerticalMoveBody.Move*
+  name: Move
+  href: api/Shiang.VerticalMoveBody.html#Shiang_VerticalMoveBody_Move_
+  commentId: Overload:Shiang.VerticalMoveBody.Move
+  isSpec: "True"
+  fullName: Shiang.VerticalMoveBody.Move
+  nameWithType: VerticalMoveBody.Move
+- uid: Shiang.VerticalMoveBody.Orientation
+  name: Orientation
+  href: api/Shiang.VerticalMoveBody.html#Shiang_VerticalMoveBody_Orientation
+  commentId: P:Shiang.VerticalMoveBody.Orientation
+  fullName: Shiang.VerticalMoveBody.Orientation
+  nameWithType: VerticalMoveBody.Orientation
+- uid: Shiang.VerticalMoveBody.Orientation*
+  name: Orientation
+  href: api/Shiang.VerticalMoveBody.html#Shiang_VerticalMoveBody_Orientation_
+  commentId: Overload:Shiang.VerticalMoveBody.Orientation
+  isSpec: "True"
+  fullName: Shiang.VerticalMoveBody.Orientation
+  nameWithType: VerticalMoveBody.Orientation
 - uid: Shiang.WangWangMilk
   name: WangWangMilk
   href: api/Shiang.WangWangMilk.html

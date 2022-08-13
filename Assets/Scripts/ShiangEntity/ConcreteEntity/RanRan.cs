@@ -102,14 +102,24 @@ namespace Shiang
 
         public void Idle()
         {
+#if UNITY_EDITOR
+            Anim.speed = 1f;
+#endif
             Anim.Play(Info.ANIM_NAMES[typeof(IdleState)][(int)_orientation]);
         }
 
         public void Move()
         {
+#if UNITY_EDITOR
+            Anim.speed = 5f;
+            Anim.Play(Info.ANIM_NAMES[typeof(MoveState)][(int)_orientation]);
+            _orientation = _inputController.ChangeX > 0 ? Orientation.Right : Orientation.Left;
+            transform.position += Vector3.right * _inputController.ChangeX * _speed * 5f * Time.deltaTime;
+#else
             Anim.Play(Info.ANIM_NAMES[typeof(MoveState)][(int)_orientation]);
             _orientation = _inputController.ChangeX > 0 ? Orientation.Right : Orientation.Left;
             transform.position += Vector3.right * _inputController.ChangeX * _speed * Time.deltaTime;
+#endif
         }
 
         public void Cool()
@@ -142,8 +152,8 @@ namespace Shiang
 
         public void Load()
         {
-            _inventory = new ItemContainer(GameMechanism.INVENTORY_CAPACITY);
-            _abilityContainer = new AbilityContainer(GameMechanism.ABILITY_CAPACITY);
+            _inventory = Utils.CreateItemContainer(GameMechanism.INVENTORY_CAPACITY);
+            _abilityContainer = Utils.CreateAbilityContainer(GameMechanism.ABILITY_CAPACITY);
             Utils.LoadEntityDatabase(GetType().Name, ref _inventory, ref _abilityContainer);
 
             _currentWeapon = (Weapon)_inventory.Weapons()[0];

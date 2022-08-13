@@ -46,8 +46,7 @@ namespace Shiang
     {
         public enum InputMode { Game, Ui }
 
-        private InputStateManager _stateMgr;
-        private const float PAUSE_DURATION = 0.5f;
+        InputStateManager _stateMgr;
 
         public InputMode Mode { get; set; }
 
@@ -57,7 +56,11 @@ namespace Shiang
 
         public bool Interact { get; private set; }
 
-        public bool Zoom { get; private set; }
+        public bool CameraZoomIn { get; private set; }
+
+        public bool CameraZoomOut { get; private set; }
+
+        public bool CameraSwitch { get; private set; }
 
         public bool UseWeapon { get; private set; }
 
@@ -89,7 +92,9 @@ namespace Shiang
             ChangeY = dy != 0f ? Mathf.Sign(dy) : 0f;
 
             Interact = Input.GetKeyDown(KeyCode.I);
-            Zoom = Input.GetKeyDown(KeyCode.Z);
+            CameraZoomIn = Input.GetKey(KeyCode.Z);
+            CameraZoomOut = Input.GetKeyUp(KeyCode.Z);
+            CameraSwitch = Input.GetKeyDown(KeyCode.X);
 
             UseWeapon = Input.GetKeyDown(KeyCode.Space);
             UseAbility = Input.GetKeyDown(KeyCode.LeftControl);

@@ -24,6 +24,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.MobileUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MobileUI.html",
+          "hash": "Flbpxnbodpm+93Xo4bPs2TREYCfpkGzqCyiUYsWoVHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "PO0pwJ+aFdy4TCg73FgG9408RskUW+GqOF9QK2cgH9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.Ability.yml",
       "output": {
         ".html": {
@@ -312,6 +336,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.DebugTextUi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.DebugTextUi.html",
+          "hash": "9U0Gfa+qwEFOujKfKHCpOfKNcqki0rIvjtMAO02+dWs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.DescriptionPanel.yml",
       "output": {
         ".html": {
@@ -437,6 +473,18 @@
         ".html": {
           "relative_path": "api/Shiang.FootstepSound.html",
           "hash": "mVr4UOQcjPZSh9jT7pZStFVtAHrUc723t9eXbBWgJu8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.FramePerSecondUi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.FramePerSecondUi.html",
+          "hash": "R/i0Tae52q0zBrcKXaWkJZn76D0rYY1u0DkG3YDJWoQ="
         }
       },
       "is_incremental": false,
@@ -948,6 +996,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.OnClickHoldButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.OnClickHoldButton.html",
+          "hash": "biInmZEX74a7gNC/11eklm3n34N0pK53VwuTKcRnzeo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.OpenState.yml",
       "output": {
         ".html": {
@@ -1188,6 +1248,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.TestDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.TestDatabase.html",
+          "hash": "WqHkJjH23uL0+XUidqdM3VlizA3mbQdAqgMweL3Qo14="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.Ticket.yml",
       "output": {
         ".html": {
@@ -1300,7 +1372,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.Utils.html",
-          "hash": "QUcCReHVG76r/y8V++w7wCrah09jmN9v5NE6K5FYcdw="
+          "hash": "kGQH6iiDYkvyDNGgvPoELhL6Lmy8Uf2JN5hZksF+2Gs="
         }
       },
       "is_incremental": false,
@@ -1384,7 +1456,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.html",
-          "hash": "jbmXu5nVMSqZUZ1W2qPaXO/74HSDs2WdaZMmQohu8+g="
+          "hash": "oInxc4jcDQH2J5oEB/i0UxYjogUxD+4Fz8dkm7dKV9Q="
         }
       },
       "is_incremental": false,
@@ -1720,7 +1792,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "MfWoVeICgpCair06ElTUQXV4I1k33nXIM+5GZe19N9A="
+          "hash": "lFtagPJY5PGLTi9fDWfZzmA54GZvFXUDnFWWW4M/Yt0="
         }
       },
       "is_incremental": false,
@@ -1803,7 +1875,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "qJhHDhrHsrmx4G7kFrBFTMAfnyXMpaBOWUEInGtm3n8="
+          "hash": "lM6YgaMh7epxZLqO9Iz5+1C7DGJkx3xr2shFmHFB5AQ="
         }
       },
       "is_incremental": false,
@@ -1830,7 +1902,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 141,
+          "total_file_count": 147,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

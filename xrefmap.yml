@@ -1,6 +1,68 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Global
+  name: Global
+  href: api/Global.html
+  name.vb: ''
+  fullName: Global
+  fullName.vb: ''
+  nameWithType: Global
+  nameWithType.vb: ''
+- uid: Global.MobileUI
+  name: MobileUI
+  href: api/Global.MobileUI.html
+  commentId: T:Global.MobileUI
+  fullName: MobileUI
+  nameWithType: MobileUI
+- uid: Global.MobileUI.MOBILE_Ability
+  name: MOBILE_Ability
+  href: api/Global.MobileUI.html#Global_MobileUI_MOBILE_Ability
+  commentId: F:Global.MobileUI.MOBILE_Ability
+  fullName: MobileUI.MOBILE_Ability
+  nameWithType: MobileUI.MOBILE_Ability
+- uid: Global.MobileUI.MOBILE_Esc
+  name: MOBILE_Esc
+  href: api/Global.MobileUI.html#Global_MobileUI_MOBILE_Esc
+  commentId: F:Global.MobileUI.MOBILE_Esc
+  fullName: MobileUI.MOBILE_Esc
+  nameWithType: MobileUI.MOBILE_Esc
+- uid: Global.MobileUI.MOBILE_Interact
+  name: MOBILE_Interact
+  href: api/Global.MobileUI.html#Global_MobileUI_MOBILE_Interact
+  commentId: F:Global.MobileUI.MOBILE_Interact
+  fullName: MobileUI.MOBILE_Interact
+  nameWithType: MobileUI.MOBILE_Interact
+- uid: Global.MobileUI.MOBILE_Left
+  name: MOBILE_Left
+  href: api/Global.MobileUI.html#Global_MobileUI_MOBILE_Left
+  commentId: F:Global.MobileUI.MOBILE_Left
+  fullName: MobileUI.MOBILE_Left
+  nameWithType: MobileUI.MOBILE_Left
+- uid: Global.MobileUI.MOBILE_Right
+  name: MOBILE_Right
+  href: api/Global.MobileUI.html#Global_MobileUI_MOBILE_Right
+  commentId: F:Global.MobileUI.MOBILE_Right
+  fullName: MobileUI.MOBILE_Right
+  nameWithType: MobileUI.MOBILE_Right
+- uid: Global.MobileUI.MOBILE_Switch
+  name: MOBILE_Switch
+  href: api/Global.MobileUI.html#Global_MobileUI_MOBILE_Switch
+  commentId: F:Global.MobileUI.MOBILE_Switch
+  fullName: MobileUI.MOBILE_Switch
+  nameWithType: MobileUI.MOBILE_Switch
+- uid: Global.MobileUI.MOBILE_Weapon
+  name: MOBILE_Weapon
+  href: api/Global.MobileUI.html#Global_MobileUI_MOBILE_Weapon
+  commentId: F:Global.MobileUI.MOBILE_Weapon
+  fullName: MobileUI.MOBILE_Weapon
+  nameWithType: MobileUI.MOBILE_Weapon
+- uid: Global.MobileUI.MOBILE_Zoom
+  name: MOBILE_Zoom
+  href: api/Global.MobileUI.html#Global_MobileUI_MOBILE_Zoom
+  commentId: F:Global.MobileUI.MOBILE_Zoom
+  fullName: MobileUI.MOBILE_Zoom
+  nameWithType: MobileUI.MOBILE_Zoom
 - uid: Shiang
   name: Shiang
   href: api/Shiang.html
@@ -1496,6 +1558,12 @@ references:
   isSpec: "True"
   fullName: Shiang.CoolState.Tick
   nameWithType: CoolState.Tick
+- uid: Shiang.DebugTextUi
+  name: DebugTextUi
+  href: api/Shiang.DebugTextUi.html
+  commentId: T:Shiang.DebugTextUi
+  fullName: Shiang.DebugTextUi
+  nameWithType: DebugTextUi
 - uid: Shiang.DescriptionPanel
   name: DescriptionPanel
   href: api/Shiang.DescriptionPanel.html
@@ -1892,6 +1960,12 @@ references:
   isSpec: "True"
   fullName: Shiang.FootstepSound.Step
   nameWithType: FootstepSound.Step
+- uid: Shiang.FramePerSecondUi
+  name: FramePerSecondUi
+  href: api/Shiang.FramePerSecondUi.html
+  commentId: T:Shiang.FramePerSecondUi
+  fullName: Shiang.FramePerSecondUi
+  nameWithType: FramePerSecondUi
 - uid: Shiang.GameController
   name: GameController
   href: api/Shiang.GameController.html
@@ -3598,6 +3672,51 @@ references:
   isSpec: "True"
   fullName: Shiang.MoveState.Tick
   nameWithType: MoveState.Tick
+- uid: Shiang.OnClickHoldButton
+  name: OnClickHoldButton
+  href: api/Shiang.OnClickHoldButton.html
+  commentId: T:Shiang.OnClickHoldButton
+  fullName: Shiang.OnClickHoldButton
+  nameWithType: OnClickHoldButton
+- uid: Shiang.OnClickHoldButton.OnPointerDown(PointerEventData)
+  name: OnPointerDown(PointerEventData)
+  href: api/Shiang.OnClickHoldButton.html#Shiang_OnClickHoldButton_OnPointerDown_PointerEventData_
+  commentId: M:Shiang.OnClickHoldButton.OnPointerDown(PointerEventData)
+  fullName: Shiang.OnClickHoldButton.OnPointerDown(PointerEventData)
+  nameWithType: OnClickHoldButton.OnPointerDown(PointerEventData)
+- uid: Shiang.OnClickHoldButton.OnPointerDown*
+  name: OnPointerDown
+  href: api/Shiang.OnClickHoldButton.html#Shiang_OnClickHoldButton_OnPointerDown_
+  commentId: Overload:Shiang.OnClickHoldButton.OnPointerDown
+  isSpec: "True"
+  fullName: Shiang.OnClickHoldButton.OnPointerDown
+  nameWithType: OnClickHoldButton.OnPointerDown
+- uid: Shiang.OnClickHoldButton.OnPointerUp(PointerEventData)
+  name: OnPointerUp(PointerEventData)
+  href: api/Shiang.OnClickHoldButton.html#Shiang_OnClickHoldButton_OnPointerUp_PointerEventData_
+  commentId: M:Shiang.OnClickHoldButton.OnPointerUp(PointerEventData)
+  fullName: Shiang.OnClickHoldButton.OnPointerUp(PointerEventData)
+  nameWithType: OnClickHoldButton.OnPointerUp(PointerEventData)
+- uid: Shiang.OnClickHoldButton.OnPointerUp*
+  name: OnPointerUp
+  href: api/Shiang.OnClickHoldButton.html#Shiang_OnClickHoldButton_OnPointerUp_
+  commentId: Overload:Shiang.OnClickHoldButton.OnPointerUp
+  isSpec: "True"
+  fullName: Shiang.OnClickHoldButton.OnPointerUp
+  nameWithType: OnClickHoldButton.OnPointerUp
+- uid: Shiang.OnClickHoldButton.Routine
+  name: Routine()
+  href: api/Shiang.OnClickHoldButton.html#Shiang_OnClickHoldButton_Routine
+  commentId: M:Shiang.OnClickHoldButton.Routine
+  fullName: Shiang.OnClickHoldButton.Routine()
+  nameWithType: OnClickHoldButton.Routine()
+- uid: Shiang.OnClickHoldButton.Routine*
+  name: Routine
+  href: api/Shiang.OnClickHoldButton.html#Shiang_OnClickHoldButton_Routine_
+  commentId: Overload:Shiang.OnClickHoldButton.Routine
+  isSpec: "True"
+  fullName: Shiang.OnClickHoldButton.Routine
+  nameWithType: OnClickHoldButton.Routine
 - uid: Shiang.OpenState
   name: OpenState
   href: api/Shiang.OpenState.html
@@ -5148,6 +5267,103 @@ references:
   fullName.vb: Shiang.TableDatabase(Of T1).RetrieveData
   nameWithType: TableDatabase<T1>.RetrieveData
   nameWithType.vb: TableDatabase(Of T1).RetrieveData
+- uid: Shiang.TestDatabase
+  name: TestDatabase
+  href: api/Shiang.TestDatabase.html
+  commentId: T:Shiang.TestDatabase
+  fullName: Shiang.TestDatabase
+  nameWithType: TestDatabase
+- uid: Shiang.TestDatabase.CreateDatabase
+  name: CreateDatabase()
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_CreateDatabase
+  commentId: M:Shiang.TestDatabase.CreateDatabase
+  fullName: Shiang.TestDatabase.CreateDatabase()
+  nameWithType: TestDatabase.CreateDatabase()
+- uid: Shiang.TestDatabase.CreateDatabase*
+  name: CreateDatabase
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_CreateDatabase_
+  commentId: Overload:Shiang.TestDatabase.CreateDatabase
+  isSpec: "True"
+  fullName: Shiang.TestDatabase.CreateDatabase
+  nameWithType: TestDatabase.CreateDatabase
+- uid: Shiang.TestDatabase.WriteToAbilityDB
+  name: WriteToAbilityDB()
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToAbilityDB
+  commentId: M:Shiang.TestDatabase.WriteToAbilityDB
+  fullName: Shiang.TestDatabase.WriteToAbilityDB()
+  nameWithType: TestDatabase.WriteToAbilityDB()
+- uid: Shiang.TestDatabase.WriteToAbilityDB*
+  name: WriteToAbilityDB
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToAbilityDB_
+  commentId: Overload:Shiang.TestDatabase.WriteToAbilityDB
+  isSpec: "True"
+  fullName: Shiang.TestDatabase.WriteToAbilityDB
+  nameWithType: TestDatabase.WriteToAbilityDB
+- uid: Shiang.TestDatabase.WriteToConsumableDB
+  name: WriteToConsumableDB()
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToConsumableDB
+  commentId: M:Shiang.TestDatabase.WriteToConsumableDB
+  fullName: Shiang.TestDatabase.WriteToConsumableDB()
+  nameWithType: TestDatabase.WriteToConsumableDB()
+- uid: Shiang.TestDatabase.WriteToConsumableDB*
+  name: WriteToConsumableDB
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToConsumableDB_
+  commentId: Overload:Shiang.TestDatabase.WriteToConsumableDB
+  isSpec: "True"
+  fullName: Shiang.TestDatabase.WriteToConsumableDB
+  nameWithType: TestDatabase.WriteToConsumableDB
+- uid: Shiang.TestDatabase.WriteToEntityDB
+  name: WriteToEntityDB()
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToEntityDB
+  commentId: M:Shiang.TestDatabase.WriteToEntityDB
+  fullName: Shiang.TestDatabase.WriteToEntityDB()
+  nameWithType: TestDatabase.WriteToEntityDB()
+- uid: Shiang.TestDatabase.WriteToEntityDB*
+  name: WriteToEntityDB
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToEntityDB_
+  commentId: Overload:Shiang.TestDatabase.WriteToEntityDB
+  isSpec: "True"
+  fullName: Shiang.TestDatabase.WriteToEntityDB
+  nameWithType: TestDatabase.WriteToEntityDB
+- uid: Shiang.TestDatabase.WriteToEntityDBForFridge
+  name: WriteToEntityDBForFridge()
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToEntityDBForFridge
+  commentId: M:Shiang.TestDatabase.WriteToEntityDBForFridge
+  fullName: Shiang.TestDatabase.WriteToEntityDBForFridge()
+  nameWithType: TestDatabase.WriteToEntityDBForFridge()
+- uid: Shiang.TestDatabase.WriteToEntityDBForFridge*
+  name: WriteToEntityDBForFridge
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToEntityDBForFridge_
+  commentId: Overload:Shiang.TestDatabase.WriteToEntityDBForFridge
+  isSpec: "True"
+  fullName: Shiang.TestDatabase.WriteToEntityDBForFridge
+  nameWithType: TestDatabase.WriteToEntityDBForFridge
+- uid: Shiang.TestDatabase.WriteToResourcePathDB
+  name: WriteToResourcePathDB()
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToResourcePathDB
+  commentId: M:Shiang.TestDatabase.WriteToResourcePathDB
+  fullName: Shiang.TestDatabase.WriteToResourcePathDB()
+  nameWithType: TestDatabase.WriteToResourcePathDB()
+- uid: Shiang.TestDatabase.WriteToResourcePathDB*
+  name: WriteToResourcePathDB
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToResourcePathDB_
+  commentId: Overload:Shiang.TestDatabase.WriteToResourcePathDB
+  isSpec: "True"
+  fullName: Shiang.TestDatabase.WriteToResourcePathDB
+  nameWithType: TestDatabase.WriteToResourcePathDB
+- uid: Shiang.TestDatabase.WriteToWeaponDB
+  name: WriteToWeaponDB()
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToWeaponDB
+  commentId: M:Shiang.TestDatabase.WriteToWeaponDB
+  fullName: Shiang.TestDatabase.WriteToWeaponDB()
+  nameWithType: TestDatabase.WriteToWeaponDB()
+- uid: Shiang.TestDatabase.WriteToWeaponDB*
+  name: WriteToWeaponDB
+  href: api/Shiang.TestDatabase.html#Shiang_TestDatabase_WriteToWeaponDB_
+  commentId: Overload:Shiang.TestDatabase.WriteToWeaponDB
+  isSpec: "True"
+  fullName: Shiang.TestDatabase.WriteToWeaponDB
+  nameWithType: TestDatabase.WriteToWeaponDB
 - uid: Shiang.Ticket
   name: Ticket
   href: api/Shiang.Ticket.html
@@ -5755,6 +5971,19 @@ references:
   isSpec: "True"
   fullName: Shiang.Utils.EventSystemSelect
   nameWithType: Utils.EventSystemSelect
+- uid: Shiang.Utils.GetAndroidExternalFilesDir
+  name: GetAndroidExternalFilesDir()
+  href: api/Shiang.Utils.html#Shiang_Utils_GetAndroidExternalFilesDir
+  commentId: M:Shiang.Utils.GetAndroidExternalFilesDir
+  fullName: Shiang.Utils.GetAndroidExternalFilesDir()
+  nameWithType: Utils.GetAndroidExternalFilesDir()
+- uid: Shiang.Utils.GetAndroidExternalFilesDir*
+  name: GetAndroidExternalFilesDir
+  href: api/Shiang.Utils.html#Shiang_Utils_GetAndroidExternalFilesDir_
+  commentId: Overload:Shiang.Utils.GetAndroidExternalFilesDir
+  isSpec: "True"
+  fullName: Shiang.Utils.GetAndroidExternalFilesDir
+  nameWithType: Utils.GetAndroidExternalFilesDir
 - uid: Shiang.Utils.GetSoundtrackByName(System.String)
   name: GetSoundtrackByName(String)
   href: api/Shiang.Utils.html#Shiang_Utils_GetSoundtrackByName_System_String_

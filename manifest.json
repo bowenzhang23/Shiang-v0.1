@@ -24,30 +24,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.MobileUI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.MobileUI.html",
-          "hash": "Flbpxnbodpm+93Xo4bPs2TREYCfpkGzqCyiUYsWoVHg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.html",
-          "hash": "PO0pwJ+aFdy4TCg73FgG9408RskUW+GqOF9QK2cgH9k="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.Ability.yml",
       "output": {
         ".html": {
@@ -984,6 +960,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Shiang.MobileUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shiang.MobileUI.html",
+          "hash": "RA+UR4Ua7t6y34G1oe0UMfSHUN0dsJS2rFtwQUynM20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Shiang.MoveState.yml",
       "output": {
         ".html": {
@@ -1456,7 +1444,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Shiang.html",
-          "hash": "oInxc4jcDQH2J5oEB/i0UxYjogUxD+4Fz8dkm7dKV9Q="
+          "hash": "PmAu+4ui53K7ODxvG3cBS69LQ583PvTUqq7sla0rYJM="
         }
       },
       "is_incremental": false,
@@ -1792,7 +1780,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "lFtagPJY5PGLTi9fDWfZzmA54GZvFXUDnFWWW4M/Yt0="
+          "hash": "/ZbQdRORI0ukzDGcEC/FeQ8v41ByXQM6S6Ue63PDZqw="
         }
       },
       "is_incremental": false,
@@ -1875,7 +1863,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "lM6YgaMh7epxZLqO9Iz5+1C7DGJkx3xr2shFmHFB5AQ="
+          "hash": "qJhHDhrHsrmx4G7kFrBFTMAfnyXMpaBOWUEInGtm3n8="
         }
       },
       "is_incremental": false,
@@ -1902,7 +1890,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 147,
+          "total_file_count": 146,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

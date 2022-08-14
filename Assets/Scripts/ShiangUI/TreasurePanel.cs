@@ -20,7 +20,9 @@ namespace Shiang
                 _itemSlots.Add(slot);
 
             ClearSlots();
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR
             Utils.SelectAndHighlightButton(_itemSlots[0].Button);
+#endif
         }
 
         private void ClearSlots()

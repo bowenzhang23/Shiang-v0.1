@@ -1,6 +1,7 @@
 
 using System;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 namespace Shiang
 {
@@ -48,6 +49,8 @@ namespace Shiang
 
         InputStateManager _stateMgr;
 
+        MobileUI _mobileUI;
+
         public InputMode Mode { get; set; }
 
         public float ChangeX { get; private set; }
@@ -79,12 +82,18 @@ namespace Shiang
             Mode = InputMode.Game;
             UiSceneLoader.OnUISceneLoad += () => Mode = InputMode.Ui;
             UiSceneLoader.OnUISceneUnload += () => Mode = InputMode.Game;
+
+#if UNITY_STANDALONE_WIN
+            _mobileUI = FindObjectOfType<MobileUI>();
+            _mobileUI.gameObject.SetActive(false);
+#endif
         }
 
         public void Idle() { }
 
         public void GameMode()
         {
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR
             float dx = Input.GetAxisRaw("Horizontal_m");
             float dy = Input.GetAxisRaw("Vertical_m");
 
@@ -101,6 +110,24 @@ namespace Shiang
 
             Exit = Input.GetKeyDown(KeyCode.Escape);
             OpenStatMenu = Input.GetKeyDown(KeyCode.Alpha1);
+#else
+            float dx = CrossPlatformInputManager.GetAxisRaw("Horizontal");
+            // float dy = CrossPlatformInputManager.GetAxisRaw("Vertical"); // TODO
+
+            ChangeX = dx != 0f ? Mathf.Sign(dx) : 0f;
+            ChangeY = 0f; // TODO
+
+            Interact = CrossPlatformInputManager.GetButtonDown("Interact");
+            CameraZoomIn = CrossPlatformInputManager.GetButton("Zoom");
+            CameraZoomOut = CrossPlatformInputManager.GetButtonUp("Zoom");
+            CameraSwitch = CrossPlatformInputManager.GetButtonDown("Switch");
+
+            UseWeapon = CrossPlatformInputManager.GetButtonDown("Weapon");
+            UseAbility = CrossPlatformInputManager.GetButtonDown("Ability");
+
+            Exit = CrossPlatformInputManager.GetButtonDown("Exit");
+            OpenStatMenu = false; // TODO
+#endif
 
             if (OpenStatMenu) Mode = InputMode.Ui;
 
@@ -111,7 +138,11 @@ namespace Shiang
         {
             Time.timeScale = 0f;
 
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR
             Exit = Input.GetKeyDown(KeyCode.Escape);
+#else
+            Exit = CrossPlatformInputManager.GetButtonDown("Exit");
+#endif
 
             if (Exit)
             {

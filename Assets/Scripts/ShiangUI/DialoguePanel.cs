@@ -65,9 +65,11 @@ namespace Shiang
 					{
 						RefreshView();
 					});
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR
 					Utils.SelectAndHighlightButton(_dialogueOptions[0].button);
+#endif				
+					}
 				}
-			}
 
 			else if (_inkStory.currentChoices.Count > 0)
 			{
@@ -84,7 +86,9 @@ namespace Shiang
 						OnChoiceButtonClicked(choice);
 					});
 				}
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR
 				Utils.SelectAndHighlightButton(_dialogueOptions[0].button);
+#endif
 			}
 
 			else
@@ -98,11 +102,13 @@ namespace Shiang
 				{
 					gameObject.SetActive(false);
 				});
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR
 				Utils.SelectAndHighlightButton(_dialogueOptions[0].button);
+#endif			
+				}
 			}
-		}
 
-		void ClearUI()
+			void ClearUI()
         {
 			foreach (var option in _dialogueOptions)
 			{

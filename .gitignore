@@ -78,9 +78,12 @@ _site/
 
 # User resources
 
+Assets/Camera*
+Assets/Database*
 Assets/Scenes*
 Assets/Fonts*
+Assets/Prefab*
 Assets/TextMesh*
-Assets/Dependences/Ink*
+Assets/Externals*
 Assets/Resources*
 Databases/

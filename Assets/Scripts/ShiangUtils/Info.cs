@@ -56,6 +56,15 @@ namespace Shiang
         /// </summary>
         public static void LoadDatabase()
         {
+#if !UNITY_EDITOR
+            TestDatabase test = new TestDatabase();
+            test.WriteToAbilityDB();
+            test.WriteToConsumableDB();
+            test.WriteToEntityDB();
+            test.WriteToEntityDBForFridge();
+            test.WriteToResourcePathDB();
+            test.WriteToWeaponDB();
+#endif
             RESOURCEPATH_DB = Utils.CreateSQLiteDatabase<ResourcePathDB>();
             CONSUMABLE_DB = Utils.CreateSQLiteDatabase<ConsumableDB>();
             WEAPON_DB = Utils.CreateSQLiteDatabase<WeaponDB>();

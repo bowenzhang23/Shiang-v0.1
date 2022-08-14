@@ -1,7 +1,9 @@
 ﻿
 using Mono.Data.Sqlite;
 using System;
+using System.IO;
 using System.Data;
+using UnityEngine;
 
 namespace Shiang
 {
@@ -17,7 +19,18 @@ namespace Shiang
         public SQLiteDatabase(string databaseName)
         {
             _databaseName = databaseName.ToLower();
-            _name = $"URI=file:Databases/{databaseName}.db";
+            Debug.Log($"Creating {_databaseName}");
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR
+            if (!Directory.Exists($"{Application.dataPath}/Databases/"))
+                Directory.CreateDirectory($"{Application.dataPath}/Databases/");
+            _name = $"URI=file:{Application.dataPath}/Databases/{databaseName}.db";
+#else
+            Debug.Log($"Creating {_databaseName} - android");
+            if (!Directory.Exists($"{Application.persistentDataPath}/Databases/"))
+                Directory.CreateDirectory($"{Application.persistentDataPath}/Databases/");
+            _name = $"URI=file:{Application.persistentDataPath}/Databases/{databaseName}.db";
+            Debug.Log($"Creating {_name} - android");
+#endif
         }
 
         public abstract string CommandStringCreate();
@@ -43,8 +56,10 @@ namespace Shiang
 
         protected virtual void ConnectAndWrite(string str)
         {
+            Debug.Log($"ConnectAndWrite {Name}");
             using (var connection = new SqliteConnection(Name))
             {
+                Debug.Log($"Connection {connection}");
                 connection.Open();
 
                 using (var command = connection.CreateCommand())

@@ -2750,6 +2750,12 @@ references:
   commentId: F:Shiang.InputController.InputMode.Game
   fullName: Shiang.InputController.InputMode.Game
   nameWithType: InputController.InputMode.Game
+- uid: Shiang.InputController.InputMode.Story
+  name: Story
+  href: api/Shiang.InputController.InputMode.html#Shiang_InputController_InputMode_Story
+  commentId: F:Shiang.InputController.InputMode.Story
+  fullName: Shiang.InputController.InputMode.Story
+  nameWithType: InputController.InputMode.Story
 - uid: Shiang.InputController.InputMode.Ui
   name: Ui
   href: api/Shiang.InputController.InputMode.html#Shiang_InputController_InputMode_Ui
@@ -2788,19 +2794,19 @@ references:
   commentId: E:Shiang.InputController.OnExitFromUIMode
   fullName: Shiang.InputController.OnExitFromUIMode
   nameWithType: InputController.OnExitFromUIMode
-- uid: Shiang.InputController.OpenStatMenu
-  name: OpenStatMenu
-  href: api/Shiang.InputController.html#Shiang_InputController_OpenStatMenu
-  commentId: P:Shiang.InputController.OpenStatMenu
-  fullName: Shiang.InputController.OpenStatMenu
-  nameWithType: InputController.OpenStatMenu
-- uid: Shiang.InputController.OpenStatMenu*
-  name: OpenStatMenu
-  href: api/Shiang.InputController.html#Shiang_InputController_OpenStatMenu_
-  commentId: Overload:Shiang.InputController.OpenStatMenu
+- uid: Shiang.InputController.StoryMode
+  name: StoryMode()
+  href: api/Shiang.InputController.html#Shiang_InputController_StoryMode
+  commentId: M:Shiang.InputController.StoryMode
+  fullName: Shiang.InputController.StoryMode()
+  nameWithType: InputController.StoryMode()
+- uid: Shiang.InputController.StoryMode*
+  name: StoryMode
+  href: api/Shiang.InputController.html#Shiang_InputController_StoryMode_
+  commentId: Overload:Shiang.InputController.StoryMode
   isSpec: "True"
-  fullName: Shiang.InputController.OpenStatMenu
-  nameWithType: InputController.OpenStatMenu
+  fullName: Shiang.InputController.StoryMode
+  nameWithType: InputController.StoryMode
 - uid: Shiang.InputController.UiMode
   name: UiMode()
   href: api/Shiang.InputController.html#Shiang_InputController_UiMode
@@ -5000,22 +5006,22 @@ references:
   isSpec: "True"
   fullName: Shiang.StateMachine.AddAnyTransition
   nameWithType: StateMachine.AddAnyTransition
-- uid: Shiang.StateMachine.AddTransiton(Shiang.IState,Shiang.IState,Func{System.Boolean})
-  name: AddTransiton(IState, IState, Func<Boolean>)
-  href: api/Shiang.StateMachine.html#Shiang_StateMachine_AddTransiton_Shiang_IState_Shiang_IState_Func_System_Boolean__
-  commentId: M:Shiang.StateMachine.AddTransiton(Shiang.IState,Shiang.IState,Func{System.Boolean})
-  name.vb: AddTransiton(IState, IState, Func(Of Boolean))
-  fullName: Shiang.StateMachine.AddTransiton(Shiang.IState, Shiang.IState, Func<System.Boolean>)
-  fullName.vb: Shiang.StateMachine.AddTransiton(Shiang.IState, Shiang.IState, Func(Of System.Boolean))
-  nameWithType: StateMachine.AddTransiton(IState, IState, Func<Boolean>)
-  nameWithType.vb: StateMachine.AddTransiton(IState, IState, Func(Of Boolean))
-- uid: Shiang.StateMachine.AddTransiton*
-  name: AddTransiton
-  href: api/Shiang.StateMachine.html#Shiang_StateMachine_AddTransiton_
-  commentId: Overload:Shiang.StateMachine.AddTransiton
+- uid: Shiang.StateMachine.AddTransition(Shiang.IState,Shiang.IState,Func{System.Boolean})
+  name: AddTransition(IState, IState, Func<Boolean>)
+  href: api/Shiang.StateMachine.html#Shiang_StateMachine_AddTransition_Shiang_IState_Shiang_IState_Func_System_Boolean__
+  commentId: M:Shiang.StateMachine.AddTransition(Shiang.IState,Shiang.IState,Func{System.Boolean})
+  name.vb: AddTransition(IState, IState, Func(Of Boolean))
+  fullName: Shiang.StateMachine.AddTransition(Shiang.IState, Shiang.IState, Func<System.Boolean>)
+  fullName.vb: Shiang.StateMachine.AddTransition(Shiang.IState, Shiang.IState, Func(Of System.Boolean))
+  nameWithType: StateMachine.AddTransition(IState, IState, Func<Boolean>)
+  nameWithType.vb: StateMachine.AddTransition(IState, IState, Func(Of Boolean))
+- uid: Shiang.StateMachine.AddTransition*
+  name: AddTransition
+  href: api/Shiang.StateMachine.html#Shiang_StateMachine_AddTransition_
+  commentId: Overload:Shiang.StateMachine.AddTransition
   isSpec: "True"
-  fullName: Shiang.StateMachine.AddTransiton
-  nameWithType: StateMachine.AddTransiton
+  fullName: Shiang.StateMachine.AddTransition
+  nameWithType: StateMachine.AddTransition
 - uid: Shiang.StateMachine.ChangeState(Shiang.IState)
   name: ChangeState(IState)
   href: api/Shiang.StateMachine.html#Shiang_StateMachine_ChangeState_Shiang_IState_

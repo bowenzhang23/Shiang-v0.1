@@ -20,7 +20,7 @@ namespace Shiang
         {
             _databaseName = databaseName.ToLower();
             Debug.Log($"Creating {_databaseName}");
-#if UNITY_STANDALONE_WIN || UNITY_EDITOR
+#if UNITY_STANDALONE || UNITY_EDITOR
             if (!Directory.Exists($"{Application.dataPath}/Databases/"))
                 Directory.CreateDirectory($"{Application.dataPath}/Databases/");
             _name = $"URI=file:{Application.dataPath}/Databases/{databaseName}.db";

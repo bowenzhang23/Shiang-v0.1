@@ -24,8 +24,8 @@ namespace Shiang
 
         public override void InitTransitions()
         {
-            SM.AddTransiton(_idle, _follow, () => _rabbit.MeetFollowCriteria());
-            SM.AddTransiton(_follow, _idle, () => !_rabbit.MeetFollowCriteria());
+            SM.AddTransition(_idle, _follow, () => _rabbit.MeetFollowCriteria());
+            SM.AddTransition(_follow, _idle, () => !_rabbit.MeetFollowCriteria());
         }
 
         public override void SetInitialState() => SM.ChangeState(_idle);

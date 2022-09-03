@@ -44,18 +44,18 @@ namespace Shiang
         {
             var IC = InputController.Instance;
 
-            SM.AddTransiton(_idle, _move, () => IC.ChangeX != 0);
-            SM.AddTransiton(_cool, _move,
+            SM.AddTransition(_idle, _move, () => IC.ChangeX != 0);
+            SM.AddTransition(_cool, _move,
                 () => IC.ChangeX != 0 && SM.TimeInState > _EXTITIME);
             SM.AddAnyTransition(_useWeapon,
                 () => _ranran.CurrentWeapon != null && _ranran.CurrentWeapon.Cd.IsCooldown && IC.UseWeapon);
             SM.AddAnyTransition(_useAbility,
                 () => _ranran.CurrentAbility != null && _ranran.CurrentAbility.Cd.IsCooldown && IC.UseAbility);
 
-            SM.AddTransiton(_move, _idle, () => IC.ChangeX == 0);
-            SM.AddTransiton(_useWeapon, _cool, () => SM.TimeInState > _useWeaponStayTime);
-            SM.AddTransiton(_useAbility, _idle, () => SM.TimeInState > _useAbilityStayTime);
-            SM.AddTransiton(_cool, _idle, () => SM.TimeInState > _coolStayTime);
+            SM.AddTransition(_move, _idle, () => IC.ChangeX == 0);
+            SM.AddTransition(_useWeapon, _cool, () => SM.TimeInState > _useWeaponStayTime);
+            SM.AddTransition(_useAbility, _idle, () => SM.TimeInState > _useAbilityStayTime);
+            SM.AddTransition(_cool, _idle, () => SM.TimeInState > _coolStayTime);
         }
 
         public override void SetInitialState() => SM.ChangeState(_idle);

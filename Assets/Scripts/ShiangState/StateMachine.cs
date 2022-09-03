@@ -53,7 +53,7 @@ namespace Shiang
             TimeInState = 0f;
         }
 
-        public void AddTransiton(IState from, IState to, Func<bool> cond)
+        public void AddTransition(IState from, IState to, Func<bool> cond)
         {
             if (!_transitions.TryGetValue(from.GetType(), out var tmpTransition))
             {

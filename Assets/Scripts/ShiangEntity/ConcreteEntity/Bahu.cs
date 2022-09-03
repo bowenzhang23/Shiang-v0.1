@@ -27,13 +27,13 @@ namespace Shiang
 
         public override void InitTransitions()
         {
-            SM.AddTransiton(_idle, _follow, () => _bahu.MeetFollowCriteria());
-            SM.AddTransiton(_follow, _idle, () => !_bahu.MeetFollowCriteria());
+            SM.AddTransition(_idle, _follow, () => _bahu.MeetFollowCriteria());
+            SM.AddTransition(_follow, _idle, () => !_bahu.MeetFollowCriteria());
             // TODO replace by real weapon attack range
             SM.AddAnyTransition(_useWeapon, () 
                 => _bahu.CurrentWeapon != null && _bahu.CurrentWeapon.Cd.IsCooldown 
                 && Mathf.Abs(_bahu.PositionDiffToTarget) < 2f); 
-            SM.AddTransiton(_useWeapon, _follow, () 
+            SM.AddTransition(_useWeapon, _follow, () 
                 => SM.TimeInState > _bahu.CurrentWeapon.ClipLength + _HOLDTIME
                 || Mathf.Abs(_bahu.PositionDiffToTarget) > 2f);
         }

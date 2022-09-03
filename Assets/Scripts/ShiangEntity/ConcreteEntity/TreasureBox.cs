@@ -30,13 +30,13 @@ namespace Shiang
 
             SM.AddAnyTransition(_open, 
                 () => _treasureBox.Detector.PlayerDetected && IC.Interact && !_treasureBox.IsOpen);
-            SM.AddTransiton(_open, _close, 
+            SM.AddTransition(_open, _close, 
                 () => {
                     bool ret = _treasureBox.IsClosedByIC && _treasureBox.IsOpen;
                     _treasureBox.IsClosedByIC = false;
                     return ret;
                 });
-            SM.AddTransiton(_close, _idle,
+            SM.AddTransition(_close, _idle,
                 () => SM.TimeInState > ANIM_DURATION);
         }
 

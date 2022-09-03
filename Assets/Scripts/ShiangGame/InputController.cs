@@ -11,6 +11,7 @@ namespace Shiang
         InputController _controller;
         GameModeState _gameMode;
         UiModeState _uiMode;
+        StoryModeState _storyMode;
 
         public InputStateManager()
             : base()
@@ -25,16 +26,22 @@ namespace Shiang
 
             _gameMode = new GameModeState();
             _uiMode = new UiModeState();
+            _storyMode = new StoryModeState();
 
             _gameMode.OnStateTick += _controller.GameMode;
+            _storyMode.OnStateTick += _controller.StoryMode;
             _uiMode.OnStateTick += _controller.UiMode;
         }
 
         public override void InitTransitions()
         {
-            SM.AddTransiton(_gameMode, _uiMode,
+            SM.AddTransition(_gameMode, _uiMode,
                 () => _controller.Mode == InputController.InputMode.Ui);
-            SM.AddTransiton(_uiMode, _gameMode,
+            SM.AddTransition(_gameMode, _storyMode,
+                () => _controller.Mode == InputController.InputMode.Story);
+            SM.AddTransition(_uiMode, _gameMode,
+                () => _controller.Exit);
+            SM.AddTransition(_storyMode, _gameMode,
                 () => _controller.Mode == InputController.InputMode.Game);
         }
 
@@ -45,7 +52,7 @@ namespace Shiang
     [DefaultExecutionOrder(-100)]
     public class InputController : GenericSingleton<InputController>, IGameEntity
     {
-        public enum InputMode { Game, Ui }
+        public enum InputMode { Game, Ui, Story }
 
         InputStateManager _stateMgr;
 
@@ -71,8 +78,6 @@ namespace Shiang
 
         public bool Exit { get; private set; }
 
-        public bool OpenStatMenu { get; private set; } // TODO
-
         public static event Action OnExitFromUIMode;
 
         public override void Awake()
@@ -83,9 +88,10 @@ namespace Shiang
             UiSceneLoader.OnUISceneLoad += () => Mode = InputMode.Ui;
             UiSceneLoader.OnUISceneUnload += () => Mode = InputMode.Game;
 
-#if UNITY_STANDALONE_WIN
+#if UNITY_STANDALONE || UNITY_EDITOR
             _mobileUI = FindObjectOfType<MobileUI>();
-            _mobileUI.gameObject.SetActive(false);
+            if (_mobileUI)
+                _mobileUI.gameObject.SetActive(false);
 #endif
         }
 
@@ -93,7 +99,7 @@ namespace Shiang
 
         public void GameMode()
         {
-#if UNITY_STANDALONE_WIN || UNITY_EDITOR
+#if UNITY_STANDALONE || UNITY_EDITOR
             float dx = Input.GetAxisRaw("Horizontal_m");
             float dy = Input.GetAxisRaw("Vertical_m");
 
@@ -109,7 +115,6 @@ namespace Shiang
             UseAbility = Input.GetKeyDown(KeyCode.LeftControl);
 
             Exit = Input.GetKeyDown(KeyCode.Escape);
-            OpenStatMenu = Input.GetKeyDown(KeyCode.Alpha1);
 #else
             float dx = CrossPlatformInputManager.GetAxisRaw("Horizontal");
             // float dy = CrossPlatformInputManager.GetAxisRaw("Vertical"); // TODO
@@ -129,8 +134,6 @@ namespace Shiang
             OpenStatMenu = false; // TODO
 #endif
 
-            if (OpenStatMenu) Mode = InputMode.Ui;
-
             if (Exit) GameController.QuitGame(); // TODO
         }
 
@@ -138,7 +141,7 @@ namespace Shiang
         {
             Time.timeScale = 0f;
 
-#if UNITY_STANDALONE_WIN || UNITY_EDITOR
+#if UNITY_STANDALONE || UNITY_EDITOR
             Exit = Input.GetKeyDown(KeyCode.Escape);
 #else
             Exit = CrossPlatformInputManager.GetButtonDown("Exit");
@@ -150,6 +153,12 @@ namespace Shiang
                 Time.timeScale = 1f;
                 OnExitFromUIMode?.Invoke();
             }
+        }
+
+        public void StoryMode()
+        {
+            CameraZoomIn = Input.GetKey(KeyCode.Z);
+            CameraZoomOut = Input.GetKeyUp(KeyCode.Z);
         }
 
         private void Update() => _stateMgr.Tick();

@@ -65,7 +65,7 @@ namespace Shiang
 					{
 						RefreshView();
 					});
-#if UNITY_STANDALONE_WIN || UNITY_EDITOR
+#if UNITY_STANDALONE || UNITY_EDITOR
 					Utils.SelectAndHighlightButton(_dialogueOptions[0].button);
 #endif				
 					}
@@ -86,7 +86,7 @@ namespace Shiang
 						OnChoiceButtonClicked(choice);
 					});
 				}
-#if UNITY_STANDALONE_WIN || UNITY_EDITOR
+#if UNITY_STANDALONE || UNITY_EDITOR
 				Utils.SelectAndHighlightButton(_dialogueOptions[0].button);
 #endif
 			}
@@ -102,7 +102,7 @@ namespace Shiang
 				{
 					gameObject.SetActive(false);
 				});
-#if UNITY_STANDALONE_WIN || UNITY_EDITOR
+#if UNITY_STANDALONE || UNITY_EDITOR
 				Utils.SelectAndHighlightButton(_dialogueOptions[0].button);
 #endif			
 				}
